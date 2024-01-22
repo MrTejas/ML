@@ -1,0 +1,60 @@
+2023-11-12 11:37:23,814 INFO    MainThread:20838 [wandb_setup.py:_flush():76] Current SDK version is 0.16.0
+2023-11-12 11:37:23,814 INFO    MainThread:20838 [wandb_setup.py:_flush():76] Configure stats pid to 20838
+2023-11-12 11:37:23,814 INFO    MainThread:20838 [wandb_setup.py:_flush():76] Loading settings from /home/tejas/.config/wandb/settings
+2023-11-12 11:37:23,815 INFO    MainThread:20838 [wandb_setup.py:_flush():76] Loading settings from /home/tejas/Documents/SMAI/assignment-4-MrTejas/q3/wandb/settings
+2023-11-12 11:37:23,815 INFO    MainThread:20838 [wandb_setup.py:_flush():76] Loading settings from environment variables: {}
+2023-11-12 11:37:23,815 INFO    MainThread:20838 [wandb_setup.py:_flush():76] Applying setup settings: {'_disable_service': False}
+2023-11-12 11:37:23,815 INFO    MainThread:20838 [wandb_setup.py:_flush():76] Inferring run settings from compute environment: {'program': '<python with no main file>'}
+2023-11-12 11:37:23,815 INFO    MainThread:20838 [wandb_init.py:_log_setup():524] Logging user logs to /home/tejas/Documents/SMAI/assignment-4-MrTejas/q3/wandb/run-20231112_113723-55mbq2ce/logs/debug.log
+2023-11-12 11:37:23,815 INFO    MainThread:20838 [wandb_init.py:_log_setup():525] Logging internal logs to /home/tejas/Documents/SMAI/assignment-4-MrTejas/q3/wandb/run-20231112_113723-55mbq2ce/logs/debug-internal.log
+2023-11-12 11:37:23,816 INFO    MainThread:20838 [wandb_init.py:_jupyter_setup():470] configuring jupyter hooks <wandb.sdk.wandb_init._WandbInit object at 0x7f76f144b9a0>
+2023-11-12 11:37:23,816 INFO    MainThread:20838 [wandb_init.py:init():564] calling init triggers
+2023-11-12 11:37:23,816 INFO    MainThread:20838 [wandb_init.py:init():571] wandb.init called with sweep_config: {}
+config: {'num_trees': 15, 'bootstrap_fraction': 0.5, 'number of features': 6}
+2023-11-12 11:37:23,816 INFO    MainThread:20838 [wandb_init.py:init():589] re-initializing run, found existing run on stack: s9nz7hr4
+2023-11-12 11:37:23,825 INFO    MainThread:20838 [wandb_run.py:_finish():1962] finishing run tejas591995/Random Forest Regressor/s9nz7hr4
+2023-11-12 11:37:23,825 INFO    MainThread:20838 [wandb_run.py:_atexit_cleanup():2202] got exitcode: 0
+2023-11-12 11:37:23,826 INFO    MainThread:20838 [wandb_run.py:_restore():2185] restore
+2023-11-12 11:37:23,826 INFO    MainThread:20838 [wandb_run.py:_restore():2191] restore done
+2023-11-12 11:37:27,945 INFO    MainThread:20838 [wandb_run.py:_footer_history_summary_info():3760] rendering history
+2023-11-12 11:37:27,945 INFO    MainThread:20838 [wandb_run.py:_footer_history_summary_info():3792] rendering summary
+2023-11-12 11:37:27,948 INFO    MainThread:20838 [wandb_run.py:_footer_sync_info():3719] logging synced files
+2023-11-12 11:37:28,078 INFO    MainThread:20838 [wandb_init.py:init():614] starting backend
+2023-11-12 11:37:28,078 INFO    MainThread:20838 [wandb_init.py:init():618] setting up manager
+2023-11-12 11:37:28,080 INFO    MainThread:20838 [backend.py:_multiprocessing_setup():105] multiprocessing start_methods=fork,spawn,forkserver, using: spawn
+2023-11-12 11:37:28,081 INFO    MainThread:20838 [wandb_init.py:init():624] backend started and connected
+2023-11-12 11:37:28,085 INFO    MainThread:20838 [wandb_run.py:_label_probe_notebook():1294] probe notebook
+2023-11-12 11:37:28,086 INFO    MainThread:20838 [wandb_run.py:_label_probe_notebook():1304] Unable to probe notebook: 'NoneType' object has no attribute 'get'
+2023-11-12 11:37:28,086 INFO    MainThread:20838 [wandb_init.py:init():716] updated telemetry
+2023-11-12 11:37:28,110 INFO    MainThread:20838 [wandb_init.py:init():749] communicating run to backend with 90.0 second timeout
+2023-11-12 11:37:29,636 INFO    MainThread:20838 [wandb_run.py:_on_init():2254] communicating current version
+2023-11-12 11:37:29,751 INFO    MainThread:20838 [wandb_run.py:_on_init():2263] got version response 
+2023-11-12 11:37:29,751 INFO    MainThread:20838 [wandb_init.py:init():800] starting run threads in backend
+2023-11-12 11:37:29,841 INFO    MainThread:20838 [wandb_run.py:_console_start():2233] atexit reg
+2023-11-12 11:37:29,841 INFO    MainThread:20838 [wandb_run.py:_redirect():2088] redirect: wrap_raw
+2023-11-12 11:37:29,841 INFO    MainThread:20838 [wandb_run.py:_redirect():2153] Wrapping output streams.
+2023-11-12 11:37:29,841 INFO    MainThread:20838 [wandb_run.py:_redirect():2178] Redirects installed.
+2023-11-12 11:37:29,842 INFO    MainThread:20838 [wandb_init.py:init():841] run started, returning control to user process
+2023-11-12 11:37:29,908 INFO    MainThread:20838 [wandb_setup.py:_flush():76] Current SDK version is 0.16.0
+2023-11-12 11:37:29,908 INFO    MainThread:20838 [wandb_setup.py:_flush():76] Configure stats pid to 20838
+2023-11-12 11:37:29,908 INFO    MainThread:20838 [wandb_setup.py:_flush():76] Loading settings from /home/tejas/.config/wandb/settings
+2023-11-12 11:37:29,908 INFO    MainThread:20838 [wandb_setup.py:_flush():76] Loading settings from /home/tejas/Documents/SMAI/assignment-4-MrTejas/q3/wandb/settings
+2023-11-12 11:37:29,909 INFO    MainThread:20838 [wandb_setup.py:_flush():76] Loading settings from environment variables: {}
+2023-11-12 11:37:29,909 INFO    MainThread:20838 [wandb_setup.py:_flush():76] Applying setup settings: {'_disable_service': False}
+2023-11-12 11:37:29,909 INFO    MainThread:20838 [wandb_setup.py:_flush():76] Inferring run settings from compute environment: {'program': '<python with no main file>'}
+2023-11-12 11:37:29,909 INFO    MainThread:20838 [wandb_init.py:_log_setup():524] Logging user logs to /home/tejas/Documents/SMAI/assignment-4-MrTejas/q3/wandb/run-20231112_113729-8ztrb0sc/logs/debug.log
+2023-11-12 11:37:29,909 INFO    MainThread:20838 [wandb_init.py:_log_setup():525] Logging internal logs to /home/tejas/Documents/SMAI/assignment-4-MrTejas/q3/wandb/run-20231112_113729-8ztrb0sc/logs/debug-internal.log
+2023-11-12 11:37:29,909 INFO    MainThread:20838 [wandb_init.py:init():564] calling init triggers
+2023-11-12 11:37:29,909 INFO    MainThread:20838 [wandb_init.py:init():571] wandb.init called with sweep_config: {}
+config: {'num_trees': 15, 'bootstrap_fraction': 0.5, 'number of features': 5}
+2023-11-12 11:37:29,909 INFO    MainThread:20838 [wandb_init.py:init():589] re-initializing run, found existing run on stack: 55mbq2ce
+2023-11-12 11:37:29,911 INFO    MainThread:20838 [wandb_run.py:_finish():1962] finishing run tejas591995/Random Forest Regressor/55mbq2ce
+2023-11-12 11:37:29,911 ERROR   MainThread:20838 [jupyter.py:save_history():437] Run pip install nbformat to save notebook history
+2023-11-12 11:37:29,911 INFO    MainThread:20838 [jupyter.py:save_ipynb():373] not saving jupyter notebook
+2023-11-12 11:37:29,911 INFO    MainThread:20838 [wandb_init.py:_jupyter_teardown():452] cleaning up jupyter logic
+2023-11-12 11:37:29,911 INFO    MainThread:20838 [wandb_run.py:_atexit_cleanup():2202] got exitcode: 0
+2023-11-12 11:37:29,911 INFO    MainThread:20838 [wandb_run.py:_restore():2185] restore
+2023-11-12 11:37:29,912 INFO    MainThread:20838 [wandb_run.py:_restore():2191] restore done
+2023-11-12 11:37:34,006 INFO    MainThread:20838 [wandb_run.py:_footer_history_summary_info():3760] rendering history
+2023-11-12 11:37:34,007 INFO    MainThread:20838 [wandb_run.py:_footer_history_summary_info():3792] rendering summary
+2023-11-12 11:37:34,012 INFO    MainThread:20838 [wandb_run.py:_footer_sync_info():3719] logging synced files

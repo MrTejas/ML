@@ -1,0 +1,53 @@
+wandb_version: 1
+
+method:
+  desc: null
+  value: random
+parameters:
+  desc: null
+  value:
+    learning_rate:
+      values:
+      - 0.001
+      - 0.005
+      - 0.01
+      - 0.15
+      - 0.02
+      - 0.025
+      - 0.03
+      - 0.035
+    epoches:
+      values:
+      - 100
+      - 200
+      - 300
+      - 400
+      - 500
+_wandb:
+  desc: null
+  value:
+    python_version: 3.9.13
+    cli_version: 0.15.11
+    framework: sklearn
+    is_jupyter_run: true
+    is_kaggle_kernel: false
+    start_time: 1697524923.401739
+    t:
+      1:
+      - 5
+      - 53
+      - 55
+      2:
+      - 5
+      - 53
+      - 55
+      3:
+      - 2
+      - 16
+      - 23
+      4: 3.9.13
+      5: 0.15.11
+      8:
+      - 1
+      - 5
+      13: linux-x86_64

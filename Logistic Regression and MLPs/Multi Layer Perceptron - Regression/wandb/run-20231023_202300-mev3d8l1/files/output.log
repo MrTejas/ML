@@ -1,0 +1,6 @@
+Initialized values successfully!
+Loaded Dataframe!
+Splitted data into train, test and val sets!
+/tmp/ipykernel_32796/3180526438.py:197: RuntimeWarning: invalid value encountered in multiply
+  del_t = np.dot(del_t,self.weights[-i].T)*self.activation_prime(self.hidden_layers[-i-1])
+0

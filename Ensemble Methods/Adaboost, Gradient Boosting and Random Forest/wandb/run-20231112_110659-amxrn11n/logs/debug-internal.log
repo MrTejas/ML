@@ -1,0 +1,43 @@
+2023-11-12 11:07:04,986 INFO    StreamThr :19963 [internal.py:wandb_internal():86] W&B internal server running at pid: 19963, started at: 2023-11-12 11:07:04.985803
+2023-11-12 11:07:04,988 DEBUG   HandlerThread:19963 [handler.py:handle_request():146] handle_request: status
+2023-11-12 11:07:04,988 INFO    WriterThread:19963 [datastore.py:open_for_write():85] open: /home/tejas/Documents/SMAI/assignment-4-MrTejas/q3/wandb/run-20231112_110659-amxrn11n/run-amxrn11n.wandb
+2023-11-12 11:07:04,989 DEBUG   SenderThread:19963 [sender.py:send():380] send: header
+2023-11-12 11:07:04,989 DEBUG   SenderThread:19963 [sender.py:send():380] send: run
+2023-11-12 11:07:05,724 INFO    SenderThread:19963 [dir_watcher.py:__init__():211] watching files in: /home/tejas/Documents/SMAI/assignment-4-MrTejas/q3/wandb/run-20231112_110659-amxrn11n/files
+2023-11-12 11:07:05,724 INFO    SenderThread:19963 [sender.py:_start_run_threads():1124] run started: amxrn11n with start time 1699767424.126232
+2023-11-12 11:07:10,725 DEBUG   HandlerThread:19963 [handler.py:handle_request():146] handle_request: status_report
+2023-11-12 11:07:15,725 DEBUG   HandlerThread:19963 [handler.py:handle_request():146] handle_request: status_report
+2023-11-12 11:07:20,727 DEBUG   HandlerThread:19963 [handler.py:handle_request():146] handle_request: status_report
+2023-11-12 11:07:25,727 DEBUG   HandlerThread:19963 [handler.py:handle_request():146] handle_request: status_report
+2023-11-12 11:07:30,728 DEBUG   HandlerThread:19963 [handler.py:handle_request():146] handle_request: status_report
+2023-11-12 11:07:35,730 DEBUG   HandlerThread:19963 [handler.py:handle_request():146] handle_request: status_report
+2023-11-12 11:07:40,731 DEBUG   HandlerThread:19963 [handler.py:handle_request():146] handle_request: status_report
+2023-11-12 11:07:45,732 DEBUG   HandlerThread:19963 [handler.py:handle_request():146] handle_request: status_report
+2023-11-12 11:07:50,733 DEBUG   HandlerThread:19963 [handler.py:handle_request():146] handle_request: status_report
+2023-11-12 11:07:55,734 DEBUG   HandlerThread:19963 [handler.py:handle_request():146] handle_request: status_report
+2023-11-12 11:08:00,735 DEBUG   HandlerThread:19963 [handler.py:handle_request():146] handle_request: status_report
+2023-11-12 11:08:05,736 DEBUG   HandlerThread:19963 [handler.py:handle_request():146] handle_request: status_report
+2023-11-12 11:08:10,736 DEBUG   HandlerThread:19963 [handler.py:handle_request():146] handle_request: status_report
+2023-11-12 11:08:15,737 DEBUG   HandlerThread:19963 [handler.py:handle_request():146] handle_request: status_report
+2023-11-12 11:08:20,738 DEBUG   HandlerThread:19963 [handler.py:handle_request():146] handle_request: status_report
+2023-11-12 11:08:25,739 DEBUG   HandlerThread:19963 [handler.py:handle_request():146] handle_request: status_report
+2023-11-12 11:08:30,740 DEBUG   HandlerThread:19963 [handler.py:handle_request():146] handle_request: status_report
+2023-11-12 11:08:35,741 DEBUG   HandlerThread:19963 [handler.py:handle_request():146] handle_request: status_report
+2023-11-12 11:08:40,742 DEBUG   HandlerThread:19963 [handler.py:handle_request():146] handle_request: status_report
+2023-11-12 11:08:42,603 INFO    StreamThr :19963 [internal.py:wandb_internal():86] W&B internal server running at pid: 19963, started at: 2023-11-12 11:08:42.602978
+2023-11-12 11:08:42,604 DEBUG   HandlerThread:19963 [handler.py:handle_request():146] handle_request: status
+2023-11-12 11:08:42,605 INFO    WriterThread:19963 [datastore.py:open_for_write():85] open: /home/tejas/Documents/SMAI/assignment-4-MrTejas/q3/wandb/run-20231112_110842-hg9fgyen/run-hg9fgyen.wandb
+2023-11-12 11:08:42,605 DEBUG   SenderThread:19963 [sender.py:send():380] send: header
+2023-11-12 11:08:42,619 DEBUG   SenderThread:19963 [sender.py:send():380] send: run
+2023-11-12 11:08:43,286 INFO    SenderThread:19963 [dir_watcher.py:__init__():211] watching files in: /home/tejas/Documents/SMAI/assignment-4-MrTejas/q3/wandb/run-20231112_110842-hg9fgyen/files
+2023-11-12 11:08:43,286 INFO    SenderThread:19963 [sender.py:_start_run_threads():1124] run started: hg9fgyen with start time 1699767522.602526
+2023-11-12 11:08:45,743 DEBUG   HandlerThread:19963 [handler.py:handle_request():146] handle_request: status_report
+2023-11-12 11:08:47,619 DEBUG   HandlerThread:19963 [handler.py:handle_request():146] handle_request: keepalive
+2023-11-12 11:08:48,287 DEBUG   HandlerThread:19963 [handler.py:handle_request():146] handle_request: status_report
+2023-11-12 11:08:50,744 DEBUG   HandlerThread:19963 [handler.py:handle_request():146] handle_request: status_report
+2023-11-12 11:08:52,620 DEBUG   HandlerThread:19963 [handler.py:handle_request():146] handle_request: keepalive
+2023-11-12 11:08:53,287 DEBUG   HandlerThread:19963 [handler.py:handle_request():146] handle_request: status_report
+2023-11-12 11:08:55,745 DEBUG   HandlerThread:19963 [handler.py:handle_request():146] handle_request: status_report
+2023-11-12 11:08:57,621 DEBUG   HandlerThread:19963 [handler.py:handle_request():146] handle_request: keepalive
+2023-11-12 11:08:58,288 DEBUG   HandlerThread:19963 [handler.py:handle_request():146] handle_request: status_report
+2023-11-12 11:09:00,746 DEBUG   HandlerThread:19963 [handler.py:handle_request():146] handle_request: status_report

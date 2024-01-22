@@ -1,0 +1,220 @@
+2023-11-13 01:47:29,345 INFO    StreamThr :24149 [internal.py:wandb_internal():86] W&B internal server running at pid: 24149, started at: 2023-11-13 01:47:29.345442
+2023-11-13 01:47:29,346 DEBUG   HandlerThread:24149 [handler.py:handle_request():146] handle_request: status
+2023-11-13 01:47:29,347 INFO    WriterThread:24149 [datastore.py:open_for_write():85] open: /home/tejas/Documents/SMAI/assignment-4-MrTejas/q2/wandb/run-20231113_014721-bnnbc4pr/run-bnnbc4pr.wandb
+2023-11-13 01:47:29,348 DEBUG   SenderThread:24149 [sender.py:send():380] send: header
+2023-11-13 01:47:29,348 DEBUG   SenderThread:24149 [sender.py:send():380] send: run
+2023-11-13 01:47:29,995 INFO    SenderThread:24149 [dir_watcher.py:__init__():211] watching files in: /home/tejas/Documents/SMAI/assignment-4-MrTejas/q2/wandb/run-20231113_014721-bnnbc4pr/files
+2023-11-13 01:47:29,995 INFO    SenderThread:24149 [sender.py:_start_run_threads():1124] run started: bnnbc4pr with start time 1699820248.484814
+2023-11-13 01:47:30,003 DEBUG   HandlerThread:24149 [handler.py:handle_request():146] handle_request: check_version
+2023-11-13 01:47:30,004 DEBUG   SenderThread:24149 [sender.py:send_request():407] send_request: check_version
+2023-11-13 01:47:30,142 DEBUG   HandlerThread:24149 [handler.py:handle_request():146] handle_request: run_start
+2023-11-13 01:47:30,143 DEBUG   HandlerThread:24149 [system_info.py:__init__():32] System info init
+2023-11-13 01:47:30,143 DEBUG   HandlerThread:24149 [system_info.py:__init__():47] System info init done
+2023-11-13 01:47:30,143 INFO    HandlerThread:24149 [system_monitor.py:start():194] Starting system monitor
+2023-11-13 01:47:30,144 INFO    SystemMonitor:24149 [system_monitor.py:_start():158] Starting system asset monitoring threads
+2023-11-13 01:47:30,144 INFO    HandlerThread:24149 [system_monitor.py:probe():214] Collecting system info
+2023-11-13 01:47:30,144 INFO    SystemMonitor:24149 [interfaces.py:start():190] Started cpu monitoring
+2023-11-13 01:47:30,145 INFO    SystemMonitor:24149 [interfaces.py:start():190] Started disk monitoring
+2023-11-13 01:47:30,145 INFO    SystemMonitor:24149 [interfaces.py:start():190] Started memory monitoring
+2023-11-13 01:47:30,145 INFO    SystemMonitor:24149 [interfaces.py:start():190] Started network monitoring
+2023-11-13 01:47:30,145 ERROR   disk      :24149 [interfaces.py:monitor():144] Failed to sample metric: not sure how to interpret line '   7       0 loop0 14 0 34 0 0 0 0 0 0 12 0 0 0 0 0 0 0\n'
+2023-11-13 01:47:30,146 ERROR   disk      :24149 [interfaces.py:monitor():144] Failed to sample metric: not sure how to interpret line '   7       0 loop0 14 0 34 0 0 0 0 0 0 12 0 0 0 0 0 0 0\n'
+2023-11-13 01:47:30,147 DEBUG   HandlerThread:24149 [system_info.py:probe():196] Probing system
+2023-11-13 01:47:30,148 DEBUG   HandlerThread:24149 [system_info.py:_probe_git():181] Probing git
+2023-11-13 01:47:30,160 DEBUG   HandlerThread:24149 [system_info.py:_probe_git():189] Probing git done
+2023-11-13 01:47:30,161 DEBUG   HandlerThread:24149 [system_info.py:probe():244] Probing system done
+2023-11-13 01:47:30,161 DEBUG   HandlerThread:24149 [system_monitor.py:probe():223] {'os': 'Linux-5.15.0-88-generic-x86_64-with-glibc2.29', 'python': '3.8.10', 'heartbeatAt': '2023-11-12T20:17:30.147876', 'startedAt': '2023-11-12T20:17:21.617251', 'docker': None, 'cuda': None, 'args': (), 'state': 'running', 'program': '<python with no main file>', 'codePathLocal': None, 'git': {'remote': 'https://github.com/Statistical-Methods-in-AI-Monsoon-2023/assignment-4-MrTejas.git', 'commit': '18197d3b06c478f68a664a809764bf3227d0acb0'}, 'email': 'tejas591995@gmail.com', 'root': '/home/tejas/Documents/SMAI/assignment-4-MrTejas', 'host': 'nimbostratus', 'username': 'tejas', 'executable': '/bin/python3', 'cpu_count': 4, 'cpu_count_logical': 8, 'cpu_freq': {'current': 3879.23025, 'min': 400.0, 'max': 4800.0}, 'cpu_freq_per_core': [{'current': 3878.214, 'min': 400.0, 'max': 4800.0}, {'current': 3877.801, 'min': 400.0, 'max': 4800.0}, {'current': 3920.023, 'min': 400.0, 'max': 4800.0}, {'current': 3840.581, 'min': 400.0, 'max': 4800.0}, {'current': 3837.142, 'min': 400.0, 'max': 4800.0}, {'current': 3849.898, 'min': 400.0, 'max': 4800.0}, {'current': 3867.247, 'min': 400.0, 'max': 4800.0}, {'current': 3962.936, 'min': 400.0, 'max': 4800.0}], 'disk': {'/': {'total': 72.78396224975586, 'used': 28.30331802368164}}, 'memory': {'total': 15.366096496582031}}
+2023-11-13 01:47:30,161 INFO    HandlerThread:24149 [system_monitor.py:probe():224] Finished collecting system info
+2023-11-13 01:47:30,161 INFO    HandlerThread:24149 [system_monitor.py:probe():227] Publishing system info
+2023-11-13 01:47:30,161 DEBUG   HandlerThread:24149 [system_info.py:_save_pip():52] Saving list of pip packages installed into the current environment
+2023-11-13 01:47:30,161 DEBUG   HandlerThread:24149 [system_info.py:_save_pip():68] Saving pip packages done
+2023-11-13 01:47:30,161 INFO    HandlerThread:24149 [system_monitor.py:probe():229] Finished publishing system info
+2023-11-13 01:47:30,162 DEBUG   SenderThread:24149 [sender.py:send():380] send: files
+2023-11-13 01:47:30,162 INFO    SenderThread:24149 [sender.py:_save_file():1380] saving file wandb-metadata.json with policy now
+2023-11-13 01:47:30,171 DEBUG   HandlerThread:24149 [handler.py:handle_request():146] handle_request: stop_status
+2023-11-13 01:47:30,173 DEBUG   SenderThread:24149 [sender.py:send_request():407] send_request: stop_status
+2023-11-13 01:47:30,214 DEBUG   HandlerThread:24149 [handler.py:handle_request():146] handle_request: internal_messages
+2023-11-13 01:47:30,630 DEBUG   SenderThread:24149 [sender.py:send():380] send: telemetry
+2023-11-13 01:47:30,997 INFO    Thread-37 :24149 [dir_watcher.py:_on_file_created():271] file/dir created: /home/tejas/Documents/SMAI/assignment-4-MrTejas/q2/wandb/run-20231113_014721-bnnbc4pr/files/wandb-metadata.json
+2023-11-13 01:47:30,997 INFO    Thread-37 :24149 [dir_watcher.py:_on_file_created():271] file/dir created: /home/tejas/Documents/SMAI/assignment-4-MrTejas/q2/wandb/run-20231113_014721-bnnbc4pr/files/output.log
+2023-11-13 01:47:30,997 INFO    Thread-37 :24149 [dir_watcher.py:_on_file_created():271] file/dir created: /home/tejas/Documents/SMAI/assignment-4-MrTejas/q2/wandb/run-20231113_014721-bnnbc4pr/files/requirements.txt
+2023-11-13 01:47:31,154 INFO    wandb-upload_0:24149 [upload_job.py:push():131] Uploaded file /tmp/tmpgrzr3cliwandb/clp9w79e-wandb-metadata.json
+2023-11-13 01:47:32,147 ERROR   disk      :24149 [interfaces.py:monitor():144] Failed to sample metric: not sure how to interpret line '   7       0 loop0 14 0 34 0 0 0 0 0 0 12 0 0 0 0 0 0 0\n'
+2023-11-13 01:47:32,147 ERROR   disk      :24149 [interfaces.py:monitor():144] Failed to sample metric: not sure how to interpret line '   7       0 loop0 14 0 34 0 0 0 0 0 0 12 0 0 0 0 0 0 0\n'
+2023-11-13 01:47:32,996 INFO    Thread-37 :24149 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/tejas/Documents/SMAI/assignment-4-MrTejas/q2/wandb/run-20231113_014721-bnnbc4pr/files/output.log
+2023-11-13 01:47:34,148 ERROR   disk      :24149 [interfaces.py:monitor():144] Failed to sample metric: not sure how to interpret line '   7       0 loop0 14 0 34 0 0 0 0 0 0 12 0 0 0 0 0 0 0\n'
+2023-11-13 01:47:34,148 ERROR   disk      :24149 [interfaces.py:monitor():144] Failed to sample metric: not sure how to interpret line '   7       0 loop0 14 0 34 0 0 0 0 0 0 12 0 0 0 0 0 0 0\n'
+2023-11-13 01:47:34,756 DEBUG   HandlerThread:24149 [handler.py:handle_request():146] handle_request: status_report
+2023-11-13 01:47:34,997 INFO    Thread-37 :24149 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/tejas/Documents/SMAI/assignment-4-MrTejas/q2/wandb/run-20231113_014721-bnnbc4pr/files/output.log
+2023-11-13 01:47:35,524 DEBUG   HandlerThread:24149 [handler.py:handle_request():146] handle_request: pause
+2023-11-13 01:47:35,524 INFO    HandlerThread:24149 [handler.py:handle_request_pause():705] stopping system metrics thread
+2023-11-13 01:47:35,524 INFO    HandlerThread:24149 [system_monitor.py:finish():203] Stopping system monitor
+2023-11-13 01:47:35,524 DEBUG   SystemMonitor:24149 [system_monitor.py:_start():172] Starting system metrics aggregation loop
+2023-11-13 01:47:35,524 INFO    HandlerThread:24149 [interfaces.py:finish():202] Joined cpu monitor
+2023-11-13 01:47:35,524 DEBUG   SystemMonitor:24149 [system_monitor.py:_start():179] Finished system metrics aggregation loop
+2023-11-13 01:47:35,525 INFO    HandlerThread:24149 [interfaces.py:finish():202] Joined disk monitor
+2023-11-13 01:47:35,525 DEBUG   SystemMonitor:24149 [system_monitor.py:_start():183] Publishing last batch of metrics
+2023-11-13 01:47:35,525 INFO    HandlerThread:24149 [interfaces.py:finish():202] Joined memory monitor
+2023-11-13 01:47:35,525 INFO    HandlerThread:24149 [interfaces.py:finish():202] Joined network monitor
+2023-11-13 01:47:35,526 DEBUG   SenderThread:24149 [sender.py:send():380] send: stats
+2023-11-13 01:47:36,998 INFO    Thread-37 :24149 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/tejas/Documents/SMAI/assignment-4-MrTejas/q2/wandb/run-20231113_014721-bnnbc4pr/files/output.log
+2023-11-13 01:47:40,527 DEBUG   HandlerThread:24149 [handler.py:handle_request():146] handle_request: status_report
+2023-11-13 01:47:45,173 DEBUG   HandlerThread:24149 [handler.py:handle_request():146] handle_request: internal_messages
+2023-11-13 01:47:45,173 DEBUG   HandlerThread:24149 [handler.py:handle_request():146] handle_request: stop_status
+2023-11-13 01:47:45,174 DEBUG   SenderThread:24149 [sender.py:send_request():407] send_request: stop_status
+2023-11-13 01:47:45,528 DEBUG   HandlerThread:24149 [handler.py:handle_request():146] handle_request: status_report
+2023-11-13 01:47:50,528 DEBUG   HandlerThread:24149 [handler.py:handle_request():146] handle_request: status_report
+2023-11-13 01:47:55,529 DEBUG   HandlerThread:24149 [handler.py:handle_request():146] handle_request: status_report
+2023-11-13 01:48:00,172 DEBUG   HandlerThread:24149 [handler.py:handle_request():146] handle_request: stop_status
+2023-11-13 01:48:00,172 DEBUG   HandlerThread:24149 [handler.py:handle_request():146] handle_request: internal_messages
+2023-11-13 01:48:00,172 DEBUG   SenderThread:24149 [sender.py:send_request():407] send_request: stop_status
+2023-11-13 01:48:01,471 DEBUG   HandlerThread:24149 [handler.py:handle_request():146] handle_request: status_report
+2023-11-13 01:48:02,010 INFO    Thread-37 :24149 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/tejas/Documents/SMAI/assignment-4-MrTejas/q2/wandb/run-20231113_014721-bnnbc4pr/files/config.yaml
+2023-11-13 01:48:06,797 DEBUG   HandlerThread:24149 [handler.py:handle_request():146] handle_request: status_report
+2023-11-13 01:48:11,798 DEBUG   HandlerThread:24149 [handler.py:handle_request():146] handle_request: status_report
+2023-11-13 01:48:15,173 DEBUG   HandlerThread:24149 [handler.py:handle_request():146] handle_request: stop_status
+2023-11-13 01:48:15,173 DEBUG   HandlerThread:24149 [handler.py:handle_request():146] handle_request: internal_messages
+2023-11-13 01:48:15,174 DEBUG   SenderThread:24149 [sender.py:send_request():407] send_request: stop_status
+2023-11-13 01:48:17,536 DEBUG   HandlerThread:24149 [handler.py:handle_request():146] handle_request: status_report
+2023-11-13 01:48:22,538 DEBUG   HandlerThread:24149 [handler.py:handle_request():146] handle_request: status_report
+2023-11-13 01:48:27,539 DEBUG   HandlerThread:24149 [handler.py:handle_request():146] handle_request: status_report
+2023-11-13 01:48:30,172 DEBUG   HandlerThread:24149 [handler.py:handle_request():146] handle_request: stop_status
+2023-11-13 01:48:30,172 DEBUG   HandlerThread:24149 [handler.py:handle_request():146] handle_request: internal_messages
+2023-11-13 01:48:30,172 DEBUG   SenderThread:24149 [sender.py:send_request():407] send_request: stop_status
+2023-11-13 01:48:33,517 DEBUG   HandlerThread:24149 [handler.py:handle_request():146] handle_request: status_report
+2023-11-13 01:48:38,519 DEBUG   HandlerThread:24149 [handler.py:handle_request():146] handle_request: status_report
+2023-11-13 01:48:43,519 DEBUG   HandlerThread:24149 [handler.py:handle_request():146] handle_request: status_report
+2023-11-13 01:48:45,173 DEBUG   HandlerThread:24149 [handler.py:handle_request():146] handle_request: stop_status
+2023-11-13 01:48:45,173 DEBUG   HandlerThread:24149 [handler.py:handle_request():146] handle_request: internal_messages
+2023-11-13 01:48:45,174 DEBUG   SenderThread:24149 [sender.py:send_request():407] send_request: stop_status
+2023-11-13 01:48:49,460 DEBUG   HandlerThread:24149 [handler.py:handle_request():146] handle_request: status_report
+2023-11-13 01:48:54,461 DEBUG   HandlerThread:24149 [handler.py:handle_request():146] handle_request: status_report
+2023-11-13 01:48:59,462 DEBUG   HandlerThread:24149 [handler.py:handle_request():146] handle_request: status_report
+2023-11-13 01:49:00,172 DEBUG   HandlerThread:24149 [handler.py:handle_request():146] handle_request: stop_status
+2023-11-13 01:49:00,172 DEBUG   SenderThread:24149 [sender.py:send_request():407] send_request: stop_status
+2023-11-13 01:49:00,218 DEBUG   HandlerThread:24149 [handler.py:handle_request():146] handle_request: internal_messages
+2023-11-13 01:49:04,548 DEBUG   HandlerThread:24149 [handler.py:handle_request():146] handle_request: status_report
+2023-11-13 01:49:09,550 DEBUG   HandlerThread:24149 [handler.py:handle_request():146] handle_request: status_report
+2023-11-13 01:49:14,551 DEBUG   HandlerThread:24149 [handler.py:handle_request():146] handle_request: status_report
+2023-11-13 01:49:15,172 DEBUG   HandlerThread:24149 [handler.py:handle_request():146] handle_request: stop_status
+2023-11-13 01:49:15,173 DEBUG   SenderThread:24149 [sender.py:send_request():407] send_request: stop_status
+2023-11-13 01:49:15,214 DEBUG   HandlerThread:24149 [handler.py:handle_request():146] handle_request: internal_messages
+2023-11-13 01:49:20,548 DEBUG   HandlerThread:24149 [handler.py:handle_request():146] handle_request: status_report
+2023-11-13 01:49:24,897 DEBUG   HandlerThread:24149 [handler.py:handle_request():146] handle_request: resume
+2023-11-13 01:49:24,898 INFO    HandlerThread:24149 [handler.py:handle_request_resume():696] starting system metrics thread
+2023-11-13 01:49:24,898 INFO    HandlerThread:24149 [system_monitor.py:start():194] Starting system monitor
+2023-11-13 01:49:24,898 INFO    SystemMonitor:24149 [system_monitor.py:_start():158] Starting system asset monitoring threads
+2023-11-13 01:49:24,898 INFO    SystemMonitor:24149 [interfaces.py:start():190] Started cpu monitoring
+2023-11-13 01:49:24,900 INFO    SystemMonitor:24149 [interfaces.py:start():190] Started disk monitoring
+2023-11-13 01:49:24,900 INFO    SystemMonitor:24149 [interfaces.py:start():190] Started memory monitoring
+2023-11-13 01:49:24,901 INFO    SystemMonitor:24149 [interfaces.py:start():190] Started network monitoring
+2023-11-13 01:49:24,901 ERROR   disk      :24149 [interfaces.py:monitor():144] Failed to sample metric: not sure how to interpret line '   7       0 loop0 14 0 34 0 0 0 0 0 0 12 0 0 0 0 0 0 0\n'
+2023-11-13 01:49:24,902 ERROR   disk      :24149 [interfaces.py:monitor():144] Failed to sample metric: not sure how to interpret line '   7       0 loop0 14 0 34 0 0 0 0 0 0 12 0 0 0 0 0 0 0\n'
+2023-11-13 01:49:24,938 DEBUG   HandlerThread:24149 [handler.py:handle_request():146] handle_request: pause
+2023-11-13 01:49:24,939 INFO    HandlerThread:24149 [handler.py:handle_request_pause():705] stopping system metrics thread
+2023-11-13 01:49:24,939 INFO    HandlerThread:24149 [system_monitor.py:finish():203] Stopping system monitor
+2023-11-13 01:49:24,939 DEBUG   SystemMonitor:24149 [system_monitor.py:_start():172] Starting system metrics aggregation loop
+2023-11-13 01:49:24,939 INFO    HandlerThread:24149 [interfaces.py:finish():202] Joined cpu monitor
+2023-11-13 01:49:24,939 DEBUG   SystemMonitor:24149 [system_monitor.py:_start():179] Finished system metrics aggregation loop
+2023-11-13 01:49:24,939 INFO    HandlerThread:24149 [interfaces.py:finish():202] Joined disk monitor
+2023-11-13 01:49:24,939 DEBUG   SystemMonitor:24149 [system_monitor.py:_start():183] Publishing last batch of metrics
+2023-11-13 01:49:24,939 INFO    HandlerThread:24149 [interfaces.py:finish():202] Joined memory monitor
+2023-11-13 01:49:24,940 INFO    HandlerThread:24149 [interfaces.py:finish():202] Joined network monitor
+2023-11-13 01:49:24,940 DEBUG   SenderThread:24149 [sender.py:send():380] send: stats
+2023-11-13 01:49:25,202 ERROR   FileStreamThread:24149 [file_stream.py:_handle_response():504] dropped chunk 404 Client Error: Not Found for url: https://api.wandb.ai/files/tejas591995/Bagging%20Regressor/bnnbc4pr/file_stream
+NoneType: None
+2023-11-13 01:49:25,391 DEBUG   HandlerThread:24149 [handler.py:handle_request():146] handle_request: resume
+2023-11-13 01:49:25,391 INFO    HandlerThread:24149 [handler.py:handle_request_resume():696] starting system metrics thread
+2023-11-13 01:49:25,391 INFO    HandlerThread:24149 [system_monitor.py:start():194] Starting system monitor
+2023-11-13 01:49:25,391 INFO    SystemMonitor:24149 [system_monitor.py:_start():158] Starting system asset monitoring threads
+2023-11-13 01:49:25,392 INFO    SystemMonitor:24149 [interfaces.py:start():190] Started cpu monitoring
+2023-11-13 01:49:25,392 INFO    SystemMonitor:24149 [interfaces.py:start():190] Started disk monitoring
+2023-11-13 01:49:25,392 INFO    SystemMonitor:24149 [interfaces.py:start():190] Started memory monitoring
+2023-11-13 01:49:25,392 INFO    SystemMonitor:24149 [interfaces.py:start():190] Started network monitoring
+2023-11-13 01:49:25,393 ERROR   disk      :24149 [interfaces.py:monitor():144] Failed to sample metric: not sure how to interpret line '   7       0 loop0 14 0 34 0 0 0 0 0 0 12 0 0 0 0 0 0 0\n'
+2023-11-13 01:49:25,393 ERROR   disk      :24149 [interfaces.py:monitor():144] Failed to sample metric: not sure how to interpret line '   7       0 loop0 14 0 34 0 0 0 0 0 0 12 0 0 0 0 0 0 0\n'
+2023-11-13 01:49:25,399 DEBUG   SenderThread:24149 [sender.py:send():380] send: telemetry
+2023-11-13 01:49:25,400 DEBUG   SenderThread:24149 [sender.py:send():380] send: exit
+2023-11-13 01:49:25,400 INFO    SenderThread:24149 [sender.py:send_exit():585] handling exit code: 0
+2023-11-13 01:49:25,400 INFO    SenderThread:24149 [sender.py:send_exit():587] handling runtime: 5
+2023-11-13 01:49:25,400 INFO    SenderThread:24149 [sender.py:_save_file():1380] saving file wandb-summary.json with policy end
+2023-11-13 01:49:25,400 INFO    SenderThread:24149 [sender.py:send_exit():593] send defer
+2023-11-13 01:49:25,400 DEBUG   HandlerThread:24149 [handler.py:handle_request():146] handle_request: defer
+2023-11-13 01:49:25,400 INFO    HandlerThread:24149 [handler.py:handle_request_defer():172] handle defer: 0
+2023-11-13 01:49:25,400 DEBUG   SenderThread:24149 [sender.py:send_request():407] send_request: defer
+2023-11-13 01:49:25,401 INFO    SenderThread:24149 [sender.py:send_request_defer():609] handle sender defer: 0
+2023-11-13 01:49:25,401 INFO    SenderThread:24149 [sender.py:transition_state():613] send defer: 1
+2023-11-13 01:49:25,401 DEBUG   HandlerThread:24149 [handler.py:handle_request():146] handle_request: defer
+2023-11-13 01:49:25,401 INFO    HandlerThread:24149 [handler.py:handle_request_defer():172] handle defer: 1
+2023-11-13 01:49:25,401 DEBUG   SenderThread:24149 [sender.py:send_request():407] send_request: defer
+2023-11-13 01:49:25,401 INFO    SenderThread:24149 [sender.py:send_request_defer():609] handle sender defer: 1
+2023-11-13 01:49:25,401 INFO    SenderThread:24149 [sender.py:transition_state():613] send defer: 2
+2023-11-13 01:49:25,401 DEBUG   HandlerThread:24149 [handler.py:handle_request():146] handle_request: defer
+2023-11-13 01:49:25,401 INFO    HandlerThread:24149 [handler.py:handle_request_defer():172] handle defer: 2
+2023-11-13 01:49:25,401 INFO    HandlerThread:24149 [system_monitor.py:finish():203] Stopping system monitor
+2023-11-13 01:49:25,401 INFO    HandlerThread:24149 [interfaces.py:finish():202] Joined cpu monitor
+2023-11-13 01:49:25,401 DEBUG   SystemMonitor:24149 [system_monitor.py:_start():172] Starting system metrics aggregation loop
+2023-11-13 01:49:25,401 DEBUG   SystemMonitor:24149 [system_monitor.py:_start():179] Finished system metrics aggregation loop
+2023-11-13 01:49:25,401 DEBUG   SystemMonitor:24149 [system_monitor.py:_start():183] Publishing last batch of metrics
+2023-11-13 01:49:25,402 INFO    HandlerThread:24149 [interfaces.py:finish():202] Joined disk monitor
+2023-11-13 01:49:25,402 INFO    HandlerThread:24149 [interfaces.py:finish():202] Joined memory monitor
+2023-11-13 01:49:25,402 INFO    HandlerThread:24149 [interfaces.py:finish():202] Joined network monitor
+2023-11-13 01:49:25,403 DEBUG   SenderThread:24149 [sender.py:send_request():407] send_request: defer
+2023-11-13 01:49:25,403 INFO    SenderThread:24149 [sender.py:send_request_defer():609] handle sender defer: 2
+2023-11-13 01:49:25,403 INFO    SenderThread:24149 [sender.py:transition_state():613] send defer: 3
+2023-11-13 01:49:25,403 DEBUG   SenderThread:24149 [sender.py:send():380] send: stats
+2023-11-13 01:49:25,403 DEBUG   HandlerThread:24149 [handler.py:handle_request():146] handle_request: defer
+2023-11-13 01:49:25,403 INFO    HandlerThread:24149 [handler.py:handle_request_defer():172] handle defer: 3
+2023-11-13 01:49:25,403 DEBUG   SenderThread:24149 [sender.py:send_request():407] send_request: defer
+2023-11-13 01:49:25,403 INFO    SenderThread:24149 [sender.py:send_request_defer():609] handle sender defer: 3
+2023-11-13 01:49:25,403 INFO    SenderThread:24149 [sender.py:transition_state():613] send defer: 4
+2023-11-13 01:49:25,403 DEBUG   HandlerThread:24149 [handler.py:handle_request():146] handle_request: defer
+2023-11-13 01:49:25,403 INFO    HandlerThread:24149 [handler.py:handle_request_defer():172] handle defer: 4
+2023-11-13 01:49:25,404 DEBUG   SenderThread:24149 [sender.py:send_request():407] send_request: defer
+2023-11-13 01:49:25,404 INFO    SenderThread:24149 [sender.py:send_request_defer():609] handle sender defer: 4
+2023-11-13 01:49:25,404 INFO    SenderThread:24149 [sender.py:transition_state():613] send defer: 5
+2023-11-13 01:49:25,404 DEBUG   HandlerThread:24149 [handler.py:handle_request():146] handle_request: defer
+2023-11-13 01:49:25,404 INFO    HandlerThread:24149 [handler.py:handle_request_defer():172] handle defer: 5
+2023-11-13 01:49:25,404 DEBUG   SenderThread:24149 [sender.py:send():380] send: summary
+2023-11-13 01:49:25,404 INFO    SenderThread:24149 [sender.py:_save_file():1380] saving file wandb-summary.json with policy end
+2023-11-13 01:49:25,404 DEBUG   SenderThread:24149 [sender.py:send_request():407] send_request: defer
+2023-11-13 01:49:25,404 INFO    SenderThread:24149 [sender.py:send_request_defer():609] handle sender defer: 5
+2023-11-13 01:49:25,404 INFO    SenderThread:24149 [sender.py:transition_state():613] send defer: 6
+2023-11-13 01:49:25,404 DEBUG   HandlerThread:24149 [handler.py:handle_request():146] handle_request: defer
+2023-11-13 01:49:25,405 INFO    HandlerThread:24149 [handler.py:handle_request_defer():172] handle defer: 6
+2023-11-13 01:49:25,405 DEBUG   SenderThread:24149 [sender.py:send_request():407] send_request: defer
+2023-11-13 01:49:25,405 INFO    SenderThread:24149 [sender.py:send_request_defer():609] handle sender defer: 6
+2023-11-13 01:49:25,408 DEBUG   HandlerThread:24149 [handler.py:handle_request():146] handle_request: status_report
+2023-11-13 01:49:25,688 ERROR   SenderThread:24149 [internal_api.py:execute():370] 409 response executing GraphQL.
+2023-11-13 01:49:25,689 ERROR   SenderThread:24149 [internal_api.py:execute():371] {"errors":[{"message":"run tejas591995/Bagging Regressor/bnnbc4pr was previously created and deleted; try a new run name","path":["upsertBucket"]}],"data":{"upsertBucket":null}}
+2023-11-13 01:49:26,042 INFO    Thread-37 :24149 [dir_watcher.py:_on_file_created():271] file/dir created: /home/tejas/Documents/SMAI/assignment-4-MrTejas/q2/wandb/run-20231113_014721-bnnbc4pr/files/wandb-summary.json
+2023-11-13 01:49:26,400 DEBUG   HandlerThread:24149 [handler.py:handle_request():146] handle_request: poll_exit
+2023-11-13 01:49:27,042 INFO    Thread-37 :24149 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/tejas/Documents/SMAI/assignment-4-MrTejas/q2/wandb/run-20231113_014721-bnnbc4pr/files/output.log
+2023-11-13 01:49:27,126 ERROR   SenderThread:24149 [internal_api.py:execute():370] 409 response executing GraphQL.
+2023-11-13 01:49:27,126 ERROR   SenderThread:24149 [internal_api.py:execute():371] {"errors":[{"message":"run tejas591995/Bagging Regressor/bnnbc4pr was previously created and deleted; try a new run name","path":["upsertBucket"]}],"data":{"upsertBucket":null}}
+2023-11-13 01:49:28,043 INFO    Thread-37 :24149 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/tejas/Documents/SMAI/assignment-4-MrTejas/q2/wandb/run-20231113_014721-bnnbc4pr/files/output.log
+2023-11-13 01:49:29,633 ERROR   SenderThread:24149 [internal_api.py:execute():370] 409 response executing GraphQL.
+2023-11-13 01:49:29,633 ERROR   SenderThread:24149 [internal_api.py:execute():371] {"errors":[{"message":"run tejas591995/Bagging Regressor/bnnbc4pr was previously created and deleted; try a new run name","path":["upsertBucket"]}],"data":{"upsertBucket":null}}
+2023-11-13 01:49:29,634 INFO    SenderThread:24149 [retry.py:__call__():172] Retry attempt failed:
+Traceback (most recent call last):
+  File "/home/tejas/.local/lib/python3.8/site-packages/wandb/sdk/lib/retry.py", line 131, in __call__
+    result = self._call_fn(*args, **kwargs)
+  File "/home/tejas/.local/lib/python3.8/site-packages/wandb/sdk/internal/internal_api.py", line 366, in execute
+    return self.client.execute(*args, **kwargs)  # type: ignore
+  File "/home/tejas/.local/lib/python3.8/site-packages/wandb/vendor/gql-0.2.0/wandb_gql/client.py", line 52, in execute
+    result = self._get_result(document, *args, **kwargs)
+  File "/home/tejas/.local/lib/python3.8/site-packages/wandb/vendor/gql-0.2.0/wandb_gql/client.py", line 60, in _get_result
+    return self.transport.execute(document, *args, **kwargs)
+  File "/home/tejas/.local/lib/python3.8/site-packages/wandb/sdk/lib/gql_request.py", line 59, in execute
+    request.raise_for_status()
+  File "/usr/lib/python3/dist-packages/requests/models.py", line 940, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 409 Client Error: Conflict for url: https://api.wandb.ai/graphql
+2023-11-13 01:49:31,401 DEBUG   HandlerThread:24149 [handler.py:handle_request():146] handle_request: keepalive
+2023-11-13 01:49:34,660 ERROR   SenderThread:24149 [internal_api.py:execute():370] 409 response executing GraphQL.
+2023-11-13 01:49:34,660 ERROR   SenderThread:24149 [internal_api.py:execute():371] {"errors":[{"message":"run tejas591995/Bagging Regressor/bnnbc4pr was previously created and deleted; try a new run name","path":["upsertBucket"]}],"data":{"upsertBucket":null}}
+2023-11-13 01:49:36,402 DEBUG   HandlerThread:24149 [handler.py:handle_request():146] handle_request: keepalive
+2023-11-13 01:49:37,469 ERROR   FileStreamThread:24149 [file_stream.py:_handle_response():504] dropped chunk 404 Client Error: Not Found for url: https://api.wandb.ai/files/tejas591995/Bagging%20Regressor/bnnbc4pr/file_stream
+NoneType: None
+2023-11-13 01:49:43,560 ERROR   SenderThread:24149 [internal_api.py:execute():370] 409 response executing GraphQL.
+2023-11-13 01:49:43,560 ERROR   SenderThread:24149 [internal_api.py:execute():371] {"errors":[{"message":"run tejas591995/Bagging Regressor/bnnbc4pr was previously created and deleted; try a new run name","path":["upsertBucket"]}],"data":{"upsertBucket":null}}

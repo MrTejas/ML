@@ -1,0 +1,231 @@
+Initialized values successfully!
+Loaded Dataframe!
+Splitted data into train, test and val sets!
+/tmp/ipykernel_27586/3180526438.py:102: RuntimeWarning: overflow encountered in exp
+  val = (2/(np.exp(-2*z)+1)) -1
+/tmp/ipykernel_27586/3180526438.py:102: RuntimeWarning: overflow encountered in exp
+  val = (2/(np.exp(-2*z)+1)) -1
+/tmp/ipykernel_27586/3180526438.py:102: RuntimeWarning: overflow encountered in exp
+  val = (2/(np.exp(-2*z)+1)) -1
+/tmp/ipykernel_27586/3180526438.py:102: RuntimeWarning: overflow encountered in exp
+  val = (2/(np.exp(-2*z)+1)) -1
+/tmp/ipykernel_27586/3180526438.py:102: RuntimeWarning: overflow encountered in exp
+  val = (2/(np.exp(-2*z)+1)) -1
+/tmp/ipykernel_27586/3180526438.py:102: RuntimeWarning: overflow encountered in exp
+  val = (2/(np.exp(-2*z)+1)) -1
+/tmp/ipykernel_27586/3180526438.py:102: RuntimeWarning: overflow encountered in exp
+  val = (2/(np.exp(-2*z)+1)) -1
+/tmp/ipykernel_27586/3180526438.py:102: RuntimeWarning: overflow encountered in exp
+  val = (2/(np.exp(-2*z)+1)) -1
+/tmp/ipykernel_27586/3180526438.py:102: RuntimeWarning: overflow encountered in exp
+  val = (2/(np.exp(-2*z)+1)) -1
+/tmp/ipykernel_27586/3180526438.py:102: RuntimeWarning: overflow encountered in exp
+  val = (2/(np.exp(-2*z)+1)) -1
+/tmp/ipykernel_27586/3180526438.py:102: RuntimeWarning: overflow encountered in exp
+  val = (2/(np.exp(-2*z)+1)) -1
+/tmp/ipykernel_27586/3180526438.py:102: RuntimeWarning: overflow encountered in exp
+  val = (2/(np.exp(-2*z)+1)) -1
+/tmp/ipykernel_27586/3180526438.py:102: RuntimeWarning: overflow encountered in exp
+  val = (2/(np.exp(-2*z)+1)) -1
+/tmp/ipykernel_27586/3180526438.py:102: RuntimeWarning: overflow encountered in exp
+  val = (2/(np.exp(-2*z)+1)) -1
+/tmp/ipykernel_27586/3180526438.py:102: RuntimeWarning: overflow encountered in exp
+  val = (2/(np.exp(-2*z)+1)) -1
+/tmp/ipykernel_27586/3180526438.py:102: RuntimeWarning: overflow encountered in exp
+  val = (2/(np.exp(-2*z)+1)) -1
+/tmp/ipykernel_27586/3180526438.py:102: RuntimeWarning: overflow encountered in exp
+  val = (2/(np.exp(-2*z)+1)) -1
+/tmp/ipykernel_27586/3180526438.py:102: RuntimeWarning: overflow encountered in exp
+  val = (2/(np.exp(-2*z)+1)) -1
+/tmp/ipykernel_27586/3180526438.py:102: RuntimeWarning: overflow encountered in exp
+  val = (2/(np.exp(-2*z)+1)) -1
+/tmp/ipykernel_27586/3180526438.py:102: RuntimeWarning: overflow encountered in exp
+  val = (2/(np.exp(-2*z)+1)) -1
+/tmp/ipykernel_27586/3180526438.py:102: RuntimeWarning: overflow encountered in exp
+  val = (2/(np.exp(-2*z)+1)) -1
+/tmp/ipykernel_27586/3180526438.py:102: RuntimeWarning: overflow encountered in exp
+  val = (2/(np.exp(-2*z)+1)) -1
+/tmp/ipykernel_27586/3180526438.py:102: RuntimeWarning: overflow encountered in exp
+  val = (2/(np.exp(-2*z)+1)) -1
+/tmp/ipykernel_27586/3180526438.py:102: RuntimeWarning: overflow encountered in exp
+  val = (2/(np.exp(-2*z)+1)) -1
+/tmp/ipykernel_27586/3180526438.py:102: RuntimeWarning: overflow encountered in exp
+  val = (2/(np.exp(-2*z)+1)) -1
+/tmp/ipykernel_27586/3180526438.py:102: RuntimeWarning: overflow encountered in exp
+  val = (2/(np.exp(-2*z)+1)) -1
+/tmp/ipykernel_27586/3180526438.py:102: RuntimeWarning: overflow encountered in exp
+  val = (2/(np.exp(-2*z)+1)) -1
+/tmp/ipykernel_27586/3180526438.py:102: RuntimeWarning: overflow encountered in exp
+  val = (2/(np.exp(-2*z)+1)) -1
+/tmp/ipykernel_27586/3180526438.py:102: RuntimeWarning: overflow encountered in exp
+  val = (2/(np.exp(-2*z)+1)) -1
+/tmp/ipykernel_27586/3180526438.py:102: RuntimeWarning: overflow encountered in exp
+  val = (2/(np.exp(-2*z)+1)) -1
+/tmp/ipykernel_27586/3180526438.py:102: RuntimeWarning: overflow encountered in exp
+  val = (2/(np.exp(-2*z)+1)) -1
+/tmp/ipykernel_27586/3180526438.py:102: RuntimeWarning: overflow encountered in exp
+  val = (2/(np.exp(-2*z)+1)) -1
+/tmp/ipykernel_27586/3180526438.py:102: RuntimeWarning: overflow encountered in exp
+  val = (2/(np.exp(-2*z)+1)) -1
+/tmp/ipykernel_27586/3180526438.py:102: RuntimeWarning: overflow encountered in exp
+  val = (2/(np.exp(-2*z)+1)) -1
+/tmp/ipykernel_27586/3180526438.py:102: RuntimeWarning: overflow encountered in exp
+  val = (2/(np.exp(-2*z)+1)) -1
+/tmp/ipykernel_27586/3180526438.py:102: RuntimeWarning: overflow encountered in exp
+  val = (2/(np.exp(-2*z)+1)) -1
+/tmp/ipykernel_27586/3180526438.py:102: RuntimeWarning: overflow encountered in exp
+  val = (2/(np.exp(-2*z)+1)) -1
+/tmp/ipykernel_27586/3180526438.py:102: RuntimeWarning: overflow encountered in exp
+  val = (2/(np.exp(-2*z)+1)) -1
+/tmp/ipykernel_27586/3180526438.py:102: RuntimeWarning: overflow encountered in exp
+  val = (2/(np.exp(-2*z)+1)) -1
+/tmp/ipykernel_27586/3180526438.py:102: RuntimeWarning: overflow encountered in exp
+  val = (2/(np.exp(-2*z)+1)) -1
+/tmp/ipykernel_27586/3180526438.py:102: RuntimeWarning: overflow encountered in exp
+  val = (2/(np.exp(-2*z)+1)) -1
+/tmp/ipykernel_27586/3180526438.py:102: RuntimeWarning: overflow encountered in exp
+  val = (2/(np.exp(-2*z)+1)) -1
+/tmp/ipykernel_27586/3180526438.py:102: RuntimeWarning: overflow encountered in exp
+  val = (2/(np.exp(-2*z)+1)) -1
+/tmp/ipykernel_27586/3180526438.py:102: RuntimeWarning: overflow encountered in exp
+  val = (2/(np.exp(-2*z)+1)) -1
+/tmp/ipykernel_27586/3180526438.py:102: RuntimeWarning: overflow encountered in exp
+  val = (2/(np.exp(-2*z)+1)) -1
+/tmp/ipykernel_27586/3180526438.py:102: RuntimeWarning: overflow encountered in exp
+  val = (2/(np.exp(-2*z)+1)) -1
+/tmp/ipykernel_27586/3180526438.py:102: RuntimeWarning: overflow encountered in exp
+  val = (2/(np.exp(-2*z)+1)) -1
+/tmp/ipykernel_27586/3180526438.py:102: RuntimeWarning: overflow encountered in exp
+  val = (2/(np.exp(-2*z)+1)) -1
+/tmp/ipykernel_27586/3180526438.py:102: RuntimeWarning: overflow encountered in exp
+  val = (2/(np.exp(-2*z)+1)) -1
+/tmp/ipykernel_27586/3180526438.py:102: RuntimeWarning: overflow encountered in exp
+  val = (2/(np.exp(-2*z)+1)) -1
+/tmp/ipykernel_27586/3180526438.py:102: RuntimeWarning: overflow encountered in exp
+  val = (2/(np.exp(-2*z)+1)) -1
+/tmp/ipykernel_27586/3180526438.py:102: RuntimeWarning: overflow encountered in exp
+  val = (2/(np.exp(-2*z)+1)) -1
+/tmp/ipykernel_27586/3180526438.py:102: RuntimeWarning: overflow encountered in exp
+  val = (2/(np.exp(-2*z)+1)) -1
+/tmp/ipykernel_27586/3180526438.py:102: RuntimeWarning: overflow encountered in exp
+  val = (2/(np.exp(-2*z)+1)) -1
+/tmp/ipykernel_27586/3180526438.py:102: RuntimeWarning: overflow encountered in exp
+  val = (2/(np.exp(-2*z)+1)) -1
+/tmp/ipykernel_27586/3180526438.py:102: RuntimeWarning: overflow encountered in exp
+  val = (2/(np.exp(-2*z)+1)) -1
+/tmp/ipykernel_27586/3180526438.py:102: RuntimeWarning: overflow encountered in exp
+  val = (2/(np.exp(-2*z)+1)) -1
+/tmp/ipykernel_27586/3180526438.py:102: RuntimeWarning: overflow encountered in exp
+  val = (2/(np.exp(-2*z)+1)) -1
+/tmp/ipykernel_27586/3180526438.py:102: RuntimeWarning: overflow encountered in exp
+  val = (2/(np.exp(-2*z)+1)) -1
+/tmp/ipykernel_27586/3180526438.py:102: RuntimeWarning: overflow encountered in exp
+  val = (2/(np.exp(-2*z)+1)) -1
+/tmp/ipykernel_27586/3180526438.py:102: RuntimeWarning: overflow encountered in exp
+  val = (2/(np.exp(-2*z)+1)) -1
+/tmp/ipykernel_27586/3180526438.py:102: RuntimeWarning: overflow encountered in exp
+  val = (2/(np.exp(-2*z)+1)) -1
+/tmp/ipykernel_27586/3180526438.py:102: RuntimeWarning: overflow encountered in exp
+  val = (2/(np.exp(-2*z)+1)) -1
+/tmp/ipykernel_27586/3180526438.py:102: RuntimeWarning: overflow encountered in exp
+  val = (2/(np.exp(-2*z)+1)) -1
+/tmp/ipykernel_27586/3180526438.py:102: RuntimeWarning: overflow encountered in exp
+  val = (2/(np.exp(-2*z)+1)) -1
+/tmp/ipykernel_27586/3180526438.py:102: RuntimeWarning: overflow encountered in exp
+  val = (2/(np.exp(-2*z)+1)) -1
+/tmp/ipykernel_27586/3180526438.py:102: RuntimeWarning: overflow encountered in exp
+  val = (2/(np.exp(-2*z)+1)) -1
+/tmp/ipykernel_27586/3180526438.py:102: RuntimeWarning: overflow encountered in exp
+  val = (2/(np.exp(-2*z)+1)) -1
+/tmp/ipykernel_27586/3180526438.py:102: RuntimeWarning: overflow encountered in exp
+  val = (2/(np.exp(-2*z)+1)) -1
+/tmp/ipykernel_27586/3180526438.py:102: RuntimeWarning: overflow encountered in exp
+  val = (2/(np.exp(-2*z)+1)) -1
+/tmp/ipykernel_27586/3180526438.py:102: RuntimeWarning: overflow encountered in exp
+  val = (2/(np.exp(-2*z)+1)) -1
+/tmp/ipykernel_27586/3180526438.py:102: RuntimeWarning: overflow encountered in exp
+  val = (2/(np.exp(-2*z)+1)) -1
+/tmp/ipykernel_27586/3180526438.py:102: RuntimeWarning: overflow encountered in exp
+  val = (2/(np.exp(-2*z)+1)) -1
+/tmp/ipykernel_27586/3180526438.py:102: RuntimeWarning: overflow encountered in exp
+  val = (2/(np.exp(-2*z)+1)) -1
+/tmp/ipykernel_27586/3180526438.py:102: RuntimeWarning: overflow encountered in exp
+  val = (2/(np.exp(-2*z)+1)) -1
+/tmp/ipykernel_27586/3180526438.py:102: RuntimeWarning: overflow encountered in exp
+  val = (2/(np.exp(-2*z)+1)) -1
+/tmp/ipykernel_27586/3180526438.py:102: RuntimeWarning: overflow encountered in exp
+  val = (2/(np.exp(-2*z)+1)) -1
+/tmp/ipykernel_27586/3180526438.py:102: RuntimeWarning: overflow encountered in exp
+  val = (2/(np.exp(-2*z)+1)) -1
+/tmp/ipykernel_27586/3180526438.py:102: RuntimeWarning: overflow encountered in exp
+  val = (2/(np.exp(-2*z)+1)) -1
+/tmp/ipykernel_27586/3180526438.py:102: RuntimeWarning: overflow encountered in exp
+  val = (2/(np.exp(-2*z)+1)) -1
+/tmp/ipykernel_27586/3180526438.py:102: RuntimeWarning: overflow encountered in exp
+  val = (2/(np.exp(-2*z)+1)) -1
+/tmp/ipykernel_27586/3180526438.py:102: RuntimeWarning: overflow encountered in exp
+  val = (2/(np.exp(-2*z)+1)) -1
+/tmp/ipykernel_27586/3180526438.py:102: RuntimeWarning: overflow encountered in exp
+  val = (2/(np.exp(-2*z)+1)) -1
+/tmp/ipykernel_27586/3180526438.py:102: RuntimeWarning: overflow encountered in exp
+  val = (2/(np.exp(-2*z)+1)) -1
+/tmp/ipykernel_27586/3180526438.py:102: RuntimeWarning: overflow encountered in exp
+  val = (2/(np.exp(-2*z)+1)) -1
+/tmp/ipykernel_27586/3180526438.py:102: RuntimeWarning: overflow encountered in exp
+  val = (2/(np.exp(-2*z)+1)) -1
+/tmp/ipykernel_27586/3180526438.py:102: RuntimeWarning: overflow encountered in exp
+  val = (2/(np.exp(-2*z)+1)) -1
+/tmp/ipykernel_27586/3180526438.py:102: RuntimeWarning: overflow encountered in exp
+  val = (2/(np.exp(-2*z)+1)) -1
+/tmp/ipykernel_27586/3180526438.py:102: RuntimeWarning: overflow encountered in exp
+  val = (2/(np.exp(-2*z)+1)) -1
+/tmp/ipykernel_27586/3180526438.py:102: RuntimeWarning: overflow encountered in exp
+  val = (2/(np.exp(-2*z)+1)) -1
+/tmp/ipykernel_27586/3180526438.py:102: RuntimeWarning: overflow encountered in exp
+  val = (2/(np.exp(-2*z)+1)) -1
+/tmp/ipykernel_27586/3180526438.py:102: RuntimeWarning: overflow encountered in exp
+  val = (2/(np.exp(-2*z)+1)) -1
+/tmp/ipykernel_27586/3180526438.py:102: RuntimeWarning: overflow encountered in exp
+  val = (2/(np.exp(-2*z)+1)) -1
+/tmp/ipykernel_27586/3180526438.py:102: RuntimeWarning: overflow encountered in exp
+  val = (2/(np.exp(-2*z)+1)) -1
+/tmp/ipykernel_27586/3180526438.py:102: RuntimeWarning: overflow encountered in exp
+  val = (2/(np.exp(-2*z)+1)) -1
+/tmp/ipykernel_27586/3180526438.py:102: RuntimeWarning: overflow encountered in exp
+  val = (2/(np.exp(-2*z)+1)) -1
+/tmp/ipykernel_27586/3180526438.py:102: RuntimeWarning: overflow encountered in exp
+  val = (2/(np.exp(-2*z)+1)) -1
+/tmp/ipykernel_27586/3180526438.py:102: RuntimeWarning: overflow encountered in exp
+  val = (2/(np.exp(-2*z)+1)) -1
+/tmp/ipykernel_27586/3180526438.py:102: RuntimeWarning: overflow encountered in exp
+  val = (2/(np.exp(-2*z)+1)) -1
+/tmp/ipykernel_27586/3180526438.py:102: RuntimeWarning: overflow encountered in exp
+  val = (2/(np.exp(-2*z)+1)) -1
+/tmp/ipykernel_27586/3180526438.py:102: RuntimeWarning: overflow encountered in exp
+  val = (2/(np.exp(-2*z)+1)) -1
+/tmp/ipykernel_27586/3180526438.py:102: RuntimeWarning: overflow encountered in exp
+  val = (2/(np.exp(-2*z)+1)) -1
+/tmp/ipykernel_27586/3180526438.py:102: RuntimeWarning: overflow encountered in exp
+  val = (2/(np.exp(-2*z)+1)) -1
+/tmp/ipykernel_27586/3180526438.py:102: RuntimeWarning: overflow encountered in exp
+  val = (2/(np.exp(-2*z)+1)) -1
+/tmp/ipykernel_27586/3180526438.py:102: RuntimeWarning: overflow encountered in exp
+  val = (2/(np.exp(-2*z)+1)) -1
+/tmp/ipykernel_27586/3180526438.py:102: RuntimeWarning: overflow encountered in exp
+  val = (2/(np.exp(-2*z)+1)) -1
+/tmp/ipykernel_27586/3180526438.py:102: RuntimeWarning: overflow encountered in exp
+  val = (2/(np.exp(-2*z)+1)) -1
+/tmp/ipykernel_27586/3180526438.py:102: RuntimeWarning: overflow encountered in exp
+  val = (2/(np.exp(-2*z)+1)) -1
+/tmp/ipykernel_27586/3180526438.py:102: RuntimeWarning: overflow encountered in exp
+  val = (2/(np.exp(-2*z)+1)) -1
+/tmp/ipykernel_27586/3180526438.py:102: RuntimeWarning: overflow encountered in exp
+  val = (2/(np.exp(-2*z)+1)) -1
+/tmp/ipykernel_27586/3180526438.py:102: RuntimeWarning: overflow encountered in exp
+  val = (2/(np.exp(-2*z)+1)) -1
+/tmp/ipykernel_27586/3180526438.py:102: RuntimeWarning: overflow encountered in exp
+  val = (2/(np.exp(-2*z)+1)) -1
+/tmp/ipykernel_27586/3180526438.py:102: RuntimeWarning: overflow encountered in exp
+  val = (2/(np.exp(-2*z)+1)) -1
+/tmp/ipykernel_27586/3180526438.py:102: RuntimeWarning: overflow encountered in exp
+  val = (2/(np.exp(-2*z)+1)) -1

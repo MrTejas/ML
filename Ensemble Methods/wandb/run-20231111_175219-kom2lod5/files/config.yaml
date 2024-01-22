@@ -1,0 +1,45 @@
+wandb_version: 1
+
+base_estimator:
+  desc: null
+  value: MLP_Classifier
+num_estimators:
+  desc: null
+  value: 1
+fraction:
+  desc: null
+  value: 0.75
+Bootstrap:
+  desc: null
+  value: false
+Voting Mech:
+  desc: null
+  value: hard
+_wandb:
+  desc: null
+  value:
+    python_version: 3.8.10
+    cli_version: 0.16.0
+    framework: sklearn
+    is_jupyter_run: true
+    is_kaggle_kernel: false
+    start_time: 1699705344.400654
+    t:
+      1:
+      - 5
+      - 53
+      - 55
+      2:
+      - 5
+      - 53
+      - 55
+      3:
+      - 2
+      - 16
+      - 23
+      4: 3.8.10
+      5: 0.16.0
+      8:
+      - 1
+      - 5
+      13: linux-x86_64

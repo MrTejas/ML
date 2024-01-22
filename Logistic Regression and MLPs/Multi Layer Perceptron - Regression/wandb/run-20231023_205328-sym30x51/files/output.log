@@ -1,0 +1,7 @@
+Initialized values successfully!
+Loaded Dataframe!
+Splitted data into train, test and val sets!
+/tmp/ipykernel_35761/2829981479.py:150: RuntimeWarning: overflow encountered in square
+  return np.sum((y_hat-y)**2)
+/home/tejas/anaconda3/lib/python3.9/site-packages/sklearn/metrics/_regression.py:442: RuntimeWarning: overflow encountered in square
+  output_errors = np.average((y_true - y_pred) ** 2, axis=0, weights=sample_weight)

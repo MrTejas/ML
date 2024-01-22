@@ -1,0 +1,377 @@
+2023-11-13 00:31:37,328 INFO    StreamThr :7176 [internal.py:wandb_internal():86] W&B internal server running at pid: 7176, started at: 2023-11-13 00:31:37.328124
+2023-11-13 00:31:37,329 DEBUG   HandlerThread:7176 [handler.py:handle_request():146] handle_request: status
+2023-11-13 00:31:37,330 INFO    WriterThread:7176 [datastore.py:open_for_write():85] open: /home/tejas/Documents/SMAI/assignment-4-MrTejas/q3/wandb/run-20231113_003132-b1un5574/run-b1un5574.wandb
+2023-11-13 00:31:37,331 DEBUG   SenderThread:7176 [sender.py:send():380] send: header
+2023-11-13 00:31:37,331 DEBUG   SenderThread:7176 [sender.py:send():380] send: run
+2023-11-13 00:31:38,065 INFO    SenderThread:7176 [dir_watcher.py:__init__():211] watching files in: /home/tejas/Documents/SMAI/assignment-4-MrTejas/q3/wandb/run-20231113_003132-b1un5574/files
+2023-11-13 00:31:38,065 INFO    SenderThread:7176 [sender.py:_start_run_threads():1124] run started: b1un5574 with start time 1699815696.468555
+2023-11-13 00:31:38,072 DEBUG   HandlerThread:7176 [handler.py:handle_request():146] handle_request: check_version
+2023-11-13 00:31:38,072 DEBUG   SenderThread:7176 [sender.py:send_request():407] send_request: check_version
+2023-11-13 00:31:38,179 DEBUG   HandlerThread:7176 [handler.py:handle_request():146] handle_request: run_start
+2023-11-13 00:31:38,181 DEBUG   HandlerThread:7176 [system_info.py:__init__():32] System info init
+2023-11-13 00:31:38,181 DEBUG   HandlerThread:7176 [system_info.py:__init__():47] System info init done
+2023-11-13 00:31:38,181 INFO    HandlerThread:7176 [system_monitor.py:start():194] Starting system monitor
+2023-11-13 00:31:38,181 INFO    SystemMonitor:7176 [system_monitor.py:_start():158] Starting system asset monitoring threads
+2023-11-13 00:31:38,181 INFO    HandlerThread:7176 [system_monitor.py:probe():214] Collecting system info
+2023-11-13 00:31:38,182 INFO    SystemMonitor:7176 [interfaces.py:start():190] Started cpu monitoring
+2023-11-13 00:31:38,182 INFO    SystemMonitor:7176 [interfaces.py:start():190] Started disk monitoring
+2023-11-13 00:31:38,182 INFO    SystemMonitor:7176 [interfaces.py:start():190] Started memory monitoring
+2023-11-13 00:31:38,183 ERROR   disk      :7176 [interfaces.py:monitor():144] Failed to sample metric: not sure how to interpret line '   7       0 loop0 14 0 34 0 0 0 0 0 0 12 0 0 0 0 0 0 0\n'
+2023-11-13 00:31:38,183 INFO    SystemMonitor:7176 [interfaces.py:start():190] Started network monitoring
+2023-11-13 00:31:38,184 ERROR   disk      :7176 [interfaces.py:monitor():144] Failed to sample metric: not sure how to interpret line '   7       0 loop0 14 0 34 0 0 0 0 0 0 12 0 0 0 0 0 0 0\n'
+2023-11-13 00:31:38,248 DEBUG   HandlerThread:7176 [system_info.py:probe():196] Probing system
+2023-11-13 00:31:38,250 DEBUG   HandlerThread:7176 [system_info.py:_probe_git():181] Probing git
+2023-11-13 00:31:38,276 DEBUG   HandlerThread:7176 [system_info.py:_probe_git():189] Probing git done
+2023-11-13 00:31:38,276 DEBUG   HandlerThread:7176 [system_info.py:probe():244] Probing system done
+2023-11-13 00:31:38,276 DEBUG   HandlerThread:7176 [system_monitor.py:probe():223] {'os': 'Linux-5.15.0-88-generic-x86_64-with-glibc2.29', 'python': '3.8.10', 'heartbeatAt': '2023-11-12T19:01:38.249069', 'startedAt': '2023-11-12T19:01:32.161626', 'docker': None, 'cuda': None, 'args': (), 'state': 'running', 'program': '<python with no main file>', 'codePathLocal': None, 'git': {'remote': 'https://github.com/Statistical-Methods-in-AI-Monsoon-2023/assignment-4-MrTejas.git', 'commit': '2c8971a3ae6393f21c25356cfaf3fe6d44ff21ea'}, 'email': 'tejas591995@gmail.com', 'root': '/home/tejas/Documents/SMAI/assignment-4-MrTejas', 'host': 'nimbostratus', 'username': 'tejas', 'executable': '/bin/python3', 'cpu_count': 4, 'cpu_count_logical': 8, 'cpu_freq': {'current': 3164.350375, 'min': 400.0, 'max': 4800.0}, 'cpu_freq_per_core': [{'current': 1220.05, 'min': 400.0, 'max': 4800.0}, {'current': 1404.068, 'min': 400.0, 'max': 4800.0}, {'current': 1604.145, 'min': 400.0, 'max': 4800.0}, {'current': 1132.749, 'min': 400.0, 'max': 4800.0}, {'current': 1038.495, 'min': 400.0, 'max': 4800.0}, {'current': 1167.522, 'min': 400.0, 'max': 4800.0}, {'current': 1118.799, 'min': 400.0, 'max': 4800.0}, {'current': 1075.044, 'min': 400.0, 'max': 4800.0}], 'disk': {'/': {'total': 72.78396224975586, 'used': 28.314987182617188}}, 'memory': {'total': 15.366096496582031}}
+2023-11-13 00:31:38,276 INFO    HandlerThread:7176 [system_monitor.py:probe():224] Finished collecting system info
+2023-11-13 00:31:38,276 INFO    HandlerThread:7176 [system_monitor.py:probe():227] Publishing system info
+2023-11-13 00:31:38,276 DEBUG   HandlerThread:7176 [system_info.py:_save_pip():52] Saving list of pip packages installed into the current environment
+2023-11-13 00:31:38,277 DEBUG   HandlerThread:7176 [system_info.py:_save_pip():68] Saving pip packages done
+2023-11-13 00:31:38,277 INFO    HandlerThread:7176 [system_monitor.py:probe():229] Finished publishing system info
+2023-11-13 00:31:38,278 DEBUG   SenderThread:7176 [sender.py:send():380] send: files
+2023-11-13 00:31:38,278 INFO    SenderThread:7176 [sender.py:_save_file():1380] saving file wandb-metadata.json with policy now
+2023-11-13 00:31:38,285 DEBUG   HandlerThread:7176 [handler.py:handle_request():146] handle_request: stop_status
+2023-11-13 00:31:38,285 DEBUG   SenderThread:7176 [sender.py:send_request():407] send_request: stop_status
+2023-11-13 00:31:38,287 DEBUG   HandlerThread:7176 [handler.py:handle_request():146] handle_request: internal_messages
+2023-11-13 00:31:38,306 DEBUG   HandlerThread:7176 [handler.py:handle_request():146] handle_request: partial_history
+2023-11-13 00:31:38,685 DEBUG   SenderThread:7176 [sender.py:send():380] send: telemetry
+2023-11-13 00:31:38,685 DEBUG   SenderThread:7176 [sender.py:send():380] send: history
+2023-11-13 00:31:38,686 DEBUG   SenderThread:7176 [sender.py:send_request():407] send_request: summary_record
+2023-11-13 00:31:38,686 INFO    SenderThread:7176 [sender.py:_save_file():1380] saving file wandb-summary.json with policy end
+2023-11-13 00:31:39,068 INFO    Thread-3049:7176 [dir_watcher.py:_on_file_created():271] file/dir created: /home/tejas/Documents/SMAI/assignment-4-MrTejas/q3/wandb/run-20231113_003132-b1un5574/files/requirements.txt
+2023-11-13 00:31:39,069 INFO    Thread-3049:7176 [dir_watcher.py:_on_file_created():271] file/dir created: /home/tejas/Documents/SMAI/assignment-4-MrTejas/q3/wandb/run-20231113_003132-b1un5574/files/wandb-summary.json
+2023-11-13 00:31:39,069 INFO    Thread-3049:7176 [dir_watcher.py:_on_file_created():271] file/dir created: /home/tejas/Documents/SMAI/assignment-4-MrTejas/q3/wandb/run-20231113_003132-b1un5574/files/wandb-metadata.json
+2023-11-13 00:31:39,253 INFO    wandb-upload_0:7176 [upload_job.py:push():131] Uploaded file /tmp/tmplalaoohvwandb/p96d9i7m-wandb-metadata.json
+2023-11-13 00:31:40,188 ERROR   disk      :7176 [interfaces.py:monitor():144] Failed to sample metric: not sure how to interpret line '   7       0 loop0 14 0 34 0 0 0 0 0 0 12 0 0 0 0 0 0 0\n'
+2023-11-13 00:31:40,188 ERROR   disk      :7176 [interfaces.py:monitor():144] Failed to sample metric: not sure how to interpret line '   7       0 loop0 14 0 34 0 0 0 0 0 0 12 0 0 0 0 0 0 0\n'
+2023-11-13 00:31:42,189 ERROR   disk      :7176 [interfaces.py:monitor():144] Failed to sample metric: not sure how to interpret line '   7       0 loop0 14 0 34 0 0 0 0 0 0 12 0 0 0 0 0 0 0\n'
+2023-11-13 00:31:42,189 ERROR   disk      :7176 [interfaces.py:monitor():144] Failed to sample metric: not sure how to interpret line '   7       0 loop0 14 0 34 0 0 0 0 0 0 12 0 0 0 0 0 0 0\n'
+2023-11-13 00:31:42,687 DEBUG   HandlerThread:7176 [handler.py:handle_request():146] handle_request: status_report
+2023-11-13 00:31:44,189 ERROR   disk      :7176 [interfaces.py:monitor():144] Failed to sample metric: not sure how to interpret line '   7       0 loop0 14 0 34 0 0 0 0 0 0 12 0 0 0 0 0 0 0\n'
+2023-11-13 00:31:44,190 ERROR   disk      :7176 [interfaces.py:monitor():144] Failed to sample metric: not sure how to interpret line '   7       0 loop0 14 0 34 0 0 0 0 0 0 12 0 0 0 0 0 0 0\n'
+2023-11-13 00:31:46,190 ERROR   disk      :7176 [interfaces.py:monitor():144] Failed to sample metric: not sure how to interpret line '   7       0 loop0 14 0 34 0 0 0 0 0 0 12 0 0 0 0 0 0 0\n'
+2023-11-13 00:31:46,191 ERROR   disk      :7176 [interfaces.py:monitor():144] Failed to sample metric: not sure how to interpret line '   7       0 loop0 14 0 34 0 0 0 0 0 0 12 0 0 0 0 0 0 0\n'
+2023-11-13 00:31:47,688 DEBUG   HandlerThread:7176 [handler.py:handle_request():146] handle_request: status_report
+2023-11-13 00:31:48,193 ERROR   disk      :7176 [interfaces.py:monitor():144] Failed to sample metric: not sure how to interpret line '   7       0 loop0 14 0 34 0 0 0 0 0 0 12 0 0 0 0 0 0 0\n'
+2023-11-13 00:31:48,194 ERROR   disk      :7176 [interfaces.py:monitor():144] Failed to sample metric: not sure how to interpret line '   7       0 loop0 14 0 34 0 0 0 0 0 0 12 0 0 0 0 0 0 0\n'
+2023-11-13 00:31:50,194 ERROR   disk      :7176 [interfaces.py:monitor():144] Failed to sample metric: not sure how to interpret line '   7       0 loop0 14 0 34 0 0 0 0 0 0 12 0 0 0 0 0 0 0\n'
+2023-11-13 00:31:50,195 ERROR   disk      :7176 [interfaces.py:monitor():144] Failed to sample metric: not sure how to interpret line '   7       0 loop0 14 0 34 0 0 0 0 0 0 12 0 0 0 0 0 0 0\n'
+2023-11-13 00:31:52,195 ERROR   disk      :7176 [interfaces.py:monitor():144] Failed to sample metric: not sure how to interpret line '   7       0 loop0 14 0 34 0 0 0 0 0 0 12 0 0 0 0 0 0 0\n'
+2023-11-13 00:31:52,196 ERROR   disk      :7176 [interfaces.py:monitor():144] Failed to sample metric: not sure how to interpret line '   7       0 loop0 14 0 34 0 0 0 0 0 0 12 0 0 0 0 0 0 0\n'
+2023-11-13 00:31:52,689 DEBUG   HandlerThread:7176 [handler.py:handle_request():146] handle_request: status_report
+2023-11-13 00:31:53,286 DEBUG   HandlerThread:7176 [handler.py:handle_request():146] handle_request: stop_status
+2023-11-13 00:31:53,286 DEBUG   HandlerThread:7176 [handler.py:handle_request():146] handle_request: internal_messages
+2023-11-13 00:31:53,287 DEBUG   SenderThread:7176 [sender.py:send_request():407] send_request: stop_status
+2023-11-13 00:31:54,197 ERROR   disk      :7176 [interfaces.py:monitor():144] Failed to sample metric: not sure how to interpret line '   7       0 loop0 14 0 34 0 0 0 0 0 0 12 0 0 0 0 0 0 0\n'
+2023-11-13 00:31:54,197 ERROR   disk      :7176 [interfaces.py:monitor():144] Failed to sample metric: not sure how to interpret line '   7       0 loop0 14 0 34 0 0 0 0 0 0 12 0 0 0 0 0 0 0\n'
+2023-11-13 00:31:56,198 ERROR   disk      :7176 [interfaces.py:monitor():144] Failed to sample metric: not sure how to interpret line '   7       0 loop0 14 0 34 0 0 0 0 0 0 12 0 0 0 0 0 0 0\n'
+2023-11-13 00:31:56,198 ERROR   disk      :7176 [interfaces.py:monitor():144] Failed to sample metric: not sure how to interpret line '   7       0 loop0 14 0 34 0 0 0 0 0 0 12 0 0 0 0 0 0 0\n'
+2023-11-13 00:31:58,199 ERROR   disk      :7176 [interfaces.py:monitor():144] Failed to sample metric: not sure how to interpret line '   7       0 loop0 14 0 34 0 0 0 0 0 0 12 0 0 0 0 0 0 0\n'
+2023-11-13 00:31:58,200 ERROR   disk      :7176 [interfaces.py:monitor():144] Failed to sample metric: not sure how to interpret line '   7       0 loop0 14 0 34 0 0 0 0 0 0 12 0 0 0 0 0 0 0\n'
+2023-11-13 00:31:58,600 DEBUG   HandlerThread:7176 [handler.py:handle_request():146] handle_request: status_report
+2023-11-13 00:32:00,200 ERROR   disk      :7176 [interfaces.py:monitor():144] Failed to sample metric: not sure how to interpret line '   7       0 loop0 14 0 34 0 0 0 0 0 0 12 0 0 0 0 0 0 0\n'
+2023-11-13 00:32:00,200 ERROR   disk      :7176 [interfaces.py:monitor():144] Failed to sample metric: not sure how to interpret line '   7       0 loop0 14 0 34 0 0 0 0 0 0 12 0 0 0 0 0 0 0\n'
+2023-11-13 00:32:02,201 ERROR   disk      :7176 [interfaces.py:monitor():144] Failed to sample metric: not sure how to interpret line '   7       0 loop0 14 0 34 0 0 0 0 0 0 12 0 0 0 0 0 0 0\n'
+2023-11-13 00:32:02,202 ERROR   disk      :7176 [interfaces.py:monitor():144] Failed to sample metric: not sure how to interpret line '   7       0 loop0 14 0 34 0 0 0 0 0 0 12 0 0 0 0 0 0 0\n'
+2023-11-13 00:32:03,601 DEBUG   HandlerThread:7176 [handler.py:handle_request():146] handle_request: status_report
+2023-11-13 00:32:04,203 ERROR   disk      :7176 [interfaces.py:monitor():144] Failed to sample metric: not sure how to interpret line '   7       0 loop0 14 0 34 0 0 0 0 0 0 12 0 0 0 0 0 0 0\n'
+2023-11-13 00:32:04,203 ERROR   disk      :7176 [interfaces.py:monitor():144] Failed to sample metric: not sure how to interpret line '   7       0 loop0 14 0 34 0 0 0 0 0 0 12 0 0 0 0 0 0 0\n'
+2023-11-13 00:32:06,204 ERROR   disk      :7176 [interfaces.py:monitor():144] Failed to sample metric: not sure how to interpret line '   7       0 loop0 14 0 34 0 0 0 0 0 0 12 0 0 0 0 0 0 0\n'
+2023-11-13 00:32:06,205 ERROR   disk      :7176 [interfaces.py:monitor():144] Failed to sample metric: not sure how to interpret line '   7       0 loop0 14 0 34 0 0 0 0 0 0 12 0 0 0 0 0 0 0\n'
+2023-11-13 00:32:08,206 ERROR   disk      :7176 [interfaces.py:monitor():144] Failed to sample metric: not sure how to interpret line '   7       0 loop0 14 0 34 0 0 0 0 0 0 12 0 0 0 0 0 0 0\n'
+2023-11-13 00:32:08,206 ERROR   disk      :7176 [interfaces.py:monitor():144] Failed to sample metric: not sure how to interpret line '   7       0 loop0 14 0 34 0 0 0 0 0 0 12 0 0 0 0 0 0 0\n'
+2023-11-13 00:32:08,285 DEBUG   HandlerThread:7176 [handler.py:handle_request():146] handle_request: stop_status
+2023-11-13 00:32:08,286 DEBUG   SenderThread:7176 [sender.py:send_request():407] send_request: stop_status
+2023-11-13 00:32:08,326 DEBUG   HandlerThread:7176 [handler.py:handle_request():146] handle_request: internal_messages
+2023-11-13 00:32:08,645 DEBUG   HandlerThread:7176 [handler.py:handle_request():146] handle_request: status_report
+2023-11-13 00:32:09,080 INFO    Thread-3049:7176 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/tejas/Documents/SMAI/assignment-4-MrTejas/q3/wandb/run-20231113_003132-b1un5574/files/config.yaml
+2023-11-13 00:32:10,207 ERROR   disk      :7176 [interfaces.py:monitor():144] Failed to sample metric: not sure how to interpret line '   7       0 loop0 14 0 34 0 0 0 0 0 0 12 0 0 0 0 0 0 0\n'
+2023-11-13 00:32:10,208 ERROR   disk      :7176 [interfaces.py:monitor():144] Failed to sample metric: not sure how to interpret line '   7       0 loop0 14 0 34 0 0 0 0 0 0 12 0 0 0 0 0 0 0\n'
+2023-11-13 00:32:12,209 ERROR   disk      :7176 [interfaces.py:monitor():144] Failed to sample metric: not sure how to interpret line '   7       0 loop0 14 0 34 0 0 0 0 0 0 12 0 0 0 0 0 0 0\n'
+2023-11-13 00:32:12,209 ERROR   disk      :7176 [interfaces.py:monitor():144] Failed to sample metric: not sure how to interpret line '   7       0 loop0 14 0 34 0 0 0 0 0 0 12 0 0 0 0 0 0 0\n'
+2023-11-13 00:32:13,994 DEBUG   HandlerThread:7176 [handler.py:handle_request():146] handle_request: status_report
+2023-11-13 00:32:14,210 ERROR   disk      :7176 [interfaces.py:monitor():144] Failed to sample metric: not sure how to interpret line '   7       0 loop0 14 0 34 0 0 0 0 0 0 12 0 0 0 0 0 0 0\n'
+2023-11-13 00:32:14,210 ERROR   disk      :7176 [interfaces.py:monitor():144] Failed to sample metric: not sure how to interpret line '   7       0 loop0 14 0 34 0 0 0 0 0 0 12 0 0 0 0 0 0 0\n'
+2023-11-13 00:32:16,210 ERROR   disk      :7176 [interfaces.py:monitor():144] Failed to sample metric: not sure how to interpret line '   7       0 loop0 14 0 34 0 0 0 0 0 0 12 0 0 0 0 0 0 0\n'
+2023-11-13 00:32:16,210 ERROR   disk      :7176 [interfaces.py:monitor():144] Failed to sample metric: not sure how to interpret line '   7       0 loop0 14 0 34 0 0 0 0 0 0 12 0 0 0 0 0 0 0\n'
+2023-11-13 00:32:18,211 ERROR   disk      :7176 [interfaces.py:monitor():144] Failed to sample metric: not sure how to interpret line '   7       0 loop0 14 0 34 0 0 0 0 0 0 12 0 0 0 0 0 0 0\n'
+2023-11-13 00:32:18,211 ERROR   disk      :7176 [interfaces.py:monitor():144] Failed to sample metric: not sure how to interpret line '   7       0 loop0 14 0 34 0 0 0 0 0 0 12 0 0 0 0 0 0 0\n'
+2023-11-13 00:32:18,996 DEBUG   HandlerThread:7176 [handler.py:handle_request():146] handle_request: status_report
+2023-11-13 00:32:20,212 ERROR   disk      :7176 [interfaces.py:monitor():144] Failed to sample metric: not sure how to interpret line '   7       0 loop0 14 0 34 0 0 0 0 0 0 12 0 0 0 0 0 0 0\n'
+2023-11-13 00:32:20,212 ERROR   disk      :7176 [interfaces.py:monitor():144] Failed to sample metric: not sure how to interpret line '   7       0 loop0 14 0 34 0 0 0 0 0 0 12 0 0 0 0 0 0 0\n'
+2023-11-13 00:32:22,213 ERROR   disk      :7176 [interfaces.py:monitor():144] Failed to sample metric: not sure how to interpret line '   7       0 loop0 14 0 34 0 0 0 0 0 0 12 0 0 0 0 0 0 0\n'
+2023-11-13 00:32:22,213 ERROR   disk      :7176 [interfaces.py:monitor():144] Failed to sample metric: not sure how to interpret line '   7       0 loop0 14 0 34 0 0 0 0 0 0 12 0 0 0 0 0 0 0\n'
+2023-11-13 00:32:23,286 DEBUG   HandlerThread:7176 [handler.py:handle_request():146] handle_request: stop_status
+2023-11-13 00:32:23,286 DEBUG   SenderThread:7176 [sender.py:send_request():407] send_request: stop_status
+2023-11-13 00:32:23,326 DEBUG   HandlerThread:7176 [handler.py:handle_request():146] handle_request: internal_messages
+2023-11-13 00:32:24,214 ERROR   disk      :7176 [interfaces.py:monitor():144] Failed to sample metric: not sure how to interpret line '   7       0 loop0 14 0 34 0 0 0 0 0 0 12 0 0 0 0 0 0 0\n'
+2023-11-13 00:32:24,214 ERROR   disk      :7176 [interfaces.py:monitor():144] Failed to sample metric: not sure how to interpret line '   7       0 loop0 14 0 34 0 0 0 0 0 0 12 0 0 0 0 0 0 0\n'
+2023-11-13 00:32:24,674 DEBUG   HandlerThread:7176 [handler.py:handle_request():146] handle_request: status_report
+2023-11-13 00:32:26,215 ERROR   disk      :7176 [interfaces.py:monitor():144] Failed to sample metric: not sure how to interpret line '   7       0 loop0 14 0 34 0 0 0 0 0 0 12 0 0 0 0 0 0 0\n'
+2023-11-13 00:32:26,215 ERROR   disk      :7176 [interfaces.py:monitor():144] Failed to sample metric: not sure how to interpret line '   7       0 loop0 14 0 34 0 0 0 0 0 0 12 0 0 0 0 0 0 0\n'
+2023-11-13 00:32:28,216 ERROR   disk      :7176 [interfaces.py:monitor():144] Failed to sample metric: not sure how to interpret line '   7       0 loop0 14 0 34 0 0 0 0 0 0 12 0 0 0 0 0 0 0\n'
+2023-11-13 00:32:28,216 ERROR   disk      :7176 [interfaces.py:monitor():144] Failed to sample metric: not sure how to interpret line '   7       0 loop0 14 0 34 0 0 0 0 0 0 12 0 0 0 0 0 0 0\n'
+2023-11-13 00:32:29,675 DEBUG   HandlerThread:7176 [handler.py:handle_request():146] handle_request: status_report
+2023-11-13 00:32:30,217 ERROR   disk      :7176 [interfaces.py:monitor():144] Failed to sample metric: not sure how to interpret line '   7       0 loop0 14 0 34 0 0 0 0 0 0 12 0 0 0 0 0 0 0\n'
+2023-11-13 00:32:30,217 ERROR   disk      :7176 [interfaces.py:monitor():144] Failed to sample metric: not sure how to interpret line '   7       0 loop0 14 0 34 0 0 0 0 0 0 12 0 0 0 0 0 0 0\n'
+2023-11-13 00:32:32,218 ERROR   disk      :7176 [interfaces.py:monitor():144] Failed to sample metric: not sure how to interpret line '   7       0 loop0 14 0 34 0 0 0 0 0 0 12 0 0 0 0 0 0 0\n'
+2023-11-13 00:32:32,219 ERROR   disk      :7176 [interfaces.py:monitor():144] Failed to sample metric: not sure how to interpret line '   7       0 loop0 14 0 34 0 0 0 0 0 0 12 0 0 0 0 0 0 0\n'
+2023-11-13 00:32:34,220 ERROR   disk      :7176 [interfaces.py:monitor():144] Failed to sample metric: not sure how to interpret line '   7       0 loop0 14 0 34 0 0 0 0 0 0 12 0 0 0 0 0 0 0\n'
+2023-11-13 00:32:34,220 ERROR   disk      :7176 [interfaces.py:monitor():144] Failed to sample metric: not sure how to interpret line '   7       0 loop0 14 0 34 0 0 0 0 0 0 12 0 0 0 0 0 0 0\n'
+2023-11-13 00:32:34,675 DEBUG   HandlerThread:7176 [handler.py:handle_request():146] handle_request: status_report
+2023-11-13 00:32:36,221 ERROR   disk      :7176 [interfaces.py:monitor():144] Failed to sample metric: not sure how to interpret line '   7       0 loop0 14 0 34 0 0 0 0 0 0 12 0 0 0 0 0 0 0\n'
+2023-11-13 00:32:36,222 ERROR   disk      :7176 [interfaces.py:monitor():144] Failed to sample metric: not sure how to interpret line '   7       0 loop0 14 0 34 0 0 0 0 0 0 12 0 0 0 0 0 0 0\n'
+2023-11-13 00:32:38,184 DEBUG   SystemMonitor:7176 [system_monitor.py:_start():172] Starting system metrics aggregation loop
+2023-11-13 00:32:38,184 DEBUG   SenderThread:7176 [sender.py:send():380] send: stats
+2023-11-13 00:32:38,222 ERROR   disk      :7176 [interfaces.py:monitor():144] Failed to sample metric: not sure how to interpret line '   7       0 loop0 14 0 34 0 0 0 0 0 0 12 0 0 0 0 0 0 0\n'
+2023-11-13 00:32:38,223 ERROR   disk      :7176 [interfaces.py:monitor():144] Failed to sample metric: not sure how to interpret line '   7       0 loop0 14 0 34 0 0 0 0 0 0 12 0 0 0 0 0 0 0\n'
+2023-11-13 00:32:38,286 DEBUG   HandlerThread:7176 [handler.py:handle_request():146] handle_request: stop_status
+2023-11-13 00:32:38,287 DEBUG   SenderThread:7176 [sender.py:send_request():407] send_request: stop_status
+2023-11-13 00:32:38,330 DEBUG   HandlerThread:7176 [handler.py:handle_request():146] handle_request: internal_messages
+2023-11-13 00:32:40,223 ERROR   disk      :7176 [interfaces.py:monitor():144] Failed to sample metric: not sure how to interpret line '   7       0 loop0 14 0 34 0 0 0 0 0 0 12 0 0 0 0 0 0 0\n'
+2023-11-13 00:32:40,223 ERROR   disk      :7176 [interfaces.py:monitor():144] Failed to sample metric: not sure how to interpret line '   7       0 loop0 14 0 34 0 0 0 0 0 0 12 0 0 0 0 0 0 0\n'
+2023-11-13 00:32:40,638 DEBUG   HandlerThread:7176 [handler.py:handle_request():146] handle_request: status_report
+2023-11-13 00:32:42,224 ERROR   disk      :7176 [interfaces.py:monitor():144] Failed to sample metric: not sure how to interpret line '   7       0 loop0 14 0 34 0 0 0 0 0 0 12 0 0 0 0 0 0 0\n'
+2023-11-13 00:32:42,224 ERROR   disk      :7176 [interfaces.py:monitor():144] Failed to sample metric: not sure how to interpret line '   7       0 loop0 14 0 34 0 0 0 0 0 0 12 0 0 0 0 0 0 0\n'
+2023-11-13 00:32:44,225 ERROR   disk      :7176 [interfaces.py:monitor():144] Failed to sample metric: not sure how to interpret line '   7       0 loop0 14 0 34 0 0 0 0 0 0 12 0 0 0 0 0 0 0\n'
+2023-11-13 00:32:44,225 ERROR   disk      :7176 [interfaces.py:monitor():144] Failed to sample metric: not sure how to interpret line '   7       0 loop0 14 0 34 0 0 0 0 0 0 12 0 0 0 0 0 0 0\n'
+2023-11-13 00:32:45,639 DEBUG   HandlerThread:7176 [handler.py:handle_request():146] handle_request: status_report
+2023-11-13 00:32:46,227 ERROR   disk      :7176 [interfaces.py:monitor():144] Failed to sample metric: not sure how to interpret line '   7       0 loop0 14 0 34 0 0 0 0 0 0 12 0 0 0 0 0 0 0\n'
+2023-11-13 00:32:46,228 ERROR   disk      :7176 [interfaces.py:monitor():144] Failed to sample metric: not sure how to interpret line '   7       0 loop0 14 0 34 0 0 0 0 0 0 12 0 0 0 0 0 0 0\n'
+2023-11-13 00:32:48,229 ERROR   disk      :7176 [interfaces.py:monitor():144] Failed to sample metric: not sure how to interpret line '   7       0 loop0 14 0 34 0 0 0 0 0 0 12 0 0 0 0 0 0 0\n'
+2023-11-13 00:32:48,230 ERROR   disk      :7176 [interfaces.py:monitor():144] Failed to sample metric: not sure how to interpret line '   7       0 loop0 14 0 34 0 0 0 0 0 0 12 0 0 0 0 0 0 0\n'
+2023-11-13 00:32:50,230 ERROR   disk      :7176 [interfaces.py:monitor():144] Failed to sample metric: not sure how to interpret line '   7       0 loop0 14 0 34 0 0 0 0 0 0 12 0 0 0 0 0 0 0\n'
+2023-11-13 00:32:50,231 ERROR   disk      :7176 [interfaces.py:monitor():144] Failed to sample metric: not sure how to interpret line '   7       0 loop0 14 0 34 0 0 0 0 0 0 12 0 0 0 0 0 0 0\n'
+2023-11-13 00:32:50,640 DEBUG   HandlerThread:7176 [handler.py:handle_request():146] handle_request: status_report
+2023-11-13 00:32:52,232 ERROR   disk      :7176 [interfaces.py:monitor():144] Failed to sample metric: not sure how to interpret line '   7       0 loop0 14 0 34 0 0 0 0 0 0 12 0 0 0 0 0 0 0\n'
+2023-11-13 00:32:52,232 ERROR   disk      :7176 [interfaces.py:monitor():144] Failed to sample metric: not sure how to interpret line '   7       0 loop0 14 0 34 0 0 0 0 0 0 12 0 0 0 0 0 0 0\n'
+2023-11-13 00:32:53,286 DEBUG   HandlerThread:7176 [handler.py:handle_request():146] handle_request: stop_status
+2023-11-13 00:32:53,287 DEBUG   SenderThread:7176 [sender.py:send_request():407] send_request: stop_status
+2023-11-13 00:32:53,330 DEBUG   HandlerThread:7176 [handler.py:handle_request():146] handle_request: internal_messages
+2023-11-13 00:32:54,233 ERROR   disk      :7176 [interfaces.py:monitor():144] Failed to sample metric: not sure how to interpret line '   7       0 loop0 14 0 34 0 0 0 0 0 0 12 0 0 0 0 0 0 0\n'
+2023-11-13 00:32:54,234 ERROR   disk      :7176 [interfaces.py:monitor():144] Failed to sample metric: not sure how to interpret line '   7       0 loop0 14 0 34 0 0 0 0 0 0 12 0 0 0 0 0 0 0\n'
+2023-11-13 00:32:55,674 DEBUG   HandlerThread:7176 [handler.py:handle_request():146] handle_request: status_report
+2023-11-13 00:32:56,235 ERROR   disk      :7176 [interfaces.py:monitor():144] Failed to sample metric: not sure how to interpret line '   7       0 loop0 14 0 34 0 0 0 0 0 0 12 0 0 0 0 0 0 0\n'
+2023-11-13 00:32:56,235 ERROR   disk      :7176 [interfaces.py:monitor():144] Failed to sample metric: not sure how to interpret line '   7       0 loop0 14 0 34 0 0 0 0 0 0 12 0 0 0 0 0 0 0\n'
+2023-11-13 00:32:58,236 ERROR   disk      :7176 [interfaces.py:monitor():144] Failed to sample metric: not sure how to interpret line '   7       0 loop0 14 0 34 0 0 0 0 0 0 12 0 0 0 0 0 0 0\n'
+2023-11-13 00:32:58,237 ERROR   disk      :7176 [interfaces.py:monitor():144] Failed to sample metric: not sure how to interpret line '   7       0 loop0 14 0 34 0 0 0 0 0 0 12 0 0 0 0 0 0 0\n'
+2023-11-13 00:33:00,237 ERROR   disk      :7176 [interfaces.py:monitor():144] Failed to sample metric: not sure how to interpret line '   7       0 loop0 14 0 34 0 0 0 0 0 0 12 0 0 0 0 0 0 0\n'
+2023-11-13 00:33:00,238 ERROR   disk      :7176 [interfaces.py:monitor():144] Failed to sample metric: not sure how to interpret line '   7       0 loop0 14 0 34 0 0 0 0 0 0 12 0 0 0 0 0 0 0\n'
+2023-11-13 00:33:00,675 DEBUG   HandlerThread:7176 [handler.py:handle_request():146] handle_request: status_report
+2023-11-13 00:33:02,239 ERROR   disk      :7176 [interfaces.py:monitor():144] Failed to sample metric: not sure how to interpret line '   7       0 loop0 14 0 34 0 0 0 0 0 0 12 0 0 0 0 0 0 0\n'
+2023-11-13 00:33:02,239 ERROR   disk      :7176 [interfaces.py:monitor():144] Failed to sample metric: not sure how to interpret line '   7       0 loop0 14 0 34 0 0 0 0 0 0 12 0 0 0 0 0 0 0\n'
+2023-11-13 00:33:04,240 ERROR   disk      :7176 [interfaces.py:monitor():144] Failed to sample metric: not sure how to interpret line '   7       0 loop0 14 0 34 0 0 0 0 0 0 12 0 0 0 0 0 0 0\n'
+2023-11-13 00:33:04,241 ERROR   disk      :7176 [interfaces.py:monitor():144] Failed to sample metric: not sure how to interpret line '   7       0 loop0 14 0 34 0 0 0 0 0 0 12 0 0 0 0 0 0 0\n'
+2023-11-13 00:33:05,676 DEBUG   HandlerThread:7176 [handler.py:handle_request():146] handle_request: status_report
+2023-11-13 00:33:06,242 ERROR   disk      :7176 [interfaces.py:monitor():144] Failed to sample metric: not sure how to interpret line '   7       0 loop0 14 0 34 0 0 0 0 0 0 12 0 0 0 0 0 0 0\n'
+2023-11-13 00:33:06,242 ERROR   disk      :7176 [interfaces.py:monitor():144] Failed to sample metric: not sure how to interpret line '   7       0 loop0 14 0 34 0 0 0 0 0 0 12 0 0 0 0 0 0 0\n'
+2023-11-13 00:33:08,186 DEBUG   SenderThread:7176 [sender.py:send():380] send: stats
+2023-11-13 00:33:08,243 ERROR   disk      :7176 [interfaces.py:monitor():144] Failed to sample metric: not sure how to interpret line '   7       0 loop0 14 0 34 0 0 0 0 0 0 12 0 0 0 0 0 0 0\n'
+2023-11-13 00:33:08,244 ERROR   disk      :7176 [interfaces.py:monitor():144] Failed to sample metric: not sure how to interpret line '   7       0 loop0 14 0 34 0 0 0 0 0 0 12 0 0 0 0 0 0 0\n'
+2023-11-13 00:33:08,287 DEBUG   HandlerThread:7176 [handler.py:handle_request():146] handle_request: stop_status
+2023-11-13 00:33:08,287 DEBUG   SenderThread:7176 [sender.py:send_request():407] send_request: stop_status
+2023-11-13 00:33:08,330 DEBUG   HandlerThread:7176 [handler.py:handle_request():146] handle_request: internal_messages
+2023-11-13 00:33:10,245 ERROR   disk      :7176 [interfaces.py:monitor():144] Failed to sample metric: not sure how to interpret line '   7       0 loop0 14 0 34 0 0 0 0 0 0 12 0 0 0 0 0 0 0\n'
+2023-11-13 00:33:10,246 ERROR   disk      :7176 [interfaces.py:monitor():144] Failed to sample metric: not sure how to interpret line '   7       0 loop0 14 0 34 0 0 0 0 0 0 12 0 0 0 0 0 0 0\n'
+2023-11-13 00:33:11,570 DEBUG   HandlerThread:7176 [handler.py:handle_request():146] handle_request: status_report
+2023-11-13 00:33:12,247 ERROR   disk      :7176 [interfaces.py:monitor():144] Failed to sample metric: not sure how to interpret line '   7       0 loop0 14 0 34 0 0 0 0 0 0 12 0 0 0 0 0 0 0\n'
+2023-11-13 00:33:12,248 ERROR   disk      :7176 [interfaces.py:monitor():144] Failed to sample metric: not sure how to interpret line '   7       0 loop0 14 0 34 0 0 0 0 0 0 12 0 0 0 0 0 0 0\n'
+2023-11-13 00:33:14,249 ERROR   disk      :7176 [interfaces.py:monitor():144] Failed to sample metric: not sure how to interpret line '   7       0 loop0 14 0 34 0 0 0 0 0 0 12 0 0 0 0 0 0 0\n'
+2023-11-13 00:33:14,249 ERROR   disk      :7176 [interfaces.py:monitor():144] Failed to sample metric: not sure how to interpret line '   7       0 loop0 14 0 34 0 0 0 0 0 0 12 0 0 0 0 0 0 0\n'
+2023-11-13 00:33:16,250 ERROR   disk      :7176 [interfaces.py:monitor():144] Failed to sample metric: not sure how to interpret line '   7       0 loop0 14 0 34 0 0 0 0 0 0 12 0 0 0 0 0 0 0\n'
+2023-11-13 00:33:16,250 ERROR   disk      :7176 [interfaces.py:monitor():144] Failed to sample metric: not sure how to interpret line '   7       0 loop0 14 0 34 0 0 0 0 0 0 12 0 0 0 0 0 0 0\n'
+2023-11-13 00:33:16,570 DEBUG   HandlerThread:7176 [handler.py:handle_request():146] handle_request: status_report
+2023-11-13 00:33:18,251 ERROR   disk      :7176 [interfaces.py:monitor():144] Failed to sample metric: not sure how to interpret line '   7       0 loop0 14 0 34 0 0 0 0 0 0 12 0 0 0 0 0 0 0\n'
+2023-11-13 00:33:18,251 ERROR   disk      :7176 [interfaces.py:monitor():144] Failed to sample metric: not sure how to interpret line '   7       0 loop0 14 0 34 0 0 0 0 0 0 12 0 0 0 0 0 0 0\n'
+2023-11-13 00:33:20,251 ERROR   disk      :7176 [interfaces.py:monitor():144] Failed to sample metric: not sure how to interpret line '   7       0 loop0 14 0 34 0 0 0 0 0 0 12 0 0 0 0 0 0 0\n'
+2023-11-13 00:33:20,252 ERROR   disk      :7176 [interfaces.py:monitor():144] Failed to sample metric: not sure how to interpret line '   7       0 loop0 14 0 34 0 0 0 0 0 0 12 0 0 0 0 0 0 0\n'
+2023-11-13 00:33:21,571 DEBUG   HandlerThread:7176 [handler.py:handle_request():146] handle_request: status_report
+2023-11-13 00:33:22,252 ERROR   disk      :7176 [interfaces.py:monitor():144] Failed to sample metric: not sure how to interpret line '   7       0 loop0 14 0 34 0 0 0 0 0 0 12 0 0 0 0 0 0 0\n'
+2023-11-13 00:33:22,253 ERROR   disk      :7176 [interfaces.py:monitor():144] Failed to sample metric: not sure how to interpret line '   7       0 loop0 14 0 34 0 0 0 0 0 0 12 0 0 0 0 0 0 0\n'
+2023-11-13 00:33:23,287 DEBUG   HandlerThread:7176 [handler.py:handle_request():146] handle_request: internal_messages
+2023-11-13 00:33:23,288 DEBUG   HandlerThread:7176 [handler.py:handle_request():146] handle_request: stop_status
+2023-11-13 00:33:23,289 DEBUG   SenderThread:7176 [sender.py:send_request():407] send_request: stop_status
+2023-11-13 00:33:24,253 ERROR   disk      :7176 [interfaces.py:monitor():144] Failed to sample metric: not sure how to interpret line '   7       0 loop0 14 0 34 0 0 0 0 0 0 12 0 0 0 0 0 0 0\n'
+2023-11-13 00:33:24,261 ERROR   disk      :7176 [interfaces.py:monitor():144] Failed to sample metric: not sure how to interpret line '   7       0 loop0 14 0 34 0 0 0 0 0 0 12 0 0 0 0 0 0 0\n'
+2023-11-13 00:33:26,262 ERROR   disk      :7176 [interfaces.py:monitor():144] Failed to sample metric: not sure how to interpret line '   7       0 loop0 14 0 34 0 0 0 0 0 0 12 0 0 0 0 0 0 0\n'
+2023-11-13 00:33:26,262 ERROR   disk      :7176 [interfaces.py:monitor():144] Failed to sample metric: not sure how to interpret line '   7       0 loop0 14 0 34 0 0 0 0 0 0 12 0 0 0 0 0 0 0\n'
+2023-11-13 00:33:26,660 DEBUG   HandlerThread:7176 [handler.py:handle_request():146] handle_request: status_report
+2023-11-13 00:33:28,263 ERROR   disk      :7176 [interfaces.py:monitor():144] Failed to sample metric: not sure how to interpret line '   7       0 loop0 14 0 34 0 0 0 0 0 0 12 0 0 0 0 0 0 0\n'
+2023-11-13 00:33:28,263 ERROR   disk      :7176 [interfaces.py:monitor():144] Failed to sample metric: not sure how to interpret line '   7       0 loop0 14 0 34 0 0 0 0 0 0 12 0 0 0 0 0 0 0\n'
+2023-11-13 00:33:30,264 ERROR   disk      :7176 [interfaces.py:monitor():144] Failed to sample metric: not sure how to interpret line '   7       0 loop0 14 0 34 0 0 0 0 0 0 12 0 0 0 0 0 0 0\n'
+2023-11-13 00:33:30,264 ERROR   disk      :7176 [interfaces.py:monitor():144] Failed to sample metric: not sure how to interpret line '   7       0 loop0 14 0 34 0 0 0 0 0 0 12 0 0 0 0 0 0 0\n'
+2023-11-13 00:33:31,661 DEBUG   HandlerThread:7176 [handler.py:handle_request():146] handle_request: status_report
+2023-11-13 00:33:32,265 ERROR   disk      :7176 [interfaces.py:monitor():144] Failed to sample metric: not sure how to interpret line '   7       0 loop0 14 0 34 0 0 0 0 0 0 12 0 0 0 0 0 0 0\n'
+2023-11-13 00:33:32,265 ERROR   disk      :7176 [interfaces.py:monitor():144] Failed to sample metric: not sure how to interpret line '   7       0 loop0 14 0 34 0 0 0 0 0 0 12 0 0 0 0 0 0 0\n'
+2023-11-13 00:33:34,266 ERROR   disk      :7176 [interfaces.py:monitor():144] Failed to sample metric: not sure how to interpret line '   7       0 loop0 14 0 34 0 0 0 0 0 0 12 0 0 0 0 0 0 0\n'
+2023-11-13 00:33:34,266 ERROR   disk      :7176 [interfaces.py:monitor():144] Failed to sample metric: not sure how to interpret line '   7       0 loop0 14 0 34 0 0 0 0 0 0 12 0 0 0 0 0 0 0\n'
+2023-11-13 00:33:36,267 ERROR   disk      :7176 [interfaces.py:monitor():144] Failed to sample metric: not sure how to interpret line '   7       0 loop0 14 0 34 0 0 0 0 0 0 12 0 0 0 0 0 0 0\n'
+2023-11-13 00:33:36,267 ERROR   disk      :7176 [interfaces.py:monitor():144] Failed to sample metric: not sure how to interpret line '   7       0 loop0 14 0 34 0 0 0 0 0 0 12 0 0 0 0 0 0 0\n'
+2023-11-13 00:33:36,662 DEBUG   HandlerThread:7176 [handler.py:handle_request():146] handle_request: status_report
+2023-11-13 00:33:38,187 DEBUG   SenderThread:7176 [sender.py:send():380] send: stats
+2023-11-13 00:33:38,268 ERROR   disk      :7176 [interfaces.py:monitor():144] Failed to sample metric: not sure how to interpret line '   7       0 loop0 14 0 34 0 0 0 0 0 0 12 0 0 0 0 0 0 0\n'
+2023-11-13 00:33:38,268 ERROR   disk      :7176 [interfaces.py:monitor():144] Failed to sample metric: not sure how to interpret line '   7       0 loop0 14 0 34 0 0 0 0 0 0 12 0 0 0 0 0 0 0\n'
+2023-11-13 00:33:38,288 DEBUG   HandlerThread:7176 [handler.py:handle_request():146] handle_request: internal_messages
+2023-11-13 00:33:38,288 DEBUG   HandlerThread:7176 [handler.py:handle_request():146] handle_request: stop_status
+2023-11-13 00:33:38,289 DEBUG   SenderThread:7176 [sender.py:send_request():407] send_request: stop_status
+2023-11-13 00:33:40,269 ERROR   disk      :7176 [interfaces.py:monitor():144] Failed to sample metric: not sure how to interpret line '   7       0 loop0 14 0 34 0 0 0 0 0 0 12 0 0 0 0 0 0 0\n'
+2023-11-13 00:33:40,270 ERROR   disk      :7176 [interfaces.py:monitor():144] Failed to sample metric: not sure how to interpret line '   7       0 loop0 14 0 34 0 0 0 0 0 0 12 0 0 0 0 0 0 0\n'
+2023-11-13 00:33:42,270 ERROR   disk      :7176 [interfaces.py:monitor():144] Failed to sample metric: not sure how to interpret line '   7       0 loop0 14 0 34 0 0 0 0 0 0 12 0 0 0 0 0 0 0\n'
+2023-11-13 00:33:42,270 ERROR   disk      :7176 [interfaces.py:monitor():144] Failed to sample metric: not sure how to interpret line '   7       0 loop0 14 0 34 0 0 0 0 0 0 12 0 0 0 0 0 0 0\n'
+2023-11-13 00:33:42,587 DEBUG   HandlerThread:7176 [handler.py:handle_request():146] handle_request: status_report
+2023-11-13 00:33:44,271 ERROR   disk      :7176 [interfaces.py:monitor():144] Failed to sample metric: not sure how to interpret line '   7       0 loop0 14 0 34 0 0 0 0 0 0 12 0 0 0 0 0 0 0\n'
+2023-11-13 00:33:44,272 ERROR   disk      :7176 [interfaces.py:monitor():144] Failed to sample metric: not sure how to interpret line '   7       0 loop0 14 0 34 0 0 0 0 0 0 12 0 0 0 0 0 0 0\n'
+2023-11-13 00:33:46,272 ERROR   disk      :7176 [interfaces.py:monitor():144] Failed to sample metric: not sure how to interpret line '   7       0 loop0 14 0 34 0 0 0 0 0 0 12 0 0 0 0 0 0 0\n'
+2023-11-13 00:33:46,273 ERROR   disk      :7176 [interfaces.py:monitor():144] Failed to sample metric: not sure how to interpret line '   7       0 loop0 14 0 34 0 0 0 0 0 0 12 0 0 0 0 0 0 0\n'
+2023-11-13 00:33:47,588 DEBUG   HandlerThread:7176 [handler.py:handle_request():146] handle_request: status_report
+2023-11-13 00:33:48,274 ERROR   disk      :7176 [interfaces.py:monitor():144] Failed to sample metric: not sure how to interpret line '   7       0 loop0 14 0 34 0 0 0 0 0 0 12 0 0 0 0 0 0 0\n'
+2023-11-13 00:33:48,274 ERROR   disk      :7176 [interfaces.py:monitor():144] Failed to sample metric: not sure how to interpret line '   7       0 loop0 14 0 34 0 0 0 0 0 0 12 0 0 0 0 0 0 0\n'
+2023-11-13 00:33:50,275 ERROR   disk      :7176 [interfaces.py:monitor():144] Failed to sample metric: not sure how to interpret line '   7       0 loop0 14 0 34 0 0 0 0 0 0 12 0 0 0 0 0 0 0\n'
+2023-11-13 00:33:50,276 ERROR   disk      :7176 [interfaces.py:monitor():144] Failed to sample metric: not sure how to interpret line '   7       0 loop0 14 0 34 0 0 0 0 0 0 12 0 0 0 0 0 0 0\n'
+2023-11-13 00:33:52,277 ERROR   disk      :7176 [interfaces.py:monitor():144] Failed to sample metric: not sure how to interpret line '   7       0 loop0 14 0 34 0 0 0 0 0 0 12 0 0 0 0 0 0 0\n'
+2023-11-13 00:33:52,277 ERROR   disk      :7176 [interfaces.py:monitor():144] Failed to sample metric: not sure how to interpret line '   7       0 loop0 14 0 34 0 0 0 0 0 0 12 0 0 0 0 0 0 0\n'
+2023-11-13 00:33:52,589 DEBUG   HandlerThread:7176 [handler.py:handle_request():146] handle_request: status_report
+2023-11-13 00:33:53,287 DEBUG   HandlerThread:7176 [handler.py:handle_request():146] handle_request: stop_status
+2023-11-13 00:33:53,287 DEBUG   SenderThread:7176 [sender.py:send_request():407] send_request: stop_status
+2023-11-13 00:33:53,330 DEBUG   HandlerThread:7176 [handler.py:handle_request():146] handle_request: internal_messages
+2023-11-13 00:33:54,278 ERROR   disk      :7176 [interfaces.py:monitor():144] Failed to sample metric: not sure how to interpret line '   7       0 loop0 14 0 34 0 0 0 0 0 0 12 0 0 0 0 0 0 0\n'
+2023-11-13 00:33:54,279 ERROR   disk      :7176 [interfaces.py:monitor():144] Failed to sample metric: not sure how to interpret line '   7       0 loop0 14 0 34 0 0 0 0 0 0 12 0 0 0 0 0 0 0\n'
+2023-11-13 00:33:56,279 ERROR   disk      :7176 [interfaces.py:monitor():144] Failed to sample metric: not sure how to interpret line '   7       0 loop0 14 0 34 0 0 0 0 0 0 12 0 0 0 0 0 0 0\n'
+2023-11-13 00:33:56,280 ERROR   disk      :7176 [interfaces.py:monitor():144] Failed to sample metric: not sure how to interpret line '   7       0 loop0 14 0 34 0 0 0 0 0 0 12 0 0 0 0 0 0 0\n'
+2023-11-13 00:33:57,608 DEBUG   HandlerThread:7176 [handler.py:handle_request():146] handle_request: status_report
+2023-11-13 00:33:58,281 ERROR   disk      :7176 [interfaces.py:monitor():144] Failed to sample metric: not sure how to interpret line '   7       0 loop0 14 0 34 0 0 0 0 0 0 12 0 0 0 0 0 0 0\n'
+2023-11-13 00:33:58,281 ERROR   disk      :7176 [interfaces.py:monitor():144] Failed to sample metric: not sure how to interpret line '   7       0 loop0 14 0 34 0 0 0 0 0 0 12 0 0 0 0 0 0 0\n'
+2023-11-13 00:34:00,282 ERROR   disk      :7176 [interfaces.py:monitor():144] Failed to sample metric: not sure how to interpret line '   7       0 loop0 14 0 34 0 0 0 0 0 0 12 0 0 0 0 0 0 0\n'
+2023-11-13 00:34:00,282 ERROR   disk      :7176 [interfaces.py:monitor():144] Failed to sample metric: not sure how to interpret line '   7       0 loop0 14 0 34 0 0 0 0 0 0 12 0 0 0 0 0 0 0\n'
+2023-11-13 00:34:02,283 ERROR   disk      :7176 [interfaces.py:monitor():144] Failed to sample metric: not sure how to interpret line '   7       0 loop0 14 0 34 0 0 0 0 0 0 12 0 0 0 0 0 0 0\n'
+2023-11-13 00:34:02,283 ERROR   disk      :7176 [interfaces.py:monitor():144] Failed to sample metric: not sure how to interpret line '   7       0 loop0 14 0 34 0 0 0 0 0 0 12 0 0 0 0 0 0 0\n'
+2023-11-13 00:34:02,609 DEBUG   HandlerThread:7176 [handler.py:handle_request():146] handle_request: status_report
+2023-11-13 00:34:04,284 ERROR   disk      :7176 [interfaces.py:monitor():144] Failed to sample metric: not sure how to interpret line '   7       0 loop0 14 0 34 0 0 0 0 0 0 12 0 0 0 0 0 0 0\n'
+2023-11-13 00:34:04,284 ERROR   disk      :7176 [interfaces.py:monitor():144] Failed to sample metric: not sure how to interpret line '   7       0 loop0 14 0 34 0 0 0 0 0 0 12 0 0 0 0 0 0 0\n'
+2023-11-13 00:34:06,285 ERROR   disk      :7176 [interfaces.py:monitor():144] Failed to sample metric: not sure how to interpret line '   7       0 loop0 14 0 34 0 0 0 0 0 0 12 0 0 0 0 0 0 0\n'
+2023-11-13 00:34:06,285 ERROR   disk      :7176 [interfaces.py:monitor():144] Failed to sample metric: not sure how to interpret line '   7       0 loop0 14 0 34 0 0 0 0 0 0 12 0 0 0 0 0 0 0\n'
+2023-11-13 00:34:07,610 DEBUG   HandlerThread:7176 [handler.py:handle_request():146] handle_request: status_report
+2023-11-13 00:34:08,188 DEBUG   SenderThread:7176 [sender.py:send():380] send: stats
+2023-11-13 00:34:08,286 ERROR   disk      :7176 [interfaces.py:monitor():144] Failed to sample metric: not sure how to interpret line '   7       0 loop0 14 0 34 0 0 0 0 0 0 12 0 0 0 0 0 0 0\n'
+2023-11-13 00:34:08,287 ERROR   disk      :7176 [interfaces.py:monitor():144] Failed to sample metric: not sure how to interpret line '   7       0 loop0 14 0 34 0 0 0 0 0 0 12 0 0 0 0 0 0 0\n'
+2023-11-13 00:34:08,287 DEBUG   HandlerThread:7176 [handler.py:handle_request():146] handle_request: internal_messages
+2023-11-13 00:34:08,288 DEBUG   HandlerThread:7176 [handler.py:handle_request():146] handle_request: stop_status
+2023-11-13 00:34:08,289 DEBUG   SenderThread:7176 [sender.py:send_request():407] send_request: stop_status
+2023-11-13 00:34:10,288 ERROR   disk      :7176 [interfaces.py:monitor():144] Failed to sample metric: not sure how to interpret line '   7       0 loop0 14 0 34 0 0 0 0 0 0 12 0 0 0 0 0 0 0\n'
+2023-11-13 00:34:10,288 ERROR   disk      :7176 [interfaces.py:monitor():144] Failed to sample metric: not sure how to interpret line '   7       0 loop0 14 0 34 0 0 0 0 0 0 12 0 0 0 0 0 0 0\n'
+2023-11-13 00:34:12,289 ERROR   disk      :7176 [interfaces.py:monitor():144] Failed to sample metric: not sure how to interpret line '   7       0 loop0 14 0 34 0 0 0 0 0 0 12 0 0 0 0 0 0 0\n'
+2023-11-13 00:34:12,290 ERROR   disk      :7176 [interfaces.py:monitor():144] Failed to sample metric: not sure how to interpret line '   7       0 loop0 14 0 34 0 0 0 0 0 0 12 0 0 0 0 0 0 0\n'
+2023-11-13 00:34:12,617 DEBUG   HandlerThread:7176 [handler.py:handle_request():146] handle_request: status_report
+2023-11-13 00:34:14,291 ERROR   disk      :7176 [interfaces.py:monitor():144] Failed to sample metric: not sure how to interpret line '   7       0 loop0 14 0 34 0 0 0 0 0 0 12 0 0 0 0 0 0 0\n'
+2023-11-13 00:34:14,292 ERROR   disk      :7176 [interfaces.py:monitor():144] Failed to sample metric: not sure how to interpret line '   7       0 loop0 14 0 34 0 0 0 0 0 0 12 0 0 0 0 0 0 0\n'
+2023-11-13 00:34:16,293 ERROR   disk      :7176 [interfaces.py:monitor():144] Failed to sample metric: not sure how to interpret line '   7       0 loop0 14 0 34 0 0 0 0 0 0 12 0 0 0 0 0 0 0\n'
+2023-11-13 00:34:16,293 ERROR   disk      :7176 [interfaces.py:monitor():144] Failed to sample metric: not sure how to interpret line '   7       0 loop0 14 0 34 0 0 0 0 0 0 12 0 0 0 0 0 0 0\n'
+2023-11-13 00:34:17,618 DEBUG   HandlerThread:7176 [handler.py:handle_request():146] handle_request: status_report
+2023-11-13 00:34:18,294 ERROR   disk      :7176 [interfaces.py:monitor():144] Failed to sample metric: not sure how to interpret line '   7       0 loop0 14 0 34 0 0 0 0 0 0 12 0 0 0 0 0 0 0\n'
+2023-11-13 00:34:18,295 ERROR   disk      :7176 [interfaces.py:monitor():144] Failed to sample metric: not sure how to interpret line '   7       0 loop0 14 0 34 0 0 0 0 0 0 12 0 0 0 0 0 0 0\n'
+2023-11-13 00:34:20,296 ERROR   disk      :7176 [interfaces.py:monitor():144] Failed to sample metric: not sure how to interpret line '   7       0 loop0 14 0 34 0 0 0 0 0 0 12 0 0 0 0 0 0 0\n'
+2023-11-13 00:34:20,296 ERROR   disk      :7176 [interfaces.py:monitor():144] Failed to sample metric: not sure how to interpret line '   7       0 loop0 14 0 34 0 0 0 0 0 0 12 0 0 0 0 0 0 0\n'
+2023-11-13 00:34:22,297 ERROR   disk      :7176 [interfaces.py:monitor():144] Failed to sample metric: not sure how to interpret line '   7       0 loop0 14 0 34 0 0 0 0 0 0 12 0 0 0 0 0 0 0\n'
+2023-11-13 00:34:22,298 ERROR   disk      :7176 [interfaces.py:monitor():144] Failed to sample metric: not sure how to interpret line '   7       0 loop0 14 0 34 0 0 0 0 0 0 12 0 0 0 0 0 0 0\n'
+2023-11-13 00:34:22,620 DEBUG   HandlerThread:7176 [handler.py:handle_request():146] handle_request: status_report
+2023-11-13 00:34:23,287 DEBUG   HandlerThread:7176 [handler.py:handle_request():146] handle_request: stop_status
+2023-11-13 00:34:23,288 DEBUG   SenderThread:7176 [sender.py:send_request():407] send_request: stop_status
+2023-11-13 00:34:23,292 DEBUG   HandlerThread:7176 [handler.py:handle_request():146] handle_request: internal_messages
+2023-11-13 00:34:24,299 ERROR   disk      :7176 [interfaces.py:monitor():144] Failed to sample metric: not sure how to interpret line '   7       0 loop0 14 0 34 0 0 0 0 0 0 12 0 0 0 0 0 0 0\n'
+2023-11-13 00:34:24,299 ERROR   disk      :7176 [interfaces.py:monitor():144] Failed to sample metric: not sure how to interpret line '   7       0 loop0 14 0 34 0 0 0 0 0 0 12 0 0 0 0 0 0 0\n'
+2023-11-13 00:34:26,301 ERROR   disk      :7176 [interfaces.py:monitor():144] Failed to sample metric: not sure how to interpret line '   7       0 loop0 14 0 34 0 0 0 0 0 0 12 0 0 0 0 0 0 0\n'
+2023-11-13 00:34:26,301 ERROR   disk      :7176 [interfaces.py:monitor():144] Failed to sample metric: not sure how to interpret line '   7       0 loop0 14 0 34 0 0 0 0 0 0 12 0 0 0 0 0 0 0\n'
+2023-11-13 00:34:27,674 DEBUG   HandlerThread:7176 [handler.py:handle_request():146] handle_request: status_report
+2023-11-13 00:34:28,302 ERROR   disk      :7176 [interfaces.py:monitor():144] Failed to sample metric: not sure how to interpret line '   7       0 loop0 14 0 34 0 0 0 0 0 0 12 0 0 0 0 0 0 0\n'
+2023-11-13 00:34:28,302 ERROR   disk      :7176 [interfaces.py:monitor():144] Failed to sample metric: not sure how to interpret line '   7       0 loop0 14 0 34 0 0 0 0 0 0 12 0 0 0 0 0 0 0\n'
+2023-11-13 00:34:30,304 ERROR   disk      :7176 [interfaces.py:monitor():144] Failed to sample metric: not sure how to interpret line '   7       0 loop0 14 0 34 0 0 0 0 0 0 12 0 0 0 0 0 0 0\n'
+2023-11-13 00:34:30,305 ERROR   disk      :7176 [interfaces.py:monitor():144] Failed to sample metric: not sure how to interpret line '   7       0 loop0 14 0 34 0 0 0 0 0 0 12 0 0 0 0 0 0 0\n'
+2023-11-13 00:34:32,305 ERROR   disk      :7176 [interfaces.py:monitor():144] Failed to sample metric: not sure how to interpret line '   7       0 loop0 14 0 34 0 0 0 0 0 0 12 0 0 0 0 0 0 0\n'
+2023-11-13 00:34:32,306 ERROR   disk      :7176 [interfaces.py:monitor():144] Failed to sample metric: not sure how to interpret line '   7       0 loop0 14 0 34 0 0 0 0 0 0 12 0 0 0 0 0 0 0\n'
+2023-11-13 00:34:32,675 DEBUG   HandlerThread:7176 [handler.py:handle_request():146] handle_request: status_report
+2023-11-13 00:34:34,306 ERROR   disk      :7176 [interfaces.py:monitor():144] Failed to sample metric: not sure how to interpret line '   7       0 loop0 14 0 34 0 0 0 0 0 0 12 0 0 0 0 0 0 0\n'
+2023-11-13 00:34:34,307 ERROR   disk      :7176 [interfaces.py:monitor():144] Failed to sample metric: not sure how to interpret line '   7       0 loop0 14 0 34 0 0 0 0 0 0 12 0 0 0 0 0 0 0\n'
+2023-11-13 00:34:36,307 ERROR   disk      :7176 [interfaces.py:monitor():144] Failed to sample metric: not sure how to interpret line '   7       0 loop0 14 0 34 0 0 0 0 0 0 12 0 0 0 0 0 0 0\n'
+2023-11-13 00:34:36,307 ERROR   disk      :7176 [interfaces.py:monitor():144] Failed to sample metric: not sure how to interpret line '   7       0 loop0 14 0 34 0 0 0 0 0 0 12 0 0 0 0 0 0 0\n'
+2023-11-13 00:34:37,676 DEBUG   HandlerThread:7176 [handler.py:handle_request():146] handle_request: status_report
+2023-11-13 00:34:38,189 DEBUG   SenderThread:7176 [sender.py:send():380] send: stats
+2023-11-13 00:34:38,287 DEBUG   HandlerThread:7176 [handler.py:handle_request():146] handle_request: stop_status
+2023-11-13 00:34:38,287 DEBUG   SenderThread:7176 [sender.py:send_request():407] send_request: stop_status
+2023-11-13 00:34:38,308 ERROR   disk      :7176 [interfaces.py:monitor():144] Failed to sample metric: not sure how to interpret line '   7       0 loop0 14 0 34 0 0 0 0 0 0 12 0 0 0 0 0 0 0\n'
+2023-11-13 00:34:38,308 ERROR   disk      :7176 [interfaces.py:monitor():144] Failed to sample metric: not sure how to interpret line '   7       0 loop0 14 0 34 0 0 0 0 0 0 12 0 0 0 0 0 0 0\n'
+2023-11-13 00:34:38,330 DEBUG   HandlerThread:7176 [handler.py:handle_request():146] handle_request: internal_messages
+2023-11-13 00:34:40,309 ERROR   disk      :7176 [interfaces.py:monitor():144] Failed to sample metric: not sure how to interpret line '   7       0 loop0 14 0 34 0 0 0 0 0 0 12 0 0 0 0 0 0 0\n'
+2023-11-13 00:34:40,309 ERROR   disk      :7176 [interfaces.py:monitor():144] Failed to sample metric: not sure how to interpret line '   7       0 loop0 14 0 34 0 0 0 0 0 0 12 0 0 0 0 0 0 0\n'
+2023-11-13 00:34:42,310 ERROR   disk      :7176 [interfaces.py:monitor():144] Failed to sample metric: not sure how to interpret line '   7       0 loop0 14 0 34 0 0 0 0 0 0 12 0 0 0 0 0 0 0\n'
+2023-11-13 00:34:42,310 ERROR   disk      :7176 [interfaces.py:monitor():144] Failed to sample metric: not sure how to interpret line '   7       0 loop0 14 0 34 0 0 0 0 0 0 12 0 0 0 0 0 0 0\n'
+2023-11-13 00:34:43,598 DEBUG   HandlerThread:7176 [handler.py:handle_request():146] handle_request: status_report
+2023-11-13 00:34:44,311 ERROR   disk      :7176 [interfaces.py:monitor():144] Failed to sample metric: not sure how to interpret line '   7       0 loop0 14 0 34 0 0 0 0 0 0 12 0 0 0 0 0 0 0\n'
+2023-11-13 00:34:44,311 ERROR   disk      :7176 [interfaces.py:monitor():144] Failed to sample metric: not sure how to interpret line '   7       0 loop0 14 0 34 0 0 0 0 0 0 12 0 0 0 0 0 0 0\n'
+2023-11-13 00:34:46,312 ERROR   disk      :7176 [interfaces.py:monitor():144] Failed to sample metric: not sure how to interpret line '   7       0 loop0 14 0 34 0 0 0 0 0 0 12 0 0 0 0 0 0 0\n'
+2023-11-13 00:34:46,313 ERROR   disk      :7176 [interfaces.py:monitor():144] Failed to sample metric: not sure how to interpret line '   7       0 loop0 14 0 34 0 0 0 0 0 0 12 0 0 0 0 0 0 0\n'
+2023-11-13 00:34:48,314 ERROR   disk      :7176 [interfaces.py:monitor():144] Failed to sample metric: not sure how to interpret line '   7       0 loop0 14 0 34 0 0 0 0 0 0 12 0 0 0 0 0 0 0\n'
+2023-11-13 00:34:48,314 ERROR   disk      :7176 [interfaces.py:monitor():144] Failed to sample metric: not sure how to interpret line '   7       0 loop0 14 0 34 0 0 0 0 0 0 12 0 0 0 0 0 0 0\n'
+2023-11-13 00:34:48,599 DEBUG   HandlerThread:7176 [handler.py:handle_request():146] handle_request: status_report
+2023-11-13 00:34:50,315 ERROR   disk      :7176 [interfaces.py:monitor():144] Failed to sample metric: not sure how to interpret line '   7       0 loop0 14 0 34 0 0 0 0 0 0 12 0 0 0 0 0 0 0\n'
+2023-11-13 00:34:50,316 ERROR   disk      :7176 [interfaces.py:monitor():144] Failed to sample metric: not sure how to interpret line '   7       0 loop0 14 0 34 0 0 0 0 0 0 12 0 0 0 0 0 0 0\n'
+2023-11-13 00:34:52,317 ERROR   disk      :7176 [interfaces.py:monitor():144] Failed to sample metric: not sure how to interpret line '   7       0 loop0 14 0 34 0 0 0 0 0 0 12 0 0 0 0 0 0 0\n'
+2023-11-13 00:34:52,317 ERROR   disk      :7176 [interfaces.py:monitor():144] Failed to sample metric: not sure how to interpret line '   7       0 loop0 14 0 34 0 0 0 0 0 0 12 0 0 0 0 0 0 0\n'
+2023-11-13 00:34:53,287 DEBUG   HandlerThread:7176 [handler.py:handle_request():146] handle_request: stop_status
+2023-11-13 00:34:53,288 DEBUG   SenderThread:7176 [sender.py:send_request():407] send_request: stop_status
+2023-11-13 00:34:53,330 DEBUG   HandlerThread:7176 [handler.py:handle_request():146] handle_request: internal_messages
+2023-11-13 00:34:54,318 ERROR   disk      :7176 [interfaces.py:monitor():144] Failed to sample metric: not sure how to interpret line '   7       0 loop0 14 0 34 0 0 0 0 0 0 12 0 0 0 0 0 0 0\n'
+2023-11-13 00:34:54,318 ERROR   disk      :7176 [interfaces.py:monitor():144] Failed to sample metric: not sure how to interpret line '   7       0 loop0 14 0 34 0 0 0 0 0 0 12 0 0 0 0 0 0 0\n'
+2023-11-13 00:34:54,580 DEBUG   HandlerThread:7176 [handler.py:handle_request():146] handle_request: status_report
+2023-11-13 00:34:56,319 ERROR   disk      :7176 [interfaces.py:monitor():144] Failed to sample metric: not sure how to interpret line '   7       0 loop0 14 0 34 0 0 0 0 0 0 12 0 0 0 0 0 0 0\n'
+2023-11-13 00:34:56,319 ERROR   disk      :7176 [interfaces.py:monitor():144] Failed to sample metric: not sure how to interpret line '   7       0 loop0 14 0 34 0 0 0 0 0 0 12 0 0 0 0 0 0 0\n'
+2023-11-13 00:34:58,320 ERROR   disk      :7176 [interfaces.py:monitor():144] Failed to sample metric: not sure how to interpret line '   7       0 loop0 14 0 34 0 0 0 0 0 0 12 0 0 0 0 0 0 0\n'
+2023-11-13 00:34:58,320 ERROR   disk      :7176 [interfaces.py:monitor():144] Failed to sample metric: not sure how to interpret line '   7       0 loop0 14 0 34 0 0 0 0 0 0 12 0 0 0 0 0 0 0\n'
+2023-11-13 00:34:59,582 DEBUG   HandlerThread:7176 [handler.py:handle_request():146] handle_request: status_report
+2023-11-13 00:35:00,321 ERROR   disk      :7176 [interfaces.py:monitor():144] Failed to sample metric: not sure how to interpret line '   7       0 loop0 14 0 34 0 0 0 0 0 0 12 0 0 0 0 0 0 0\n'
+2023-11-13 00:35:00,322 ERROR   disk      :7176 [interfaces.py:monitor():144] Failed to sample metric: not sure how to interpret line '   7       0 loop0 14 0 34 0 0 0 0 0 0 12 0 0 0 0 0 0 0\n'
+2023-11-13 00:35:02,162 INFO    Thread-3049:7176 [dir_watcher.py:_on_file_created():271] file/dir created: /home/tejas/Documents/SMAI/assignment-4-MrTejas/q3/wandb/run-20231113_003132-b1un5574/files/output.log
+2023-11-13 00:35:02,322 ERROR   disk      :7176 [interfaces.py:monitor():144] Failed to sample metric: not sure how to interpret line '   7       0 loop0 14 0 34 0 0 0 0 0 0 12 0 0 0 0 0 0 0\n'
+2023-11-13 00:35:02,323 ERROR   disk      :7176 [interfaces.py:monitor():144] Failed to sample metric: not sure how to interpret line '   7       0 loop0 14 0 34 0 0 0 0 0 0 12 0 0 0 0 0 0 0\n'
+2023-11-13 00:35:04,163 INFO    Thread-3049:7176 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/tejas/Documents/SMAI/assignment-4-MrTejas/q3/wandb/run-20231113_003132-b1un5574/files/output.log
+2023-11-13 00:35:04,323 ERROR   disk      :7176 [interfaces.py:monitor():144] Failed to sample metric: not sure how to interpret line '   7       0 loop0 14 0 34 0 0 0 0 0 0 12 0 0 0 0 0 0 0\n'
+2023-11-13 00:35:04,323 ERROR   disk      :7176 [interfaces.py:monitor():144] Failed to sample metric: not sure how to interpret line '   7       0 loop0 14 0 34 0 0 0 0 0 0 12 0 0 0 0 0 0 0\n'
+2023-11-13 00:35:05,295 DEBUG   HandlerThread:7176 [handler.py:handle_request():146] handle_request: status_report
+2023-11-13 00:35:06,324 ERROR   disk      :7176 [interfaces.py:monitor():144] Failed to sample metric: not sure how to interpret line '   7       0 loop0 14 0 34 0 0 0 0 0 0 12 0 0 0 0 0 0 0\n'
+2023-11-13 00:35:06,324 ERROR   disk      :7176 [interfaces.py:monitor():144] Failed to sample metric: not sure how to interpret line '   7       0 loop0 14 0 34 0 0 0 0 0 0 12 0 0 0 0 0 0 0\n'
+2023-11-13 00:35:08,190 DEBUG   SenderThread:7176 [sender.py:send():380] send: stats
+2023-11-13 00:35:08,287 DEBUG   HandlerThread:7176 [handler.py:handle_request():146] handle_request: stop_status
+2023-11-13 00:35:08,288 DEBUG   HandlerThread:7176 [handler.py:handle_request():146] handle_request: internal_messages
+2023-11-13 00:35:08,289 DEBUG   SenderThread:7176 [sender.py:send_request():407] send_request: stop_status
+2023-11-13 00:35:08,326 ERROR   disk      :7176 [interfaces.py:monitor():144] Failed to sample metric: not sure how to interpret line '   7       0 loop0 14 0 34 0 0 0 0 0 0 12 0 0 0 0 0 0 0\n'
+2023-11-13 00:35:08,326 ERROR   disk      :7176 [interfaces.py:monitor():144] Failed to sample metric: not sure how to interpret line '   7       0 loop0 14 0 34 0 0 0 0 0 0 12 0 0 0 0 0 0 0\n'
+2023-11-13 00:35:10,327 ERROR   disk      :7176 [interfaces.py:monitor():144] Failed to sample metric: not sure how to interpret line '   7       0 loop0 14 0 34 0 0 0 0 0 0 12 0 0 0 0 0 0 0\n'
+2023-11-13 00:35:10,327 ERROR   disk      :7176 [interfaces.py:monitor():144] Failed to sample metric: not sure how to interpret line '   7       0 loop0 14 0 34 0 0 0 0 0 0 12 0 0 0 0 0 0 0\n'
+2023-11-13 00:35:10,641 DEBUG   HandlerThread:7176 [handler.py:handle_request():146] handle_request: status_report
+2023-11-13 00:35:12,328 ERROR   disk      :7176 [interfaces.py:monitor():144] Failed to sample metric: not sure how to interpret line '   7       0 loop0 14 0 34 0 0 0 0 0 0 12 0 0 0 0 0 0 0\n'
+2023-11-13 00:35:12,329 ERROR   disk      :7176 [interfaces.py:monitor():144] Failed to sample metric: not sure how to interpret line '   7       0 loop0 14 0 34 0 0 0 0 0 0 12 0 0 0 0 0 0 0\n'
+2023-11-13 00:35:14,329 ERROR   disk      :7176 [interfaces.py:monitor():144] Failed to sample metric: not sure how to interpret line '   7       0 loop0 14 0 34 0 0 0 0 0 0 12 0 0 0 0 0 0 0\n'
+2023-11-13 00:35:14,330 ERROR   disk      :7176 [interfaces.py:monitor():144] Failed to sample metric: not sure how to interpret line '   7       0 loop0 14 0 34 0 0 0 0 0 0 12 0 0 0 0 0 0 0\n'
+2023-11-13 00:35:15,642 DEBUG   HandlerThread:7176 [handler.py:handle_request():146] handle_request: status_report
+2023-11-13 00:35:16,330 ERROR   disk      :7176 [interfaces.py:monitor():144] Failed to sample metric: not sure how to interpret line '   7       0 loop0 14 0 34 0 0 0 0 0 0 12 0 0 0 0 0 0 0\n'
+2023-11-13 00:35:16,330 ERROR   disk      :7176 [interfaces.py:monitor():144] Failed to sample metric: not sure how to interpret line '   7       0 loop0 14 0 34 0 0 0 0 0 0 12 0 0 0 0 0 0 0\n'
+2023-11-13 00:35:18,331 ERROR   disk      :7176 [interfaces.py:monitor():144] Failed to sample metric: not sure how to interpret line '   7       0 loop0 14 0 34 0 0 0 0 0 0 12 0 0 0 0 0 0 0\n'
+2023-11-13 00:35:18,332 ERROR   disk      :7176 [interfaces.py:monitor():144] Failed to sample metric: not sure how to interpret line '   7       0 loop0 14 0 34 0 0 0 0 0 0 12 0 0 0 0 0 0 0\n'
+2023-11-13 00:35:20,332 ERROR   disk      :7176 [interfaces.py:monitor():144] Failed to sample metric: not sure how to interpret line '   7       0 loop0 14 0 34 0 0 0 0 0 0 12 0 0 0 0 0 0 0\n'
+2023-11-13 00:35:20,333 ERROR   disk      :7176 [interfaces.py:monitor():144] Failed to sample metric: not sure how to interpret line '   7       0 loop0 14 0 34 0 0 0 0 0 0 12 0 0 0 0 0 0 0\n'
+2023-11-13 00:35:20,643 DEBUG   HandlerThread:7176 [handler.py:handle_request():146] handle_request: status_report
+2023-11-13 00:35:22,334 ERROR   disk      :7176 [interfaces.py:monitor():144] Failed to sample metric: not sure how to interpret line '   7       0 loop0 14 0 34 0 0 0 0 0 0 12 0 0 0 0 0 0 0\n'
+2023-11-13 00:35:22,334 ERROR   disk      :7176 [interfaces.py:monitor():144] Failed to sample metric: not sure how to interpret line '   7       0 loop0 14 0 34 0 0 0 0 0 0 12 0 0 0 0 0 0 0\n'
+2023-11-13 00:35:23,288 DEBUG   HandlerThread:7176 [handler.py:handle_request():146] handle_request: stop_status
+2023-11-13 00:35:23,289 DEBUG   SenderThread:7176 [sender.py:send_request():407] send_request: stop_status
+2023-11-13 00:35:23,330 DEBUG   HandlerThread:7176 [handler.py:handle_request():146] handle_request: internal_messages
+2023-11-13 00:35:24,335 ERROR   disk      :7176 [interfaces.py:monitor():144] Failed to sample metric: not sure how to interpret line '   7       0 loop0 14 0 34 0 0 0 0 0 0 12 0 0 0 0 0 0 0\n'
+2023-11-13 00:35:24,336 ERROR   disk      :7176 [interfaces.py:monitor():144] Failed to sample metric: not sure how to interpret line '   7       0 loop0 14 0 34 0 0 0 0 0 0 12 0 0 0 0 0 0 0\n'
+2023-11-13 00:35:26,337 ERROR   disk      :7176 [interfaces.py:monitor():144] Failed to sample metric: not sure how to interpret line '   7       0 loop0 14 0 34 0 0 0 0 0 0 12 0 0 0 0 0 0 0\n'
+2023-11-13 00:35:26,337 ERROR   disk      :7176 [interfaces.py:monitor():144] Failed to sample metric: not sure how to interpret line '   7       0 loop0 14 0 34 0 0 0 0 0 0 12 0 0 0 0 0 0 0\n'
+2023-11-13 00:35:26,581 DEBUG   HandlerThread:7176 [handler.py:handle_request():146] handle_request: status_report
+2023-11-13 00:35:28,338 ERROR   disk      :7176 [interfaces.py:monitor():144] Failed to sample metric: not sure how to interpret line '   7       0 loop0 14 0 34 0 0 0 0 0 0 12 0 0 0 0 0 0 0\n'
+2023-11-13 00:35:28,338 ERROR   disk      :7176 [interfaces.py:monitor():144] Failed to sample metric: not sure how to interpret line '   7       0 loop0 14 0 34 0 0 0 0 0 0 12 0 0 0 0 0 0 0\n'
+2023-11-13 00:35:30,339 ERROR   disk      :7176 [interfaces.py:monitor():144] Failed to sample metric: not sure how to interpret line '   7       0 loop0 14 0 34 0 0 0 0 0 0 12 0 0 0 0 0 0 0\n'
+2023-11-13 00:35:30,340 ERROR   disk      :7176 [interfaces.py:monitor():144] Failed to sample metric: not sure how to interpret line '   7       0 loop0 14 0 34 0 0 0 0 0 0 12 0 0 0 0 0 0 0\n'
+2023-11-13 00:35:31,583 DEBUG   HandlerThread:7176 [handler.py:handle_request():146] handle_request: status_report

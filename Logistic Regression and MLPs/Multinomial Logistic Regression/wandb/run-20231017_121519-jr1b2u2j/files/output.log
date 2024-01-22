@@ -1,0 +1,13 @@
+Traceback (most recent call last):
+  File "/home/tejas/anaconda3/lib/python3.9/site-packages/wandb/sdk/wandb_config.py", line 162, in __getattr__
+    return self.__getitem__(key)
+  File "/home/tejas/anaconda3/lib/python3.9/site-packages/wandb/sdk/wandb_config.py", line 130, in __getitem__
+    return self._items[key]
+KeyError: 'learning_rate'
+The above exception was the direct cause of the following exception:
+Traceback (most recent call last):
+  File "/tmp/ipykernel_7446/2152407512.py", line 3, in <module>
+    learning_rate = config.learning_rate
+  File "/home/tejas/anaconda3/lib/python3.9/site-packages/wandb/sdk/wandb_config.py", line 164, in __getattr__
+    raise AttributeError(
+AttributeError: <class 'wandb.sdk.wandb_config.Config'> object has no attribute 'learning_rate'

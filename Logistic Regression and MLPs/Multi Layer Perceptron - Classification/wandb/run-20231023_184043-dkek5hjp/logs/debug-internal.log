@@ -1,0 +1,266 @@
+2023-10-23 18:40:43,423 INFO    StreamThr :19452 [internal.py:wandb_internal():86] W&B internal server running at pid: 19452, started at: 2023-10-23 18:40:43.422766
+2023-10-23 18:40:43,426 DEBUG   HandlerThread:19452 [handler.py:handle_request():144] handle_request: status
+2023-10-23 18:40:43,436 INFO    WriterThread:19452 [datastore.py:open_for_write():85] open: /home/tejas/Documents/SMAI/assignment-3-MrTejas/q2/wandb/run-20231023_184043-dkek5hjp/run-dkek5hjp.wandb
+2023-10-23 18:40:43,436 DEBUG   SenderThread:19452 [sender.py:send():380] send: header
+2023-10-23 18:40:43,504 DEBUG   SenderThread:19452 [sender.py:send():380] send: run
+2023-10-23 18:40:44,543 INFO    SenderThread:19452 [dir_watcher.py:__init__():211] watching files in: /home/tejas/Documents/SMAI/assignment-3-MrTejas/q2/wandb/run-20231023_184043-dkek5hjp/files
+2023-10-23 18:40:44,543 INFO    SenderThread:19452 [sender.py:_start_run_threads():1122] run started: dkek5hjp with start time 1698066643.422613
+2023-10-23 18:40:44,551 DEBUG   HandlerThread:19452 [handler.py:handle_request():144] handle_request: check_version
+2023-10-23 18:40:44,551 DEBUG   SenderThread:19452 [sender.py:send_request():407] send_request: check_version
+2023-10-23 18:40:44,794 DEBUG   HandlerThread:19452 [handler.py:handle_request():144] handle_request: run_start
+2023-10-23 18:40:44,959 ERROR   HandlerThread:19452 [gpu.py:is_available():381] Error initializing NVML: Driver Not Loaded
+2023-10-23 18:40:44,961 DEBUG   HandlerThread:19452 [system_info.py:__init__():32] System info init
+2023-10-23 18:40:44,961 DEBUG   HandlerThread:19452 [system_info.py:__init__():47] System info init done
+2023-10-23 18:40:44,961 INFO    HandlerThread:19452 [system_monitor.py:start():181] Starting system monitor
+2023-10-23 18:40:44,961 INFO    SystemMonitor:19452 [system_monitor.py:_start():145] Starting system asset monitoring threads
+2023-10-23 18:40:44,962 INFO    HandlerThread:19452 [system_monitor.py:probe():201] Collecting system info
+2023-10-23 18:40:44,963 INFO    SystemMonitor:19452 [interfaces.py:start():190] Started cpu monitoring
+2023-10-23 18:40:44,965 INFO    SystemMonitor:19452 [interfaces.py:start():190] Started disk monitoring
+2023-10-23 18:40:44,967 INFO    SystemMonitor:19452 [interfaces.py:start():190] Started memory monitoring
+2023-10-23 18:40:44,968 INFO    SystemMonitor:19452 [interfaces.py:start():190] Started network monitoring
+2023-10-23 18:40:44,992 DEBUG   HandlerThread:19452 [system_info.py:probe():196] Probing system
+2023-10-23 18:40:45,000 DEBUG   HandlerThread:19452 [system_info.py:_probe_git():181] Probing git
+2023-10-23 18:40:45,017 DEBUG   HandlerThread:19452 [system_info.py:_probe_git():189] Probing git done
+2023-10-23 18:40:45,017 DEBUG   HandlerThread:19452 [system_info.py:probe():244] Probing system done
+2023-10-23 18:40:45,017 DEBUG   HandlerThread:19452 [system_monitor.py:probe():210] {'os': 'Linux-5.15.0-87-generic-x86_64-with-glibc2.31', 'python': '3.9.13', 'heartbeatAt': '2023-10-23T13:10:44.992200', 'startedAt': '2023-10-23T13:10:43.413685', 'docker': None, 'cuda': None, 'args': (), 'state': 'running', 'program': 'q2/1.ipynb', 'codePathLocal': None, 'root': '/home/tejas/Documents/SMAI/assignment-3-MrTejas', 'git': {'remote': 'https://github.com/Statistical-Methods-in-AI-Monsoon-2023/assignment-3-MrTejas.git', 'commit': 'ad24b7eb2d84c5e44390d85bd17141a3e5c96a0f'}, 'email': 'tejas591995@gmail.com', 'host': 'nimbostratus', 'username': 'tejas', 'executable': '/home/tejas/anaconda3/bin/python', 'cpu_count': 4, 'cpu_count_logical': 8, 'cpu_freq': {'current': 3.005875, 'min': 400.0, 'max': 4800.0}, 'cpu_freq_per_core': [{'current': 3.3, 'min': 400.0, 'max': 4800.0}, {'current': 3.3, 'min': 400.0, 'max': 4800.0}, {'current': 3.3, 'min': 400.0, 'max': 4800.0}, {'current': 0.947, 'min': 400.0, 'max': 4800.0}, {'current': 3.3, 'min': 400.0, 'max': 4800.0}, {'current': 3.3, 'min': 400.0, 'max': 4800.0}, {'current': 3.3, 'min': 400.0, 'max': 4800.0}, {'current': 3.3, 'min': 400.0, 'max': 4800.0}], 'disk': {'/': {'total': 72.78396224975586, 'used': 29.14214324951172}}, 'memory': {'total': 15.366085052490234}}
+2023-10-23 18:40:45,017 INFO    HandlerThread:19452 [system_monitor.py:probe():211] Finished collecting system info
+2023-10-23 18:40:45,017 INFO    HandlerThread:19452 [system_monitor.py:probe():214] Publishing system info
+2023-10-23 18:40:45,017 DEBUG   HandlerThread:19452 [system_info.py:_save_pip():52] Saving list of pip packages installed into the current environment
+2023-10-23 18:40:45,018 DEBUG   HandlerThread:19452 [system_info.py:_save_pip():68] Saving pip packages done
+2023-10-23 18:40:45,018 DEBUG   HandlerThread:19452 [system_info.py:_save_conda():75] Saving list of conda packages installed into the current environment
+2023-10-23 18:40:45,545 INFO    Thread-12 :19452 [dir_watcher.py:_on_file_created():271] file/dir created: /home/tejas/Documents/SMAI/assignment-3-MrTejas/q2/wandb/run-20231023_184043-dkek5hjp/files/requirements.txt
+2023-10-23 18:40:45,545 INFO    Thread-12 :19452 [dir_watcher.py:_on_file_created():271] file/dir created: /home/tejas/Documents/SMAI/assignment-3-MrTejas/q2/wandb/run-20231023_184043-dkek5hjp/files/conda-environment.yaml
+2023-10-23 18:40:49,693 DEBUG   HandlerThread:19452 [system_info.py:_save_conda():87] Saving conda packages done
+2023-10-23 18:40:49,694 INFO    HandlerThread:19452 [system_monitor.py:probe():216] Finished publishing system info
+2023-10-23 18:40:49,697 DEBUG   HandlerThread:19452 [handler.py:handle_request():144] handle_request: status_report
+2023-10-23 18:40:49,697 DEBUG   SenderThread:19452 [sender.py:send():380] send: files
+2023-10-23 18:40:49,697 INFO    SenderThread:19452 [sender.py:_save_file():1378] saving file wandb-metadata.json with policy now
+2023-10-23 18:40:49,709 DEBUG   HandlerThread:19452 [handler.py:handle_request():144] handle_request: internal_messages
+2023-10-23 18:40:49,709 DEBUG   SenderThread:19452 [sender.py:send():380] send: telemetry
+2023-10-23 18:40:49,709 DEBUG   HandlerThread:19452 [handler.py:handle_request():144] handle_request: stop_status
+2023-10-23 18:40:49,709 DEBUG   SenderThread:19452 [sender.py:send_request():407] send_request: stop_status
+2023-10-23 18:40:49,787 DEBUG   HandlerThread:19452 [handler.py:handle_request():144] handle_request: pause
+2023-10-23 18:40:49,788 INFO    HandlerThread:19452 [handler.py:handle_request_pause():703] stopping system metrics thread
+2023-10-23 18:40:49,788 INFO    HandlerThread:19452 [system_monitor.py:finish():190] Stopping system monitor
+2023-10-23 18:40:49,788 DEBUG   SystemMonitor:19452 [system_monitor.py:_start():159] Starting system metrics aggregation loop
+2023-10-23 18:40:49,788 INFO    HandlerThread:19452 [interfaces.py:finish():202] Joined cpu monitor
+2023-10-23 18:40:49,788 DEBUG   SystemMonitor:19452 [system_monitor.py:_start():166] Finished system metrics aggregation loop
+2023-10-23 18:40:49,788 INFO    HandlerThread:19452 [interfaces.py:finish():202] Joined disk monitor
+2023-10-23 18:40:49,788 DEBUG   SystemMonitor:19452 [system_monitor.py:_start():170] Publishing last batch of metrics
+2023-10-23 18:40:49,788 INFO    HandlerThread:19452 [interfaces.py:finish():202] Joined memory monitor
+2023-10-23 18:40:49,789 INFO    HandlerThread:19452 [interfaces.py:finish():202] Joined network monitor
+2023-10-23 18:40:50,126 DEBUG   SenderThread:19452 [sender.py:send():380] send: stats
+2023-10-23 18:40:50,546 INFO    Thread-12 :19452 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/tejas/Documents/SMAI/assignment-3-MrTejas/q2/wandb/run-20231023_184043-dkek5hjp/files/conda-environment.yaml
+2023-10-23 18:40:50,555 INFO    Thread-12 :19452 [dir_watcher.py:_on_file_created():271] file/dir created: /home/tejas/Documents/SMAI/assignment-3-MrTejas/q2/wandb/run-20231023_184043-dkek5hjp/files/wandb-metadata.json
+2023-10-23 18:40:50,985 INFO    wandb-upload_0:19452 [upload_job.py:push():131] Uploaded file /tmp/tmp2smw7eauwandb/g6vovahw-wandb-metadata.json
+2023-10-23 18:40:54,128 DEBUG   HandlerThread:19452 [handler.py:handle_request():144] handle_request: status_report
+2023-10-23 18:40:59,129 DEBUG   HandlerThread:19452 [handler.py:handle_request():144] handle_request: status_report
+2023-10-23 18:41:04,131 DEBUG   HandlerThread:19452 [handler.py:handle_request():144] handle_request: status_report
+2023-10-23 18:41:04,707 DEBUG   HandlerThread:19452 [handler.py:handle_request():144] handle_request: stop_status
+2023-10-23 18:41:04,708 DEBUG   SenderThread:19452 [sender.py:send_request():407] send_request: stop_status
+2023-10-23 18:41:04,710 DEBUG   HandlerThread:19452 [handler.py:handle_request():144] handle_request: internal_messages
+2023-10-23 18:41:10,114 DEBUG   HandlerThread:19452 [handler.py:handle_request():144] handle_request: status_report
+2023-10-23 18:41:15,121 DEBUG   HandlerThread:19452 [handler.py:handle_request():144] handle_request: status_report
+2023-10-23 18:41:15,557 INFO    Thread-12 :19452 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/tejas/Documents/SMAI/assignment-3-MrTejas/q2/wandb/run-20231023_184043-dkek5hjp/files/config.yaml
+2023-10-23 18:41:19,709 DEBUG   HandlerThread:19452 [handler.py:handle_request():144] handle_request: stop_status
+2023-10-23 18:41:19,709 DEBUG   HandlerThread:19452 [handler.py:handle_request():144] handle_request: internal_messages
+2023-10-23 18:41:19,710 DEBUG   SenderThread:19452 [sender.py:send_request():407] send_request: stop_status
+2023-10-23 18:41:21,172 DEBUG   HandlerThread:19452 [handler.py:handle_request():144] handle_request: status_report
+2023-10-23 18:41:26,174 DEBUG   HandlerThread:19452 [handler.py:handle_request():144] handle_request: status_report
+2023-10-23 18:41:31,176 DEBUG   HandlerThread:19452 [handler.py:handle_request():144] handle_request: status_report
+2023-10-23 18:41:34,708 DEBUG   HandlerThread:19452 [handler.py:handle_request():144] handle_request: stop_status
+2023-10-23 18:41:34,709 DEBUG   SenderThread:19452 [sender.py:send_request():407] send_request: stop_status
+2023-10-23 18:41:34,752 DEBUG   HandlerThread:19452 [handler.py:handle_request():144] handle_request: internal_messages
+2023-10-23 18:41:36,222 DEBUG   HandlerThread:19452 [handler.py:handle_request():144] handle_request: status_report
+2023-10-23 18:41:41,224 DEBUG   HandlerThread:19452 [handler.py:handle_request():144] handle_request: status_report
+2023-10-23 18:41:46,226 DEBUG   HandlerThread:19452 [handler.py:handle_request():144] handle_request: status_report
+2023-10-23 18:41:49,708 DEBUG   HandlerThread:19452 [handler.py:handle_request():144] handle_request: stop_status
+2023-10-23 18:41:49,709 DEBUG   SenderThread:19452 [sender.py:send_request():407] send_request: stop_status
+2023-10-23 18:41:49,752 DEBUG   HandlerThread:19452 [handler.py:handle_request():144] handle_request: internal_messages
+2023-10-23 18:41:52,172 DEBUG   HandlerThread:19452 [handler.py:handle_request():144] handle_request: status_report
+2023-10-23 18:41:57,173 DEBUG   HandlerThread:19452 [handler.py:handle_request():144] handle_request: status_report
+2023-10-23 18:42:02,174 DEBUG   HandlerThread:19452 [handler.py:handle_request():144] handle_request: status_report
+2023-10-23 18:42:04,709 DEBUG   HandlerThread:19452 [handler.py:handle_request():144] handle_request: stop_status
+2023-10-23 18:42:04,709 DEBUG   SenderThread:19452 [sender.py:send_request():407] send_request: stop_status
+2023-10-23 18:42:04,752 DEBUG   HandlerThread:19452 [handler.py:handle_request():144] handle_request: internal_messages
+2023-10-23 18:42:08,123 DEBUG   HandlerThread:19452 [handler.py:handle_request():144] handle_request: status_report
+2023-10-23 18:42:13,124 DEBUG   HandlerThread:19452 [handler.py:handle_request():144] handle_request: status_report
+2023-10-23 18:42:18,126 DEBUG   HandlerThread:19452 [handler.py:handle_request():144] handle_request: status_report
+2023-10-23 18:42:19,709 DEBUG   HandlerThread:19452 [handler.py:handle_request():144] handle_request: stop_status
+2023-10-23 18:42:19,710 DEBUG   SenderThread:19452 [sender.py:send_request():407] send_request: stop_status
+2023-10-23 18:42:19,752 DEBUG   HandlerThread:19452 [handler.py:handle_request():144] handle_request: internal_messages
+2023-10-23 18:42:23,180 DEBUG   HandlerThread:19452 [handler.py:handle_request():144] handle_request: status_report
+2023-10-23 18:42:28,181 DEBUG   HandlerThread:19452 [handler.py:handle_request():144] handle_request: status_report
+2023-10-23 18:42:33,183 DEBUG   HandlerThread:19452 [handler.py:handle_request():144] handle_request: status_report
+2023-10-23 18:42:34,709 DEBUG   HandlerThread:19452 [handler.py:handle_request():144] handle_request: stop_status
+2023-10-23 18:42:34,710 DEBUG   SenderThread:19452 [sender.py:send_request():407] send_request: stop_status
+2023-10-23 18:42:34,752 DEBUG   HandlerThread:19452 [handler.py:handle_request():144] handle_request: internal_messages
+2023-10-23 18:42:39,046 DEBUG   HandlerThread:19452 [handler.py:handle_request():144] handle_request: status_report
+2023-10-23 18:42:44,047 DEBUG   HandlerThread:19452 [handler.py:handle_request():144] handle_request: status_report
+2023-10-23 18:42:49,048 DEBUG   HandlerThread:19452 [handler.py:handle_request():144] handle_request: status_report
+2023-10-23 18:42:49,709 DEBUG   HandlerThread:19452 [handler.py:handle_request():144] handle_request: stop_status
+2023-10-23 18:42:49,710 DEBUG   SenderThread:19452 [sender.py:send_request():407] send_request: stop_status
+2023-10-23 18:42:49,752 DEBUG   HandlerThread:19452 [handler.py:handle_request():144] handle_request: internal_messages
+2023-10-23 18:42:54,082 DEBUG   HandlerThread:19452 [handler.py:handle_request():144] handle_request: status_report
+2023-10-23 18:42:59,083 DEBUG   HandlerThread:19452 [handler.py:handle_request():144] handle_request: status_report
+2023-10-23 18:43:04,083 DEBUG   HandlerThread:19452 [handler.py:handle_request():144] handle_request: status_report
+2023-10-23 18:43:04,709 DEBUG   HandlerThread:19452 [handler.py:handle_request():144] handle_request: stop_status
+2023-10-23 18:43:04,709 DEBUG   SenderThread:19452 [sender.py:send_request():407] send_request: stop_status
+2023-10-23 18:43:04,756 DEBUG   HandlerThread:19452 [handler.py:handle_request():144] handle_request: internal_messages
+2023-10-23 18:43:10,052 DEBUG   HandlerThread:19452 [handler.py:handle_request():144] handle_request: status_report
+2023-10-23 18:43:15,053 DEBUG   HandlerThread:19452 [handler.py:handle_request():144] handle_request: status_report
+2023-10-23 18:43:19,709 DEBUG   HandlerThread:19452 [handler.py:handle_request():144] handle_request: stop_status
+2023-10-23 18:43:19,709 DEBUG   SenderThread:19452 [sender.py:send_request():407] send_request: stop_status
+2023-10-23 18:43:19,756 DEBUG   HandlerThread:19452 [handler.py:handle_request():144] handle_request: internal_messages
+2023-10-23 18:43:20,193 DEBUG   HandlerThread:19452 [handler.py:handle_request():144] handle_request: status_report
+2023-10-23 18:43:21,674 DEBUG   HandlerThread:19452 [handler.py:handle_request():144] handle_request: resume
+2023-10-23 18:43:21,674 INFO    HandlerThread:19452 [handler.py:handle_request_resume():694] starting system metrics thread
+2023-10-23 18:43:21,674 INFO    HandlerThread:19452 [system_monitor.py:start():181] Starting system monitor
+2023-10-23 18:43:21,674 INFO    SystemMonitor:19452 [system_monitor.py:_start():145] Starting system asset monitoring threads
+2023-10-23 18:43:21,674 INFO    SystemMonitor:19452 [interfaces.py:start():190] Started cpu monitoring
+2023-10-23 18:43:21,675 INFO    SystemMonitor:19452 [interfaces.py:start():190] Started disk monitoring
+2023-10-23 18:43:21,675 INFO    SystemMonitor:19452 [interfaces.py:start():190] Started memory monitoring
+2023-10-23 18:43:21,675 INFO    SystemMonitor:19452 [interfaces.py:start():190] Started network monitoring
+2023-10-23 18:43:21,717 DEBUG   SenderThread:19452 [sender.py:send():380] send: telemetry
+2023-10-23 18:43:21,717 DEBUG   SenderThread:19452 [sender.py:send():380] send: exit
+2023-10-23 18:43:21,717 INFO    SenderThread:19452 [sender.py:send_exit():585] handling exit code: 0
+2023-10-23 18:43:21,717 INFO    SenderThread:19452 [sender.py:send_exit():587] handling runtime: 5
+2023-10-23 18:43:21,717 INFO    SenderThread:19452 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-10-23 18:43:21,719 INFO    SenderThread:19452 [sender.py:send_exit():593] send defer
+2023-10-23 18:43:21,719 DEBUG   HandlerThread:19452 [handler.py:handle_request():144] handle_request: defer
+2023-10-23 18:43:21,719 INFO    HandlerThread:19452 [handler.py:handle_request_defer():170] handle defer: 0
+2023-10-23 18:43:21,719 DEBUG   SenderThread:19452 [sender.py:send_request():407] send_request: defer
+2023-10-23 18:43:21,719 INFO    SenderThread:19452 [sender.py:send_request_defer():609] handle sender defer: 0
+2023-10-23 18:43:21,719 INFO    SenderThread:19452 [sender.py:transition_state():613] send defer: 1
+2023-10-23 18:43:21,719 DEBUG   HandlerThread:19452 [handler.py:handle_request():144] handle_request: defer
+2023-10-23 18:43:21,719 INFO    HandlerThread:19452 [handler.py:handle_request_defer():170] handle defer: 1
+2023-10-23 18:43:21,719 DEBUG   SenderThread:19452 [sender.py:send_request():407] send_request: defer
+2023-10-23 18:43:21,720 INFO    SenderThread:19452 [sender.py:send_request_defer():609] handle sender defer: 1
+2023-10-23 18:43:21,720 INFO    SenderThread:19452 [sender.py:transition_state():613] send defer: 2
+2023-10-23 18:43:21,720 DEBUG   HandlerThread:19452 [handler.py:handle_request():144] handle_request: defer
+2023-10-23 18:43:21,720 INFO    HandlerThread:19452 [handler.py:handle_request_defer():170] handle defer: 2
+2023-10-23 18:43:21,720 INFO    HandlerThread:19452 [system_monitor.py:finish():190] Stopping system monitor
+2023-10-23 18:43:21,720 DEBUG   SystemMonitor:19452 [system_monitor.py:_start():159] Starting system metrics aggregation loop
+2023-10-23 18:43:21,720 DEBUG   SystemMonitor:19452 [system_monitor.py:_start():166] Finished system metrics aggregation loop
+2023-10-23 18:43:21,721 DEBUG   SystemMonitor:19452 [system_monitor.py:_start():170] Publishing last batch of metrics
+2023-10-23 18:43:21,720 INFO    HandlerThread:19452 [interfaces.py:finish():202] Joined cpu monitor
+2023-10-23 18:43:21,721 INFO    HandlerThread:19452 [interfaces.py:finish():202] Joined disk monitor
+2023-10-23 18:43:21,721 INFO    HandlerThread:19452 [interfaces.py:finish():202] Joined memory monitor
+2023-10-23 18:43:21,721 INFO    HandlerThread:19452 [interfaces.py:finish():202] Joined network monitor
+2023-10-23 18:43:21,722 DEBUG   SenderThread:19452 [sender.py:send_request():407] send_request: defer
+2023-10-23 18:43:21,722 INFO    SenderThread:19452 [sender.py:send_request_defer():609] handle sender defer: 2
+2023-10-23 18:43:21,722 INFO    SenderThread:19452 [sender.py:transition_state():613] send defer: 3
+2023-10-23 18:43:21,722 DEBUG   SenderThread:19452 [sender.py:send():380] send: stats
+2023-10-23 18:43:21,722 DEBUG   HandlerThread:19452 [handler.py:handle_request():144] handle_request: defer
+2023-10-23 18:43:21,722 INFO    HandlerThread:19452 [handler.py:handle_request_defer():170] handle defer: 3
+2023-10-23 18:43:21,722 DEBUG   SenderThread:19452 [sender.py:send_request():407] send_request: defer
+2023-10-23 18:43:21,722 INFO    SenderThread:19452 [sender.py:send_request_defer():609] handle sender defer: 3
+2023-10-23 18:43:21,722 INFO    SenderThread:19452 [sender.py:transition_state():613] send defer: 4
+2023-10-23 18:43:21,722 DEBUG   HandlerThread:19452 [handler.py:handle_request():144] handle_request: defer
+2023-10-23 18:43:21,722 INFO    HandlerThread:19452 [handler.py:handle_request_defer():170] handle defer: 4
+2023-10-23 18:43:21,723 DEBUG   SenderThread:19452 [sender.py:send_request():407] send_request: defer
+2023-10-23 18:43:21,723 INFO    SenderThread:19452 [sender.py:send_request_defer():609] handle sender defer: 4
+2023-10-23 18:43:21,723 INFO    SenderThread:19452 [sender.py:transition_state():613] send defer: 5
+2023-10-23 18:43:21,723 DEBUG   HandlerThread:19452 [handler.py:handle_request():144] handle_request: defer
+2023-10-23 18:43:21,723 INFO    HandlerThread:19452 [handler.py:handle_request_defer():170] handle defer: 5
+2023-10-23 18:43:21,723 DEBUG   SenderThread:19452 [sender.py:send():380] send: summary
+2023-10-23 18:43:21,723 INFO    SenderThread:19452 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-10-23 18:43:21,723 DEBUG   SenderThread:19452 [sender.py:send_request():407] send_request: defer
+2023-10-23 18:43:21,723 INFO    SenderThread:19452 [sender.py:send_request_defer():609] handle sender defer: 5
+2023-10-23 18:43:21,723 INFO    SenderThread:19452 [sender.py:transition_state():613] send defer: 6
+2023-10-23 18:43:21,724 DEBUG   HandlerThread:19452 [handler.py:handle_request():144] handle_request: defer
+2023-10-23 18:43:21,724 INFO    HandlerThread:19452 [handler.py:handle_request_defer():170] handle defer: 6
+2023-10-23 18:43:21,724 DEBUG   SenderThread:19452 [sender.py:send_request():407] send_request: defer
+2023-10-23 18:43:21,724 INFO    SenderThread:19452 [sender.py:send_request_defer():609] handle sender defer: 6
+2023-10-23 18:43:21,726 DEBUG   HandlerThread:19452 [handler.py:handle_request():144] handle_request: status_report
+2023-10-23 18:43:22,034 ERROR   FileStreamThread:19452 [file_stream.py:_handle_response():504] dropped chunk 404 Client Error: Not Found for url: https://api.wandb.ai/files/tejas591995/MLP_classification/dkek5hjp/file_stream
+NoneType: None
+2023-10-23 18:43:22,035 ERROR   SenderThread:19452 [internal_api.py:execute():369] 409 response executing GraphQL.
+2023-10-23 18:43:22,035 ERROR   SenderThread:19452 [internal_api.py:execute():370] {"errors":[{"message":"run tejas591995/MLP_classification/dkek5hjp was previously created and deleted; try a new run name","path":["upsertBucket"]}],"data":{"upsertBucket":null}}
+2023-10-23 18:43:22,619 INFO    Thread-12 :19452 [dir_watcher.py:_on_file_created():271] file/dir created: /home/tejas/Documents/SMAI/assignment-3-MrTejas/q2/wandb/run-20231023_184043-dkek5hjp/files/wandb-summary.json
+2023-10-23 18:43:22,620 INFO    Thread-12 :19452 [dir_watcher.py:_on_file_created():271] file/dir created: /home/tejas/Documents/SMAI/assignment-3-MrTejas/q2/wandb/run-20231023_184043-dkek5hjp/files/output.log
+2023-10-23 18:43:22,692 DEBUG   HandlerThread:19452 [handler.py:handle_request():144] handle_request: poll_exit
+2023-10-23 18:43:23,575 ERROR   SenderThread:19452 [internal_api.py:execute():369] 409 response executing GraphQL.
+2023-10-23 18:43:23,575 ERROR   SenderThread:19452 [internal_api.py:execute():370] {"errors":[{"message":"run tejas591995/MLP_classification/dkek5hjp was previously created and deleted; try a new run name","path":["upsertBucket"]}],"data":{"upsertBucket":null}}
+2023-10-23 18:43:24,620 INFO    Thread-12 :19452 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/tejas/Documents/SMAI/assignment-3-MrTejas/q2/wandb/run-20231023_184043-dkek5hjp/files/output.log
+2023-10-23 18:43:26,337 ERROR   SenderThread:19452 [internal_api.py:execute():369] 409 response executing GraphQL.
+2023-10-23 18:43:26,337 ERROR   SenderThread:19452 [internal_api.py:execute():370] {"errors":[{"message":"run tejas591995/MLP_classification/dkek5hjp was previously created and deleted; try a new run name","path":["upsertBucket"]}],"data":{"upsertBucket":null}}
+2023-10-23 18:43:26,337 INFO    SenderThread:19452 [retry.py:__call__():172] Retry attempt failed:
+Traceback (most recent call last):
+  File "/home/tejas/anaconda3/lib/python3.9/site-packages/wandb/sdk/lib/retry.py", line 131, in __call__
+    result = self._call_fn(*args, **kwargs)
+  File "/home/tejas/anaconda3/lib/python3.9/site-packages/wandb/sdk/internal/internal_api.py", line 366, in execute
+    return self.client.execute(*args, **kwargs)  # type: ignore
+  File "/home/tejas/anaconda3/lib/python3.9/site-packages/wandb/vendor/gql-0.2.0/wandb_gql/client.py", line 52, in execute
+    result = self._get_result(document, *args, **kwargs)
+  File "/home/tejas/anaconda3/lib/python3.9/site-packages/wandb/vendor/gql-0.2.0/wandb_gql/client.py", line 60, in _get_result
+    return self.transport.execute(document, *args, **kwargs)
+  File "/home/tejas/anaconda3/lib/python3.9/site-packages/wandb/sdk/lib/gql_request.py", line 59, in execute
+    request.raise_for_status()
+  File "/home/tejas/anaconda3/lib/python3.9/site-packages/requests/models.py", line 1021, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 409 Client Error: Conflict for url: https://api.wandb.ai/graphql
+2023-10-23 18:43:27,694 DEBUG   HandlerThread:19452 [handler.py:handle_request():144] handle_request: keepalive
+2023-10-23 18:43:31,651 ERROR   SenderThread:19452 [internal_api.py:execute():369] 409 response executing GraphQL.
+2023-10-23 18:43:31,651 ERROR   SenderThread:19452 [internal_api.py:execute():370] {"errors":[{"message":"run tejas591995/MLP_classification/dkek5hjp was previously created and deleted; try a new run name","path":["upsertBucket"]}],"data":{"upsertBucket":null}}
+2023-10-23 18:43:32,696 DEBUG   HandlerThread:19452 [handler.py:handle_request():144] handle_request: keepalive
+2023-10-23 18:43:34,117 ERROR   FileStreamThread:19452 [file_stream.py:_handle_response():504] dropped chunk 404 Client Error: Not Found for url: https://api.wandb.ai/files/tejas591995/MLP_classification/dkek5hjp/file_stream
+NoneType: None
+2023-10-23 18:43:37,697 DEBUG   HandlerThread:19452 [handler.py:handle_request():144] handle_request: keepalive
+2023-10-23 18:43:40,047 ERROR   SenderThread:19452 [internal_api.py:execute():369] 409 response executing GraphQL.
+2023-10-23 18:43:40,048 ERROR   SenderThread:19452 [internal_api.py:execute():370] {"errors":[{"message":"run tejas591995/MLP_classification/dkek5hjp was previously created and deleted; try a new run name","path":["upsertBucket"]}],"data":{"upsertBucket":null}}
+2023-10-23 18:43:42,699 DEBUG   HandlerThread:19452 [handler.py:handle_request():144] handle_request: keepalive
+2023-10-23 18:43:58,685 ERROR   SenderThread:19452 [internal_api.py:execute():369] 409 response executing GraphQL.
+2023-10-23 18:43:58,685 ERROR   SenderThread:19452 [internal_api.py:execute():370] {"errors":[{"message":"run tejas591995/MLP_classification/dkek5hjp was previously created and deleted; try a new run name","path":["upsertBucket"]}],"data":{"upsertBucket":null}}
+2023-10-23 18:44:33,400 ERROR   SenderThread:19452 [internal_api.py:execute():369] 409 response executing GraphQL.
+2023-10-23 18:44:33,400 ERROR   SenderThread:19452 [internal_api.py:execute():370] {"errors":[{"message":"run tejas591995/MLP_classification/dkek5hjp was previously created and deleted; try a new run name","path":["upsertBucket"]}],"data":{"upsertBucket":null}}
+2023-10-23 18:45:52,054 ERROR   SenderThread:19452 [internal_api.py:execute():369] 409 response executing GraphQL.
+2023-10-23 18:45:52,054 ERROR   SenderThread:19452 [internal_api.py:execute():370] {"errors":[{"message":"run tejas591995/MLP_classification/dkek5hjp was previously created and deleted; try a new run name","path":["upsertBucket"]}],"data":{"upsertBucket":null}}
+2023-10-23 18:45:52,731 INFO    HandlerThread:19452 [handler.py:finish():844] shutting down handler
+2023-10-23 18:45:52,732 INFO    WriterThread:19452 [datastore.py:close():294] close: /home/tejas/Documents/SMAI/assignment-3-MrTejas/q2/wandb/run-20231023_184043-dkek5hjp/run-dkek5hjp.wandb
+2023-10-23 18:45:52,763 ERROR   StreamThr :19452 [internal.py:wandb_internal():174] Thread SenderThread:
+Traceback (most recent call last):
+  File "/home/tejas/anaconda3/lib/python3.9/site-packages/wandb/apis/normalize.py", line 41, in wrapper
+    return func(*args, **kwargs)
+  File "/home/tejas/anaconda3/lib/python3.9/site-packages/wandb/sdk/internal/internal_api.py", line 2007, in upsert_run
+    response = self.gql(
+  File "/home/tejas/anaconda3/lib/python3.9/site-packages/wandb/sdk/internal/internal_api.py", line 338, in gql
+    ret = self._retry_gql(
+  File "/home/tejas/anaconda3/lib/python3.9/site-packages/wandb/sdk/lib/retry.py", line 131, in __call__
+    result = self._call_fn(*args, **kwargs)
+  File "/home/tejas/anaconda3/lib/python3.9/site-packages/wandb/sdk/internal/internal_api.py", line 366, in execute
+    return self.client.execute(*args, **kwargs)  # type: ignore
+  File "/home/tejas/anaconda3/lib/python3.9/site-packages/wandb/vendor/gql-0.2.0/wandb_gql/client.py", line 52, in execute
+    result = self._get_result(document, *args, **kwargs)
+  File "/home/tejas/anaconda3/lib/python3.9/site-packages/wandb/vendor/gql-0.2.0/wandb_gql/client.py", line 60, in _get_result
+    return self.transport.execute(document, *args, **kwargs)
+  File "/home/tejas/anaconda3/lib/python3.9/site-packages/wandb/sdk/lib/gql_request.py", line 59, in execute
+    request.raise_for_status()
+  File "/home/tejas/anaconda3/lib/python3.9/site-packages/requests/models.py", line 1021, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 409 Client Error: Conflict for url: https://api.wandb.ai/graphql
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/tejas/anaconda3/lib/python3.9/site-packages/wandb/sdk/internal/internal_util.py", line 49, in run
+    self._run()
+  File "/home/tejas/anaconda3/lib/python3.9/site-packages/wandb/sdk/internal/internal_util.py", line 100, in _run
+    self._process(record)
+  File "/home/tejas/anaconda3/lib/python3.9/site-packages/wandb/sdk/internal/internal.py", line 328, in _process
+    self._sm.send(record)
+  File "/home/tejas/anaconda3/lib/python3.9/site-packages/wandb/sdk/internal/sender.py", line 387, in send
+    send_handler(record)
+  File "/home/tejas/anaconda3/lib/python3.9/site-packages/wandb/sdk/internal/sender.py", line 409, in send_request
+    send_handler(record)
+  File "/home/tejas/anaconda3/lib/python3.9/site-packages/wandb/sdk/internal/sender.py", line 635, in send_request_defer
+    self.debounce(final=True)
+  File "/home/tejas/anaconda3/lib/python3.9/site-packages/wandb/sdk/internal/sender.py", line 538, in debounce
+    self._maybe_update_config(always=final)
+  File "/home/tejas/anaconda3/lib/python3.9/site-packages/wandb/sdk/internal/sender.py", line 515, in _maybe_update_config
+    self._debounce_config()
+  File "/home/tejas/anaconda3/lib/python3.9/site-packages/wandb/sdk/internal/sender.py", line 544, in _debounce_config
+    self._api.upsert_run(
+  File "/home/tejas/anaconda3/lib/python3.9/site-packages/wandb/apis/normalize.py", line 51, in wrapper
+    raise CommError(message, error)
+wandb.errors.CommError: run tejas591995/MLP_classification/dkek5hjp was previously created and deleted; try a new run name (Error 409: Conflict)

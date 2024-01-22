@@ -1,0 +1,79 @@
+{
+    "os": "Linux-5.15.0-88-generic-x86_64-with-glibc2.29",
+    "python": "3.8.10",
+    "heartbeatAt": "2023-11-12T20:33:21.893237",
+    "startedAt": "2023-11-12T20:33:06.155024",
+    "docker": null,
+    "cuda": null,
+    "args": [],
+    "state": "running",
+    "program": "<python with no main file>",
+    "codePathLocal": null,
+    "git": {
+        "remote": "https://github.com/Statistical-Methods-in-AI-Monsoon-2023/assignment-4-MrTejas.git",
+        "commit": "18197d3b06c478f68a664a809764bf3227d0acb0"
+    },
+    "email": "tejas591995@gmail.com",
+    "root": "/home/tejas/Documents/SMAI/assignment-4-MrTejas",
+    "host": "nimbostratus",
+    "username": "tejas",
+    "executable": "/bin/python3",
+    "cpu_count": 4,
+    "cpu_count_logical": 8,
+    "cpu_freq": {
+        "current": 1723.893,
+        "min": 400.0,
+        "max": 4800.0
+    },
+    "cpu_freq_per_core": [
+        {
+            "current": 1343.615,
+            "min": 400.0,
+            "max": 4800.0
+        },
+        {
+            "current": 1307.594,
+            "min": 400.0,
+            "max": 4800.0
+        },
+        {
+            "current": 1337.249,
+            "min": 400.0,
+            "max": 4800.0
+        },
+        {
+            "current": 1319.853,
+            "min": 400.0,
+            "max": 4800.0
+        },
+        {
+            "current": 1338.05,
+            "min": 400.0,
+            "max": 4800.0
+        },
+        {
+            "current": 1362.771,
+            "min": 400.0,
+            "max": 4800.0
+        },
+        {
+            "current": 1325.608,
+            "min": 400.0,
+            "max": 4800.0
+        },
+        {
+            "current": 1341.908,
+            "min": 400.0,
+            "max": 4800.0
+        }
+    ],
+    "disk": {
+        "/": {
+            "total": 72.78396224975586,
+            "used": 28.309772491455078
+        }
+    },
+    "memory": {
+        "total": 15.366096496582031
+    }
+}

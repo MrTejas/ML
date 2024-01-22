@@ -1,0 +1,596 @@
+2023-10-23 20:23:28,879 INFO    StreamThr :25866 [internal.py:wandb_internal():86] W&B internal server running at pid: 25866, started at: 2023-10-23 20:23:28.878251
+2023-10-23 20:23:28,883 DEBUG   HandlerThread:25866 [handler.py:handle_request():144] handle_request: status
+2023-10-23 20:23:28,886 INFO    WriterThread:25866 [datastore.py:open_for_write():85] open: /home/tejas/Documents/SMAI/assignment-3-MrTejas/q1/wandb/run-20231023_202328-yck8y8dz/run-yck8y8dz.wandb
+2023-10-23 20:23:28,887 DEBUG   SenderThread:25866 [sender.py:send():380] send: header
+2023-10-23 20:23:28,887 DEBUG   SenderThread:25866 [sender.py:send():380] send: run
+2023-10-23 20:23:29,762 INFO    SenderThread:25866 [dir_watcher.py:__init__():211] watching files in: /home/tejas/Documents/SMAI/assignment-3-MrTejas/q1/wandb/run-20231023_202328-yck8y8dz/files
+2023-10-23 20:23:29,762 INFO    SenderThread:25866 [sender.py:_start_run_threads():1122] run started: yck8y8dz with start time 1698072808.052861
+2023-10-23 20:23:29,772 DEBUG   HandlerThread:25866 [handler.py:handle_request():144] handle_request: check_version
+2023-10-23 20:23:29,772 DEBUG   SenderThread:25866 [sender.py:send_request():407] send_request: check_version
+2023-10-23 20:23:30,041 DEBUG   HandlerThread:25866 [handler.py:handle_request():144] handle_request: run_start
+2023-10-23 20:23:30,200 ERROR   HandlerThread:25866 [gpu.py:is_available():381] Error initializing NVML: Driver Not Loaded
+2023-10-23 20:23:30,202 DEBUG   HandlerThread:25866 [system_info.py:__init__():32] System info init
+2023-10-23 20:23:30,202 DEBUG   HandlerThread:25866 [system_info.py:__init__():47] System info init done
+2023-10-23 20:23:30,202 INFO    HandlerThread:25866 [system_monitor.py:start():181] Starting system monitor
+2023-10-23 20:23:30,203 INFO    SystemMonitor:25866 [system_monitor.py:_start():145] Starting system asset monitoring threads
+2023-10-23 20:23:30,203 INFO    HandlerThread:25866 [system_monitor.py:probe():201] Collecting system info
+2023-10-23 20:23:30,204 INFO    SystemMonitor:25866 [interfaces.py:start():190] Started cpu monitoring
+2023-10-23 20:23:30,204 INFO    SystemMonitor:25866 [interfaces.py:start():190] Started disk monitoring
+2023-10-23 20:23:30,206 INFO    SystemMonitor:25866 [interfaces.py:start():190] Started memory monitoring
+2023-10-23 20:23:30,207 INFO    SystemMonitor:25866 [interfaces.py:start():190] Started network monitoring
+2023-10-23 20:23:30,250 DEBUG   HandlerThread:25866 [system_info.py:probe():196] Probing system
+2023-10-23 20:23:30,251 DEBUG   HandlerThread:25866 [system_info.py:_probe_git():181] Probing git
+2023-10-23 20:23:30,299 DEBUG   HandlerThread:25866 [system_info.py:_probe_git():189] Probing git done
+2023-10-23 20:23:30,299 DEBUG   HandlerThread:25866 [system_info.py:probe():244] Probing system done
+2023-10-23 20:23:30,299 DEBUG   HandlerThread:25866 [system_monitor.py:probe():210] {'os': 'Linux-5.15.0-87-generic-x86_64-with-glibc2.31', 'python': '3.9.13', 'heartbeatAt': '2023-10-23T14:53:30.250253', 'startedAt': '2023-10-23T14:53:28.050253', 'docker': None, 'cuda': None, 'args': (), 'state': 'running', 'program': 'q1/1.2.ipynb', 'codePathLocal': None, 'root': '/home/tejas/Documents/SMAI/assignment-3-MrTejas', 'git': {'remote': 'https://github.com/Statistical-Methods-in-AI-Monsoon-2023/assignment-3-MrTejas.git', 'commit': 'ad24b7eb2d84c5e44390d85bd17141a3e5c96a0f'}, 'email': 'tejas591995@gmail.com', 'host': 'nimbostratus', 'username': 'tejas', 'executable': '/home/tejas/anaconda3/bin/python', 'cpu_count': 4, 'cpu_count_logical': 8, 'cpu_freq': {'current': 3.19475, 'min': 400.0, 'max': 4800.0}, 'cpu_freq_per_core': [{'current': 3.3, 'min': 400.0, 'max': 4800.0}, {'current': 3.3, 'min': 400.0, 'max': 4800.0}, {'current': 3.844, 'min': 400.0, 'max': 4800.0}, {'current': 2.511, 'min': 400.0, 'max': 4800.0}, {'current': 3.3, 'min': 400.0, 'max': 4800.0}, {'current': 3.3, 'min': 400.0, 'max': 4800.0}, {'current': 3.3, 'min': 400.0, 'max': 4800.0}, {'current': 3.3, 'min': 400.0, 'max': 4800.0}], 'disk': {'/': {'total': 72.78396224975586, 'used': 29.162578582763672}}, 'memory': {'total': 15.366085052490234}}
+2023-10-23 20:23:30,299 INFO    HandlerThread:25866 [system_monitor.py:probe():211] Finished collecting system info
+2023-10-23 20:23:30,299 INFO    HandlerThread:25866 [system_monitor.py:probe():214] Publishing system info
+2023-10-23 20:23:30,299 DEBUG   HandlerThread:25866 [system_info.py:_save_pip():52] Saving list of pip packages installed into the current environment
+2023-10-23 20:23:30,300 DEBUG   HandlerThread:25866 [system_info.py:_save_pip():68] Saving pip packages done
+2023-10-23 20:23:30,300 DEBUG   HandlerThread:25866 [system_info.py:_save_conda():75] Saving list of conda packages installed into the current environment
+2023-10-23 20:23:30,763 INFO    Thread-2307:25866 [dir_watcher.py:_on_file_created():271] file/dir created: /home/tejas/Documents/SMAI/assignment-3-MrTejas/q1/wandb/run-20231023_202328-yck8y8dz/files/conda-environment.yaml
+2023-10-23 20:23:30,763 INFO    Thread-2307:25866 [dir_watcher.py:_on_file_created():271] file/dir created: /home/tejas/Documents/SMAI/assignment-3-MrTejas/q1/wandb/run-20231023_202328-yck8y8dz/files/requirements.txt
+2023-10-23 20:23:35,052 DEBUG   HandlerThread:25866 [system_info.py:_save_conda():87] Saving conda packages done
+2023-10-23 20:23:35,052 INFO    HandlerThread:25866 [system_monitor.py:probe():216] Finished publishing system info
+2023-10-23 20:23:35,052 DEBUG   HandlerThread:25866 [handler.py:handle_request():144] handle_request: status_report
+2023-10-23 20:23:35,053 DEBUG   SenderThread:25866 [sender.py:send():380] send: files
+2023-10-23 20:23:35,053 INFO    SenderThread:25866 [sender.py:_save_file():1378] saving file wandb-metadata.json with policy now
+2023-10-23 20:23:35,763 INFO    Thread-2307:25866 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/tejas/Documents/SMAI/assignment-3-MrTejas/q1/wandb/run-20231023_202328-yck8y8dz/files/conda-environment.yaml
+2023-10-23 20:23:35,763 INFO    Thread-2307:25866 [dir_watcher.py:_on_file_created():271] file/dir created: /home/tejas/Documents/SMAI/assignment-3-MrTejas/q1/wandb/run-20231023_202328-yck8y8dz/files/wandb-metadata.json
+2023-10-23 20:23:36,398 INFO    wandb-upload_0:25866 [upload_job.py:push():131] Uploaded file /tmp/tmpn0_6cmy3wandb/kcs5wnnr-wandb-metadata.json
+2023-10-23 20:23:39,054 DEBUG   HandlerThread:25866 [handler.py:handle_request():144] handle_request: status_report
+2023-10-23 20:23:44,055 DEBUG   HandlerThread:25866 [handler.py:handle_request():144] handle_request: status_report
+2023-10-23 20:23:49,056 DEBUG   HandlerThread:25866 [handler.py:handle_request():144] handle_request: status_report
+2023-10-23 20:23:54,057 DEBUG   HandlerThread:25866 [handler.py:handle_request():144] handle_request: status_report
+2023-10-23 20:23:59,058 DEBUG   HandlerThread:25866 [handler.py:handle_request():144] handle_request: status_report
+2023-10-23 20:24:04,059 DEBUG   HandlerThread:25866 [handler.py:handle_request():144] handle_request: status_report
+2023-10-23 20:24:09,060 DEBUG   HandlerThread:25866 [handler.py:handle_request():144] handle_request: status_report
+2023-10-23 20:24:14,061 DEBUG   HandlerThread:25866 [handler.py:handle_request():144] handle_request: status_report
+2023-10-23 20:24:19,062 DEBUG   HandlerThread:25866 [handler.py:handle_request():144] handle_request: status_report
+2023-10-23 20:24:24,063 DEBUG   HandlerThread:25866 [handler.py:handle_request():144] handle_request: status_report
+2023-10-23 20:24:29,064 DEBUG   HandlerThread:25866 [handler.py:handle_request():144] handle_request: status_report
+2023-10-23 20:24:30,207 DEBUG   SystemMonitor:25866 [system_monitor.py:_start():159] Starting system metrics aggregation loop
+2023-10-23 20:24:30,208 DEBUG   SenderThread:25866 [sender.py:send():380] send: stats
+2023-10-23 20:24:30,571 ERROR   FileStreamThread:25866 [file_stream.py:_handle_response():504] dropped chunk 404 Client Error: Not Found for url: https://api.wandb.ai/files/tejas591995/Logistic_Regression/yck8y8dz/file_stream
+NoneType: None
+2023-10-23 20:24:34,209 DEBUG   HandlerThread:25866 [handler.py:handle_request():144] handle_request: status_report
+2023-10-23 20:24:39,210 DEBUG   HandlerThread:25866 [handler.py:handle_request():144] handle_request: status_report
+2023-10-23 20:24:44,212 DEBUG   HandlerThread:25866 [handler.py:handle_request():144] handle_request: status_report
+2023-10-23 20:24:49,213 DEBUG   HandlerThread:25866 [handler.py:handle_request():144] handle_request: status_report
+2023-10-23 20:24:54,214 DEBUG   HandlerThread:25866 [handler.py:handle_request():144] handle_request: status_report
+2023-10-23 20:24:59,215 DEBUG   HandlerThread:25866 [handler.py:handle_request():144] handle_request: status_report
+2023-10-23 20:25:00,208 DEBUG   SenderThread:25866 [sender.py:send():380] send: stats
+2023-10-23 20:25:00,577 ERROR   FileStreamThread:25866 [file_stream.py:_handle_response():504] dropped chunk 404 Client Error: Not Found for url: https://api.wandb.ai/files/tejas591995/Logistic_Regression/yck8y8dz/file_stream
+NoneType: None
+2023-10-23 20:25:05,210 DEBUG   HandlerThread:25866 [handler.py:handle_request():144] handle_request: status_report
+2023-10-23 20:25:10,211 DEBUG   HandlerThread:25866 [handler.py:handle_request():144] handle_request: status_report
+2023-10-23 20:25:15,212 DEBUG   HandlerThread:25866 [handler.py:handle_request():144] handle_request: status_report
+2023-10-23 20:25:20,213 DEBUG   HandlerThread:25866 [handler.py:handle_request():144] handle_request: status_report
+2023-10-23 20:25:25,215 DEBUG   HandlerThread:25866 [handler.py:handle_request():144] handle_request: status_report
+2023-10-23 20:25:30,209 DEBUG   SenderThread:25866 [sender.py:send():380] send: stats
+2023-10-23 20:25:30,565 ERROR   FileStreamThread:25866 [file_stream.py:_handle_response():504] dropped chunk 404 Client Error: Not Found for url: https://api.wandb.ai/files/tejas591995/Logistic_Regression/yck8y8dz/file_stream
+NoneType: None
+2023-10-23 20:25:31,209 DEBUG   HandlerThread:25866 [handler.py:handle_request():144] handle_request: status_report
+2023-10-23 20:25:36,211 DEBUG   HandlerThread:25866 [handler.py:handle_request():144] handle_request: status_report
+2023-10-23 20:25:41,212 DEBUG   HandlerThread:25866 [handler.py:handle_request():144] handle_request: status_report
+2023-10-23 20:25:46,213 DEBUG   HandlerThread:25866 [handler.py:handle_request():144] handle_request: status_report
+2023-10-23 20:25:51,214 DEBUG   HandlerThread:25866 [handler.py:handle_request():144] handle_request: status_report
+2023-10-23 20:25:56,214 DEBUG   HandlerThread:25866 [handler.py:handle_request():144] handle_request: status_report
+2023-10-23 20:26:00,209 DEBUG   SenderThread:25866 [sender.py:send():380] send: stats
+2023-10-23 20:26:00,483 ERROR   FileStreamThread:25866 [file_stream.py:_handle_response():504] dropped chunk 404 Client Error: Not Found for url: https://api.wandb.ai/files/tejas591995/Logistic_Regression/yck8y8dz/file_stream
+NoneType: None
+2023-10-23 20:26:02,210 DEBUG   HandlerThread:25866 [handler.py:handle_request():144] handle_request: status_report
+2023-10-23 20:26:07,211 DEBUG   HandlerThread:25866 [handler.py:handle_request():144] handle_request: status_report
+2023-10-23 20:26:12,212 DEBUG   HandlerThread:25866 [handler.py:handle_request():144] handle_request: status_report
+2023-10-23 20:26:17,213 DEBUG   HandlerThread:25866 [handler.py:handle_request():144] handle_request: status_report
+2023-10-23 20:26:22,214 DEBUG   HandlerThread:25866 [handler.py:handle_request():144] handle_request: status_report
+2023-10-23 20:26:27,215 DEBUG   HandlerThread:25866 [handler.py:handle_request():144] handle_request: status_report
+2023-10-23 20:26:30,210 DEBUG   SenderThread:25866 [sender.py:send():380] send: stats
+2023-10-23 20:26:30,569 ERROR   FileStreamThread:25866 [file_stream.py:_handle_response():504] dropped chunk 404 Client Error: Not Found for url: https://api.wandb.ai/files/tejas591995/Logistic_Regression/yck8y8dz/file_stream
+NoneType: None
+2023-10-23 20:26:33,210 DEBUG   HandlerThread:25866 [handler.py:handle_request():144] handle_request: status_report
+2023-10-23 20:26:38,211 DEBUG   HandlerThread:25866 [handler.py:handle_request():144] handle_request: status_report
+2023-10-23 20:26:43,213 DEBUG   HandlerThread:25866 [handler.py:handle_request():144] handle_request: status_report
+2023-10-23 20:26:48,214 DEBUG   HandlerThread:25866 [handler.py:handle_request():144] handle_request: status_report
+2023-10-23 20:26:53,215 DEBUG   HandlerThread:25866 [handler.py:handle_request():144] handle_request: status_report
+2023-10-23 20:26:58,216 DEBUG   HandlerThread:25866 [handler.py:handle_request():144] handle_request: status_report
+2023-10-23 20:27:00,211 DEBUG   SenderThread:25866 [sender.py:send():380] send: stats
+2023-10-23 20:27:00,583 ERROR   FileStreamThread:25866 [file_stream.py:_handle_response():504] dropped chunk 404 Client Error: Not Found for url: https://api.wandb.ai/files/tejas591995/Logistic_Regression/yck8y8dz/file_stream
+NoneType: None
+2023-10-23 20:27:04,212 DEBUG   HandlerThread:25866 [handler.py:handle_request():144] handle_request: status_report
+2023-10-23 20:27:09,213 DEBUG   HandlerThread:25866 [handler.py:handle_request():144] handle_request: status_report
+2023-10-23 20:27:14,215 DEBUG   HandlerThread:25866 [handler.py:handle_request():144] handle_request: status_report
+2023-10-23 20:27:19,216 DEBUG   HandlerThread:25866 [handler.py:handle_request():144] handle_request: status_report
+2023-10-23 20:27:24,217 DEBUG   HandlerThread:25866 [handler.py:handle_request():144] handle_request: status_report
+2023-10-23 20:27:29,219 DEBUG   HandlerThread:25866 [handler.py:handle_request():144] handle_request: status_report
+2023-10-23 20:27:30,212 DEBUG   SenderThread:25866 [sender.py:send():380] send: stats
+2023-10-23 20:27:30,584 ERROR   FileStreamThread:25866 [file_stream.py:_handle_response():504] dropped chunk 404 Client Error: Not Found for url: https://api.wandb.ai/files/tejas591995/Logistic_Regression/yck8y8dz/file_stream
+NoneType: None
+2023-10-23 20:27:35,214 DEBUG   HandlerThread:25866 [handler.py:handle_request():144] handle_request: status_report
+2023-10-23 20:27:40,215 DEBUG   HandlerThread:25866 [handler.py:handle_request():144] handle_request: status_report
+2023-10-23 20:27:45,216 DEBUG   HandlerThread:25866 [handler.py:handle_request():144] handle_request: status_report
+2023-10-23 20:27:50,218 DEBUG   HandlerThread:25866 [handler.py:handle_request():144] handle_request: status_report
+2023-10-23 20:27:55,219 DEBUG   HandlerThread:25866 [handler.py:handle_request():144] handle_request: status_report
+2023-10-23 20:28:00,213 DEBUG   SenderThread:25866 [sender.py:send():380] send: stats
+2023-10-23 20:28:00,512 ERROR   FileStreamThread:25866 [file_stream.py:_handle_response():504] dropped chunk 404 Client Error: Not Found for url: https://api.wandb.ai/files/tejas591995/Logistic_Regression/yck8y8dz/file_stream
+NoneType: None
+2023-10-23 20:28:01,214 DEBUG   HandlerThread:25866 [handler.py:handle_request():144] handle_request: status_report
+2023-10-23 20:28:06,216 DEBUG   HandlerThread:25866 [handler.py:handle_request():144] handle_request: status_report
+2023-10-23 20:28:11,217 DEBUG   HandlerThread:25866 [handler.py:handle_request():144] handle_request: status_report
+2023-10-23 20:28:16,219 DEBUG   HandlerThread:25866 [handler.py:handle_request():144] handle_request: status_report
+2023-10-23 20:28:21,220 DEBUG   HandlerThread:25866 [handler.py:handle_request():144] handle_request: status_report
+2023-10-23 20:28:26,221 DEBUG   HandlerThread:25866 [handler.py:handle_request():144] handle_request: status_report
+2023-10-23 20:28:30,214 DEBUG   SenderThread:25866 [sender.py:send():380] send: stats
+2023-10-23 20:28:30,613 ERROR   FileStreamThread:25866 [file_stream.py:_handle_response():504] dropped chunk 404 Client Error: Not Found for url: https://api.wandb.ai/files/tejas591995/Logistic_Regression/yck8y8dz/file_stream
+NoneType: None
+2023-10-23 20:28:32,215 DEBUG   HandlerThread:25866 [handler.py:handle_request():144] handle_request: status_report
+2023-10-23 20:28:37,216 DEBUG   HandlerThread:25866 [handler.py:handle_request():144] handle_request: status_report
+2023-10-23 20:28:42,218 DEBUG   HandlerThread:25866 [handler.py:handle_request():144] handle_request: status_report
+2023-10-23 20:28:47,219 DEBUG   HandlerThread:25866 [handler.py:handle_request():144] handle_request: status_report
+2023-10-23 20:28:52,220 DEBUG   HandlerThread:25866 [handler.py:handle_request():144] handle_request: status_report
+2023-10-23 20:28:57,221 DEBUG   HandlerThread:25866 [handler.py:handle_request():144] handle_request: status_report
+2023-10-23 20:29:00,214 DEBUG   SenderThread:25866 [sender.py:send():380] send: stats
+2023-10-23 20:29:03,215 DEBUG   HandlerThread:25866 [handler.py:handle_request():144] handle_request: status_report
+2023-10-23 20:29:08,216 DEBUG   HandlerThread:25866 [handler.py:handle_request():144] handle_request: status_report
+2023-10-23 20:29:13,217 DEBUG   HandlerThread:25866 [handler.py:handle_request():144] handle_request: status_report
+2023-10-23 20:29:18,219 DEBUG   HandlerThread:25866 [handler.py:handle_request():144] handle_request: status_report
+2023-10-23 20:29:23,220 DEBUG   HandlerThread:25866 [handler.py:handle_request():144] handle_request: status_report
+2023-10-23 20:29:28,221 DEBUG   HandlerThread:25866 [handler.py:handle_request():144] handle_request: status_report
+2023-10-23 20:29:30,218 DEBUG   SenderThread:25866 [sender.py:send():380] send: stats
+2023-10-23 20:29:30,592 ERROR   FileStreamThread:25866 [file_stream.py:_handle_response():504] dropped chunk 404 Client Error: Not Found for url: https://api.wandb.ai/files/tejas591995/Logistic_Regression/yck8y8dz/file_stream
+NoneType: None
+2023-10-23 20:29:34,220 DEBUG   HandlerThread:25866 [handler.py:handle_request():144] handle_request: status_report
+2023-10-23 20:29:39,221 DEBUG   HandlerThread:25866 [handler.py:handle_request():144] handle_request: status_report
+2023-10-23 20:29:44,222 DEBUG   HandlerThread:25866 [handler.py:handle_request():144] handle_request: status_report
+2023-10-23 20:29:49,223 DEBUG   HandlerThread:25866 [handler.py:handle_request():144] handle_request: status_report
+2023-10-23 20:29:54,225 DEBUG   HandlerThread:25866 [handler.py:handle_request():144] handle_request: status_report
+2023-10-23 20:29:59,226 DEBUG   HandlerThread:25866 [handler.py:handle_request():144] handle_request: status_report
+2023-10-23 20:30:00,216 DEBUG   SenderThread:25866 [sender.py:send():380] send: stats
+2023-10-23 20:30:00,488 ERROR   FileStreamThread:25866 [file_stream.py:_handle_response():504] dropped chunk 404 Client Error: Not Found for url: https://api.wandb.ai/files/tejas591995/Logistic_Regression/yck8y8dz/file_stream
+NoneType: None
+2023-10-23 20:30:05,217 DEBUG   HandlerThread:25866 [handler.py:handle_request():144] handle_request: status_report
+2023-10-23 20:30:10,219 DEBUG   HandlerThread:25866 [handler.py:handle_request():144] handle_request: status_report
+2023-10-23 20:30:15,220 DEBUG   HandlerThread:25866 [handler.py:handle_request():144] handle_request: status_report
+2023-10-23 20:30:20,222 DEBUG   HandlerThread:25866 [handler.py:handle_request():144] handle_request: status_report
+2023-10-23 20:30:25,223 DEBUG   HandlerThread:25866 [handler.py:handle_request():144] handle_request: status_report
+2023-10-23 20:30:30,217 DEBUG   SenderThread:25866 [sender.py:send():380] send: stats
+2023-10-23 20:30:30,601 ERROR   FileStreamThread:25866 [file_stream.py:_handle_response():504] dropped chunk 404 Client Error: Not Found for url: https://api.wandb.ai/files/tejas591995/Logistic_Regression/yck8y8dz/file_stream
+NoneType: None
+2023-10-23 20:30:31,218 DEBUG   HandlerThread:25866 [handler.py:handle_request():144] handle_request: status_report
+2023-10-23 20:30:36,219 DEBUG   HandlerThread:25866 [handler.py:handle_request():144] handle_request: status_report
+2023-10-23 20:30:41,221 DEBUG   HandlerThread:25866 [handler.py:handle_request():144] handle_request: status_report
+2023-10-23 20:30:46,222 DEBUG   HandlerThread:25866 [handler.py:handle_request():144] handle_request: status_report
+2023-10-23 20:30:51,223 DEBUG   HandlerThread:25866 [handler.py:handle_request():144] handle_request: status_report
+2023-10-23 20:30:56,224 DEBUG   HandlerThread:25866 [handler.py:handle_request():144] handle_request: status_report
+2023-10-23 20:31:00,218 DEBUG   SenderThread:25866 [sender.py:send():380] send: stats
+2023-10-23 20:31:00,605 ERROR   FileStreamThread:25866 [file_stream.py:_handle_response():504] dropped chunk 404 Client Error: Not Found for url: https://api.wandb.ai/files/tejas591995/Logistic_Regression/yck8y8dz/file_stream
+NoneType: None
+2023-10-23 20:31:02,219 DEBUG   HandlerThread:25866 [handler.py:handle_request():144] handle_request: status_report
+2023-10-23 20:31:07,221 DEBUG   HandlerThread:25866 [handler.py:handle_request():144] handle_request: status_report
+2023-10-23 20:31:12,222 DEBUG   HandlerThread:25866 [handler.py:handle_request():144] handle_request: status_report
+2023-10-23 20:31:17,223 DEBUG   HandlerThread:25866 [handler.py:handle_request():144] handle_request: status_report
+2023-10-23 20:31:22,225 DEBUG   HandlerThread:25866 [handler.py:handle_request():144] handle_request: status_report
+2023-10-23 20:31:27,226 DEBUG   HandlerThread:25866 [handler.py:handle_request():144] handle_request: status_report
+2023-10-23 20:31:30,219 DEBUG   SenderThread:25866 [sender.py:send():380] send: stats
+2023-10-23 20:31:30,618 ERROR   FileStreamThread:25866 [file_stream.py:_handle_response():504] dropped chunk 404 Client Error: Not Found for url: https://api.wandb.ai/files/tejas591995/Logistic_Regression/yck8y8dz/file_stream
+NoneType: None
+2023-10-23 20:31:33,221 DEBUG   HandlerThread:25866 [handler.py:handle_request():144] handle_request: status_report
+2023-10-23 20:31:38,222 DEBUG   HandlerThread:25866 [handler.py:handle_request():144] handle_request: status_report
+2023-10-23 20:31:43,223 DEBUG   HandlerThread:25866 [handler.py:handle_request():144] handle_request: status_report
+2023-10-23 20:31:48,224 DEBUG   HandlerThread:25866 [handler.py:handle_request():144] handle_request: status_report
+2023-10-23 20:31:53,225 DEBUG   HandlerThread:25866 [handler.py:handle_request():144] handle_request: status_report
+2023-10-23 20:31:58,226 DEBUG   HandlerThread:25866 [handler.py:handle_request():144] handle_request: status_report
+2023-10-23 20:32:00,219 DEBUG   SenderThread:25866 [sender.py:send():380] send: stats
+2023-10-23 20:32:04,220 DEBUG   HandlerThread:25866 [handler.py:handle_request():144] handle_request: status_report
+2023-10-23 20:32:09,221 DEBUG   HandlerThread:25866 [handler.py:handle_request():144] handle_request: status_report
+2023-10-23 20:32:14,222 DEBUG   HandlerThread:25866 [handler.py:handle_request():144] handle_request: status_report
+2023-10-23 20:32:19,224 DEBUG   HandlerThread:25866 [handler.py:handle_request():144] handle_request: status_report
+2023-10-23 20:32:24,224 DEBUG   HandlerThread:25866 [handler.py:handle_request():144] handle_request: status_report
+2023-10-23 20:32:29,225 DEBUG   HandlerThread:25866 [handler.py:handle_request():144] handle_request: status_report
+2023-10-23 20:32:30,223 DEBUG   SenderThread:25866 [sender.py:send():380] send: stats
+2023-10-23 20:32:30,510 ERROR   FileStreamThread:25866 [file_stream.py:_handle_response():504] dropped chunk 404 Client Error: Not Found for url: https://api.wandb.ai/files/tejas591995/Logistic_Regression/yck8y8dz/file_stream
+NoneType: None
+2023-10-23 20:32:35,224 DEBUG   HandlerThread:25866 [handler.py:handle_request():144] handle_request: status_report
+2023-10-23 20:32:40,225 DEBUG   HandlerThread:25866 [handler.py:handle_request():144] handle_request: status_report
+2023-10-23 20:32:45,226 DEBUG   HandlerThread:25866 [handler.py:handle_request():144] handle_request: status_report
+2023-10-23 20:32:50,228 DEBUG   HandlerThread:25866 [handler.py:handle_request():144] handle_request: status_report
+2023-10-23 20:32:55,228 DEBUG   HandlerThread:25866 [handler.py:handle_request():144] handle_request: status_report
+2023-10-23 20:33:00,221 DEBUG   SenderThread:25866 [sender.py:send():380] send: stats
+2023-10-23 20:33:00,504 ERROR   FileStreamThread:25866 [file_stream.py:_handle_response():504] dropped chunk 404 Client Error: Not Found for url: https://api.wandb.ai/files/tejas591995/Logistic_Regression/yck8y8dz/file_stream
+NoneType: None
+2023-10-23 20:33:01,222 DEBUG   HandlerThread:25866 [handler.py:handle_request():144] handle_request: status_report
+2023-10-23 20:33:06,223 DEBUG   HandlerThread:25866 [handler.py:handle_request():144] handle_request: status_report
+2023-10-23 20:33:11,224 DEBUG   HandlerThread:25866 [handler.py:handle_request():144] handle_request: status_report
+2023-10-23 20:33:16,225 DEBUG   HandlerThread:25866 [handler.py:handle_request():144] handle_request: status_report
+2023-10-23 20:33:21,226 DEBUG   HandlerThread:25866 [handler.py:handle_request():144] handle_request: status_report
+2023-10-23 20:33:26,227 DEBUG   HandlerThread:25866 [handler.py:handle_request():144] handle_request: status_report
+2023-10-23 20:33:30,221 DEBUG   SenderThread:25866 [sender.py:send():380] send: stats
+2023-10-23 20:33:32,222 DEBUG   HandlerThread:25866 [handler.py:handle_request():144] handle_request: status_report
+2023-10-23 20:33:37,223 DEBUG   HandlerThread:25866 [handler.py:handle_request():144] handle_request: status_report
+2023-10-23 20:33:42,224 DEBUG   HandlerThread:25866 [handler.py:handle_request():144] handle_request: status_report
+2023-10-23 20:33:47,225 DEBUG   HandlerThread:25866 [handler.py:handle_request():144] handle_request: status_report
+2023-10-23 20:33:52,227 DEBUG   HandlerThread:25866 [handler.py:handle_request():144] handle_request: status_report
+2023-10-23 20:33:57,227 DEBUG   HandlerThread:25866 [handler.py:handle_request():144] handle_request: status_report
+2023-10-23 20:34:00,224 DEBUG   SenderThread:25866 [sender.py:send():380] send: stats
+2023-10-23 20:34:00,631 ERROR   FileStreamThread:25866 [file_stream.py:_handle_response():504] dropped chunk 404 Client Error: Not Found for url: https://api.wandb.ai/files/tejas591995/Logistic_Regression/yck8y8dz/file_stream
+NoneType: None
+2023-10-23 20:34:03,226 DEBUG   HandlerThread:25866 [handler.py:handle_request():144] handle_request: status_report
+2023-10-23 20:34:08,226 DEBUG   HandlerThread:25866 [handler.py:handle_request():144] handle_request: status_report
+2023-10-23 20:34:13,227 DEBUG   HandlerThread:25866 [handler.py:handle_request():144] handle_request: status_report
+2023-10-23 20:34:18,228 DEBUG   HandlerThread:25866 [handler.py:handle_request():144] handle_request: status_report
+2023-10-23 20:34:23,229 DEBUG   HandlerThread:25866 [handler.py:handle_request():144] handle_request: status_report
+2023-10-23 20:34:28,229 DEBUG   HandlerThread:25866 [handler.py:handle_request():144] handle_request: status_report
+2023-10-23 20:34:30,223 DEBUG   SenderThread:25866 [sender.py:send():380] send: stats
+2023-10-23 20:34:30,501 ERROR   FileStreamThread:25866 [file_stream.py:_handle_response():504] dropped chunk 404 Client Error: Not Found for url: https://api.wandb.ai/files/tejas591995/Logistic_Regression/yck8y8dz/file_stream
+NoneType: None
+2023-10-23 20:34:34,225 DEBUG   HandlerThread:25866 [handler.py:handle_request():144] handle_request: status_report
+2023-10-23 20:34:39,226 DEBUG   HandlerThread:25866 [handler.py:handle_request():144] handle_request: status_report
+2023-10-23 20:34:44,227 DEBUG   HandlerThread:25866 [handler.py:handle_request():144] handle_request: status_report
+2023-10-23 20:34:49,228 DEBUG   HandlerThread:25866 [handler.py:handle_request():144] handle_request: status_report
+2023-10-23 20:34:54,229 DEBUG   HandlerThread:25866 [handler.py:handle_request():144] handle_request: status_report
+2023-10-23 20:34:59,230 DEBUG   HandlerThread:25866 [handler.py:handle_request():144] handle_request: status_report
+2023-10-23 20:35:00,224 DEBUG   SenderThread:25866 [sender.py:send():380] send: stats
+2023-10-23 20:35:00,500 ERROR   FileStreamThread:25866 [file_stream.py:_handle_response():504] dropped chunk 404 Client Error: Not Found for url: https://api.wandb.ai/files/tejas591995/Logistic_Regression/yck8y8dz/file_stream
+NoneType: None
+2023-10-23 20:35:05,226 DEBUG   HandlerThread:25866 [handler.py:handle_request():144] handle_request: status_report
+2023-10-23 20:35:10,227 DEBUG   HandlerThread:25866 [handler.py:handle_request():144] handle_request: status_report
+2023-10-23 20:35:15,228 DEBUG   HandlerThread:25866 [handler.py:handle_request():144] handle_request: status_report
+2023-10-23 20:35:20,230 DEBUG   HandlerThread:25866 [handler.py:handle_request():144] handle_request: status_report
+2023-10-23 20:35:25,231 DEBUG   HandlerThread:25866 [handler.py:handle_request():144] handle_request: status_report
+2023-10-23 20:35:30,225 DEBUG   SenderThread:25866 [sender.py:send():380] send: stats
+2023-10-23 20:35:30,508 ERROR   FileStreamThread:25866 [file_stream.py:_handle_response():504] dropped chunk 404 Client Error: Not Found for url: https://api.wandb.ai/files/tejas591995/Logistic_Regression/yck8y8dz/file_stream
+NoneType: None
+2023-10-23 20:35:31,227 DEBUG   HandlerThread:25866 [handler.py:handle_request():144] handle_request: status_report
+2023-10-23 20:35:36,228 DEBUG   HandlerThread:25866 [handler.py:handle_request():144] handle_request: status_report
+2023-10-23 20:35:41,229 DEBUG   HandlerThread:25866 [handler.py:handle_request():144] handle_request: status_report
+2023-10-23 20:35:46,230 DEBUG   HandlerThread:25866 [handler.py:handle_request():144] handle_request: status_report
+2023-10-23 20:35:51,231 DEBUG   HandlerThread:25866 [handler.py:handle_request():144] handle_request: status_report
+2023-10-23 20:35:56,232 DEBUG   HandlerThread:25866 [handler.py:handle_request():144] handle_request: status_report
+2023-10-23 20:36:00,225 DEBUG   SenderThread:25866 [sender.py:send():380] send: stats
+2023-10-23 20:36:02,226 DEBUG   HandlerThread:25866 [handler.py:handle_request():144] handle_request: status_report
+2023-10-23 20:36:07,227 DEBUG   HandlerThread:25866 [handler.py:handle_request():144] handle_request: status_report
+2023-10-23 20:36:12,228 DEBUG   HandlerThread:25866 [handler.py:handle_request():144] handle_request: status_report
+2023-10-23 20:36:17,229 DEBUG   HandlerThread:25866 [handler.py:handle_request():144] handle_request: status_report
+2023-10-23 20:36:22,230 DEBUG   HandlerThread:25866 [handler.py:handle_request():144] handle_request: status_report
+2023-10-23 20:36:27,232 DEBUG   HandlerThread:25866 [handler.py:handle_request():144] handle_request: status_report
+2023-10-23 20:36:30,229 DEBUG   SenderThread:25866 [sender.py:send():380] send: stats
+2023-10-23 20:36:30,531 ERROR   FileStreamThread:25866 [file_stream.py:_handle_response():504] dropped chunk 404 Client Error: Not Found for url: https://api.wandb.ai/files/tejas591995/Logistic_Regression/yck8y8dz/file_stream
+NoneType: None
+2023-10-23 20:36:33,231 DEBUG   HandlerThread:25866 [handler.py:handle_request():144] handle_request: status_report
+2023-10-23 20:36:38,232 DEBUG   HandlerThread:25866 [handler.py:handle_request():144] handle_request: status_report
+2023-10-23 20:36:43,233 DEBUG   HandlerThread:25866 [handler.py:handle_request():144] handle_request: status_report
+2023-10-23 20:36:48,234 DEBUG   HandlerThread:25866 [handler.py:handle_request():144] handle_request: status_report
+2023-10-23 20:36:53,234 DEBUG   HandlerThread:25866 [handler.py:handle_request():144] handle_request: status_report
+2023-10-23 20:36:58,235 DEBUG   HandlerThread:25866 [handler.py:handle_request():144] handle_request: status_report
+2023-10-23 20:37:00,227 DEBUG   SenderThread:25866 [sender.py:send():380] send: stats
+2023-10-23 20:37:00,500 ERROR   FileStreamThread:25866 [file_stream.py:_handle_response():504] dropped chunk 404 Client Error: Not Found for url: https://api.wandb.ai/files/tejas591995/Logistic_Regression/yck8y8dz/file_stream
+NoneType: None
+2023-10-23 20:37:04,228 DEBUG   HandlerThread:25866 [handler.py:handle_request():144] handle_request: status_report
+2023-10-23 20:37:09,229 DEBUG   HandlerThread:25866 [handler.py:handle_request():144] handle_request: status_report
+2023-10-23 20:37:14,231 DEBUG   HandlerThread:25866 [handler.py:handle_request():144] handle_request: status_report
+2023-10-23 20:37:19,231 DEBUG   HandlerThread:25866 [handler.py:handle_request():144] handle_request: status_report
+2023-10-23 20:37:24,232 DEBUG   HandlerThread:25866 [handler.py:handle_request():144] handle_request: status_report
+2023-10-23 20:37:29,233 DEBUG   HandlerThread:25866 [handler.py:handle_request():144] handle_request: status_report
+2023-10-23 20:37:30,227 DEBUG   SenderThread:25866 [sender.py:send():380] send: stats
+2023-10-23 20:37:30,506 ERROR   FileStreamThread:25866 [file_stream.py:_handle_response():504] dropped chunk 404 Client Error: Not Found for url: https://api.wandb.ai/files/tejas591995/Logistic_Regression/yck8y8dz/file_stream
+NoneType: None
+2023-10-23 20:37:35,228 DEBUG   HandlerThread:25866 [handler.py:handle_request():144] handle_request: status_report
+2023-10-23 20:37:40,229 DEBUG   HandlerThread:25866 [handler.py:handle_request():144] handle_request: status_report
+2023-10-23 20:37:45,230 DEBUG   HandlerThread:25866 [handler.py:handle_request():144] handle_request: status_report
+2023-10-23 20:37:50,231 DEBUG   HandlerThread:25866 [handler.py:handle_request():144] handle_request: status_report
+2023-10-23 20:37:55,232 DEBUG   HandlerThread:25866 [handler.py:handle_request():144] handle_request: status_report
+2023-10-23 20:38:00,229 DEBUG   SenderThread:25866 [sender.py:send():380] send: stats
+2023-10-23 20:38:00,510 ERROR   FileStreamThread:25866 [file_stream.py:_handle_response():504] dropped chunk 404 Client Error: Not Found for url: https://api.wandb.ai/files/tejas591995/Logistic_Regression/yck8y8dz/file_stream
+NoneType: None
+2023-10-23 20:38:01,229 DEBUG   HandlerThread:25866 [handler.py:handle_request():144] handle_request: status_report
+2023-10-23 20:38:06,230 DEBUG   HandlerThread:25866 [handler.py:handle_request():144] handle_request: status_report
+2023-10-23 20:38:11,232 DEBUG   HandlerThread:25866 [handler.py:handle_request():144] handle_request: status_report
+2023-10-23 20:38:16,233 DEBUG   HandlerThread:25866 [handler.py:handle_request():144] handle_request: status_report
+2023-10-23 20:38:21,234 DEBUG   HandlerThread:25866 [handler.py:handle_request():144] handle_request: status_report
+2023-10-23 20:38:26,235 DEBUG   HandlerThread:25866 [handler.py:handle_request():144] handle_request: status_report
+2023-10-23 20:38:30,230 DEBUG   SenderThread:25866 [sender.py:send():380] send: stats
+2023-10-23 20:38:30,545 ERROR   FileStreamThread:25866 [file_stream.py:_handle_response():504] dropped chunk 404 Client Error: Not Found for url: https://api.wandb.ai/files/tejas591995/Logistic_Regression/yck8y8dz/file_stream
+NoneType: None
+2023-10-23 20:38:32,231 DEBUG   HandlerThread:25866 [handler.py:handle_request():144] handle_request: status_report
+2023-10-23 20:38:37,232 DEBUG   HandlerThread:25866 [handler.py:handle_request():144] handle_request: status_report
+2023-10-23 20:38:42,233 DEBUG   HandlerThread:25866 [handler.py:handle_request():144] handle_request: status_report
+2023-10-23 20:38:47,235 DEBUG   HandlerThread:25866 [handler.py:handle_request():144] handle_request: status_report
+2023-10-23 20:38:52,236 DEBUG   HandlerThread:25866 [handler.py:handle_request():144] handle_request: status_report
+2023-10-23 20:38:57,237 DEBUG   HandlerThread:25866 [handler.py:handle_request():144] handle_request: status_report
+2023-10-23 20:39:00,231 DEBUG   SenderThread:25866 [sender.py:send():380] send: stats
+2023-10-23 20:39:00,558 ERROR   FileStreamThread:25866 [file_stream.py:_handle_response():504] dropped chunk 404 Client Error: Not Found for url: https://api.wandb.ai/files/tejas591995/Logistic_Regression/yck8y8dz/file_stream
+NoneType: None
+2023-10-23 20:39:03,232 DEBUG   HandlerThread:25866 [handler.py:handle_request():144] handle_request: status_report
+2023-10-23 20:39:08,234 DEBUG   HandlerThread:25866 [handler.py:handle_request():144] handle_request: status_report
+2023-10-23 20:39:13,235 DEBUG   HandlerThread:25866 [handler.py:handle_request():144] handle_request: status_report
+2023-10-23 20:39:18,236 DEBUG   HandlerThread:25866 [handler.py:handle_request():144] handle_request: status_report
+2023-10-23 20:39:23,237 DEBUG   HandlerThread:25866 [handler.py:handle_request():144] handle_request: status_report
+2023-10-23 20:39:28,238 DEBUG   HandlerThread:25866 [handler.py:handle_request():144] handle_request: status_report
+2023-10-23 20:39:30,232 DEBUG   SenderThread:25866 [sender.py:send():380] send: stats
+2023-10-23 20:39:30,561 ERROR   FileStreamThread:25866 [file_stream.py:_handle_response():504] dropped chunk 404 Client Error: Not Found for url: https://api.wandb.ai/files/tejas591995/Logistic_Regression/yck8y8dz/file_stream
+NoneType: None
+2023-10-23 20:39:34,233 DEBUG   HandlerThread:25866 [handler.py:handle_request():144] handle_request: status_report
+2023-10-23 20:39:39,235 DEBUG   HandlerThread:25866 [handler.py:handle_request():144] handle_request: status_report
+2023-10-23 20:39:44,236 DEBUG   HandlerThread:25866 [handler.py:handle_request():144] handle_request: status_report
+2023-10-23 20:39:49,237 DEBUG   HandlerThread:25866 [handler.py:handle_request():144] handle_request: status_report
+2023-10-23 20:39:54,239 DEBUG   HandlerThread:25866 [handler.py:handle_request():144] handle_request: status_report
+2023-10-23 20:39:59,240 DEBUG   HandlerThread:25866 [handler.py:handle_request():144] handle_request: status_report
+2023-10-23 20:40:00,232 DEBUG   SenderThread:25866 [sender.py:send():380] send: stats
+2023-10-23 20:40:00,519 ERROR   FileStreamThread:25866 [file_stream.py:_handle_response():504] dropped chunk 404 Client Error: Not Found for url: https://api.wandb.ai/files/tejas591995/Logistic_Regression/yck8y8dz/file_stream
+NoneType: None
+2023-10-23 20:40:05,234 DEBUG   HandlerThread:25866 [handler.py:handle_request():144] handle_request: status_report
+2023-10-23 20:40:10,235 DEBUG   HandlerThread:25866 [handler.py:handle_request():144] handle_request: status_report
+2023-10-23 20:40:15,236 DEBUG   HandlerThread:25866 [handler.py:handle_request():144] handle_request: status_report
+2023-10-23 20:40:20,237 DEBUG   HandlerThread:25866 [handler.py:handle_request():144] handle_request: status_report
+2023-10-23 20:40:25,239 DEBUG   HandlerThread:25866 [handler.py:handle_request():144] handle_request: status_report
+2023-10-23 20:40:30,233 DEBUG   SenderThread:25866 [sender.py:send():380] send: stats
+2023-10-23 20:40:30,556 ERROR   FileStreamThread:25866 [file_stream.py:_handle_response():504] dropped chunk 404 Client Error: Not Found for url: https://api.wandb.ai/files/tejas591995/Logistic_Regression/yck8y8dz/file_stream
+NoneType: None
+2023-10-23 20:40:31,234 DEBUG   HandlerThread:25866 [handler.py:handle_request():144] handle_request: status_report
+2023-10-23 20:40:36,236 DEBUG   HandlerThread:25866 [handler.py:handle_request():144] handle_request: status_report
+2023-10-23 20:40:41,237 DEBUG   HandlerThread:25866 [handler.py:handle_request():144] handle_request: status_report
+2023-10-23 20:40:46,239 DEBUG   HandlerThread:25866 [handler.py:handle_request():144] handle_request: status_report
+2023-10-23 20:40:51,240 DEBUG   HandlerThread:25866 [handler.py:handle_request():144] handle_request: status_report
+2023-10-23 20:40:56,241 DEBUG   HandlerThread:25866 [handler.py:handle_request():144] handle_request: status_report
+2023-10-23 20:41:00,234 DEBUG   SenderThread:25866 [sender.py:send():380] send: stats
+2023-10-23 20:41:00,572 ERROR   FileStreamThread:25866 [file_stream.py:_handle_response():504] dropped chunk 404 Client Error: Not Found for url: https://api.wandb.ai/files/tejas591995/Logistic_Regression/yck8y8dz/file_stream
+NoneType: None
+2023-10-23 20:41:02,235 DEBUG   HandlerThread:25866 [handler.py:handle_request():144] handle_request: status_report
+2023-10-23 20:41:07,237 DEBUG   HandlerThread:25866 [handler.py:handle_request():144] handle_request: status_report
+2023-10-23 20:41:12,238 DEBUG   HandlerThread:25866 [handler.py:handle_request():144] handle_request: status_report
+2023-10-23 20:41:17,240 DEBUG   HandlerThread:25866 [handler.py:handle_request():144] handle_request: status_report
+2023-10-23 20:41:22,241 DEBUG   HandlerThread:25866 [handler.py:handle_request():144] handle_request: status_report
+2023-10-23 20:41:27,242 DEBUG   HandlerThread:25866 [handler.py:handle_request():144] handle_request: status_report
+2023-10-23 20:41:30,234 DEBUG   SenderThread:25866 [sender.py:send():380] send: stats
+2023-10-23 20:41:33,236 DEBUG   HandlerThread:25866 [handler.py:handle_request():144] handle_request: status_report
+2023-10-23 20:41:38,237 DEBUG   HandlerThread:25866 [handler.py:handle_request():144] handle_request: status_report
+2023-10-23 20:41:43,238 DEBUG   HandlerThread:25866 [handler.py:handle_request():144] handle_request: status_report
+2023-10-23 20:41:48,239 DEBUG   HandlerThread:25866 [handler.py:handle_request():144] handle_request: status_report
+2023-10-23 20:41:53,241 DEBUG   HandlerThread:25866 [handler.py:handle_request():144] handle_request: status_report
+2023-10-23 20:41:58,242 DEBUG   HandlerThread:25866 [handler.py:handle_request():144] handle_request: status_report
+2023-10-23 20:42:00,238 DEBUG   SenderThread:25866 [sender.py:send():380] send: stats
+2023-10-23 20:42:00,572 ERROR   FileStreamThread:25866 [file_stream.py:_handle_response():504] dropped chunk 404 Client Error: Not Found for url: https://api.wandb.ai/files/tejas591995/Logistic_Regression/yck8y8dz/file_stream
+NoneType: None
+2023-10-23 20:42:04,239 DEBUG   HandlerThread:25866 [handler.py:handle_request():144] handle_request: status_report
+2023-10-23 20:42:09,240 DEBUG   HandlerThread:25866 [handler.py:handle_request():144] handle_request: status_report
+2023-10-23 20:42:14,241 DEBUG   HandlerThread:25866 [handler.py:handle_request():144] handle_request: status_report
+2023-10-23 20:42:19,242 DEBUG   HandlerThread:25866 [handler.py:handle_request():144] handle_request: status_report
+2023-10-23 20:42:24,244 DEBUG   HandlerThread:25866 [handler.py:handle_request():144] handle_request: status_report
+2023-10-23 20:42:29,245 DEBUG   HandlerThread:25866 [handler.py:handle_request():144] handle_request: status_report
+2023-10-23 20:42:30,236 DEBUG   SenderThread:25866 [sender.py:send():380] send: stats
+2023-10-23 20:42:30,516 ERROR   FileStreamThread:25866 [file_stream.py:_handle_response():504] dropped chunk 404 Client Error: Not Found for url: https://api.wandb.ai/files/tejas591995/Logistic_Regression/yck8y8dz/file_stream
+NoneType: None
+2023-10-23 20:42:35,238 DEBUG   HandlerThread:25866 [handler.py:handle_request():144] handle_request: status_report
+2023-10-23 20:42:40,239 DEBUG   HandlerThread:25866 [handler.py:handle_request():144] handle_request: status_report
+2023-10-23 20:42:45,241 DEBUG   HandlerThread:25866 [handler.py:handle_request():144] handle_request: status_report
+2023-10-23 20:42:50,241 DEBUG   HandlerThread:25866 [handler.py:handle_request():144] handle_request: status_report
+2023-10-23 20:42:55,242 DEBUG   HandlerThread:25866 [handler.py:handle_request():144] handle_request: status_report
+2023-10-23 20:43:00,237 DEBUG   SenderThread:25866 [sender.py:send():380] send: stats
+2023-10-23 20:43:00,519 ERROR   FileStreamThread:25866 [file_stream.py:_handle_response():504] dropped chunk 404 Client Error: Not Found for url: https://api.wandb.ai/files/tejas591995/Logistic_Regression/yck8y8dz/file_stream
+NoneType: None
+2023-10-23 20:43:01,239 DEBUG   HandlerThread:25866 [handler.py:handle_request():144] handle_request: status_report
+2023-10-23 20:43:06,240 DEBUG   HandlerThread:25866 [handler.py:handle_request():144] handle_request: status_report
+2023-10-23 20:43:11,241 DEBUG   HandlerThread:25866 [handler.py:handle_request():144] handle_request: status_report
+2023-10-23 20:43:16,242 DEBUG   HandlerThread:25866 [handler.py:handle_request():144] handle_request: status_report
+2023-10-23 20:43:21,244 DEBUG   HandlerThread:25866 [handler.py:handle_request():144] handle_request: status_report
+2023-10-23 20:43:26,244 DEBUG   HandlerThread:25866 [handler.py:handle_request():144] handle_request: status_report
+2023-10-23 20:43:30,237 DEBUG   SenderThread:25866 [sender.py:send():380] send: stats
+2023-10-23 20:43:32,238 DEBUG   HandlerThread:25866 [handler.py:handle_request():144] handle_request: status_report
+2023-10-23 20:43:37,240 DEBUG   HandlerThread:25866 [handler.py:handle_request():144] handle_request: status_report
+2023-10-23 20:43:42,241 DEBUG   HandlerThread:25866 [handler.py:handle_request():144] handle_request: status_report
+2023-10-23 20:43:47,242 DEBUG   HandlerThread:25866 [handler.py:handle_request():144] handle_request: status_report
+2023-10-23 20:43:52,244 DEBUG   HandlerThread:25866 [handler.py:handle_request():144] handle_request: status_report
+2023-10-23 20:43:57,245 DEBUG   HandlerThread:25866 [handler.py:handle_request():144] handle_request: status_report
+2023-10-23 20:44:00,242 DEBUG   SenderThread:25866 [sender.py:send():380] send: stats
+2023-10-23 20:44:00,585 ERROR   FileStreamThread:25866 [file_stream.py:_handle_response():504] dropped chunk 404 Client Error: Not Found for url: https://api.wandb.ai/files/tejas591995/Logistic_Regression/yck8y8dz/file_stream
+NoneType: None
+2023-10-23 20:44:03,244 DEBUG   HandlerThread:25866 [handler.py:handle_request():144] handle_request: status_report
+2023-10-23 20:44:08,244 DEBUG   HandlerThread:25866 [handler.py:handle_request():144] handle_request: status_report
+2023-10-23 20:44:13,246 DEBUG   HandlerThread:25866 [handler.py:handle_request():144] handle_request: status_report
+2023-10-23 20:44:18,247 DEBUG   HandlerThread:25866 [handler.py:handle_request():144] handle_request: status_report
+2023-10-23 20:44:23,247 DEBUG   HandlerThread:25866 [handler.py:handle_request():144] handle_request: status_report
+2023-10-23 20:44:28,248 DEBUG   HandlerThread:25866 [handler.py:handle_request():144] handle_request: status_report
+2023-10-23 20:44:30,239 DEBUG   SenderThread:25866 [sender.py:send():380] send: stats
+2023-10-23 20:44:30,588 ERROR   FileStreamThread:25866 [file_stream.py:_handle_response():504] dropped chunk 404 Client Error: Not Found for url: https://api.wandb.ai/files/tejas591995/Logistic_Regression/yck8y8dz/file_stream
+NoneType: None
+2023-10-23 20:44:34,240 DEBUG   HandlerThread:25866 [handler.py:handle_request():144] handle_request: status_report
+2023-10-23 20:44:39,241 DEBUG   HandlerThread:25866 [handler.py:handle_request():144] handle_request: status_report
+2023-10-23 20:44:44,243 DEBUG   HandlerThread:25866 [handler.py:handle_request():144] handle_request: status_report
+2023-10-23 20:44:49,244 DEBUG   HandlerThread:25866 [handler.py:handle_request():144] handle_request: status_report
+2023-10-23 20:44:54,245 DEBUG   HandlerThread:25866 [handler.py:handle_request():144] handle_request: status_report
+2023-10-23 20:44:59,246 DEBUG   HandlerThread:25866 [handler.py:handle_request():144] handle_request: status_report
+2023-10-23 20:45:00,240 DEBUG   SenderThread:25866 [sender.py:send():380] send: stats
+2023-10-23 20:45:00,598 ERROR   FileStreamThread:25866 [file_stream.py:_handle_response():504] dropped chunk 404 Client Error: Not Found for url: https://api.wandb.ai/files/tejas591995/Logistic_Regression/yck8y8dz/file_stream
+NoneType: None
+2023-10-23 20:45:02,365 INFO    MainThread:25866 [internal.py:handle_exit():76] Internal process exited
+2023-10-23 20:45:02,365 INFO    MainThread:25866 [internal.py:handle_exit():76] Internal process exited
+2023-10-23 20:45:02,365 INFO    MainThread:25866 [internal.py:handle_exit():76] Internal process exited
+2023-10-23 20:45:02,365 INFO    MainThread:25866 [internal.py:handle_exit():76] Internal process exited
+2023-10-23 20:45:02,365 INFO    MainThread:25866 [internal.py:handle_exit():76] Internal process exited
+2023-10-23 20:45:02,365 INFO    MainThread:25866 [internal.py:handle_exit():76] Internal process exited
+2023-10-23 20:45:02,365 INFO    MainThread:25866 [internal.py:handle_exit():76] Internal process exited
+2023-10-23 20:45:02,365 INFO    MainThread:25866 [internal.py:handle_exit():76] Internal process exited
+2023-10-23 20:45:02,365 INFO    MainThread:25866 [internal.py:handle_exit():76] Internal process exited
+2023-10-23 20:45:02,365 INFO    MainThread:25866 [internal.py:handle_exit():76] Internal process exited
+2023-10-23 20:45:02,365 INFO    MainThread:25866 [internal.py:handle_exit():76] Internal process exited
+2023-10-23 20:45:02,365 INFO    MainThread:25866 [internal.py:handle_exit():76] Internal process exited
+2023-10-23 20:45:02,365 INFO    MainThread:25866 [internal.py:handle_exit():76] Internal process exited
+2023-10-23 20:45:02,365 INFO    MainThread:25866 [internal.py:handle_exit():76] Internal process exited
+2023-10-23 20:45:02,365 INFO    MainThread:25866 [internal.py:handle_exit():76] Internal process exited
+2023-10-23 20:45:02,365 INFO    MainThread:25866 [internal.py:handle_exit():76] Internal process exited
+2023-10-23 20:45:02,365 INFO    MainThread:25866 [internal.py:handle_exit():76] Internal process exited
+2023-10-23 20:45:02,365 INFO    MainThread:25866 [internal.py:handle_exit():76] Internal process exited
+2023-10-23 20:45:02,366 INFO    MainThread:25866 [internal.py:handle_exit():76] Internal process exited
+2023-10-23 20:45:02,366 INFO    MainThread:25866 [internal.py:handle_exit():76] Internal process exited
+2023-10-23 20:45:02,366 INFO    MainThread:25866 [internal.py:handle_exit():76] Internal process exited
+2023-10-23 20:45:02,366 INFO    MainThread:25866 [internal.py:handle_exit():76] Internal process exited
+2023-10-23 20:45:02,366 INFO    MainThread:25866 [internal.py:handle_exit():76] Internal process exited
+2023-10-23 20:45:02,366 INFO    MainThread:25866 [internal.py:handle_exit():76] Internal process exited
+2023-10-23 20:45:02,366 INFO    MainThread:25866 [internal.py:handle_exit():76] Internal process exited
+2023-10-23 20:45:02,366 INFO    MainThread:25866 [internal.py:handle_exit():76] Internal process exited
+2023-10-23 20:45:02,366 INFO    MainThread:25866 [internal.py:handle_exit():76] Internal process exited
+2023-10-23 20:45:02,366 INFO    MainThread:25866 [internal.py:handle_exit():76] Internal process exited
+2023-10-23 20:45:02,366 INFO    MainThread:25866 [internal.py:handle_exit():76] Internal process exited
+2023-10-23 20:45:02,366 INFO    MainThread:25866 [internal.py:handle_exit():76] Internal process exited
+2023-10-23 20:45:02,366 INFO    MainThread:25866 [internal.py:handle_exit():76] Internal process exited
+2023-10-23 20:45:02,366 INFO    MainThread:25866 [internal.py:handle_exit():76] Internal process exited
+2023-10-23 20:45:02,366 INFO    MainThread:25866 [internal.py:handle_exit():76] Internal process exited
+2023-10-23 20:45:02,366 INFO    MainThread:25866 [internal.py:handle_exit():76] Internal process exited
+2023-10-23 20:45:02,366 INFO    MainThread:25866 [internal.py:handle_exit():76] Internal process exited
+2023-10-23 20:45:02,366 INFO    MainThread:25866 [internal.py:handle_exit():76] Internal process exited
+2023-10-23 20:45:02,366 INFO    MainThread:25866 [internal.py:handle_exit():76] Internal process exited
+2023-10-23 20:45:02,366 INFO    MainThread:25866 [internal.py:handle_exit():76] Internal process exited
+2023-10-23 20:45:02,366 INFO    MainThread:25866 [internal.py:handle_exit():76] Internal process exited
+2023-10-23 20:45:02,366 INFO    MainThread:25866 [internal.py:handle_exit():76] Internal process exited
+2023-10-23 20:45:02,366 INFO    MainThread:25866 [internal.py:handle_exit():76] Internal process exited
+2023-10-23 20:45:02,366 INFO    MainThread:25866 [internal.py:handle_exit():76] Internal process exited
+2023-10-23 20:45:02,366 INFO    MainThread:25866 [internal.py:handle_exit():76] Internal process exited
+2023-10-23 20:45:02,366 INFO    MainThread:25866 [internal.py:handle_exit():76] Internal process exited
+2023-10-23 20:45:02,366 INFO    MainThread:25866 [internal.py:handle_exit():76] Internal process exited
+2023-10-23 20:45:02,366 INFO    MainThread:25866 [internal.py:handle_exit():76] Internal process exited
+2023-10-23 20:45:02,366 INFO    MainThread:25866 [internal.py:handle_exit():76] Internal process exited
+2023-10-23 20:45:02,366 INFO    MainThread:25866 [internal.py:handle_exit():76] Internal process exited
+2023-10-23 20:45:02,366 INFO    MainThread:25866 [internal.py:handle_exit():76] Internal process exited
+2023-10-23 20:45:02,366 INFO    MainThread:25866 [internal.py:handle_exit():76] Internal process exited
+2023-10-23 20:45:02,366 INFO    MainThread:25866 [internal.py:handle_exit():76] Internal process exited
+2023-10-23 20:45:02,366 INFO    MainThread:25866 [internal.py:handle_exit():76] Internal process exited
+2023-10-23 20:45:02,366 INFO    MainThread:25866 [internal.py:handle_exit():76] Internal process exited
+2023-10-23 20:45:02,366 INFO    MainThread:25866 [internal.py:handle_exit():76] Internal process exited
+2023-10-23 20:45:02,366 INFO    MainThread:25866 [internal.py:handle_exit():76] Internal process exited
+2023-10-23 20:45:02,366 INFO    MainThread:25866 [internal.py:handle_exit():76] Internal process exited
+2023-10-23 20:45:02,366 INFO    MainThread:25866 [internal.py:handle_exit():76] Internal process exited
+2023-10-23 20:45:02,366 INFO    MainThread:25866 [internal.py:handle_exit():76] Internal process exited
+2023-10-23 20:45:02,366 INFO    MainThread:25866 [internal.py:handle_exit():76] Internal process exited
+2023-10-23 20:45:02,366 INFO    MainThread:25866 [internal.py:handle_exit():76] Internal process exited
+2023-10-23 20:45:02,366 INFO    MainThread:25866 [internal.py:handle_exit():76] Internal process exited
+2023-10-23 20:45:02,367 INFO    MainThread:25866 [internal.py:handle_exit():76] Internal process exited
+2023-10-23 20:45:02,367 INFO    MainThread:25866 [internal.py:handle_exit():76] Internal process exited
+2023-10-23 20:45:02,367 INFO    MainThread:25866 [internal.py:handle_exit():76] Internal process exited
+2023-10-23 20:45:02,367 INFO    MainThread:25866 [internal.py:handle_exit():76] Internal process exited
+2023-10-23 20:45:02,367 INFO    MainThread:25866 [internal.py:handle_exit():76] Internal process exited
+2023-10-23 20:45:02,367 INFO    MainThread:25866 [internal.py:handle_exit():76] Internal process exited
+2023-10-23 20:45:02,367 INFO    MainThread:25866 [internal.py:handle_exit():76] Internal process exited
+2023-10-23 20:45:02,367 INFO    MainThread:25866 [internal.py:handle_exit():76] Internal process exited
+2023-10-23 20:45:02,367 INFO    MainThread:25866 [internal.py:handle_exit():76] Internal process exited
+2023-10-23 20:45:02,367 INFO    MainThread:25866 [internal.py:handle_exit():76] Internal process exited
+2023-10-23 20:45:02,367 INFO    MainThread:25866 [internal.py:handle_exit():76] Internal process exited
+2023-10-23 20:45:02,367 INFO    MainThread:25866 [internal.py:handle_exit():76] Internal process exited
+2023-10-23 20:45:02,367 INFO    MainThread:25866 [internal.py:handle_exit():76] Internal process exited
+2023-10-23 20:45:02,367 INFO    MainThread:25866 [internal.py:handle_exit():76] Internal process exited
+2023-10-23 20:45:02,367 INFO    MainThread:25866 [internal.py:handle_exit():76] Internal process exited
+2023-10-23 20:45:02,367 INFO    MainThread:25866 [internal.py:handle_exit():76] Internal process exited
+2023-10-23 20:45:02,367 INFO    MainThread:25866 [internal.py:handle_exit():76] Internal process exited
+2023-10-23 20:45:02,367 INFO    MainThread:25866 [internal.py:handle_exit():76] Internal process exited
+2023-10-23 20:45:02,367 INFO    MainThread:25866 [internal.py:handle_exit():76] Internal process exited
+2023-10-23 20:45:02,367 INFO    MainThread:25866 [internal.py:handle_exit():76] Internal process exited
+2023-10-23 20:45:02,367 INFO    MainThread:25866 [internal.py:handle_exit():76] Internal process exited
+2023-10-23 20:45:02,367 INFO    MainThread:25866 [internal.py:handle_exit():76] Internal process exited
+2023-10-23 20:45:02,367 INFO    MainThread:25866 [internal.py:handle_exit():76] Internal process exited
+2023-10-23 20:45:02,367 INFO    MainThread:25866 [internal.py:handle_exit():76] Internal process exited
+2023-10-23 20:45:02,367 INFO    MainThread:25866 [internal.py:handle_exit():76] Internal process exited
+2023-10-23 20:45:02,367 INFO    MainThread:25866 [internal.py:handle_exit():76] Internal process exited
+2023-10-23 20:45:02,367 INFO    MainThread:25866 [internal.py:handle_exit():76] Internal process exited
+2023-10-23 20:45:02,367 INFO    MainThread:25866 [internal.py:handle_exit():76] Internal process exited
+2023-10-23 20:45:02,367 INFO    MainThread:25866 [internal.py:handle_exit():76] Internal process exited
+2023-10-23 20:45:02,367 INFO    MainThread:25866 [internal.py:handle_exit():76] Internal process exited
+2023-10-23 20:45:02,367 INFO    MainThread:25866 [internal.py:handle_exit():76] Internal process exited
+2023-10-23 20:45:02,367 INFO    MainThread:25866 [internal.py:handle_exit():76] Internal process exited
+2023-10-23 20:45:02,367 INFO    MainThread:25866 [internal.py:handle_exit():76] Internal process exited
+2023-10-23 20:45:02,367 INFO    MainThread:25866 [internal.py:handle_exit():76] Internal process exited
+2023-10-23 20:45:02,367 INFO    MainThread:25866 [internal.py:handle_exit():76] Internal process exited
+2023-10-23 20:45:02,367 INFO    MainThread:25866 [internal.py:handle_exit():76] Internal process exited
+2023-10-23 20:45:02,367 INFO    MainThread:25866 [internal.py:handle_exit():76] Internal process exited
+2023-10-23 20:45:02,367 INFO    MainThread:25866 [internal.py:handle_exit():76] Internal process exited
+2023-10-23 20:45:02,367 INFO    MainThread:25866 [internal.py:handle_exit():76] Internal process exited
+2023-10-23 20:45:02,367 INFO    MainThread:25866 [internal.py:handle_exit():76] Internal process exited
+2023-10-23 20:45:02,367 INFO    MainThread:25866 [internal.py:handle_exit():76] Internal process exited
+2023-10-23 20:45:02,367 INFO    MainThread:25866 [internal.py:handle_exit():76] Internal process exited
+2023-10-23 20:45:02,367 INFO    MainThread:25866 [internal.py:handle_exit():76] Internal process exited
+2023-10-23 20:45:02,367 INFO    MainThread:25866 [internal.py:handle_exit():76] Internal process exited
+2023-10-23 20:45:02,368 INFO    MainThread:25866 [internal.py:handle_exit():76] Internal process exited
+2023-10-23 20:45:02,368 INFO    MainThread:25866 [internal.py:handle_exit():76] Internal process exited
+2023-10-23 20:45:02,368 INFO    MainThread:25866 [internal.py:handle_exit():76] Internal process exited
+2023-10-23 20:45:02,368 INFO    MainThread:25866 [internal.py:handle_exit():76] Internal process exited
+2023-10-23 20:45:02,368 INFO    MainThread:25866 [internal.py:handle_exit():76] Internal process exited
+2023-10-23 20:45:02,368 INFO    MainThread:25866 [internal.py:handle_exit():76] Internal process exited
+2023-10-23 20:45:02,368 INFO    MainThread:25866 [internal.py:handle_exit():76] Internal process exited
+2023-10-23 20:45:02,368 INFO    MainThread:25866 [internal.py:handle_exit():76] Internal process exited
+2023-10-23 20:45:02,368 INFO    MainThread:25866 [internal.py:handle_exit():76] Internal process exited
+2023-10-23 20:45:02,368 INFO    MainThread:25866 [internal.py:handle_exit():76] Internal process exited
+2023-10-23 20:45:02,368 INFO    MainThread:25866 [internal.py:handle_exit():76] Internal process exited
+2023-10-23 20:45:02,368 INFO    MainThread:25866 [internal.py:handle_exit():76] Internal process exited
+2023-10-23 20:45:02,368 INFO    MainThread:25866 [internal.py:handle_exit():76] Internal process exited
+2023-10-23 20:45:02,368 INFO    MainThread:25866 [internal.py:handle_exit():76] Internal process exited
+2023-10-23 20:45:02,368 INFO    MainThread:25866 [internal.py:handle_exit():76] Internal process exited
+2023-10-23 20:45:02,368 INFO    MainThread:25866 [internal.py:handle_exit():76] Internal process exited
+2023-10-23 20:45:02,368 INFO    MainThread:25866 [internal.py:handle_exit():76] Internal process exited
+2023-10-23 20:45:02,368 INFO    MainThread:25866 [internal.py:handle_exit():76] Internal process exited
+2023-10-23 20:45:02,368 INFO    MainThread:25866 [internal.py:handle_exit():76] Internal process exited
+2023-10-23 20:45:02,368 INFO    MainThread:25866 [internal.py:handle_exit():76] Internal process exited
+2023-10-23 20:45:02,368 INFO    MainThread:25866 [internal.py:handle_exit():76] Internal process exited
+2023-10-23 20:45:02,368 INFO    MainThread:25866 [internal.py:handle_exit():76] Internal process exited
+2023-10-23 20:45:02,368 INFO    MainThread:25866 [internal.py:handle_exit():76] Internal process exited
+2023-10-23 20:45:02,368 INFO    MainThread:25866 [internal.py:handle_exit():76] Internal process exited
+2023-10-23 20:45:02,368 INFO    MainThread:25866 [internal.py:handle_exit():76] Internal process exited
+2023-10-23 20:45:02,368 INFO    MainThread:25866 [internal.py:handle_exit():76] Internal process exited
+2023-10-23 20:45:02,368 INFO    MainThread:25866 [internal.py:handle_exit():76] Internal process exited
+2023-10-23 20:45:02,368 INFO    MainThread:25866 [internal.py:handle_exit():76] Internal process exited
+2023-10-23 20:45:02,368 INFO    MainThread:25866 [internal.py:handle_exit():76] Internal process exited
+2023-10-23 20:45:02,368 INFO    MainThread:25866 [internal.py:handle_exit():76] Internal process exited
+2023-10-23 20:45:02,368 INFO    MainThread:25866 [internal.py:handle_exit():76] Internal process exited
+2023-10-23 20:45:02,368 INFO    MainThread:25866 [internal.py:handle_exit():76] Internal process exited
+2023-10-23 20:45:02,368 INFO    MainThread:25866 [internal.py:handle_exit():76] Internal process exited
+2023-10-23 20:45:02,368 INFO    MainThread:25866 [internal.py:handle_exit():76] Internal process exited
+2023-10-23 20:45:02,368 INFO    MainThread:25866 [internal.py:handle_exit():76] Internal process exited
+2023-10-23 20:45:02,368 INFO    MainThread:25866 [internal.py:handle_exit():76] Internal process exited
+2023-10-23 20:45:02,368 INFO    MainThread:25866 [internal.py:handle_exit():76] Internal process exited
+2023-10-23 20:45:02,368 INFO    MainThread:25866 [internal.py:handle_exit():76] Internal process exited
+2023-10-23 20:45:02,368 INFO    MainThread:25866 [internal.py:handle_exit():76] Internal process exited
+2023-10-23 20:45:02,368 INFO    MainThread:25866 [internal.py:handle_exit():76] Internal process exited
+2023-10-23 20:45:02,368 INFO    MainThread:25866 [internal.py:handle_exit():76] Internal process exited
+2023-10-23 20:45:02,368 INFO    MainThread:25866 [internal.py:handle_exit():76] Internal process exited
+2023-10-23 20:45:02,368 INFO    MainThread:25866 [internal.py:handle_exit():76] Internal process exited
+2023-10-23 20:45:02,369 INFO    MainThread:25866 [internal.py:handle_exit():76] Internal process exited
+2023-10-23 20:45:02,369 INFO    MainThread:25866 [internal.py:handle_exit():76] Internal process exited
+2023-10-23 20:45:02,369 INFO    MainThread:25866 [internal.py:handle_exit():76] Internal process exited
+2023-10-23 20:45:02,369 INFO    MainThread:25866 [internal.py:handle_exit():76] Internal process exited
+2023-10-23 20:45:02,369 INFO    MainThread:25866 [internal.py:handle_exit():76] Internal process exited
+2023-10-23 20:45:02,369 INFO    MainThread:25866 [internal.py:handle_exit():76] Internal process exited
+2023-10-23 20:45:02,369 INFO    MainThread:25866 [internal.py:handle_exit():76] Internal process exited
+2023-10-23 20:45:02,369 INFO    MainThread:25866 [internal.py:handle_exit():76] Internal process exited
+2023-10-23 20:45:02,369 INFO    MainThread:25866 [internal.py:handle_exit():76] Internal process exited
+2023-10-23 20:45:02,369 INFO    MainThread:25866 [internal.py:handle_exit():76] Internal process exited
+2023-10-23 20:45:02,369 INFO    MainThread:25866 [internal.py:handle_exit():76] Internal process exited
+2023-10-23 20:45:02,369 INFO    MainThread:25866 [internal.py:handle_exit():76] Internal process exited
+2023-10-23 20:45:02,369 INFO    MainThread:25866 [internal.py:handle_exit():76] Internal process exited
+2023-10-23 20:45:02,369 INFO    MainThread:25866 [internal.py:handle_exit():76] Internal process exited
+2023-10-23 20:45:02,369 INFO    MainThread:25866 [internal.py:handle_exit():76] Internal process exited
+2023-10-23 20:45:02,369 INFO    MainThread:25866 [internal.py:handle_exit():76] Internal process exited
+2023-10-23 20:45:02,369 INFO    MainThread:25866 [internal.py:handle_exit():76] Internal process exited
+2023-10-23 20:45:02,369 INFO    MainThread:25866 [internal.py:handle_exit():76] Internal process exited
+2023-10-23 20:45:02,369 INFO    MainThread:25866 [internal.py:handle_exit():76] Internal process exited
+2023-10-23 20:45:02,369 INFO    MainThread:25866 [internal.py:handle_exit():76] Internal process exited
+2023-10-23 20:45:02,369 INFO    MainThread:25866 [internal.py:handle_exit():76] Internal process exited
+2023-10-23 20:45:02,369 INFO    MainThread:25866 [internal.py:handle_exit():76] Internal process exited
+2023-10-23 20:45:02,369 INFO    MainThread:25866 [internal.py:handle_exit():76] Internal process exited
+2023-10-23 20:45:02,369 INFO    MainThread:25866 [internal.py:handle_exit():76] Internal process exited
+2023-10-23 20:45:02,369 INFO    MainThread:25866 [internal.py:handle_exit():76] Internal process exited
+2023-10-23 20:45:02,369 INFO    MainThread:25866 [internal.py:handle_exit():76] Internal process exited
+2023-10-23 20:45:02,369 INFO    MainThread:25866 [internal.py:handle_exit():76] Internal process exited
+2023-10-23 20:45:02,369 INFO    MainThread:25866 [internal.py:handle_exit():76] Internal process exited
+2023-10-23 20:45:02,369 INFO    MainThread:25866 [internal.py:handle_exit():76] Internal process exited
+2023-10-23 20:45:02,369 INFO    MainThread:25866 [internal.py:handle_exit():76] Internal process exited
+2023-10-23 20:45:02,369 INFO    MainThread:25866 [internal.py:handle_exit():76] Internal process exited
+2023-10-23 20:45:02,369 INFO    MainThread:25866 [internal.py:handle_exit():76] Internal process exited
+2023-10-23 20:45:02,369 INFO    MainThread:25866 [internal.py:handle_exit():76] Internal process exited
+2023-10-23 20:45:02,369 INFO    MainThread:25866 [internal.py:handle_exit():76] Internal process exited
+2023-10-23 20:45:02,369 INFO    MainThread:25866 [internal.py:handle_exit():76] Internal process exited
+2023-10-23 20:45:02,369 INFO    MainThread:25866 [internal.py:handle_exit():76] Internal process exited
+2023-10-23 20:45:02,369 INFO    MainThread:25866 [internal.py:handle_exit():76] Internal process exited
+2023-10-23 20:45:02,369 INFO    MainThread:25866 [internal.py:handle_exit():76] Internal process exited
+2023-10-23 20:45:02,369 INFO    MainThread:25866 [internal.py:handle_exit():76] Internal process exited
+2023-10-23 20:45:02,369 INFO    MainThread:25866 [internal.py:handle_exit():76] Internal process exited
+2023-10-23 20:45:02,370 INFO    MainThread:25866 [internal.py:handle_exit():76] Internal process exited
+2023-10-23 20:45:02,370 INFO    MainThread:25866 [internal.py:handle_exit():76] Internal process exited
+2023-10-23 20:45:02,370 INFO    MainThread:25866 [internal.py:handle_exit():76] Internal process exited
+2023-10-23 20:45:02,370 INFO    MainThread:25866 [internal.py:handle_exit():76] Internal process exited

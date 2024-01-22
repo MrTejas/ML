@@ -1,0 +1,4 @@
+Traceback (most recent call last):
+  File "/tmp/ipykernel_15380/1183812844.py", line 4, in <module>
+    learning_rate = sweep_config.learning_rate
+AttributeError: 'dict' object has no attribute 'learning_rate'

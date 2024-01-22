@@ -1,0 +1,1004 @@
+2023-10-23 20:54:10,676 INFO    StreamThr :35790 [internal.py:wandb_internal():86] W&B internal server running at pid: 35790, started at: 2023-10-23 20:54:10.675209
+2023-10-23 20:54:10,678 DEBUG   HandlerThread:35790 [handler.py:handle_request():144] handle_request: status
+2023-10-23 20:54:10,681 INFO    WriterThread:35790 [datastore.py:open_for_write():85] open: /home/tejas/Documents/SMAI/assignment-3-MrTejas/q3/wandb/run-20231023_205409-chziy8j2/run-chziy8j2.wandb
+2023-10-23 20:54:10,681 DEBUG   SenderThread:35790 [sender.py:send():380] send: header
+2023-10-23 20:54:10,682 DEBUG   SenderThread:35790 [sender.py:send():380] send: run
+2023-10-23 20:54:11,542 INFO    SenderThread:35790 [dir_watcher.py:__init__():211] watching files in: /home/tejas/Documents/SMAI/assignment-3-MrTejas/q3/wandb/run-20231023_205409-chziy8j2/files
+2023-10-23 20:54:11,542 INFO    SenderThread:35790 [sender.py:_start_run_threads():1122] run started: chziy8j2 with start time 1698074649.847701
+2023-10-23 20:54:11,554 DEBUG   HandlerThread:35790 [handler.py:handle_request():144] handle_request: check_version
+2023-10-23 20:54:11,555 DEBUG   SenderThread:35790 [sender.py:send_request():407] send_request: check_version
+2023-10-23 20:54:11,797 DEBUG   HandlerThread:35790 [handler.py:handle_request():144] handle_request: run_start
+2023-10-23 20:54:11,960 ERROR   HandlerThread:35790 [gpu.py:is_available():381] Error initializing NVML: Driver Not Loaded
+2023-10-23 20:54:11,962 DEBUG   HandlerThread:35790 [system_info.py:__init__():32] System info init
+2023-10-23 20:54:11,962 DEBUG   HandlerThread:35790 [system_info.py:__init__():47] System info init done
+2023-10-23 20:54:11,962 INFO    HandlerThread:35790 [system_monitor.py:start():181] Starting system monitor
+2023-10-23 20:54:11,962 INFO    SystemMonitor:35790 [system_monitor.py:_start():145] Starting system asset monitoring threads
+2023-10-23 20:54:11,963 INFO    HandlerThread:35790 [system_monitor.py:probe():201] Collecting system info
+2023-10-23 20:54:11,964 INFO    SystemMonitor:35790 [interfaces.py:start():190] Started cpu monitoring
+2023-10-23 20:54:11,964 INFO    SystemMonitor:35790 [interfaces.py:start():190] Started disk monitoring
+2023-10-23 20:54:11,965 INFO    SystemMonitor:35790 [interfaces.py:start():190] Started memory monitoring
+2023-10-23 20:54:11,966 INFO    SystemMonitor:35790 [interfaces.py:start():190] Started network monitoring
+2023-10-23 20:54:12,018 DEBUG   HandlerThread:35790 [system_info.py:probe():196] Probing system
+2023-10-23 20:54:12,019 DEBUG   HandlerThread:35790 [system_info.py:_probe_git():181] Probing git
+2023-10-23 20:54:12,043 DEBUG   HandlerThread:35790 [system_info.py:_probe_git():189] Probing git done
+2023-10-23 20:54:12,043 DEBUG   HandlerThread:35790 [system_info.py:probe():244] Probing system done
+2023-10-23 20:54:12,043 DEBUG   HandlerThread:35790 [system_monitor.py:probe():210] {'os': 'Linux-5.15.0-87-generic-x86_64-with-glibc2.31', 'python': '3.9.13', 'heartbeatAt': '2023-10-23T15:24:12.018213', 'startedAt': '2023-10-23T15:24:09.844989', 'docker': None, 'cuda': None, 'args': (), 'state': 'running', 'program': 'q3/1.ipynb', 'codePathLocal': None, 'root': '/home/tejas/Documents/SMAI/assignment-3-MrTejas', 'git': {'remote': 'https://github.com/Statistical-Methods-in-AI-Monsoon-2023/assignment-3-MrTejas.git', 'commit': 'ad24b7eb2d84c5e44390d85bd17141a3e5c96a0f'}, 'email': 'tejas591995@gmail.com', 'host': 'nimbostratus', 'username': 'tejas', 'executable': '/home/tejas/anaconda3/bin/python', 'cpu_count': 4, 'cpu_count_logical': 8, 'cpu_freq': {'current': 3.028625, 'min': 400.0, 'max': 4800.0}, 'cpu_freq_per_core': [{'current': 3.3, 'min': 400.0, 'max': 4800.0}, {'current': 3.3, 'min': 400.0, 'max': 4800.0}, {'current': 3.3, 'min': 400.0, 'max': 4800.0}, {'current': 3.3, 'min': 400.0, 'max': 4800.0}, {'current': 1.239, 'min': 400.0, 'max': 4800.0}, {'current': 3.3, 'min': 400.0, 'max': 4800.0}, {'current': 3.3, 'min': 400.0, 'max': 4800.0}, {'current': 3.3, 'min': 400.0, 'max': 4800.0}], 'disk': {'/': {'total': 72.78396224975586, 'used': 29.154529571533203}}, 'memory': {'total': 15.366085052490234}}
+2023-10-23 20:54:12,044 INFO    HandlerThread:35790 [system_monitor.py:probe():211] Finished collecting system info
+2023-10-23 20:54:12,044 INFO    HandlerThread:35790 [system_monitor.py:probe():214] Publishing system info
+2023-10-23 20:54:12,044 DEBUG   HandlerThread:35790 [system_info.py:_save_pip():52] Saving list of pip packages installed into the current environment
+2023-10-23 20:54:12,045 DEBUG   HandlerThread:35790 [system_info.py:_save_pip():68] Saving pip packages done
+2023-10-23 20:54:12,045 DEBUG   HandlerThread:35790 [system_info.py:_save_conda():75] Saving list of conda packages installed into the current environment
+2023-10-23 20:54:12,544 INFO    Thread-62 :35790 [dir_watcher.py:_on_file_created():271] file/dir created: /home/tejas/Documents/SMAI/assignment-3-MrTejas/q3/wandb/run-20231023_205409-chziy8j2/files/requirements.txt
+2023-10-23 20:54:12,544 INFO    Thread-62 :35790 [dir_watcher.py:_on_file_created():271] file/dir created: /home/tejas/Documents/SMAI/assignment-3-MrTejas/q3/wandb/run-20231023_205409-chziy8j2/files/conda-environment.yaml
+2023-10-23 20:54:16,543 INFO    Thread-62 :35790 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/tejas/Documents/SMAI/assignment-3-MrTejas/q3/wandb/run-20231023_205409-chziy8j2/files/conda-environment.yaml
+2023-10-23 20:54:16,605 DEBUG   HandlerThread:35790 [system_info.py:_save_conda():87] Saving conda packages done
+2023-10-23 20:54:16,606 INFO    HandlerThread:35790 [system_monitor.py:probe():216] Finished publishing system info
+2023-10-23 20:54:16,606 DEBUG   HandlerThread:35790 [handler.py:handle_request():144] handle_request: status_report
+2023-10-23 20:54:16,607 DEBUG   SenderThread:35790 [sender.py:send():380] send: files
+2023-10-23 20:54:16,607 INFO    SenderThread:35790 [sender.py:_save_file():1378] saving file wandb-metadata.json with policy now
+2023-10-23 20:54:17,544 INFO    Thread-62 :35790 [dir_watcher.py:_on_file_created():271] file/dir created: /home/tejas/Documents/SMAI/assignment-3-MrTejas/q3/wandb/run-20231023_205409-chziy8j2/files/wandb-metadata.json
+2023-10-23 20:54:17,784 INFO    wandb-upload_0:35790 [upload_job.py:push():131] Uploaded file /tmp/tmpiewfyi1cwandb/2cuqiv0h-wandb-metadata.json
+2023-10-23 20:54:21,608 DEBUG   HandlerThread:35790 [handler.py:handle_request():144] handle_request: status_report
+2023-10-23 20:54:26,609 DEBUG   HandlerThread:35790 [handler.py:handle_request():144] handle_request: status_report
+2023-10-23 20:54:31,610 DEBUG   HandlerThread:35790 [handler.py:handle_request():144] handle_request: status_report
+2023-10-23 20:54:36,611 DEBUG   HandlerThread:35790 [handler.py:handle_request():144] handle_request: status_report
+2023-10-23 20:54:41,612 DEBUG   HandlerThread:35790 [handler.py:handle_request():144] handle_request: status_report
+2023-10-23 20:54:46,613 DEBUG   HandlerThread:35790 [handler.py:handle_request():144] handle_request: status_report
+2023-10-23 20:54:51,614 DEBUG   HandlerThread:35790 [handler.py:handle_request():144] handle_request: status_report
+2023-10-23 20:54:56,615 DEBUG   HandlerThread:35790 [handler.py:handle_request():144] handle_request: status_report
+2023-10-23 20:55:01,617 DEBUG   HandlerThread:35790 [handler.py:handle_request():144] handle_request: status_report
+2023-10-23 20:55:06,617 DEBUG   HandlerThread:35790 [handler.py:handle_request():144] handle_request: status_report
+2023-10-23 20:55:11,618 DEBUG   HandlerThread:35790 [handler.py:handle_request():144] handle_request: status_report
+2023-10-23 20:55:11,967 DEBUG   SystemMonitor:35790 [system_monitor.py:_start():159] Starting system metrics aggregation loop
+2023-10-23 20:55:11,969 DEBUG   SenderThread:35790 [sender.py:send():380] send: stats
+2023-10-23 20:55:12,369 ERROR   FileStreamThread:35790 [file_stream.py:_handle_response():504] dropped chunk 404 Client Error: Not Found for url: https://api.wandb.ai/files/tejas591995/MLPRegression/chziy8j2/file_stream
+NoneType: None
+2023-10-23 20:55:16,971 DEBUG   HandlerThread:35790 [handler.py:handle_request():144] handle_request: status_report
+2023-10-23 20:55:21,972 DEBUG   HandlerThread:35790 [handler.py:handle_request():144] handle_request: status_report
+2023-10-23 20:55:26,973 DEBUG   HandlerThread:35790 [handler.py:handle_request():144] handle_request: status_report
+2023-10-23 20:55:31,974 DEBUG   HandlerThread:35790 [handler.py:handle_request():144] handle_request: status_report
+2023-10-23 20:55:36,975 DEBUG   HandlerThread:35790 [handler.py:handle_request():144] handle_request: status_report
+2023-10-23 20:55:41,969 DEBUG   SenderThread:35790 [sender.py:send():380] send: stats
+2023-10-23 20:55:42,366 ERROR   FileStreamThread:35790 [file_stream.py:_handle_response():504] dropped chunk 404 Client Error: Not Found for url: https://api.wandb.ai/files/tejas591995/MLPRegression/chziy8j2/file_stream
+NoneType: None
+2023-10-23 20:55:42,971 DEBUG   HandlerThread:35790 [handler.py:handle_request():144] handle_request: status_report
+2023-10-23 20:55:47,972 DEBUG   HandlerThread:35790 [handler.py:handle_request():144] handle_request: status_report
+2023-10-23 20:55:52,973 DEBUG   HandlerThread:35790 [handler.py:handle_request():144] handle_request: status_report
+2023-10-23 20:55:57,975 DEBUG   HandlerThread:35790 [handler.py:handle_request():144] handle_request: status_report
+2023-10-23 20:56:02,975 DEBUG   HandlerThread:35790 [handler.py:handle_request():144] handle_request: status_report
+2023-10-23 20:56:07,976 DEBUG   HandlerThread:35790 [handler.py:handle_request():144] handle_request: status_report
+2023-10-23 20:56:11,970 DEBUG   SenderThread:35790 [sender.py:send():380] send: stats
+2023-10-23 20:56:12,258 ERROR   FileStreamThread:35790 [file_stream.py:_handle_response():504] dropped chunk 404 Client Error: Not Found for url: https://api.wandb.ai/files/tejas591995/MLPRegression/chziy8j2/file_stream
+NoneType: None
+2023-10-23 20:56:13,971 DEBUG   HandlerThread:35790 [handler.py:handle_request():144] handle_request: status_report
+2023-10-23 20:56:18,972 DEBUG   HandlerThread:35790 [handler.py:handle_request():144] handle_request: status_report
+2023-10-23 20:56:23,973 DEBUG   HandlerThread:35790 [handler.py:handle_request():144] handle_request: status_report
+2023-10-23 20:56:28,974 DEBUG   HandlerThread:35790 [handler.py:handle_request():144] handle_request: status_report
+2023-10-23 20:56:33,975 DEBUG   HandlerThread:35790 [handler.py:handle_request():144] handle_request: status_report
+2023-10-23 20:56:38,976 DEBUG   HandlerThread:35790 [handler.py:handle_request():144] handle_request: status_report
+2023-10-23 20:56:41,971 DEBUG   SenderThread:35790 [sender.py:send():380] send: stats
+2023-10-23 20:56:42,360 ERROR   FileStreamThread:35790 [file_stream.py:_handle_response():504] dropped chunk 404 Client Error: Not Found for url: https://api.wandb.ai/files/tejas591995/MLPRegression/chziy8j2/file_stream
+NoneType: None
+2023-10-23 20:56:44,973 DEBUG   HandlerThread:35790 [handler.py:handle_request():144] handle_request: status_report
+2023-10-23 20:56:49,974 DEBUG   HandlerThread:35790 [handler.py:handle_request():144] handle_request: status_report
+2023-10-23 20:56:54,975 DEBUG   HandlerThread:35790 [handler.py:handle_request():144] handle_request: status_report
+2023-10-23 20:56:59,976 DEBUG   HandlerThread:35790 [handler.py:handle_request():144] handle_request: status_report
+2023-10-23 20:57:04,978 DEBUG   HandlerThread:35790 [handler.py:handle_request():144] handle_request: status_report
+2023-10-23 20:57:09,979 DEBUG   HandlerThread:35790 [handler.py:handle_request():144] handle_request: status_report
+2023-10-23 20:57:11,971 DEBUG   SenderThread:35790 [sender.py:send():380] send: stats
+2023-10-23 20:57:12,371 ERROR   FileStreamThread:35790 [file_stream.py:_handle_response():504] dropped chunk 404 Client Error: Not Found for url: https://api.wandb.ai/files/tejas591995/MLPRegression/chziy8j2/file_stream
+NoneType: None
+2023-10-23 20:57:15,973 DEBUG   HandlerThread:35790 [handler.py:handle_request():144] handle_request: status_report
+2023-10-23 20:57:20,974 DEBUG   HandlerThread:35790 [handler.py:handle_request():144] handle_request: status_report
+2023-10-23 20:57:25,975 DEBUG   HandlerThread:35790 [handler.py:handle_request():144] handle_request: status_report
+2023-10-23 20:57:30,976 DEBUG   HandlerThread:35790 [handler.py:handle_request():144] handle_request: status_report
+2023-10-23 20:57:35,977 DEBUG   HandlerThread:35790 [handler.py:handle_request():144] handle_request: status_report
+2023-10-23 20:57:40,978 DEBUG   HandlerThread:35790 [handler.py:handle_request():144] handle_request: status_report
+2023-10-23 20:57:41,973 DEBUG   SenderThread:35790 [sender.py:send():380] send: stats
+2023-10-23 20:57:42,387 ERROR   FileStreamThread:35790 [file_stream.py:_handle_response():504] dropped chunk 404 Client Error: Not Found for url: https://api.wandb.ai/files/tejas591995/MLPRegression/chziy8j2/file_stream
+NoneType: None
+2023-10-23 20:57:46,974 DEBUG   HandlerThread:35790 [handler.py:handle_request():144] handle_request: status_report
+2023-10-23 20:57:51,976 DEBUG   HandlerThread:35790 [handler.py:handle_request():144] handle_request: status_report
+2023-10-23 20:57:56,977 DEBUG   HandlerThread:35790 [handler.py:handle_request():144] handle_request: status_report
+2023-10-23 20:58:01,978 DEBUG   HandlerThread:35790 [handler.py:handle_request():144] handle_request: status_report
+2023-10-23 20:58:06,980 DEBUG   HandlerThread:35790 [handler.py:handle_request():144] handle_request: status_report
+2023-10-23 20:58:11,974 DEBUG   SenderThread:35790 [sender.py:send():380] send: stats
+2023-10-23 20:58:12,265 ERROR   FileStreamThread:35790 [file_stream.py:_handle_response():504] dropped chunk 404 Client Error: Not Found for url: https://api.wandb.ai/files/tejas591995/MLPRegression/chziy8j2/file_stream
+NoneType: None
+2023-10-23 20:58:12,975 DEBUG   HandlerThread:35790 [handler.py:handle_request():144] handle_request: status_report
+2023-10-23 20:58:17,977 DEBUG   HandlerThread:35790 [handler.py:handle_request():144] handle_request: status_report
+2023-10-23 20:58:22,978 DEBUG   HandlerThread:35790 [handler.py:handle_request():144] handle_request: status_report
+2023-10-23 20:58:27,980 DEBUG   HandlerThread:35790 [handler.py:handle_request():144] handle_request: status_report
+2023-10-23 20:58:32,981 DEBUG   HandlerThread:35790 [handler.py:handle_request():144] handle_request: status_report
+2023-10-23 20:58:37,982 DEBUG   HandlerThread:35790 [handler.py:handle_request():144] handle_request: status_report
+2023-10-23 20:58:41,975 DEBUG   SenderThread:35790 [sender.py:send():380] send: stats
+2023-10-23 20:58:42,281 ERROR   FileStreamThread:35790 [file_stream.py:_handle_response():504] dropped chunk 404 Client Error: Not Found for url: https://api.wandb.ai/files/tejas591995/MLPRegression/chziy8j2/file_stream
+NoneType: None
+2023-10-23 20:58:43,976 DEBUG   HandlerThread:35790 [handler.py:handle_request():144] handle_request: status_report
+2023-10-23 20:58:48,978 DEBUG   HandlerThread:35790 [handler.py:handle_request():144] handle_request: status_report
+2023-10-23 20:58:53,979 DEBUG   HandlerThread:35790 [handler.py:handle_request():144] handle_request: status_report
+2023-10-23 20:58:58,980 DEBUG   HandlerThread:35790 [handler.py:handle_request():144] handle_request: status_report
+2023-10-23 20:59:03,981 DEBUG   HandlerThread:35790 [handler.py:handle_request():144] handle_request: status_report
+2023-10-23 20:59:08,983 DEBUG   HandlerThread:35790 [handler.py:handle_request():144] handle_request: status_report
+2023-10-23 20:59:11,975 DEBUG   SenderThread:35790 [sender.py:send():380] send: stats
+2023-10-23 20:59:12,269 ERROR   FileStreamThread:35790 [file_stream.py:_handle_response():504] dropped chunk 404 Client Error: Not Found for url: https://api.wandb.ai/files/tejas591995/MLPRegression/chziy8j2/file_stream
+NoneType: None
+2023-10-23 20:59:14,976 DEBUG   HandlerThread:35790 [handler.py:handle_request():144] handle_request: status_report
+2023-10-23 20:59:19,978 DEBUG   HandlerThread:35790 [handler.py:handle_request():144] handle_request: status_report
+2023-10-23 20:59:24,979 DEBUG   HandlerThread:35790 [handler.py:handle_request():144] handle_request: status_report
+2023-10-23 20:59:29,980 DEBUG   HandlerThread:35790 [handler.py:handle_request():144] handle_request: status_report
+2023-10-23 20:59:34,981 DEBUG   HandlerThread:35790 [handler.py:handle_request():144] handle_request: status_report
+2023-10-23 20:59:39,983 DEBUG   HandlerThread:35790 [handler.py:handle_request():144] handle_request: status_report
+2023-10-23 20:59:41,976 DEBUG   SenderThread:35790 [sender.py:send():380] send: stats
+2023-10-23 20:59:42,314 ERROR   FileStreamThread:35790 [file_stream.py:_handle_response():504] dropped chunk 404 Client Error: Not Found for url: https://api.wandb.ai/files/tejas591995/MLPRegression/chziy8j2/file_stream
+NoneType: None
+2023-10-23 20:59:45,978 DEBUG   HandlerThread:35790 [handler.py:handle_request():144] handle_request: status_report
+2023-10-23 20:59:50,979 DEBUG   HandlerThread:35790 [handler.py:handle_request():144] handle_request: status_report
+2023-10-23 20:59:55,981 DEBUG   HandlerThread:35790 [handler.py:handle_request():144] handle_request: status_report
+2023-10-23 21:00:00,982 DEBUG   HandlerThread:35790 [handler.py:handle_request():144] handle_request: status_report
+2023-10-23 21:00:05,983 DEBUG   HandlerThread:35790 [handler.py:handle_request():144] handle_request: status_report
+2023-10-23 21:00:10,984 DEBUG   HandlerThread:35790 [handler.py:handle_request():144] handle_request: status_report
+2023-10-23 21:00:11,977 DEBUG   SenderThread:35790 [sender.py:send():380] send: stats
+2023-10-23 21:00:12,275 ERROR   FileStreamThread:35790 [file_stream.py:_handle_response():504] dropped chunk 404 Client Error: Not Found for url: https://api.wandb.ai/files/tejas591995/MLPRegression/chziy8j2/file_stream
+NoneType: None
+2023-10-23 21:00:16,979 DEBUG   HandlerThread:35790 [handler.py:handle_request():144] handle_request: status_report
+2023-10-23 21:00:21,980 DEBUG   HandlerThread:35790 [handler.py:handle_request():144] handle_request: status_report
+2023-10-23 21:00:26,982 DEBUG   HandlerThread:35790 [handler.py:handle_request():144] handle_request: status_report
+2023-10-23 21:00:31,983 DEBUG   HandlerThread:35790 [handler.py:handle_request():144] handle_request: status_report
+2023-10-23 21:00:36,984 DEBUG   HandlerThread:35790 [handler.py:handle_request():144] handle_request: status_report
+2023-10-23 21:00:41,978 DEBUG   SenderThread:35790 [sender.py:send():380] send: stats
+2023-10-23 21:00:42,279 ERROR   FileStreamThread:35790 [file_stream.py:_handle_response():504] dropped chunk 404 Client Error: Not Found for url: https://api.wandb.ai/files/tejas591995/MLPRegression/chziy8j2/file_stream
+NoneType: None
+2023-10-23 21:00:42,979 DEBUG   HandlerThread:35790 [handler.py:handle_request():144] handle_request: status_report
+2023-10-23 21:00:47,981 DEBUG   HandlerThread:35790 [handler.py:handle_request():144] handle_request: status_report
+2023-10-23 21:00:52,982 DEBUG   HandlerThread:35790 [handler.py:handle_request():144] handle_request: status_report
+2023-10-23 21:00:57,983 DEBUG   HandlerThread:35790 [handler.py:handle_request():144] handle_request: status_report
+2023-10-23 21:01:02,984 DEBUG   HandlerThread:35790 [handler.py:handle_request():144] handle_request: status_report
+2023-10-23 21:01:07,985 DEBUG   HandlerThread:35790 [handler.py:handle_request():144] handle_request: status_report
+2023-10-23 21:01:11,979 DEBUG   SenderThread:35790 [sender.py:send():380] send: stats
+2023-10-23 21:01:12,280 ERROR   FileStreamThread:35790 [file_stream.py:_handle_response():504] dropped chunk 404 Client Error: Not Found for url: https://api.wandb.ai/files/tejas591995/MLPRegression/chziy8j2/file_stream
+NoneType: None
+2023-10-23 21:01:13,981 DEBUG   HandlerThread:35790 [handler.py:handle_request():144] handle_request: status_report
+2023-10-23 21:01:18,982 DEBUG   HandlerThread:35790 [handler.py:handle_request():144] handle_request: status_report
+2023-10-23 21:01:23,983 DEBUG   HandlerThread:35790 [handler.py:handle_request():144] handle_request: status_report
+2023-10-23 21:01:28,984 DEBUG   HandlerThread:35790 [handler.py:handle_request():144] handle_request: status_report
+2023-10-23 21:01:33,986 DEBUG   HandlerThread:35790 [handler.py:handle_request():144] handle_request: status_report
+2023-10-23 21:01:38,987 DEBUG   HandlerThread:35790 [handler.py:handle_request():144] handle_request: status_report
+2023-10-23 21:01:41,980 DEBUG   SenderThread:35790 [sender.py:send():380] send: stats
+2023-10-23 21:01:42,252 ERROR   FileStreamThread:35790 [file_stream.py:_handle_response():504] dropped chunk 404 Client Error: Not Found for url: https://api.wandb.ai/files/tejas591995/MLPRegression/chziy8j2/file_stream
+NoneType: None
+2023-10-23 21:01:44,981 DEBUG   HandlerThread:35790 [handler.py:handle_request():144] handle_request: status_report
+2023-10-23 21:01:49,982 DEBUG   HandlerThread:35790 [handler.py:handle_request():144] handle_request: status_report
+2023-10-23 21:01:54,984 DEBUG   HandlerThread:35790 [handler.py:handle_request():144] handle_request: status_report
+2023-10-23 21:01:59,984 DEBUG   HandlerThread:35790 [handler.py:handle_request():144] handle_request: status_report
+2023-10-23 21:02:04,986 DEBUG   HandlerThread:35790 [handler.py:handle_request():144] handle_request: status_report
+2023-10-23 21:02:09,987 DEBUG   HandlerThread:35790 [handler.py:handle_request():144] handle_request: status_report
+2023-10-23 21:02:11,981 DEBUG   SenderThread:35790 [sender.py:send():380] send: stats
+2023-10-23 21:02:12,258 ERROR   FileStreamThread:35790 [file_stream.py:_handle_response():504] dropped chunk 404 Client Error: Not Found for url: https://api.wandb.ai/files/tejas591995/MLPRegression/chziy8j2/file_stream
+NoneType: None
+2023-10-23 21:02:15,983 DEBUG   HandlerThread:35790 [handler.py:handle_request():144] handle_request: status_report
+2023-10-23 21:02:20,985 DEBUG   HandlerThread:35790 [handler.py:handle_request():144] handle_request: status_report
+2023-10-23 21:02:25,985 DEBUG   HandlerThread:35790 [handler.py:handle_request():144] handle_request: status_report
+2023-10-23 21:02:30,987 DEBUG   HandlerThread:35790 [handler.py:handle_request():144] handle_request: status_report
+2023-10-23 21:02:35,988 DEBUG   HandlerThread:35790 [handler.py:handle_request():144] handle_request: status_report
+2023-10-23 21:02:40,990 DEBUG   HandlerThread:35790 [handler.py:handle_request():144] handle_request: status_report
+2023-10-23 21:02:41,982 DEBUG   SenderThread:35790 [sender.py:send():380] send: stats
+2023-10-23 21:02:42,281 ERROR   FileStreamThread:35790 [file_stream.py:_handle_response():504] dropped chunk 404 Client Error: Not Found for url: https://api.wandb.ai/files/tejas591995/MLPRegression/chziy8j2/file_stream
+NoneType: None
+2023-10-23 21:02:46,984 DEBUG   HandlerThread:35790 [handler.py:handle_request():144] handle_request: status_report
+2023-10-23 21:02:51,985 DEBUG   HandlerThread:35790 [handler.py:handle_request():144] handle_request: status_report
+2023-10-23 21:02:56,986 DEBUG   HandlerThread:35790 [handler.py:handle_request():144] handle_request: status_report
+2023-10-23 21:03:01,987 DEBUG   HandlerThread:35790 [handler.py:handle_request():144] handle_request: status_report
+2023-10-23 21:03:06,989 DEBUG   HandlerThread:35790 [handler.py:handle_request():144] handle_request: status_report
+2023-10-23 21:03:11,983 DEBUG   SenderThread:35790 [sender.py:send():380] send: stats
+2023-10-23 21:03:12,390 ERROR   FileStreamThread:35790 [file_stream.py:_handle_response():504] dropped chunk 404 Client Error: Not Found for url: https://api.wandb.ai/files/tejas591995/MLPRegression/chziy8j2/file_stream
+NoneType: None
+2023-10-23 21:03:12,984 DEBUG   HandlerThread:35790 [handler.py:handle_request():144] handle_request: status_report
+2023-10-23 21:03:17,986 DEBUG   HandlerThread:35790 [handler.py:handle_request():144] handle_request: status_report
+2023-10-23 21:03:22,987 DEBUG   HandlerThread:35790 [handler.py:handle_request():144] handle_request: status_report
+2023-10-23 21:03:27,988 DEBUG   HandlerThread:35790 [handler.py:handle_request():144] handle_request: status_report
+2023-10-23 21:03:32,990 DEBUG   HandlerThread:35790 [handler.py:handle_request():144] handle_request: status_report
+2023-10-23 21:03:37,991 DEBUG   HandlerThread:35790 [handler.py:handle_request():144] handle_request: status_report
+2023-10-23 21:03:41,984 DEBUG   SenderThread:35790 [sender.py:send():380] send: stats
+2023-10-23 21:03:42,299 ERROR   FileStreamThread:35790 [file_stream.py:_handle_response():504] dropped chunk 404 Client Error: Not Found for url: https://api.wandb.ai/files/tejas591995/MLPRegression/chziy8j2/file_stream
+NoneType: None
+2023-10-23 21:03:43,986 DEBUG   HandlerThread:35790 [handler.py:handle_request():144] handle_request: status_report
+2023-10-23 21:03:48,987 DEBUG   HandlerThread:35790 [handler.py:handle_request():144] handle_request: status_report
+2023-10-23 21:03:53,988 DEBUG   HandlerThread:35790 [handler.py:handle_request():144] handle_request: status_report
+2023-10-23 21:03:58,990 DEBUG   HandlerThread:35790 [handler.py:handle_request():144] handle_request: status_report
+2023-10-23 21:04:03,991 DEBUG   HandlerThread:35790 [handler.py:handle_request():144] handle_request: status_report
+2023-10-23 21:04:08,992 DEBUG   HandlerThread:35790 [handler.py:handle_request():144] handle_request: status_report
+2023-10-23 21:04:11,984 DEBUG   SenderThread:35790 [sender.py:send():380] send: stats
+2023-10-23 21:04:14,985 DEBUG   HandlerThread:35790 [handler.py:handle_request():144] handle_request: status_report
+2023-10-23 21:04:19,987 DEBUG   HandlerThread:35790 [handler.py:handle_request():144] handle_request: status_report
+2023-10-23 21:04:24,988 DEBUG   HandlerThread:35790 [handler.py:handle_request():144] handle_request: status_report
+2023-10-23 21:04:29,990 DEBUG   HandlerThread:35790 [handler.py:handle_request():144] handle_request: status_report
+2023-10-23 21:04:34,990 DEBUG   HandlerThread:35790 [handler.py:handle_request():144] handle_request: status_report
+2023-10-23 21:04:39,992 DEBUG   HandlerThread:35790 [handler.py:handle_request():144] handle_request: status_report
+2023-10-23 21:04:41,988 DEBUG   SenderThread:35790 [sender.py:send():380] send: stats
+2023-10-23 21:04:42,305 ERROR   FileStreamThread:35790 [file_stream.py:_handle_response():504] dropped chunk 404 Client Error: Not Found for url: https://api.wandb.ai/files/tejas591995/MLPRegression/chziy8j2/file_stream
+NoneType: None
+2023-10-23 21:04:45,989 DEBUG   HandlerThread:35790 [handler.py:handle_request():144] handle_request: status_report
+2023-10-23 21:04:50,991 DEBUG   HandlerThread:35790 [handler.py:handle_request():144] handle_request: status_report
+2023-10-23 21:04:55,992 DEBUG   HandlerThread:35790 [handler.py:handle_request():144] handle_request: status_report
+2023-10-23 21:05:00,993 DEBUG   HandlerThread:35790 [handler.py:handle_request():144] handle_request: status_report
+2023-10-23 21:05:05,995 DEBUG   HandlerThread:35790 [handler.py:handle_request():144] handle_request: status_report
+2023-10-23 21:05:10,996 DEBUG   HandlerThread:35790 [handler.py:handle_request():144] handle_request: status_report
+2023-10-23 21:05:11,987 DEBUG   SenderThread:35790 [sender.py:send():380] send: stats
+2023-10-23 21:05:12,285 ERROR   FileStreamThread:35790 [file_stream.py:_handle_response():504] dropped chunk 404 Client Error: Not Found for url: https://api.wandb.ai/files/tejas591995/MLPRegression/chziy8j2/file_stream
+NoneType: None
+2023-10-23 21:05:16,989 DEBUG   HandlerThread:35790 [handler.py:handle_request():144] handle_request: status_report
+2023-10-23 21:05:21,991 DEBUG   HandlerThread:35790 [handler.py:handle_request():144] handle_request: status_report
+2023-10-23 21:05:26,992 DEBUG   HandlerThread:35790 [handler.py:handle_request():144] handle_request: status_report
+2023-10-23 21:05:31,993 DEBUG   HandlerThread:35790 [handler.py:handle_request():144] handle_request: status_report
+2023-10-23 21:05:36,995 DEBUG   HandlerThread:35790 [handler.py:handle_request():144] handle_request: status_report
+2023-10-23 21:05:41,987 DEBUG   SenderThread:35790 [sender.py:send():380] send: stats
+2023-10-23 21:05:42,988 DEBUG   HandlerThread:35790 [handler.py:handle_request():144] handle_request: status_report
+2023-10-23 21:05:47,989 DEBUG   HandlerThread:35790 [handler.py:handle_request():144] handle_request: status_report
+2023-10-23 21:05:52,991 DEBUG   HandlerThread:35790 [handler.py:handle_request():144] handle_request: status_report
+2023-10-23 21:05:57,992 DEBUG   HandlerThread:35790 [handler.py:handle_request():144] handle_request: status_report
+2023-10-23 21:06:02,993 DEBUG   HandlerThread:35790 [handler.py:handle_request():144] handle_request: status_report
+2023-10-23 21:06:07,994 DEBUG   HandlerThread:35790 [handler.py:handle_request():144] handle_request: status_report
+2023-10-23 21:06:11,987 DEBUG   SenderThread:35790 [sender.py:send():380] send: stats
+2023-10-23 21:06:12,292 ERROR   FileStreamThread:35790 [file_stream.py:_handle_response():504] dropped chunk 404 Client Error: Not Found for url: https://api.wandb.ai/files/tejas591995/MLPRegression/chziy8j2/file_stream
+NoneType: None
+2023-10-23 21:06:13,988 DEBUG   HandlerThread:35790 [handler.py:handle_request():144] handle_request: status_report
+2023-10-23 21:06:18,989 DEBUG   HandlerThread:35790 [handler.py:handle_request():144] handle_request: status_report
+2023-10-23 21:06:23,990 DEBUG   HandlerThread:35790 [handler.py:handle_request():144] handle_request: status_report
+2023-10-23 21:06:28,991 DEBUG   HandlerThread:35790 [handler.py:handle_request():144] handle_request: status_report
+2023-10-23 21:06:33,993 DEBUG   HandlerThread:35790 [handler.py:handle_request():144] handle_request: status_report
+2023-10-23 21:06:38,994 DEBUG   HandlerThread:35790 [handler.py:handle_request():144] handle_request: status_report
+2023-10-23 21:06:41,988 DEBUG   SenderThread:35790 [sender.py:send():380] send: stats
+2023-10-23 21:06:42,307 ERROR   FileStreamThread:35790 [file_stream.py:_handle_response():504] dropped chunk 404 Client Error: Not Found for url: https://api.wandb.ai/files/tejas591995/MLPRegression/chziy8j2/file_stream
+NoneType: None
+2023-10-23 21:06:44,990 DEBUG   HandlerThread:35790 [handler.py:handle_request():144] handle_request: status_report
+2023-10-23 21:06:49,991 DEBUG   HandlerThread:35790 [handler.py:handle_request():144] handle_request: status_report
+2023-10-23 21:06:54,992 DEBUG   HandlerThread:35790 [handler.py:handle_request():144] handle_request: status_report
+2023-10-23 21:06:59,993 DEBUG   HandlerThread:35790 [handler.py:handle_request():144] handle_request: status_report
+2023-10-23 21:07:04,994 DEBUG   HandlerThread:35790 [handler.py:handle_request():144] handle_request: status_report
+2023-10-23 21:07:09,995 DEBUG   HandlerThread:35790 [handler.py:handle_request():144] handle_request: status_report
+2023-10-23 21:07:11,990 DEBUG   SenderThread:35790 [sender.py:send():380] send: stats
+2023-10-23 21:07:12,261 ERROR   FileStreamThread:35790 [file_stream.py:_handle_response():504] dropped chunk 404 Client Error: Not Found for url: https://api.wandb.ai/files/tejas591995/MLPRegression/chziy8j2/file_stream
+NoneType: None
+2023-10-23 21:07:15,991 DEBUG   HandlerThread:35790 [handler.py:handle_request():144] handle_request: status_report
+2023-10-23 21:07:20,992 DEBUG   HandlerThread:35790 [handler.py:handle_request():144] handle_request: status_report
+2023-10-23 21:07:25,993 DEBUG   HandlerThread:35790 [handler.py:handle_request():144] handle_request: status_report
+2023-10-23 21:07:30,994 DEBUG   HandlerThread:35790 [handler.py:handle_request():144] handle_request: status_report
+2023-10-23 21:07:35,995 DEBUG   HandlerThread:35790 [handler.py:handle_request():144] handle_request: status_report
+2023-10-23 21:07:40,996 DEBUG   HandlerThread:35790 [handler.py:handle_request():144] handle_request: status_report
+2023-10-23 21:07:41,990 DEBUG   SenderThread:35790 [sender.py:send():380] send: stats
+2023-10-23 21:07:42,298 ERROR   FileStreamThread:35790 [file_stream.py:_handle_response():504] dropped chunk 404 Client Error: Not Found for url: https://api.wandb.ai/files/tejas591995/MLPRegression/chziy8j2/file_stream
+NoneType: None
+2023-10-23 21:07:46,992 DEBUG   HandlerThread:35790 [handler.py:handle_request():144] handle_request: status_report
+2023-10-23 21:07:51,993 DEBUG   HandlerThread:35790 [handler.py:handle_request():144] handle_request: status_report
+2023-10-23 21:07:56,994 DEBUG   HandlerThread:35790 [handler.py:handle_request():144] handle_request: status_report
+2023-10-23 21:08:01,996 DEBUG   HandlerThread:35790 [handler.py:handle_request():144] handle_request: status_report
+2023-10-23 21:08:06,997 DEBUG   HandlerThread:35790 [handler.py:handle_request():144] handle_request: status_report
+2023-10-23 21:08:11,991 DEBUG   SenderThread:35790 [sender.py:send():380] send: stats
+2023-10-23 21:08:12,299 ERROR   FileStreamThread:35790 [file_stream.py:_handle_response():504] dropped chunk 404 Client Error: Not Found for url: https://api.wandb.ai/files/tejas591995/MLPRegression/chziy8j2/file_stream
+NoneType: None
+2023-10-23 21:08:12,992 DEBUG   HandlerThread:35790 [handler.py:handle_request():144] handle_request: status_report
+2023-10-23 21:08:17,994 DEBUG   HandlerThread:35790 [handler.py:handle_request():144] handle_request: status_report
+2023-10-23 21:08:22,995 DEBUG   HandlerThread:35790 [handler.py:handle_request():144] handle_request: status_report
+2023-10-23 21:08:27,997 DEBUG   HandlerThread:35790 [handler.py:handle_request():144] handle_request: status_report
+2023-10-23 21:08:32,997 DEBUG   HandlerThread:35790 [handler.py:handle_request():144] handle_request: status_report
+2023-10-23 21:08:37,998 DEBUG   HandlerThread:35790 [handler.py:handle_request():144] handle_request: status_report
+2023-10-23 21:08:41,992 DEBUG   SenderThread:35790 [sender.py:send():380] send: stats
+2023-10-23 21:08:43,992 DEBUG   HandlerThread:35790 [handler.py:handle_request():144] handle_request: status_report
+2023-10-23 21:08:48,994 DEBUG   HandlerThread:35790 [handler.py:handle_request():144] handle_request: status_report
+2023-10-23 21:08:53,995 DEBUG   HandlerThread:35790 [handler.py:handle_request():144] handle_request: status_report
+2023-10-23 21:08:58,996 DEBUG   HandlerThread:35790 [handler.py:handle_request():144] handle_request: status_report
+2023-10-23 21:09:03,997 DEBUG   HandlerThread:35790 [handler.py:handle_request():144] handle_request: status_report
+2023-10-23 21:09:08,998 DEBUG   HandlerThread:35790 [handler.py:handle_request():144] handle_request: status_report
+2023-10-23 21:09:11,996 DEBUG   SenderThread:35790 [sender.py:send():380] send: stats
+2023-10-23 21:09:12,311 ERROR   FileStreamThread:35790 [file_stream.py:_handle_response():504] dropped chunk 404 Client Error: Not Found for url: https://api.wandb.ai/files/tejas591995/MLPRegression/chziy8j2/file_stream
+NoneType: None
+2023-10-23 21:09:14,997 DEBUG   HandlerThread:35790 [handler.py:handle_request():144] handle_request: status_report
+2023-10-23 21:09:19,998 DEBUG   HandlerThread:35790 [handler.py:handle_request():144] handle_request: status_report
+2023-10-23 21:09:24,998 DEBUG   HandlerThread:35790 [handler.py:handle_request():144] handle_request: status_report
+2023-10-23 21:09:29,999 DEBUG   HandlerThread:35790 [handler.py:handle_request():144] handle_request: status_report
+2023-10-23 21:09:35,000 DEBUG   HandlerThread:35790 [handler.py:handle_request():144] handle_request: status_report
+2023-10-23 21:09:40,001 DEBUG   HandlerThread:35790 [handler.py:handle_request():144] handle_request: status_report
+2023-10-23 21:09:41,994 DEBUG   SenderThread:35790 [sender.py:send():380] send: stats
+2023-10-23 21:09:42,311 ERROR   FileStreamThread:35790 [file_stream.py:_handle_response():504] dropped chunk 404 Client Error: Not Found for url: https://api.wandb.ai/files/tejas591995/MLPRegression/chziy8j2/file_stream
+NoneType: None
+2023-10-23 21:09:45,996 DEBUG   HandlerThread:35790 [handler.py:handle_request():144] handle_request: status_report
+2023-10-23 21:09:50,997 DEBUG   HandlerThread:35790 [handler.py:handle_request():144] handle_request: status_report
+2023-10-23 21:09:55,998 DEBUG   HandlerThread:35790 [handler.py:handle_request():144] handle_request: status_report
+2023-10-23 21:10:00,999 DEBUG   HandlerThread:35790 [handler.py:handle_request():144] handle_request: status_report
+2023-10-23 21:10:06,000 DEBUG   HandlerThread:35790 [handler.py:handle_request():144] handle_request: status_report
+2023-10-23 21:10:11,001 DEBUG   HandlerThread:35790 [handler.py:handle_request():144] handle_request: status_report
+2023-10-23 21:10:11,995 DEBUG   SenderThread:35790 [sender.py:send():380] send: stats
+2023-10-23 21:10:12,312 ERROR   FileStreamThread:35790 [file_stream.py:_handle_response():504] dropped chunk 404 Client Error: Not Found for url: https://api.wandb.ai/files/tejas591995/MLPRegression/chziy8j2/file_stream
+NoneType: None
+2023-10-23 21:10:16,997 DEBUG   HandlerThread:35790 [handler.py:handle_request():144] handle_request: status_report
+2023-10-23 21:10:21,999 DEBUG   HandlerThread:35790 [handler.py:handle_request():144] handle_request: status_report
+2023-10-23 21:10:27,000 DEBUG   HandlerThread:35790 [handler.py:handle_request():144] handle_request: status_report
+2023-10-23 21:10:32,002 DEBUG   HandlerThread:35790 [handler.py:handle_request():144] handle_request: status_report
+2023-10-23 21:10:37,003 DEBUG   HandlerThread:35790 [handler.py:handle_request():144] handle_request: status_report
+2023-10-23 21:10:41,996 DEBUG   SenderThread:35790 [sender.py:send():380] send: stats
+2023-10-23 21:10:42,316 ERROR   FileStreamThread:35790 [file_stream.py:_handle_response():504] dropped chunk 404 Client Error: Not Found for url: https://api.wandb.ai/files/tejas591995/MLPRegression/chziy8j2/file_stream
+NoneType: None
+2023-10-23 21:10:42,997 DEBUG   HandlerThread:35790 [handler.py:handle_request():144] handle_request: status_report
+2023-10-23 21:10:47,999 DEBUG   HandlerThread:35790 [handler.py:handle_request():144] handle_request: status_report
+2023-10-23 21:10:53,001 DEBUG   HandlerThread:35790 [handler.py:handle_request():144] handle_request: status_report
+2023-10-23 21:10:58,002 DEBUG   HandlerThread:35790 [handler.py:handle_request():144] handle_request: status_report
+2023-10-23 21:11:03,004 DEBUG   HandlerThread:35790 [handler.py:handle_request():144] handle_request: status_report
+2023-10-23 21:11:08,005 DEBUG   HandlerThread:35790 [handler.py:handle_request():144] handle_request: status_report
+2023-10-23 21:11:11,997 DEBUG   SenderThread:35790 [sender.py:send():380] send: stats
+2023-10-23 21:11:12,327 ERROR   FileStreamThread:35790 [file_stream.py:_handle_response():504] dropped chunk 404 Client Error: Not Found for url: https://api.wandb.ai/files/tejas591995/MLPRegression/chziy8j2/file_stream
+NoneType: None
+2023-10-23 21:11:13,999 DEBUG   HandlerThread:35790 [handler.py:handle_request():144] handle_request: status_report
+2023-10-23 21:11:19,000 DEBUG   HandlerThread:35790 [handler.py:handle_request():144] handle_request: status_report
+2023-10-23 21:11:24,000 DEBUG   HandlerThread:35790 [handler.py:handle_request():144] handle_request: status_report
+2023-10-23 21:11:29,002 DEBUG   HandlerThread:35790 [handler.py:handle_request():144] handle_request: status_report
+2023-10-23 21:11:34,003 DEBUG   HandlerThread:35790 [handler.py:handle_request():144] handle_request: status_report
+2023-10-23 21:11:39,005 DEBUG   HandlerThread:35790 [handler.py:handle_request():144] handle_request: status_report
+2023-10-23 21:11:41,998 DEBUG   SenderThread:35790 [sender.py:send():380] send: stats
+2023-10-23 21:11:42,340 ERROR   FileStreamThread:35790 [file_stream.py:_handle_response():504] dropped chunk 404 Client Error: Not Found for url: https://api.wandb.ai/files/tejas591995/MLPRegression/chziy8j2/file_stream
+NoneType: None
+2023-10-23 21:11:45,000 DEBUG   HandlerThread:35790 [handler.py:handle_request():144] handle_request: status_report
+2023-10-23 21:11:50,001 DEBUG   HandlerThread:35790 [handler.py:handle_request():144] handle_request: status_report
+2023-10-23 21:11:55,003 DEBUG   HandlerThread:35790 [handler.py:handle_request():144] handle_request: status_report
+2023-10-23 21:12:00,004 DEBUG   HandlerThread:35790 [handler.py:handle_request():144] handle_request: status_report
+2023-10-23 21:12:05,005 DEBUG   HandlerThread:35790 [handler.py:handle_request():144] handle_request: status_report
+2023-10-23 21:12:10,006 DEBUG   HandlerThread:35790 [handler.py:handle_request():144] handle_request: status_report
+2023-10-23 21:12:11,998 DEBUG   SenderThread:35790 [sender.py:send():380] send: stats
+2023-10-23 21:12:15,999 DEBUG   HandlerThread:35790 [handler.py:handle_request():144] handle_request: status_report
+2023-10-23 21:12:21,000 DEBUG   HandlerThread:35790 [handler.py:handle_request():144] handle_request: status_report
+2023-10-23 21:12:26,001 DEBUG   HandlerThread:35790 [handler.py:handle_request():144] handle_request: status_report
+2023-10-23 21:12:31,002 DEBUG   HandlerThread:35790 [handler.py:handle_request():144] handle_request: status_report
+2023-10-23 21:12:36,003 DEBUG   HandlerThread:35790 [handler.py:handle_request():144] handle_request: status_report
+2023-10-23 21:12:41,004 DEBUG   HandlerThread:35790 [handler.py:handle_request():144] handle_request: status_report
+2023-10-23 21:12:42,002 DEBUG   SenderThread:35790 [sender.py:send():380] send: stats
+2023-10-23 21:12:42,328 ERROR   FileStreamThread:35790 [file_stream.py:_handle_response():504] dropped chunk 404 Client Error: Not Found for url: https://api.wandb.ai/files/tejas591995/MLPRegression/chziy8j2/file_stream
+NoneType: None
+2023-10-23 21:12:47,003 DEBUG   HandlerThread:35790 [handler.py:handle_request():144] handle_request: status_report
+2023-10-23 21:12:52,004 DEBUG   HandlerThread:35790 [handler.py:handle_request():144] handle_request: status_report
+2023-10-23 21:12:57,005 DEBUG   HandlerThread:35790 [handler.py:handle_request():144] handle_request: status_report
+2023-10-23 21:13:02,006 DEBUG   HandlerThread:35790 [handler.py:handle_request():144] handle_request: status_report
+2023-10-23 21:13:07,007 DEBUG   HandlerThread:35790 [handler.py:handle_request():144] handle_request: status_report
+2023-10-23 21:13:12,001 DEBUG   SenderThread:35790 [sender.py:send():380] send: stats
+2023-10-23 21:13:12,321 ERROR   FileStreamThread:35790 [file_stream.py:_handle_response():504] dropped chunk 404 Client Error: Not Found for url: https://api.wandb.ai/files/tejas591995/MLPRegression/chziy8j2/file_stream
+NoneType: None
+2023-10-23 21:13:13,002 DEBUG   HandlerThread:35790 [handler.py:handle_request():144] handle_request: status_report
+2023-10-23 21:13:18,003 DEBUG   HandlerThread:35790 [handler.py:handle_request():144] handle_request: status_report
+2023-10-23 21:13:23,004 DEBUG   HandlerThread:35790 [handler.py:handle_request():144] handle_request: status_report
+2023-10-23 21:13:28,006 DEBUG   HandlerThread:35790 [handler.py:handle_request():144] handle_request: status_report
+2023-10-23 21:13:33,007 DEBUG   HandlerThread:35790 [handler.py:handle_request():144] handle_request: status_report
+2023-10-23 21:13:38,008 DEBUG   HandlerThread:35790 [handler.py:handle_request():144] handle_request: status_report
+2023-10-23 21:13:42,001 DEBUG   SenderThread:35790 [sender.py:send():380] send: stats
+2023-10-23 21:13:42,335 ERROR   FileStreamThread:35790 [file_stream.py:_handle_response():504] dropped chunk 404 Client Error: Not Found for url: https://api.wandb.ai/files/tejas591995/MLPRegression/chziy8j2/file_stream
+NoneType: None
+2023-10-23 21:13:44,002 DEBUG   HandlerThread:35790 [handler.py:handle_request():144] handle_request: status_report
+2023-10-23 21:13:49,004 DEBUG   HandlerThread:35790 [handler.py:handle_request():144] handle_request: status_report
+2023-10-23 21:13:54,005 DEBUG   HandlerThread:35790 [handler.py:handle_request():144] handle_request: status_report
+2023-10-23 21:13:59,006 DEBUG   HandlerThread:35790 [handler.py:handle_request():144] handle_request: status_report
+2023-10-23 21:14:04,008 DEBUG   HandlerThread:35790 [handler.py:handle_request():144] handle_request: status_report
+2023-10-23 21:14:09,009 DEBUG   HandlerThread:35790 [handler.py:handle_request():144] handle_request: status_report
+2023-10-23 21:14:12,002 DEBUG   SenderThread:35790 [sender.py:send():380] send: stats
+2023-10-23 21:14:12,430 ERROR   FileStreamThread:35790 [file_stream.py:_handle_response():504] dropped chunk 404 Client Error: Not Found for url: https://api.wandb.ai/files/tejas591995/MLPRegression/chziy8j2/file_stream
+NoneType: None
+2023-10-23 21:14:15,004 DEBUG   HandlerThread:35790 [handler.py:handle_request():144] handle_request: status_report
+2023-10-23 21:14:20,005 DEBUG   HandlerThread:35790 [handler.py:handle_request():144] handle_request: status_report
+2023-10-23 21:14:25,006 DEBUG   HandlerThread:35790 [handler.py:handle_request():144] handle_request: status_report
+2023-10-23 21:14:30,007 DEBUG   HandlerThread:35790 [handler.py:handle_request():144] handle_request: status_report
+2023-10-23 21:14:35,008 DEBUG   HandlerThread:35790 [handler.py:handle_request():144] handle_request: status_report
+2023-10-23 21:14:40,010 DEBUG   HandlerThread:35790 [handler.py:handle_request():144] handle_request: status_report
+2023-10-23 21:14:42,003 DEBUG   SenderThread:35790 [sender.py:send():380] send: stats
+2023-10-23 21:14:42,278 ERROR   FileStreamThread:35790 [file_stream.py:_handle_response():504] dropped chunk 404 Client Error: Not Found for url: https://api.wandb.ai/files/tejas591995/MLPRegression/chziy8j2/file_stream
+NoneType: None
+2023-10-23 21:14:46,005 DEBUG   HandlerThread:35790 [handler.py:handle_request():144] handle_request: status_report
+2023-10-23 21:14:51,006 DEBUG   HandlerThread:35790 [handler.py:handle_request():144] handle_request: status_report
+2023-10-23 21:14:56,007 DEBUG   HandlerThread:35790 [handler.py:handle_request():144] handle_request: status_report
+2023-10-23 21:15:01,008 DEBUG   HandlerThread:35790 [handler.py:handle_request():144] handle_request: status_report
+2023-10-23 21:15:06,009 DEBUG   HandlerThread:35790 [handler.py:handle_request():144] handle_request: status_report
+2023-10-23 21:15:11,010 DEBUG   HandlerThread:35790 [handler.py:handle_request():144] handle_request: status_report
+2023-10-23 21:15:12,004 DEBUG   SenderThread:35790 [sender.py:send():380] send: stats
+2023-10-23 21:15:12,334 ERROR   FileStreamThread:35790 [file_stream.py:_handle_response():504] dropped chunk 404 Client Error: Not Found for url: https://api.wandb.ai/files/tejas591995/MLPRegression/chziy8j2/file_stream
+NoneType: None
+2023-10-23 21:15:17,006 DEBUG   HandlerThread:35790 [handler.py:handle_request():144] handle_request: status_report
+2023-10-23 21:15:22,007 DEBUG   HandlerThread:35790 [handler.py:handle_request():144] handle_request: status_report
+2023-10-23 21:15:27,009 DEBUG   HandlerThread:35790 [handler.py:handle_request():144] handle_request: status_report
+2023-10-23 21:15:32,010 DEBUG   HandlerThread:35790 [handler.py:handle_request():144] handle_request: status_report
+2023-10-23 21:15:37,012 DEBUG   HandlerThread:35790 [handler.py:handle_request():144] handle_request: status_report
+2023-10-23 21:15:42,005 DEBUG   SenderThread:35790 [sender.py:send():380] send: stats
+2023-10-23 21:15:42,332 ERROR   FileStreamThread:35790 [file_stream.py:_handle_response():504] dropped chunk 404 Client Error: Not Found for url: https://api.wandb.ai/files/tejas591995/MLPRegression/chziy8j2/file_stream
+NoneType: None
+2023-10-23 21:15:43,007 DEBUG   HandlerThread:35790 [handler.py:handle_request():144] handle_request: status_report
+2023-10-23 21:15:48,008 DEBUG   HandlerThread:35790 [handler.py:handle_request():144] handle_request: status_report
+2023-10-23 21:15:53,009 DEBUG   HandlerThread:35790 [handler.py:handle_request():144] handle_request: status_report
+2023-10-23 21:15:58,011 DEBUG   HandlerThread:35790 [handler.py:handle_request():144] handle_request: status_report
+2023-10-23 21:16:03,012 DEBUG   HandlerThread:35790 [handler.py:handle_request():144] handle_request: status_report
+2023-10-23 21:16:08,013 DEBUG   HandlerThread:35790 [handler.py:handle_request():144] handle_request: status_report
+2023-10-23 21:16:12,006 DEBUG   SenderThread:35790 [sender.py:send():380] send: stats
+2023-10-23 21:16:12,335 ERROR   FileStreamThread:35790 [file_stream.py:_handle_response():504] dropped chunk 404 Client Error: Not Found for url: https://api.wandb.ai/files/tejas591995/MLPRegression/chziy8j2/file_stream
+NoneType: None
+2023-10-23 21:16:14,007 DEBUG   HandlerThread:35790 [handler.py:handle_request():144] handle_request: status_report
+2023-10-23 21:16:19,009 DEBUG   HandlerThread:35790 [handler.py:handle_request():144] handle_request: status_report
+2023-10-23 21:16:24,010 DEBUG   HandlerThread:35790 [handler.py:handle_request():144] handle_request: status_report
+2023-10-23 21:16:29,012 DEBUG   HandlerThread:35790 [handler.py:handle_request():144] handle_request: status_report
+2023-10-23 21:16:34,013 DEBUG   HandlerThread:35790 [handler.py:handle_request():144] handle_request: status_report
+2023-10-23 21:16:39,014 DEBUG   HandlerThread:35790 [handler.py:handle_request():144] handle_request: status_report
+2023-10-23 21:16:42,006 DEBUG   SenderThread:35790 [sender.py:send():380] send: stats
+2023-10-23 21:16:45,007 DEBUG   HandlerThread:35790 [handler.py:handle_request():144] handle_request: status_report
+2023-10-23 21:16:50,008 DEBUG   HandlerThread:35790 [handler.py:handle_request():144] handle_request: status_report
+2023-10-23 21:16:55,009 DEBUG   HandlerThread:35790 [handler.py:handle_request():144] handle_request: status_report
+2023-10-23 21:17:00,010 DEBUG   HandlerThread:35790 [handler.py:handle_request():144] handle_request: status_report
+2023-10-23 21:17:05,012 DEBUG   HandlerThread:35790 [handler.py:handle_request():144] handle_request: status_report
+2023-10-23 21:17:10,013 DEBUG   HandlerThread:35790 [handler.py:handle_request():144] handle_request: status_report
+2023-10-23 21:17:12,010 DEBUG   SenderThread:35790 [sender.py:send():380] send: stats
+2023-10-23 21:17:12,340 ERROR   FileStreamThread:35790 [file_stream.py:_handle_response():504] dropped chunk 404 Client Error: Not Found for url: https://api.wandb.ai/files/tejas591995/MLPRegression/chziy8j2/file_stream
+NoneType: None
+2023-10-23 21:17:16,012 DEBUG   HandlerThread:35790 [handler.py:handle_request():144] handle_request: status_report
+2023-10-23 21:17:21,013 DEBUG   HandlerThread:35790 [handler.py:handle_request():144] handle_request: status_report
+2023-10-23 21:17:26,015 DEBUG   HandlerThread:35790 [handler.py:handle_request():144] handle_request: status_report
+2023-10-23 21:17:31,016 DEBUG   HandlerThread:35790 [handler.py:handle_request():144] handle_request: status_report
+2023-10-23 21:17:36,017 DEBUG   HandlerThread:35790 [handler.py:handle_request():144] handle_request: status_report
+2023-10-23 21:17:41,019 DEBUG   HandlerThread:35790 [handler.py:handle_request():144] handle_request: status_report
+2023-10-23 21:17:42,009 DEBUG   SenderThread:35790 [sender.py:send():380] send: stats
+2023-10-23 21:17:42,351 ERROR   FileStreamThread:35790 [file_stream.py:_handle_response():504] dropped chunk 404 Client Error: Not Found for url: https://api.wandb.ai/files/tejas591995/MLPRegression/chziy8j2/file_stream
+NoneType: None
+2023-10-23 21:17:47,011 DEBUG   HandlerThread:35790 [handler.py:handle_request():144] handle_request: status_report
+2023-10-23 21:17:52,012 DEBUG   HandlerThread:35790 [handler.py:handle_request():144] handle_request: status_report
+2023-10-23 21:17:57,014 DEBUG   HandlerThread:35790 [handler.py:handle_request():144] handle_request: status_report
+2023-10-23 21:18:02,015 DEBUG   HandlerThread:35790 [handler.py:handle_request():144] handle_request: status_report
+2023-10-23 21:18:07,017 DEBUG   HandlerThread:35790 [handler.py:handle_request():144] handle_request: status_report
+2023-10-23 21:18:12,009 DEBUG   SenderThread:35790 [sender.py:send():380] send: stats
+2023-10-23 21:18:12,352 ERROR   FileStreamThread:35790 [file_stream.py:_handle_response():504] dropped chunk 404 Client Error: Not Found for url: https://api.wandb.ai/files/tejas591995/MLPRegression/chziy8j2/file_stream
+NoneType: None
+2023-10-23 21:18:13,011 DEBUG   HandlerThread:35790 [handler.py:handle_request():144] handle_request: status_report
+2023-10-23 21:18:18,012 DEBUG   HandlerThread:35790 [handler.py:handle_request():144] handle_request: status_report
+2023-10-23 21:18:23,013 DEBUG   HandlerThread:35790 [handler.py:handle_request():144] handle_request: status_report
+2023-10-23 21:18:28,015 DEBUG   HandlerThread:35790 [handler.py:handle_request():144] handle_request: status_report
+2023-10-23 21:18:33,016 DEBUG   HandlerThread:35790 [handler.py:handle_request():144] handle_request: status_report
+2023-10-23 21:18:38,018 DEBUG   HandlerThread:35790 [handler.py:handle_request():144] handle_request: status_report
+2023-10-23 21:18:42,011 DEBUG   SenderThread:35790 [sender.py:send():380] send: stats
+2023-10-23 21:18:42,354 ERROR   FileStreamThread:35790 [file_stream.py:_handle_response():504] dropped chunk 404 Client Error: Not Found for url: https://api.wandb.ai/files/tejas591995/MLPRegression/chziy8j2/file_stream
+NoneType: None
+2023-10-23 21:18:44,012 DEBUG   HandlerThread:35790 [handler.py:handle_request():144] handle_request: status_report
+2023-10-23 21:18:49,013 DEBUG   HandlerThread:35790 [handler.py:handle_request():144] handle_request: status_report
+2023-10-23 21:18:54,015 DEBUG   HandlerThread:35790 [handler.py:handle_request():144] handle_request: status_report
+2023-10-23 21:18:59,016 DEBUG   HandlerThread:35790 [handler.py:handle_request():144] handle_request: status_report
+2023-10-23 21:19:04,017 DEBUG   HandlerThread:35790 [handler.py:handle_request():144] handle_request: status_report
+2023-10-23 21:19:09,018 DEBUG   HandlerThread:35790 [handler.py:handle_request():144] handle_request: status_report
+2023-10-23 21:19:12,012 DEBUG   SenderThread:35790 [sender.py:send():380] send: stats
+2023-10-23 21:19:12,354 ERROR   FileStreamThread:35790 [file_stream.py:_handle_response():504] dropped chunk 404 Client Error: Not Found for url: https://api.wandb.ai/files/tejas591995/MLPRegression/chziy8j2/file_stream
+NoneType: None
+2023-10-23 21:19:15,013 DEBUG   HandlerThread:35790 [handler.py:handle_request():144] handle_request: status_report
+2023-10-23 21:19:20,014 DEBUG   HandlerThread:35790 [handler.py:handle_request():144] handle_request: status_report
+2023-10-23 21:19:25,016 DEBUG   HandlerThread:35790 [handler.py:handle_request():144] handle_request: status_report
+2023-10-23 21:19:30,017 DEBUG   HandlerThread:35790 [handler.py:handle_request():144] handle_request: status_report
+2023-10-23 21:19:35,018 DEBUG   HandlerThread:35790 [handler.py:handle_request():144] handle_request: status_report
+2023-10-23 21:19:40,019 DEBUG   HandlerThread:35790 [handler.py:handle_request():144] handle_request: status_report
+2023-10-23 21:19:42,012 DEBUG   SenderThread:35790 [sender.py:send():380] send: stats
+2023-10-23 21:19:46,013 DEBUG   HandlerThread:35790 [handler.py:handle_request():144] handle_request: status_report
+2023-10-23 21:19:51,014 DEBUG   HandlerThread:35790 [handler.py:handle_request():144] handle_request: status_report
+2023-10-23 21:19:56,016 DEBUG   HandlerThread:35790 [handler.py:handle_request():144] handle_request: status_report
+2023-10-23 21:20:01,017 DEBUG   HandlerThread:35790 [handler.py:handle_request():144] handle_request: status_report
+2023-10-23 21:20:06,018 DEBUG   HandlerThread:35790 [handler.py:handle_request():144] handle_request: status_report
+2023-10-23 21:20:11,019 DEBUG   HandlerThread:35790 [handler.py:handle_request():144] handle_request: status_report
+2023-10-23 21:20:12,013 DEBUG   SenderThread:35790 [sender.py:send():380] send: stats
+2023-10-23 21:20:12,360 ERROR   FileStreamThread:35790 [file_stream.py:_handle_response():504] dropped chunk 404 Client Error: Not Found for url: https://api.wandb.ai/files/tejas591995/MLPRegression/chziy8j2/file_stream
+NoneType: None
+2023-10-23 21:20:17,015 DEBUG   HandlerThread:35790 [handler.py:handle_request():144] handle_request: status_report
+2023-10-23 21:20:22,016 DEBUG   HandlerThread:35790 [handler.py:handle_request():144] handle_request: status_report
+2023-10-23 21:20:27,017 DEBUG   HandlerThread:35790 [handler.py:handle_request():144] handle_request: status_report
+2023-10-23 21:20:32,019 DEBUG   HandlerThread:35790 [handler.py:handle_request():144] handle_request: status_report
+2023-10-23 21:20:37,019 DEBUG   HandlerThread:35790 [handler.py:handle_request():144] handle_request: status_report
+2023-10-23 21:20:42,014 DEBUG   SenderThread:35790 [sender.py:send():380] send: stats
+2023-10-23 21:20:42,355 ERROR   FileStreamThread:35790 [file_stream.py:_handle_response():504] dropped chunk 404 Client Error: Not Found for url: https://api.wandb.ai/files/tejas591995/MLPRegression/chziy8j2/file_stream
+NoneType: None
+2023-10-23 21:20:43,015 DEBUG   HandlerThread:35790 [handler.py:handle_request():144] handle_request: status_report
+2023-10-23 21:20:48,016 DEBUG   HandlerThread:35790 [handler.py:handle_request():144] handle_request: status_report
+2023-10-23 21:20:53,018 DEBUG   HandlerThread:35790 [handler.py:handle_request():144] handle_request: status_report
+2023-10-23 21:20:58,018 DEBUG   HandlerThread:35790 [handler.py:handle_request():144] handle_request: status_report
+2023-10-23 21:21:03,019 DEBUG   HandlerThread:35790 [handler.py:handle_request():144] handle_request: status_report
+2023-10-23 21:21:08,020 DEBUG   HandlerThread:35790 [handler.py:handle_request():144] handle_request: status_report
+2023-10-23 21:21:12,015 DEBUG   SenderThread:35790 [sender.py:send():380] send: stats
+2023-10-23 21:21:12,357 ERROR   FileStreamThread:35790 [file_stream.py:_handle_response():504] dropped chunk 404 Client Error: Not Found for url: https://api.wandb.ai/files/tejas591995/MLPRegression/chziy8j2/file_stream
+NoneType: None
+2023-10-23 21:21:14,016 DEBUG   HandlerThread:35790 [handler.py:handle_request():144] handle_request: status_report
+2023-10-23 21:21:19,017 DEBUG   HandlerThread:35790 [handler.py:handle_request():144] handle_request: status_report
+2023-10-23 21:21:24,018 DEBUG   HandlerThread:35790 [handler.py:handle_request():144] handle_request: status_report
+2023-10-23 21:21:29,019 DEBUG   HandlerThread:35790 [handler.py:handle_request():144] handle_request: status_report
+2023-10-23 21:21:34,020 DEBUG   HandlerThread:35790 [handler.py:handle_request():144] handle_request: status_report
+2023-10-23 21:21:39,021 DEBUG   HandlerThread:35790 [handler.py:handle_request():144] handle_request: status_report
+2023-10-23 21:21:42,016 DEBUG   SenderThread:35790 [sender.py:send():380] send: stats
+2023-10-23 21:21:42,306 ERROR   FileStreamThread:35790 [file_stream.py:_handle_response():504] dropped chunk 404 Client Error: Not Found for url: https://api.wandb.ai/files/tejas591995/MLPRegression/chziy8j2/file_stream
+NoneType: None
+2023-10-23 21:21:45,017 DEBUG   HandlerThread:35790 [handler.py:handle_request():144] handle_request: status_report
+2023-10-23 21:21:50,018 DEBUG   HandlerThread:35790 [handler.py:handle_request():144] handle_request: status_report
+2023-10-23 21:21:55,019 DEBUG   HandlerThread:35790 [handler.py:handle_request():144] handle_request: status_report
+2023-10-23 21:22:00,020 DEBUG   HandlerThread:35790 [handler.py:handle_request():144] handle_request: status_report
+2023-10-23 21:22:05,021 DEBUG   HandlerThread:35790 [handler.py:handle_request():144] handle_request: status_report
+2023-10-23 21:22:10,022 DEBUG   HandlerThread:35790 [handler.py:handle_request():144] handle_request: status_report
+2023-10-23 21:22:12,017 DEBUG   SenderThread:35790 [sender.py:send():380] send: stats
+2023-10-23 21:22:12,365 ERROR   FileStreamThread:35790 [file_stream.py:_handle_response():504] dropped chunk 404 Client Error: Not Found for url: https://api.wandb.ai/files/tejas591995/MLPRegression/chziy8j2/file_stream
+NoneType: None
+2023-10-23 21:22:16,018 DEBUG   HandlerThread:35790 [handler.py:handle_request():144] handle_request: status_report
+2023-10-23 21:22:21,019 DEBUG   HandlerThread:35790 [handler.py:handle_request():144] handle_request: status_report
+2023-10-23 21:22:26,020 DEBUG   HandlerThread:35790 [handler.py:handle_request():144] handle_request: status_report
+2023-10-23 21:22:31,021 DEBUG   HandlerThread:35790 [handler.py:handle_request():144] handle_request: status_report
+2023-10-23 21:22:36,022 DEBUG   HandlerThread:35790 [handler.py:handle_request():144] handle_request: status_report
+2023-10-23 21:22:41,023 DEBUG   HandlerThread:35790 [handler.py:handle_request():144] handle_request: status_report
+2023-10-23 21:22:42,018 DEBUG   SenderThread:35790 [sender.py:send():380] send: stats
+2023-10-23 21:22:42,366 ERROR   FileStreamThread:35790 [file_stream.py:_handle_response():504] dropped chunk 404 Client Error: Not Found for url: https://api.wandb.ai/files/tejas591995/MLPRegression/chziy8j2/file_stream
+NoneType: None
+2023-10-23 21:22:47,020 DEBUG   HandlerThread:35790 [handler.py:handle_request():144] handle_request: status_report
+2023-10-23 21:22:52,021 DEBUG   HandlerThread:35790 [handler.py:handle_request():144] handle_request: status_report
+2023-10-23 21:22:57,022 DEBUG   HandlerThread:35790 [handler.py:handle_request():144] handle_request: status_report
+2023-10-23 21:23:02,023 DEBUG   HandlerThread:35790 [handler.py:handle_request():144] handle_request: status_report
+2023-10-23 21:23:07,024 DEBUG   HandlerThread:35790 [handler.py:handle_request():144] handle_request: status_report
+2023-10-23 21:23:12,018 DEBUG   SenderThread:35790 [sender.py:send():380] send: stats
+2023-10-23 21:23:12,307 ERROR   FileStreamThread:35790 [file_stream.py:_handle_response():504] dropped chunk 404 Client Error: Not Found for url: https://api.wandb.ai/files/tejas591995/MLPRegression/chziy8j2/file_stream
+NoneType: None
+2023-10-23 21:23:13,019 DEBUG   HandlerThread:35790 [handler.py:handle_request():144] handle_request: status_report
+2023-10-23 21:23:18,020 DEBUG   HandlerThread:35790 [handler.py:handle_request():144] handle_request: status_report
+2023-10-23 21:23:23,021 DEBUG   HandlerThread:35790 [handler.py:handle_request():144] handle_request: status_report
+2023-10-23 21:23:28,022 DEBUG   HandlerThread:35790 [handler.py:handle_request():144] handle_request: status_report
+2023-10-23 21:23:33,023 DEBUG   HandlerThread:35790 [handler.py:handle_request():144] handle_request: status_report
+2023-10-23 21:23:38,024 DEBUG   HandlerThread:35790 [handler.py:handle_request():144] handle_request: status_report
+2023-10-23 21:23:42,055 DEBUG   SenderThread:35790 [sender.py:send():380] send: stats
+2023-10-23 21:23:42,370 ERROR   FileStreamThread:35790 [file_stream.py:_handle_response():504] dropped chunk 404 Client Error: Not Found for url: https://api.wandb.ai/files/tejas591995/MLPRegression/chziy8j2/file_stream
+NoneType: None
+2023-10-23 21:23:43,056 DEBUG   HandlerThread:35790 [handler.py:handle_request():144] handle_request: status_report
+2023-10-23 21:23:48,057 DEBUG   HandlerThread:35790 [handler.py:handle_request():144] handle_request: status_report
+2023-10-23 21:23:53,058 DEBUG   HandlerThread:35790 [handler.py:handle_request():144] handle_request: status_report
+2023-10-23 21:23:58,059 DEBUG   HandlerThread:35790 [handler.py:handle_request():144] handle_request: status_report
+2023-10-23 21:24:03,060 DEBUG   HandlerThread:35790 [handler.py:handle_request():144] handle_request: status_report
+2023-10-23 21:24:08,061 DEBUG   HandlerThread:35790 [handler.py:handle_request():144] handle_request: status_report
+2023-10-23 21:24:12,019 DEBUG   SenderThread:35790 [sender.py:send():380] send: stats
+2023-10-23 21:24:14,020 DEBUG   HandlerThread:35790 [handler.py:handle_request():144] handle_request: status_report
+2023-10-23 21:24:19,021 DEBUG   HandlerThread:35790 [handler.py:handle_request():144] handle_request: status_report
+2023-10-23 21:24:24,022 DEBUG   HandlerThread:35790 [handler.py:handle_request():144] handle_request: status_report
+2023-10-23 21:24:29,024 DEBUG   HandlerThread:35790 [handler.py:handle_request():144] handle_request: status_report
+2023-10-23 21:24:34,025 DEBUG   HandlerThread:35790 [handler.py:handle_request():144] handle_request: status_report
+2023-10-23 21:24:39,026 DEBUG   HandlerThread:35790 [handler.py:handle_request():144] handle_request: status_report
+2023-10-23 21:24:41,178 DEBUG   SenderThread:35790 [sender.py:send():380] send: exit
+2023-10-23 21:24:41,178 INFO    SenderThread:35790 [sender.py:send_exit():585] handling exit code: 0
+2023-10-23 21:24:41,178 INFO    SenderThread:35790 [sender.py:send_exit():587] handling runtime: 1829
+2023-10-23 21:24:41,178 INFO    SenderThread:35790 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-10-23 21:24:41,179 INFO    SenderThread:35790 [sender.py:send_exit():593] send defer
+2023-10-23 21:24:41,180 DEBUG   HandlerThread:35790 [handler.py:handle_request():144] handle_request: defer
+2023-10-23 21:24:41,180 INFO    HandlerThread:35790 [handler.py:handle_request_defer():170] handle defer: 0
+2023-10-23 21:24:41,180 DEBUG   SenderThread:35790 [sender.py:send_request():407] send_request: defer
+2023-10-23 21:24:41,180 INFO    SenderThread:35790 [sender.py:send_request_defer():609] handle sender defer: 0
+2023-10-23 21:24:41,181 INFO    SenderThread:35790 [sender.py:transition_state():613] send defer: 1
+2023-10-23 21:24:41,181 DEBUG   HandlerThread:35790 [handler.py:handle_request():144] handle_request: defer
+2023-10-23 21:24:41,181 INFO    HandlerThread:35790 [handler.py:handle_request_defer():170] handle defer: 1
+2023-10-23 21:24:41,181 DEBUG   SenderThread:35790 [sender.py:send_request():407] send_request: defer
+2023-10-23 21:24:41,181 INFO    SenderThread:35790 [sender.py:send_request_defer():609] handle sender defer: 1
+2023-10-23 21:24:41,181 INFO    SenderThread:35790 [sender.py:transition_state():613] send defer: 2
+2023-10-23 21:24:41,181 DEBUG   HandlerThread:35790 [handler.py:handle_request():144] handle_request: defer
+2023-10-23 21:24:41,181 INFO    HandlerThread:35790 [handler.py:handle_request_defer():170] handle defer: 2
+2023-10-23 21:24:41,181 INFO    HandlerThread:35790 [system_monitor.py:finish():190] Stopping system monitor
+2023-10-23 21:24:41,181 DEBUG   SystemMonitor:35790 [system_monitor.py:_start():166] Finished system metrics aggregation loop
+2023-10-23 21:24:41,182 INFO    HandlerThread:35790 [interfaces.py:finish():202] Joined cpu monitor
+2023-10-23 21:24:41,182 DEBUG   SystemMonitor:35790 [system_monitor.py:_start():170] Publishing last batch of metrics
+2023-10-23 21:24:41,182 INFO    HandlerThread:35790 [interfaces.py:finish():202] Joined disk monitor
+2023-10-23 21:24:41,182 INFO    HandlerThread:35790 [interfaces.py:finish():202] Joined memory monitor
+2023-10-23 21:24:41,182 INFO    HandlerThread:35790 [interfaces.py:finish():202] Joined network monitor
+2023-10-23 21:24:41,182 DEBUG   SenderThread:35790 [sender.py:send_request():407] send_request: defer
+2023-10-23 21:24:41,182 INFO    SenderThread:35790 [sender.py:send_request_defer():609] handle sender defer: 2
+2023-10-23 21:24:41,182 INFO    SenderThread:35790 [sender.py:transition_state():613] send defer: 3
+2023-10-23 21:24:41,183 DEBUG   SenderThread:35790 [sender.py:send():380] send: stats
+2023-10-23 21:24:41,183 DEBUG   HandlerThread:35790 [handler.py:handle_request():144] handle_request: defer
+2023-10-23 21:24:41,183 INFO    HandlerThread:35790 [handler.py:handle_request_defer():170] handle defer: 3
+2023-10-23 21:24:41,183 DEBUG   SenderThread:35790 [sender.py:send_request():407] send_request: defer
+2023-10-23 21:24:41,183 INFO    SenderThread:35790 [sender.py:send_request_defer():609] handle sender defer: 3
+2023-10-23 21:24:41,183 INFO    SenderThread:35790 [sender.py:transition_state():613] send defer: 4
+2023-10-23 21:24:41,183 DEBUG   HandlerThread:35790 [handler.py:handle_request():144] handle_request: defer
+2023-10-23 21:24:41,183 INFO    HandlerThread:35790 [handler.py:handle_request_defer():170] handle defer: 4
+2023-10-23 21:24:41,183 DEBUG   SenderThread:35790 [sender.py:send_request():407] send_request: defer
+2023-10-23 21:24:41,183 INFO    SenderThread:35790 [sender.py:send_request_defer():609] handle sender defer: 4
+2023-10-23 21:24:41,183 INFO    SenderThread:35790 [sender.py:transition_state():613] send defer: 5
+2023-10-23 21:24:41,183 DEBUG   HandlerThread:35790 [handler.py:handle_request():144] handle_request: defer
+2023-10-23 21:24:41,183 INFO    HandlerThread:35790 [handler.py:handle_request_defer():170] handle defer: 5
+2023-10-23 21:24:41,183 DEBUG   SenderThread:35790 [sender.py:send():380] send: summary
+2023-10-23 21:24:41,183 INFO    SenderThread:35790 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-10-23 21:24:41,183 DEBUG   SenderThread:35790 [sender.py:send_request():407] send_request: defer
+2023-10-23 21:24:41,184 INFO    SenderThread:35790 [sender.py:send_request_defer():609] handle sender defer: 5
+2023-10-23 21:24:41,184 INFO    SenderThread:35790 [sender.py:transition_state():613] send defer: 6
+2023-10-23 21:24:41,184 DEBUG   HandlerThread:35790 [handler.py:handle_request():144] handle_request: defer
+2023-10-23 21:24:41,184 INFO    HandlerThread:35790 [handler.py:handle_request_defer():170] handle defer: 6
+2023-10-23 21:24:41,184 DEBUG   SenderThread:35790 [sender.py:send_request():407] send_request: defer
+2023-10-23 21:24:41,184 INFO    SenderThread:35790 [sender.py:send_request_defer():609] handle sender defer: 6
+2023-10-23 21:24:41,184 INFO    SenderThread:35790 [sender.py:transition_state():613] send defer: 7
+2023-10-23 21:24:41,184 DEBUG   HandlerThread:35790 [handler.py:handle_request():144] handle_request: status_report
+2023-10-23 21:24:41,184 DEBUG   HandlerThread:35790 [handler.py:handle_request():144] handle_request: defer
+2023-10-23 21:24:41,184 INFO    HandlerThread:35790 [handler.py:handle_request_defer():170] handle defer: 7
+2023-10-23 21:24:41,184 DEBUG   SenderThread:35790 [sender.py:send_request():407] send_request: defer
+2023-10-23 21:24:41,184 INFO    SenderThread:35790 [sender.py:send_request_defer():609] handle sender defer: 7
+2023-10-23 21:24:41,184 INFO    SenderThread:35790 [sender.py:transition_state():613] send defer: 8
+2023-10-23 21:24:41,184 DEBUG   HandlerThread:35790 [handler.py:handle_request():144] handle_request: defer
+2023-10-23 21:24:41,184 INFO    HandlerThread:35790 [handler.py:handle_request_defer():170] handle defer: 8
+2023-10-23 21:24:41,184 DEBUG   SenderThread:35790 [sender.py:send_request():407] send_request: defer
+2023-10-23 21:24:41,184 INFO    SenderThread:35790 [sender.py:send_request_defer():609] handle sender defer: 8
+2023-10-23 21:24:41,184 INFO    SenderThread:35790 [job_builder.py:build():281] Attempting to build job artifact
+2023-10-23 21:24:41,185 INFO    SenderThread:35790 [job_builder.py:_get_source_type():393] is repo sourced job
+2023-10-23 21:24:41,185 INFO    SenderThread:35790 [job_builder.py:_get_program_relpath():411] run is notebook based run
+2023-10-23 21:24:41,185 INFO    SenderThread:35790 [job_builder.py:build():369] adding wandb-job metadata file
+2023-10-23 21:24:41,187 INFO    SenderThread:35790 [sender.py:transition_state():613] send defer: 9
+2023-10-23 21:24:41,187 DEBUG   HandlerThread:35790 [handler.py:handle_request():144] handle_request: defer
+2023-10-23 21:24:41,187 INFO    HandlerThread:35790 [handler.py:handle_request_defer():170] handle defer: 9
+2023-10-23 21:24:41,188 DEBUG   SenderThread:35790 [sender.py:send():380] send: artifact
+2023-10-23 21:24:41,346 INFO    Thread-62 :35790 [dir_watcher.py:_on_file_created():271] file/dir created: /home/tejas/Documents/SMAI/assignment-3-MrTejas/q3/wandb/run-20231023_205409-chziy8j2/files/wandb-summary.json
+2023-10-23 21:24:41,449 ERROR   FileStreamThread:35790 [file_stream.py:_handle_response():504] dropped chunk 404 Client Error: Not Found for url: https://api.wandb.ai/files/tejas591995/MLPRegression/chziy8j2/file_stream
+NoneType: None
+2023-10-23 21:24:42,178 DEBUG   HandlerThread:35790 [handler.py:handle_request():144] handle_request: poll_exit
+2023-10-23 21:24:42,920 ERROR   SenderThread:35790 [internal_api.py:execute():369] 404 response executing GraphQL.
+2023-10-23 21:24:42,920 ERROR   SenderThread:35790 [internal_api.py:execute():370] {"errors":[{"message":"failed to find run MLPRegression/chziy8j2","path":["useArtifact"]}],"data":{"useArtifact":null}}
+2023-10-23 21:24:42,920 ERROR   SenderThread:35790 [sender.py:send_artifact():1458] send_artifact: failed for artifact "job/job-https___github.com_Statistical-Methods-in-AI-Monsoon-2023_assignment-3-MrTejas.git_q3_1.ipynb": It appears that you do not have permission to access the requested resource. Please reach out to the project owner to grant you access. If you have the correct permissions, verify that there are no issues with your networking setup.(Error 404: Not Found)
+2023-10-23 21:24:42,921 DEBUG   SenderThread:35790 [sender.py:send_request():407] send_request: defer
+2023-10-23 21:24:42,921 INFO    SenderThread:35790 [sender.py:send_request_defer():609] handle sender defer: 9
+2023-10-23 21:24:42,921 INFO    SenderThread:35790 [dir_watcher.py:finish():358] shutting down directory watcher
+2023-10-23 21:24:43,347 INFO    SenderThread:35790 [dir_watcher.py:finish():388] scan: /home/tejas/Documents/SMAI/assignment-3-MrTejas/q3/wandb/run-20231023_205409-chziy8j2/files
+2023-10-23 21:24:43,348 INFO    SenderThread:35790 [dir_watcher.py:finish():402] scan save: /home/tejas/Documents/SMAI/assignment-3-MrTejas/q3/wandb/run-20231023_205409-chziy8j2/files/wandb-summary.json wandb-summary.json
+2023-10-23 21:24:43,348 INFO    SenderThread:35790 [dir_watcher.py:finish():402] scan save: /home/tejas/Documents/SMAI/assignment-3-MrTejas/q3/wandb/run-20231023_205409-chziy8j2/files/requirements.txt requirements.txt
+2023-10-23 21:24:43,348 INFO    SenderThread:35790 [dir_watcher.py:finish():402] scan save: /home/tejas/Documents/SMAI/assignment-3-MrTejas/q3/wandb/run-20231023_205409-chziy8j2/files/wandb-metadata.json wandb-metadata.json
+2023-10-23 21:24:43,348 INFO    SenderThread:35790 [dir_watcher.py:finish():402] scan save: /home/tejas/Documents/SMAI/assignment-3-MrTejas/q3/wandb/run-20231023_205409-chziy8j2/files/config.yaml config.yaml
+2023-10-23 21:24:43,349 INFO    SenderThread:35790 [dir_watcher.py:finish():402] scan save: /home/tejas/Documents/SMAI/assignment-3-MrTejas/q3/wandb/run-20231023_205409-chziy8j2/files/conda-environment.yaml conda-environment.yaml
+2023-10-23 21:24:43,349 INFO    SenderThread:35790 [sender.py:transition_state():613] send defer: 10
+2023-10-23 21:24:43,349 DEBUG   SenderThread:35790 [sender.py:send_request():407] send_request: poll_exit
+2023-10-23 21:24:43,350 DEBUG   HandlerThread:35790 [handler.py:handle_request():144] handle_request: defer
+2023-10-23 21:24:43,350 INFO    HandlerThread:35790 [handler.py:handle_request_defer():170] handle defer: 10
+2023-10-23 21:24:43,368 DEBUG   SenderThread:35790 [sender.py:send_request():407] send_request: defer
+2023-10-23 21:24:43,368 INFO    SenderThread:35790 [sender.py:send_request_defer():609] handle sender defer: 10
+2023-10-23 21:24:43,368 INFO    SenderThread:35790 [file_pusher.py:finish():175] shutting down file pusher
+2023-10-23 21:24:43,703 ERROR   wandb-upload_1:35790 [internal_api.py:execute():369] 404 response executing GraphQL.
+2023-10-23 21:24:43,703 ERROR   wandb-upload_1:35790 [internal_api.py:execute():370] {"errors":[{"message":"run MLPRegression/chziy8j2 not found during createRunFiles","path":["createRunFiles"]}],"data":{"createRunFiles":null}}
+2023-10-23 21:24:43,704 ERROR   Thread-61 :35790 [step_upload.py:_handle_event():200] Failed to upload file: /home/tejas/Documents/SMAI/assignment-3-MrTejas/q3/wandb/run-20231023_205409-chziy8j2/files/requirements.txt
+Traceback (most recent call last):
+  File "/home/tejas/anaconda3/lib/python3.9/site-packages/wandb/sdk/internal/internal_api.py", line 366, in execute
+    return self.client.execute(*args, **kwargs)  # type: ignore
+  File "/home/tejas/anaconda3/lib/python3.9/site-packages/wandb/vendor/gql-0.2.0/wandb_gql/client.py", line 52, in execute
+    result = self._get_result(document, *args, **kwargs)
+  File "/home/tejas/anaconda3/lib/python3.9/site-packages/wandb/vendor/gql-0.2.0/wandb_gql/client.py", line 60, in _get_result
+    return self.transport.execute(document, *args, **kwargs)
+  File "/home/tejas/anaconda3/lib/python3.9/site-packages/wandb/sdk/lib/gql_request.py", line 59, in execute
+    request.raise_for_status()
+  File "/home/tejas/anaconda3/lib/python3.9/site-packages/requests/models.py", line 1021, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 404 Client Error: Not Found for url: https://api.wandb.ai/graphql
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/tejas/anaconda3/lib/python3.9/site-packages/wandb/apis/normalize.py", line 41, in wrapper
+    return func(*args, **kwargs)
+  File "/home/tejas/anaconda3/lib/python3.9/site-packages/wandb/sdk/internal/internal_api.py", line 2175, in upload_urls
+    query_result = self.gql(
+  File "/home/tejas/anaconda3/lib/python3.9/site-packages/wandb/sdk/internal/internal_api.py", line 338, in gql
+    ret = self._retry_gql(
+  File "/home/tejas/anaconda3/lib/python3.9/site-packages/wandb/sdk/lib/retry.py", line 131, in __call__
+    result = self._call_fn(*args, **kwargs)
+  File "/home/tejas/anaconda3/lib/python3.9/site-packages/wandb/sdk/internal/internal_api.py", line 372, in execute
+    wandb.termerror(f"Error while calling W&B API: {error} ({response})")
+  File "/home/tejas/anaconda3/lib/python3.9/site-packages/wandb/errors/term.py", line 61, in termerror
+    _log(
+  File "/home/tejas/anaconda3/lib/python3.9/site-packages/wandb/errors/term.py", line 95, in _log
+    click.echo(line, file=sys.stderr, nl=newline)
+  File "/home/tejas/anaconda3/lib/python3.9/site-packages/click/utils.py", line 298, in echo
+    file.write(out)  # type: ignore
+BrokenPipeError: [Errno 32] Broken pipe
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/tejas/anaconda3/lib/python3.9/concurrent/futures/thread.py", line 58, in run
+    result = self.fn(*self.args, **self.kwargs)
+  File "/home/tejas/anaconda3/lib/python3.9/site-packages/wandb/filesync/step_upload.py", line 288, in run_and_notify
+    self._do_upload_sync(event)
+  File "/home/tejas/anaconda3/lib/python3.9/site-packages/wandb/filesync/step_upload.py", line 330, in _do_upload_sync
+    job.run()
+  File "/home/tejas/anaconda3/lib/python3.9/site-packages/wandb/filesync/upload_job.py", line 57, in run
+    self.push()
+  File "/home/tejas/anaconda3/lib/python3.9/site-packages/wandb/filesync/upload_job.py", line 106, in push
+    _, upload_headers, result = self._api.upload_urls(project, [self.save_name])
+  File "/home/tejas/anaconda3/lib/python3.9/site-packages/wandb/apis/normalize.py", line 87, in wrapper
+    raise CommError(message, err).with_traceback(sys.exc_info()[2])
+  File "/home/tejas/anaconda3/lib/python3.9/site-packages/wandb/apis/normalize.py", line 41, in wrapper
+    return func(*args, **kwargs)
+  File "/home/tejas/anaconda3/lib/python3.9/site-packages/wandb/sdk/internal/internal_api.py", line 2175, in upload_urls
+    query_result = self.gql(
+  File "/home/tejas/anaconda3/lib/python3.9/site-packages/wandb/sdk/internal/internal_api.py", line 338, in gql
+    ret = self._retry_gql(
+  File "/home/tejas/anaconda3/lib/python3.9/site-packages/wandb/sdk/lib/retry.py", line 131, in __call__
+    result = self._call_fn(*args, **kwargs)
+  File "/home/tejas/anaconda3/lib/python3.9/site-packages/wandb/sdk/internal/internal_api.py", line 372, in execute
+    wandb.termerror(f"Error while calling W&B API: {error} ({response})")
+  File "/home/tejas/anaconda3/lib/python3.9/site-packages/wandb/errors/term.py", line 61, in termerror
+    _log(
+  File "/home/tejas/anaconda3/lib/python3.9/site-packages/wandb/errors/term.py", line 95, in _log
+    click.echo(line, file=sys.stderr, nl=newline)
+  File "/home/tejas/anaconda3/lib/python3.9/site-packages/click/utils.py", line 298, in echo
+    file.write(out)  # type: ignore
+wandb.errors.CommError: [Errno 32] Broken pipe
+2023-10-23 21:24:43,708 ERROR   wandb-upload_0:35790 [internal_api.py:execute():369] 404 response executing GraphQL.
+2023-10-23 21:24:43,725 ERROR   wandb-upload_0:35790 [internal_api.py:execute():370] {"errors":[{"message":"run MLPRegression/chziy8j2 not found during createRunFiles","path":["createRunFiles"]}],"data":{"createRunFiles":null}}
+2023-10-23 21:24:43,722 ERROR   wandb-upload_2:35790 [internal_api.py:execute():369] 404 response executing GraphQL.
+2023-10-23 21:24:43,726 ERROR   Thread-61 :35790 [step_upload.py:_handle_event():200] Failed to upload file: /home/tejas/Documents/SMAI/assignment-3-MrTejas/q3/wandb/run-20231023_205409-chziy8j2/files/wandb-summary.json
+Traceback (most recent call last):
+  File "/home/tejas/anaconda3/lib/python3.9/site-packages/wandb/sdk/internal/internal_api.py", line 366, in execute
+    return self.client.execute(*args, **kwargs)  # type: ignore
+  File "/home/tejas/anaconda3/lib/python3.9/site-packages/wandb/vendor/gql-0.2.0/wandb_gql/client.py", line 52, in execute
+    result = self._get_result(document, *args, **kwargs)
+  File "/home/tejas/anaconda3/lib/python3.9/site-packages/wandb/vendor/gql-0.2.0/wandb_gql/client.py", line 60, in _get_result
+    return self.transport.execute(document, *args, **kwargs)
+  File "/home/tejas/anaconda3/lib/python3.9/site-packages/wandb/sdk/lib/gql_request.py", line 59, in execute
+    request.raise_for_status()
+  File "/home/tejas/anaconda3/lib/python3.9/site-packages/requests/models.py", line 1021, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 404 Client Error: Not Found for url: https://api.wandb.ai/graphql
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/tejas/anaconda3/lib/python3.9/site-packages/wandb/apis/normalize.py", line 41, in wrapper
+    return func(*args, **kwargs)
+  File "/home/tejas/anaconda3/lib/python3.9/site-packages/wandb/sdk/internal/internal_api.py", line 2175, in upload_urls
+    query_result = self.gql(
+  File "/home/tejas/anaconda3/lib/python3.9/site-packages/wandb/sdk/internal/internal_api.py", line 338, in gql
+    ret = self._retry_gql(
+  File "/home/tejas/anaconda3/lib/python3.9/site-packages/wandb/sdk/lib/retry.py", line 131, in __call__
+    result = self._call_fn(*args, **kwargs)
+  File "/home/tejas/anaconda3/lib/python3.9/site-packages/wandb/sdk/internal/internal_api.py", line 372, in execute
+    wandb.termerror(f"Error while calling W&B API: {error} ({response})")
+  File "/home/tejas/anaconda3/lib/python3.9/site-packages/wandb/errors/term.py", line 61, in termerror
+    _log(
+  File "/home/tejas/anaconda3/lib/python3.9/site-packages/wandb/errors/term.py", line 95, in _log
+    click.echo(line, file=sys.stderr, nl=newline)
+  File "/home/tejas/anaconda3/lib/python3.9/site-packages/click/utils.py", line 298, in echo
+    file.write(out)  # type: ignore
+BrokenPipeError: [Errno 32] Broken pipe
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/tejas/anaconda3/lib/python3.9/concurrent/futures/thread.py", line 58, in run
+    result = self.fn(*self.args, **self.kwargs)
+  File "/home/tejas/anaconda3/lib/python3.9/site-packages/wandb/filesync/step_upload.py", line 288, in run_and_notify
+    self._do_upload_sync(event)
+  File "/home/tejas/anaconda3/lib/python3.9/site-packages/wandb/filesync/step_upload.py", line 330, in _do_upload_sync
+    job.run()
+  File "/home/tejas/anaconda3/lib/python3.9/site-packages/wandb/filesync/upload_job.py", line 57, in run
+    self.push()
+  File "/home/tejas/anaconda3/lib/python3.9/site-packages/wandb/filesync/upload_job.py", line 106, in push
+    _, upload_headers, result = self._api.upload_urls(project, [self.save_name])
+  File "/home/tejas/anaconda3/lib/python3.9/site-packages/wandb/apis/normalize.py", line 87, in wrapper
+    raise CommError(message, err).with_traceback(sys.exc_info()[2])
+  File "/home/tejas/anaconda3/lib/python3.9/site-packages/wandb/apis/normalize.py", line 41, in wrapper
+    return func(*args, **kwargs)
+  File "/home/tejas/anaconda3/lib/python3.9/site-packages/wandb/sdk/internal/internal_api.py", line 2175, in upload_urls
+    query_result = self.gql(
+  File "/home/tejas/anaconda3/lib/python3.9/site-packages/wandb/sdk/internal/internal_api.py", line 338, in gql
+    ret = self._retry_gql(
+  File "/home/tejas/anaconda3/lib/python3.9/site-packages/wandb/sdk/lib/retry.py", line 131, in __call__
+    result = self._call_fn(*args, **kwargs)
+  File "/home/tejas/anaconda3/lib/python3.9/site-packages/wandb/sdk/internal/internal_api.py", line 372, in execute
+    wandb.termerror(f"Error while calling W&B API: {error} ({response})")
+  File "/home/tejas/anaconda3/lib/python3.9/site-packages/wandb/errors/term.py", line 61, in termerror
+    _log(
+  File "/home/tejas/anaconda3/lib/python3.9/site-packages/wandb/errors/term.py", line 95, in _log
+    click.echo(line, file=sys.stderr, nl=newline)
+  File "/home/tejas/anaconda3/lib/python3.9/site-packages/click/utils.py", line 298, in echo
+    file.write(out)  # type: ignore
+wandb.errors.CommError: [Errno 32] Broken pipe
+2023-10-23 21:24:43,726 ERROR   wandb-upload_2:35790 [internal_api.py:execute():370] {"errors":[{"message":"run MLPRegression/chziy8j2 not found during createRunFiles","path":["createRunFiles"]}],"data":{"createRunFiles":null}}
+2023-10-23 21:24:43,727 ERROR   Thread-61 :35790 [step_upload.py:_handle_event():200] Failed to upload file: /home/tejas/Documents/SMAI/assignment-3-MrTejas/q3/wandb/run-20231023_205409-chziy8j2/files/config.yaml
+Traceback (most recent call last):
+  File "/home/tejas/anaconda3/lib/python3.9/site-packages/wandb/sdk/internal/internal_api.py", line 366, in execute
+    return self.client.execute(*args, **kwargs)  # type: ignore
+  File "/home/tejas/anaconda3/lib/python3.9/site-packages/wandb/vendor/gql-0.2.0/wandb_gql/client.py", line 52, in execute
+    result = self._get_result(document, *args, **kwargs)
+  File "/home/tejas/anaconda3/lib/python3.9/site-packages/wandb/vendor/gql-0.2.0/wandb_gql/client.py", line 60, in _get_result
+    return self.transport.execute(document, *args, **kwargs)
+  File "/home/tejas/anaconda3/lib/python3.9/site-packages/wandb/sdk/lib/gql_request.py", line 59, in execute
+    request.raise_for_status()
+  File "/home/tejas/anaconda3/lib/python3.9/site-packages/requests/models.py", line 1021, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 404 Client Error: Not Found for url: https://api.wandb.ai/graphql
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/tejas/anaconda3/lib/python3.9/site-packages/wandb/apis/normalize.py", line 41, in wrapper
+    return func(*args, **kwargs)
+  File "/home/tejas/anaconda3/lib/python3.9/site-packages/wandb/sdk/internal/internal_api.py", line 2175, in upload_urls
+    query_result = self.gql(
+  File "/home/tejas/anaconda3/lib/python3.9/site-packages/wandb/sdk/internal/internal_api.py", line 338, in gql
+    ret = self._retry_gql(
+  File "/home/tejas/anaconda3/lib/python3.9/site-packages/wandb/sdk/lib/retry.py", line 131, in __call__
+    result = self._call_fn(*args, **kwargs)
+  File "/home/tejas/anaconda3/lib/python3.9/site-packages/wandb/sdk/internal/internal_api.py", line 372, in execute
+    wandb.termerror(f"Error while calling W&B API: {error} ({response})")
+  File "/home/tejas/anaconda3/lib/python3.9/site-packages/wandb/errors/term.py", line 61, in termerror
+    _log(
+  File "/home/tejas/anaconda3/lib/python3.9/site-packages/wandb/errors/term.py", line 95, in _log
+    click.echo(line, file=sys.stderr, nl=newline)
+  File "/home/tejas/anaconda3/lib/python3.9/site-packages/click/utils.py", line 298, in echo
+    file.write(out)  # type: ignore
+BrokenPipeError: [Errno 32] Broken pipe
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/tejas/anaconda3/lib/python3.9/concurrent/futures/thread.py", line 58, in run
+    result = self.fn(*self.args, **self.kwargs)
+  File "/home/tejas/anaconda3/lib/python3.9/site-packages/wandb/filesync/step_upload.py", line 288, in run_and_notify
+    self._do_upload_sync(event)
+  File "/home/tejas/anaconda3/lib/python3.9/site-packages/wandb/filesync/step_upload.py", line 330, in _do_upload_sync
+    job.run()
+  File "/home/tejas/anaconda3/lib/python3.9/site-packages/wandb/filesync/upload_job.py", line 57, in run
+    self.push()
+  File "/home/tejas/anaconda3/lib/python3.9/site-packages/wandb/filesync/upload_job.py", line 106, in push
+    _, upload_headers, result = self._api.upload_urls(project, [self.save_name])
+  File "/home/tejas/anaconda3/lib/python3.9/site-packages/wandb/apis/normalize.py", line 87, in wrapper
+    raise CommError(message, err).with_traceback(sys.exc_info()[2])
+  File "/home/tejas/anaconda3/lib/python3.9/site-packages/wandb/apis/normalize.py", line 41, in wrapper
+    return func(*args, **kwargs)
+  File "/home/tejas/anaconda3/lib/python3.9/site-packages/wandb/sdk/internal/internal_api.py", line 2175, in upload_urls
+    query_result = self.gql(
+  File "/home/tejas/anaconda3/lib/python3.9/site-packages/wandb/sdk/internal/internal_api.py", line 338, in gql
+    ret = self._retry_gql(
+  File "/home/tejas/anaconda3/lib/python3.9/site-packages/wandb/sdk/lib/retry.py", line 131, in __call__
+    result = self._call_fn(*args, **kwargs)
+  File "/home/tejas/anaconda3/lib/python3.9/site-packages/wandb/sdk/internal/internal_api.py", line 372, in execute
+    wandb.termerror(f"Error while calling W&B API: {error} ({response})")
+  File "/home/tejas/anaconda3/lib/python3.9/site-packages/wandb/errors/term.py", line 61, in termerror
+    _log(
+  File "/home/tejas/anaconda3/lib/python3.9/site-packages/wandb/errors/term.py", line 95, in _log
+    click.echo(line, file=sys.stderr, nl=newline)
+  File "/home/tejas/anaconda3/lib/python3.9/site-packages/click/utils.py", line 298, in echo
+    file.write(out)  # type: ignore
+wandb.errors.CommError: [Errno 32] Broken pipe
+2023-10-23 21:24:43,770 ERROR   wandb-upload_3:35790 [internal_api.py:execute():369] 404 response executing GraphQL.
+2023-10-23 21:24:43,770 ERROR   wandb-upload_3:35790 [internal_api.py:execute():370] {"errors":[{"message":"run MLPRegression/chziy8j2 not found during createRunFiles","path":["createRunFiles"]}],"data":{"createRunFiles":null}}
+2023-10-23 21:24:43,771 ERROR   Thread-61 :35790 [step_upload.py:_handle_event():200] Failed to upload file: /home/tejas/Documents/SMAI/assignment-3-MrTejas/q3/wandb/run-20231023_205409-chziy8j2/files/conda-environment.yaml
+Traceback (most recent call last):
+  File "/home/tejas/anaconda3/lib/python3.9/site-packages/wandb/sdk/internal/internal_api.py", line 366, in execute
+    return self.client.execute(*args, **kwargs)  # type: ignore
+  File "/home/tejas/anaconda3/lib/python3.9/site-packages/wandb/vendor/gql-0.2.0/wandb_gql/client.py", line 52, in execute
+    result = self._get_result(document, *args, **kwargs)
+  File "/home/tejas/anaconda3/lib/python3.9/site-packages/wandb/vendor/gql-0.2.0/wandb_gql/client.py", line 60, in _get_result
+    return self.transport.execute(document, *args, **kwargs)
+  File "/home/tejas/anaconda3/lib/python3.9/site-packages/wandb/sdk/lib/gql_request.py", line 59, in execute
+    request.raise_for_status()
+  File "/home/tejas/anaconda3/lib/python3.9/site-packages/requests/models.py", line 1021, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 404 Client Error: Not Found for url: https://api.wandb.ai/graphql
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/tejas/anaconda3/lib/python3.9/site-packages/wandb/apis/normalize.py", line 41, in wrapper
+    return func(*args, **kwargs)
+  File "/home/tejas/anaconda3/lib/python3.9/site-packages/wandb/sdk/internal/internal_api.py", line 2175, in upload_urls
+    query_result = self.gql(
+  File "/home/tejas/anaconda3/lib/python3.9/site-packages/wandb/sdk/internal/internal_api.py", line 338, in gql
+    ret = self._retry_gql(
+  File "/home/tejas/anaconda3/lib/python3.9/site-packages/wandb/sdk/lib/retry.py", line 131, in __call__
+    result = self._call_fn(*args, **kwargs)
+  File "/home/tejas/anaconda3/lib/python3.9/site-packages/wandb/sdk/internal/internal_api.py", line 372, in execute
+    wandb.termerror(f"Error while calling W&B API: {error} ({response})")
+  File "/home/tejas/anaconda3/lib/python3.9/site-packages/wandb/errors/term.py", line 61, in termerror
+    _log(
+  File "/home/tejas/anaconda3/lib/python3.9/site-packages/wandb/errors/term.py", line 95, in _log
+    click.echo(line, file=sys.stderr, nl=newline)
+  File "/home/tejas/anaconda3/lib/python3.9/site-packages/click/utils.py", line 298, in echo
+    file.write(out)  # type: ignore
+BrokenPipeError: [Errno 32] Broken pipe
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/tejas/anaconda3/lib/python3.9/concurrent/futures/thread.py", line 58, in run
+    result = self.fn(*self.args, **self.kwargs)
+  File "/home/tejas/anaconda3/lib/python3.9/site-packages/wandb/filesync/step_upload.py", line 288, in run_and_notify
+    self._do_upload_sync(event)
+  File "/home/tejas/anaconda3/lib/python3.9/site-packages/wandb/filesync/step_upload.py", line 330, in _do_upload_sync
+    job.run()
+  File "/home/tejas/anaconda3/lib/python3.9/site-packages/wandb/filesync/upload_job.py", line 57, in run
+    self.push()
+  File "/home/tejas/anaconda3/lib/python3.9/site-packages/wandb/filesync/upload_job.py", line 106, in push
+    _, upload_headers, result = self._api.upload_urls(project, [self.save_name])
+  File "/home/tejas/anaconda3/lib/python3.9/site-packages/wandb/apis/normalize.py", line 87, in wrapper
+    raise CommError(message, err).with_traceback(sys.exc_info()[2])
+  File "/home/tejas/anaconda3/lib/python3.9/site-packages/wandb/apis/normalize.py", line 41, in wrapper
+    return func(*args, **kwargs)
+  File "/home/tejas/anaconda3/lib/python3.9/site-packages/wandb/sdk/internal/internal_api.py", line 2175, in upload_urls
+    query_result = self.gql(
+  File "/home/tejas/anaconda3/lib/python3.9/site-packages/wandb/sdk/internal/internal_api.py", line 338, in gql
+    ret = self._retry_gql(
+  File "/home/tejas/anaconda3/lib/python3.9/site-packages/wandb/sdk/lib/retry.py", line 131, in __call__
+    result = self._call_fn(*args, **kwargs)
+  File "/home/tejas/anaconda3/lib/python3.9/site-packages/wandb/sdk/internal/internal_api.py", line 372, in execute
+    wandb.termerror(f"Error while calling W&B API: {error} ({response})")
+  File "/home/tejas/anaconda3/lib/python3.9/site-packages/wandb/errors/term.py", line 61, in termerror
+    _log(
+  File "/home/tejas/anaconda3/lib/python3.9/site-packages/wandb/errors/term.py", line 95, in _log
+    click.echo(line, file=sys.stderr, nl=newline)
+  File "/home/tejas/anaconda3/lib/python3.9/site-packages/click/utils.py", line 298, in echo
+    file.write(out)  # type: ignore
+wandb.errors.CommError: [Errno 32] Broken pipe
+2023-10-23 21:24:43,972 INFO    Thread-61 :35790 [sender.py:transition_state():613] send defer: 11
+2023-10-23 21:24:43,973 DEBUG   HandlerThread:35790 [handler.py:handle_request():144] handle_request: defer
+2023-10-23 21:24:43,973 INFO    HandlerThread:35790 [handler.py:handle_request_defer():170] handle defer: 11
+2023-10-23 21:24:43,974 DEBUG   SenderThread:35790 [sender.py:send_request():407] send_request: defer
+2023-10-23 21:24:43,974 INFO    SenderThread:35790 [sender.py:send_request_defer():609] handle sender defer: 11
+2023-10-23 21:24:43,974 INFO    SenderThread:35790 [file_pusher.py:join():181] waiting for file pusher
+2023-10-23 21:24:43,974 INFO    SenderThread:35790 [sender.py:transition_state():613] send defer: 12
+2023-10-23 21:24:43,975 DEBUG   HandlerThread:35790 [handler.py:handle_request():144] handle_request: defer
+2023-10-23 21:24:43,975 INFO    HandlerThread:35790 [handler.py:handle_request_defer():170] handle defer: 12
+2023-10-23 21:24:43,975 DEBUG   SenderThread:35790 [sender.py:send_request():407] send_request: defer
+2023-10-23 21:24:43,975 INFO    SenderThread:35790 [sender.py:send_request_defer():609] handle sender defer: 12
+2023-10-23 21:24:43,975 INFO    SenderThread:35790 [file_stream.py:finish():595] file stream finish called
+2023-10-23 21:24:44,326 ERROR   FileStreamThread:35790 [file_stream.py:_thread_except_body():494] generic exception in filestream thread
+Traceback (most recent call last):
+  File "/home/tejas/anaconda3/lib/python3.9/site-packages/wandb/sdk/internal/file_stream.py", line 490, in _thread_except_body
+    self._thread_body()
+  File "/home/tejas/anaconda3/lib/python3.9/site-packages/wandb/sdk/internal/file_stream.py", line 446, in _thread_body
+    success = self._send(ready_chunks, uploaded=uploaded)
+  File "/home/tejas/anaconda3/lib/python3.9/site-packages/wandb/sdk/internal/file_stream.py", line 535, in _send
+    self._handle_response(
+  File "/home/tejas/anaconda3/lib/python3.9/site-packages/wandb/sdk/internal/file_stream.py", line 501, in _handle_response
+    wandb.termerror(
+  File "/home/tejas/anaconda3/lib/python3.9/site-packages/wandb/errors/term.py", line 61, in termerror
+    _log(
+  File "/home/tejas/anaconda3/lib/python3.9/site-packages/wandb/errors/term.py", line 95, in _log
+    click.echo(line, file=sys.stderr, nl=newline)
+  File "/home/tejas/anaconda3/lib/python3.9/site-packages/click/utils.py", line 298, in echo
+    file.write(out)  # type: ignore
+BrokenPipeError: [Errno 32] Broken pipe
+2023-10-23 21:24:44,575 INFO    SenderThread:35790 [file_stream.py:finish():599] file stream finish is done
+2023-10-23 21:24:44,575 ERROR   SenderThread:35790 [file_stream.py:finish():601] FileStream exception
+Traceback (most recent call last):
+  File "/home/tejas/anaconda3/lib/python3.9/site-packages/wandb/sdk/internal/file_stream.py", line 490, in _thread_except_body
+    self._thread_body()
+  File "/home/tejas/anaconda3/lib/python3.9/site-packages/wandb/sdk/internal/file_stream.py", line 446, in _thread_body
+    success = self._send(ready_chunks, uploaded=uploaded)
+  File "/home/tejas/anaconda3/lib/python3.9/site-packages/wandb/sdk/internal/file_stream.py", line 535, in _send
+    self._handle_response(
+  File "/home/tejas/anaconda3/lib/python3.9/site-packages/wandb/sdk/internal/file_stream.py", line 501, in _handle_response
+    wandb.termerror(
+  File "/home/tejas/anaconda3/lib/python3.9/site-packages/wandb/errors/term.py", line 61, in termerror
+    _log(
+  File "/home/tejas/anaconda3/lib/python3.9/site-packages/wandb/errors/term.py", line 95, in _log
+    click.echo(line, file=sys.stderr, nl=newline)
+  File "/home/tejas/anaconda3/lib/python3.9/site-packages/click/utils.py", line 298, in echo
+    file.write(out)  # type: ignore
+BrokenPipeError: [Errno 32] Broken pipe
+2023-10-23 21:24:44,975 INFO    HandlerThread:35790 [handler.py:finish():844] shutting down handler
+2023-10-23 21:24:44,975 INFO    WriterThread:35790 [datastore.py:close():294] close: /home/tejas/Documents/SMAI/assignment-3-MrTejas/q3/wandb/run-20231023_205409-chziy8j2/run-chziy8j2.wandb
+2023-10-23 21:24:44,975 ERROR   StreamThr :35790 [internal.py:wandb_internal():174] Thread SenderThread:
+Traceback (most recent call last):
+  File "/home/tejas/anaconda3/lib/python3.9/site-packages/wandb/sdk/internal/internal_util.py", line 49, in run
+    self._run()
+  File "/home/tejas/anaconda3/lib/python3.9/site-packages/wandb/sdk/internal/internal_util.py", line 100, in _run
+    self._process(record)
+  File "/home/tejas/anaconda3/lib/python3.9/site-packages/wandb/sdk/internal/internal.py", line 328, in _process
+    self._sm.send(record)
+  File "/home/tejas/anaconda3/lib/python3.9/site-packages/wandb/sdk/internal/sender.py", line 387, in send
+    send_handler(record)
+  File "/home/tejas/anaconda3/lib/python3.9/site-packages/wandb/sdk/internal/sender.py", line 409, in send_request
+    send_handler(record)
+  File "/home/tejas/anaconda3/lib/python3.9/site-packages/wandb/sdk/internal/sender.py", line 664, in send_request_defer
+    self._fs.finish(self._exit_code)
+  File "/home/tejas/anaconda3/lib/python3.9/site-packages/wandb/sdk/internal/file_stream.py", line 604, in finish
+    raise self._exc_info[1].with_traceback(self._exc_info[2])
+  File "/home/tejas/anaconda3/lib/python3.9/site-packages/wandb/sdk/internal/file_stream.py", line 490, in _thread_except_body
+    self._thread_body()
+  File "/home/tejas/anaconda3/lib/python3.9/site-packages/wandb/sdk/internal/file_stream.py", line 446, in _thread_body
+    success = self._send(ready_chunks, uploaded=uploaded)
+  File "/home/tejas/anaconda3/lib/python3.9/site-packages/wandb/sdk/internal/file_stream.py", line 535, in _send
+    self._handle_response(
+  File "/home/tejas/anaconda3/lib/python3.9/site-packages/wandb/sdk/internal/file_stream.py", line 501, in _handle_response
+    wandb.termerror(
+  File "/home/tejas/anaconda3/lib/python3.9/site-packages/wandb/errors/term.py", line 61, in termerror
+    _log(
+  File "/home/tejas/anaconda3/lib/python3.9/site-packages/wandb/errors/term.py", line 95, in _log
+    click.echo(line, file=sys.stderr, nl=newline)
+  File "/home/tejas/anaconda3/lib/python3.9/site-packages/click/utils.py", line 298, in echo
+    file.write(out)  # type: ignore
+BrokenPipeError: [Errno 32] Broken pipe

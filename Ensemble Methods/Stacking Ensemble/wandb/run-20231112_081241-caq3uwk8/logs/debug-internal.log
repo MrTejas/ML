@@ -1,0 +1,182 @@
+2023-11-12 08:12:46,529 INFO    StreamThr :13457 [internal.py:wandb_internal():86] W&B internal server running at pid: 13457, started at: 2023-11-12 08:12:46.528715
+2023-11-12 08:12:46,530 DEBUG   HandlerThread:13457 [handler.py:handle_request():146] handle_request: status
+2023-11-12 08:12:46,531 INFO    WriterThread:13457 [datastore.py:open_for_write():85] open: /home/tejas/Documents/SMAI/assignment-4-MrTejas/q2/wandb/run-20231112_081241-caq3uwk8/run-caq3uwk8.wandb
+2023-11-12 08:12:46,531 DEBUG   SenderThread:13457 [sender.py:send():380] send: header
+2023-11-12 08:12:46,531 DEBUG   SenderThread:13457 [sender.py:send():380] send: run
+2023-11-12 08:12:47,174 INFO    SenderThread:13457 [dir_watcher.py:__init__():211] watching files in: /home/tejas/Documents/SMAI/assignment-4-MrTejas/q2/wandb/run-20231112_081241-caq3uwk8/files
+2023-11-12 08:12:47,174 INFO    SenderThread:13457 [sender.py:_start_run_threads():1124] run started: caq3uwk8 with start time 1699756965.841558
+2023-11-12 08:12:47,183 DEBUG   HandlerThread:13457 [handler.py:handle_request():146] handle_request: check_version
+2023-11-12 08:12:47,184 DEBUG   SenderThread:13457 [sender.py:send_request():407] send_request: check_version
+2023-11-12 08:12:47,286 DEBUG   HandlerThread:13457 [handler.py:handle_request():146] handle_request: run_start
+2023-11-12 08:12:47,287 DEBUG   HandlerThread:13457 [system_info.py:__init__():32] System info init
+2023-11-12 08:12:47,287 DEBUG   HandlerThread:13457 [system_info.py:__init__():47] System info init done
+2023-11-12 08:12:47,287 INFO    HandlerThread:13457 [system_monitor.py:start():194] Starting system monitor
+2023-11-12 08:12:47,287 INFO    SystemMonitor:13457 [system_monitor.py:_start():158] Starting system asset monitoring threads
+2023-11-12 08:12:47,288 INFO    HandlerThread:13457 [system_monitor.py:probe():214] Collecting system info
+2023-11-12 08:12:47,288 INFO    SystemMonitor:13457 [interfaces.py:start():190] Started cpu monitoring
+2023-11-12 08:12:47,288 INFO    SystemMonitor:13457 [interfaces.py:start():190] Started disk monitoring
+2023-11-12 08:12:47,289 ERROR   disk      :13457 [interfaces.py:monitor():144] Failed to sample metric: not sure how to interpret line '   7       0 loop0 14 0 34 0 0 0 0 0 0 12 0 0 0 0 0 0 0\n'
+2023-11-12 08:12:47,289 INFO    SystemMonitor:13457 [interfaces.py:start():190] Started memory monitoring
+2023-11-12 08:12:47,290 ERROR   disk      :13457 [interfaces.py:monitor():144] Failed to sample metric: not sure how to interpret line '   7       0 loop0 14 0 34 0 0 0 0 0 0 12 0 0 0 0 0 0 0\n'
+2023-11-12 08:12:47,290 INFO    SystemMonitor:13457 [interfaces.py:start():190] Started network monitoring
+2023-11-12 08:12:47,310 DEBUG   HandlerThread:13457 [system_info.py:probe():196] Probing system
+2023-11-12 08:12:47,310 DEBUG   HandlerThread:13457 [system_info.py:_probe_git():181] Probing git
+2023-11-12 08:12:47,319 DEBUG   HandlerThread:13457 [system_info.py:_probe_git():189] Probing git done
+2023-11-12 08:12:47,319 DEBUG   HandlerThread:13457 [system_info.py:probe():244] Probing system done
+2023-11-12 08:12:47,320 DEBUG   HandlerThread:13457 [system_monitor.py:probe():223] {'os': 'Linux-5.15.0-88-generic-x86_64-with-glibc2.29', 'python': '3.8.10', 'heartbeatAt': '2023-11-12T02:42:47.310496', 'startedAt': '2023-11-12T02:42:41.766155', 'docker': None, 'cuda': None, 'args': (), 'state': 'running', 'program': '<python with no main file>', 'codePathLocal': None, 'git': {'remote': 'https://github.com/Statistical-Methods-in-AI-Monsoon-2023/assignment-4-MrTejas.git', 'commit': '2c8971a3ae6393f21c25356cfaf3fe6d44ff21ea'}, 'email': 'tejas591995@gmail.com', 'root': '/home/tejas/Documents/SMAI/assignment-4-MrTejas', 'host': 'nimbostratus', 'username': 'tejas', 'executable': '/bin/python3', 'cpu_count': 4, 'cpu_count_logical': 8, 'cpu_freq': {'current': 3944.0245, 'min': 400.0, 'max': 4800.0}, 'cpu_freq_per_core': [{'current': 3912.535, 'min': 400.0, 'max': 4800.0}, {'current': 4000.608, 'min': 400.0, 'max': 4800.0}, {'current': 4095.351, 'min': 400.0, 'max': 4800.0}, {'current': 3771.848, 'min': 400.0, 'max': 4800.0}, {'current': 3896.494, 'min': 400.0, 'max': 4800.0}, {'current': 3845.655, 'min': 400.0, 'max': 4800.0}, {'current': 4031.668, 'min': 400.0, 'max': 4800.0}, {'current': 3998.037, 'min': 400.0, 'max': 4800.0}], 'disk': {'/': {'total': 72.78396224975586, 'used': 28.291637420654297}}, 'memory': {'total': 15.366092681884766}}
+2023-11-12 08:12:47,320 INFO    HandlerThread:13457 [system_monitor.py:probe():224] Finished collecting system info
+2023-11-12 08:12:47,320 INFO    HandlerThread:13457 [system_monitor.py:probe():227] Publishing system info
+2023-11-12 08:12:47,320 DEBUG   HandlerThread:13457 [system_info.py:_save_pip():52] Saving list of pip packages installed into the current environment
+2023-11-12 08:12:47,320 DEBUG   HandlerThread:13457 [system_info.py:_save_pip():68] Saving pip packages done
+2023-11-12 08:12:47,320 INFO    HandlerThread:13457 [system_monitor.py:probe():229] Finished publishing system info
+2023-11-12 08:12:47,321 DEBUG   SenderThread:13457 [sender.py:send():380] send: files
+2023-11-12 08:12:47,321 INFO    SenderThread:13457 [sender.py:_save_file():1380] saving file wandb-metadata.json with policy now
+2023-11-12 08:12:47,337 DEBUG   SenderThread:13457 [sender.py:send():380] send: telemetry
+2023-11-12 08:12:47,381 DEBUG   HandlerThread:13457 [handler.py:handle_request():146] handle_request: stop_status
+2023-11-12 08:12:47,381 DEBUG   HandlerThread:13457 [handler.py:handle_request():146] handle_request: internal_messages
+2023-11-12 08:12:47,381 DEBUG   SenderThread:13457 [sender.py:send_request():407] send_request: stop_status
+2023-11-12 08:12:48,175 INFO    Thread-25 :13457 [dir_watcher.py:_on_file_created():271] file/dir created: /home/tejas/Documents/SMAI/assignment-4-MrTejas/q2/wandb/run-20231112_081241-caq3uwk8/files/wandb-metadata.json
+2023-11-12 08:12:48,175 INFO    Thread-25 :13457 [dir_watcher.py:_on_file_created():271] file/dir created: /home/tejas/Documents/SMAI/assignment-4-MrTejas/q2/wandb/run-20231112_081241-caq3uwk8/files/requirements.txt
+2023-11-12 08:12:49,219 INFO    wandb-upload_0:13457 [upload_job.py:push():131] Uploaded file /tmp/tmp8ouftrhvwandb/7wql0z9p-wandb-metadata.json
+2023-11-12 08:12:49,291 ERROR   disk      :13457 [interfaces.py:monitor():144] Failed to sample metric: not sure how to interpret line '   7       0 loop0 14 0 34 0 0 0 0 0 0 12 0 0 0 0 0 0 0\n'
+2023-11-12 08:12:49,291 ERROR   disk      :13457 [interfaces.py:monitor():144] Failed to sample metric: not sure how to interpret line '   7       0 loop0 14 0 34 0 0 0 0 0 0 12 0 0 0 0 0 0 0\n'
+2023-11-12 08:12:51,292 ERROR   disk      :13457 [interfaces.py:monitor():144] Failed to sample metric: not sure how to interpret line '   7       0 loop0 14 0 34 0 0 0 0 0 0 12 0 0 0 0 0 0 0\n'
+2023-11-12 08:12:51,292 ERROR   disk      :13457 [interfaces.py:monitor():144] Failed to sample metric: not sure how to interpret line '   7       0 loop0 14 0 34 0 0 0 0 0 0 12 0 0 0 0 0 0 0\n'
+2023-11-12 08:12:51,779 DEBUG   HandlerThread:13457 [handler.py:handle_request():146] handle_request: status_report
+2023-11-12 08:12:53,293 ERROR   disk      :13457 [interfaces.py:monitor():144] Failed to sample metric: not sure how to interpret line '   7       0 loop0 14 0 34 0 0 0 0 0 0 12 0 0 0 0 0 0 0\n'
+2023-11-12 08:12:53,293 ERROR   disk      :13457 [interfaces.py:monitor():144] Failed to sample metric: not sure how to interpret line '   7       0 loop0 14 0 34 0 0 0 0 0 0 12 0 0 0 0 0 0 0\n'
+2023-11-12 08:12:55,099 DEBUG   HandlerThread:13457 [handler.py:handle_request():146] handle_request: partial_history
+2023-11-12 08:12:55,099 DEBUG   SenderThread:13457 [sender.py:send():380] send: history
+2023-11-12 08:12:55,099 DEBUG   SenderThread:13457 [sender.py:send_request():407] send_request: summary_record
+2023-11-12 08:12:55,101 INFO    SenderThread:13457 [sender.py:_save_file():1380] saving file wandb-summary.json with policy end
+2023-11-12 08:12:55,141 DEBUG   SenderThread:13457 [sender.py:send():380] send: telemetry
+2023-11-12 08:12:55,141 DEBUG   SenderThread:13457 [sender.py:send():380] send: exit
+2023-11-12 08:12:55,141 INFO    SenderThread:13457 [sender.py:send_exit():585] handling exit code: 0
+2023-11-12 08:12:55,141 INFO    SenderThread:13457 [sender.py:send_exit():587] handling runtime: 7
+2023-11-12 08:12:55,141 INFO    SenderThread:13457 [sender.py:_save_file():1380] saving file wandb-summary.json with policy end
+2023-11-12 08:12:55,141 INFO    SenderThread:13457 [sender.py:send_exit():593] send defer
+2023-11-12 08:12:55,142 DEBUG   HandlerThread:13457 [handler.py:handle_request():146] handle_request: defer
+2023-11-12 08:12:55,142 INFO    HandlerThread:13457 [handler.py:handle_request_defer():172] handle defer: 0
+2023-11-12 08:12:55,142 DEBUG   SenderThread:13457 [sender.py:send_request():407] send_request: defer
+2023-11-12 08:12:55,142 INFO    SenderThread:13457 [sender.py:send_request_defer():609] handle sender defer: 0
+2023-11-12 08:12:55,142 INFO    SenderThread:13457 [sender.py:transition_state():613] send defer: 1
+2023-11-12 08:12:55,142 DEBUG   HandlerThread:13457 [handler.py:handle_request():146] handle_request: defer
+2023-11-12 08:12:55,142 INFO    HandlerThread:13457 [handler.py:handle_request_defer():172] handle defer: 1
+2023-11-12 08:12:55,142 DEBUG   SenderThread:13457 [sender.py:send_request():407] send_request: defer
+2023-11-12 08:12:55,142 INFO    SenderThread:13457 [sender.py:send_request_defer():609] handle sender defer: 1
+2023-11-12 08:12:55,142 INFO    SenderThread:13457 [sender.py:transition_state():613] send defer: 2
+2023-11-12 08:12:55,142 DEBUG   HandlerThread:13457 [handler.py:handle_request():146] handle_request: defer
+2023-11-12 08:12:55,143 INFO    HandlerThread:13457 [handler.py:handle_request_defer():172] handle defer: 2
+2023-11-12 08:12:55,143 INFO    HandlerThread:13457 [system_monitor.py:finish():203] Stopping system monitor
+2023-11-12 08:12:55,143 DEBUG   SystemMonitor:13457 [system_monitor.py:_start():172] Starting system metrics aggregation loop
+2023-11-12 08:12:55,143 DEBUG   SystemMonitor:13457 [system_monitor.py:_start():179] Finished system metrics aggregation loop
+2023-11-12 08:12:55,143 DEBUG   SystemMonitor:13457 [system_monitor.py:_start():183] Publishing last batch of metrics
+2023-11-12 08:12:55,143 INFO    HandlerThread:13457 [interfaces.py:finish():202] Joined cpu monitor
+2023-11-12 08:12:55,143 INFO    HandlerThread:13457 [interfaces.py:finish():202] Joined disk monitor
+2023-11-12 08:12:55,144 INFO    HandlerThread:13457 [interfaces.py:finish():202] Joined memory monitor
+2023-11-12 08:12:55,144 INFO    HandlerThread:13457 [interfaces.py:finish():202] Joined network monitor
+2023-11-12 08:12:55,144 DEBUG   SenderThread:13457 [sender.py:send_request():407] send_request: defer
+2023-11-12 08:12:55,144 INFO    SenderThread:13457 [sender.py:send_request_defer():609] handle sender defer: 2
+2023-11-12 08:12:55,144 INFO    SenderThread:13457 [sender.py:transition_state():613] send defer: 3
+2023-11-12 08:12:55,144 DEBUG   SenderThread:13457 [sender.py:send():380] send: stats
+2023-11-12 08:12:55,144 DEBUG   HandlerThread:13457 [handler.py:handle_request():146] handle_request: defer
+2023-11-12 08:12:55,144 INFO    HandlerThread:13457 [handler.py:handle_request_defer():172] handle defer: 3
+2023-11-12 08:12:55,145 DEBUG   SenderThread:13457 [sender.py:send_request():407] send_request: defer
+2023-11-12 08:12:55,145 INFO    SenderThread:13457 [sender.py:send_request_defer():609] handle sender defer: 3
+2023-11-12 08:12:55,145 INFO    SenderThread:13457 [sender.py:transition_state():613] send defer: 4
+2023-11-12 08:12:55,145 DEBUG   HandlerThread:13457 [handler.py:handle_request():146] handle_request: defer
+2023-11-12 08:12:55,145 INFO    HandlerThread:13457 [handler.py:handle_request_defer():172] handle defer: 4
+2023-11-12 08:12:55,145 DEBUG   SenderThread:13457 [sender.py:send_request():407] send_request: defer
+2023-11-12 08:12:55,145 INFO    SenderThread:13457 [sender.py:send_request_defer():609] handle sender defer: 4
+2023-11-12 08:12:55,146 INFO    SenderThread:13457 [sender.py:transition_state():613] send defer: 5
+2023-11-12 08:12:55,146 DEBUG   HandlerThread:13457 [handler.py:handle_request():146] handle_request: defer
+2023-11-12 08:12:55,146 INFO    HandlerThread:13457 [handler.py:handle_request_defer():172] handle defer: 5
+2023-11-12 08:12:55,146 DEBUG   SenderThread:13457 [sender.py:send():380] send: summary
+2023-11-12 08:12:55,146 INFO    SenderThread:13457 [sender.py:_save_file():1380] saving file wandb-summary.json with policy end
+2023-11-12 08:12:55,146 DEBUG   SenderThread:13457 [sender.py:send_request():407] send_request: defer
+2023-11-12 08:12:55,146 INFO    SenderThread:13457 [sender.py:send_request_defer():609] handle sender defer: 5
+2023-11-12 08:12:55,146 INFO    SenderThread:13457 [sender.py:transition_state():613] send defer: 6
+2023-11-12 08:12:55,146 DEBUG   HandlerThread:13457 [handler.py:handle_request():146] handle_request: defer
+2023-11-12 08:12:55,146 INFO    HandlerThread:13457 [handler.py:handle_request_defer():172] handle defer: 6
+2023-11-12 08:12:55,146 DEBUG   SenderThread:13457 [sender.py:send_request():407] send_request: defer
+2023-11-12 08:12:55,146 INFO    SenderThread:13457 [sender.py:send_request_defer():609] handle sender defer: 6
+2023-11-12 08:12:55,149 DEBUG   HandlerThread:13457 [handler.py:handle_request():146] handle_request: status_report
+2023-11-12 08:12:55,176 INFO    Thread-25 :13457 [dir_watcher.py:_on_file_created():271] file/dir created: /home/tejas/Documents/SMAI/assignment-4-MrTejas/q2/wandb/run-20231112_081241-caq3uwk8/files/wandb-summary.json
+2023-11-12 08:12:55,444 INFO    SenderThread:13457 [sender.py:transition_state():613] send defer: 7
+2023-11-12 08:12:55,444 DEBUG   HandlerThread:13457 [handler.py:handle_request():146] handle_request: defer
+2023-11-12 08:12:55,444 INFO    HandlerThread:13457 [handler.py:handle_request_defer():172] handle defer: 7
+2023-11-12 08:12:55,444 DEBUG   SenderThread:13457 [sender.py:send_request():407] send_request: defer
+2023-11-12 08:12:55,444 INFO    SenderThread:13457 [sender.py:send_request_defer():609] handle sender defer: 7
+2023-11-12 08:12:55,444 INFO    SenderThread:13457 [sender.py:transition_state():613] send defer: 8
+2023-11-12 08:12:55,444 DEBUG   HandlerThread:13457 [handler.py:handle_request():146] handle_request: defer
+2023-11-12 08:12:55,445 INFO    HandlerThread:13457 [handler.py:handle_request_defer():172] handle defer: 8
+2023-11-12 08:12:55,445 DEBUG   SenderThread:13457 [sender.py:send_request():407] send_request: defer
+2023-11-12 08:12:55,445 INFO    SenderThread:13457 [sender.py:send_request_defer():609] handle sender defer: 8
+2023-11-12 08:12:55,445 INFO    SenderThread:13457 [job_builder.py:build():298] Attempting to build job artifact
+2023-11-12 08:12:55,445 INFO    SenderThread:13457 [job_builder.py:_get_source_type():428] is repo sourced job
+2023-11-12 08:12:55,445 INFO    SenderThread:13457 [job_builder.py:_get_program_relpath():446] run is notebook based run
+2023-11-12 08:12:55,445 INFO    SenderThread:13457 [sender.py:transition_state():613] send defer: 9
+2023-11-12 08:12:55,445 DEBUG   HandlerThread:13457 [handler.py:handle_request():146] handle_request: defer
+2023-11-12 08:12:55,445 INFO    HandlerThread:13457 [handler.py:handle_request_defer():172] handle defer: 9
+2023-11-12 08:12:55,445 DEBUG   SenderThread:13457 [sender.py:send_request():407] send_request: defer
+2023-11-12 08:12:55,445 INFO    SenderThread:13457 [sender.py:send_request_defer():609] handle sender defer: 9
+2023-11-12 08:12:55,445 INFO    SenderThread:13457 [dir_watcher.py:finish():358] shutting down directory watcher
+2023-11-12 08:12:56,108 DEBUG   HandlerThread:13457 [handler.py:handle_request():146] handle_request: poll_exit
+2023-11-12 08:12:56,177 INFO    Thread-25 :13457 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/tejas/Documents/SMAI/assignment-4-MrTejas/q2/wandb/run-20231112_081241-caq3uwk8/files/config.yaml
+2023-11-12 08:12:56,178 INFO    SenderThread:13457 [dir_watcher.py:finish():388] scan: /home/tejas/Documents/SMAI/assignment-4-MrTejas/q2/wandb/run-20231112_081241-caq3uwk8/files
+2023-11-12 08:12:56,179 INFO    SenderThread:13457 [dir_watcher.py:finish():402] scan save: /home/tejas/Documents/SMAI/assignment-4-MrTejas/q2/wandb/run-20231112_081241-caq3uwk8/files/wandb-summary.json wandb-summary.json
+2023-11-12 08:12:56,179 INFO    SenderThread:13457 [dir_watcher.py:finish():402] scan save: /home/tejas/Documents/SMAI/assignment-4-MrTejas/q2/wandb/run-20231112_081241-caq3uwk8/files/requirements.txt requirements.txt
+2023-11-12 08:12:56,179 INFO    SenderThread:13457 [dir_watcher.py:finish():402] scan save: /home/tejas/Documents/SMAI/assignment-4-MrTejas/q2/wandb/run-20231112_081241-caq3uwk8/files/wandb-metadata.json wandb-metadata.json
+2023-11-12 08:12:56,183 INFO    SenderThread:13457 [dir_watcher.py:finish():402] scan save: /home/tejas/Documents/SMAI/assignment-4-MrTejas/q2/wandb/run-20231112_081241-caq3uwk8/files/config.yaml config.yaml
+2023-11-12 08:12:56,186 INFO    SenderThread:13457 [sender.py:transition_state():613] send defer: 10
+2023-11-12 08:12:56,186 DEBUG   SenderThread:13457 [sender.py:send_request():407] send_request: poll_exit
+2023-11-12 08:12:56,189 DEBUG   HandlerThread:13457 [handler.py:handle_request():146] handle_request: defer
+2023-11-12 08:12:56,189 INFO    HandlerThread:13457 [handler.py:handle_request_defer():172] handle defer: 10
+2023-11-12 08:12:56,189 DEBUG   SenderThread:13457 [sender.py:send_request():407] send_request: defer
+2023-11-12 08:12:56,189 INFO    SenderThread:13457 [sender.py:send_request_defer():609] handle sender defer: 10
+2023-11-12 08:12:56,189 INFO    SenderThread:13457 [file_pusher.py:finish():175] shutting down file pusher
+2023-11-12 08:12:56,815 INFO    wandb-upload_0:13457 [upload_job.py:push():131] Uploaded file /home/tejas/Documents/SMAI/assignment-4-MrTejas/q2/wandb/run-20231112_081241-caq3uwk8/files/wandb-summary.json
+2023-11-12 08:12:56,890 INFO    wandb-upload_1:13457 [upload_job.py:push():131] Uploaded file /home/tejas/Documents/SMAI/assignment-4-MrTejas/q2/wandb/run-20231112_081241-caq3uwk8/files/requirements.txt
+2023-11-12 08:12:56,953 INFO    wandb-upload_2:13457 [upload_job.py:push():131] Uploaded file /home/tejas/Documents/SMAI/assignment-4-MrTejas/q2/wandb/run-20231112_081241-caq3uwk8/files/config.yaml
+2023-11-12 08:12:57,108 DEBUG   HandlerThread:13457 [handler.py:handle_request():146] handle_request: poll_exit
+2023-11-12 08:12:57,108 DEBUG   SenderThread:13457 [sender.py:send_request():407] send_request: poll_exit
+2023-11-12 08:12:57,153 INFO    Thread-24 :13457 [sender.py:transition_state():613] send defer: 11
+2023-11-12 08:12:57,154 DEBUG   HandlerThread:13457 [handler.py:handle_request():146] handle_request: defer
+2023-11-12 08:12:57,154 INFO    HandlerThread:13457 [handler.py:handle_request_defer():172] handle defer: 11
+2023-11-12 08:12:57,154 DEBUG   SenderThread:13457 [sender.py:send_request():407] send_request: defer
+2023-11-12 08:12:57,154 INFO    SenderThread:13457 [sender.py:send_request_defer():609] handle sender defer: 11
+2023-11-12 08:12:57,154 INFO    SenderThread:13457 [file_pusher.py:join():181] waiting for file pusher
+2023-11-12 08:12:57,154 INFO    SenderThread:13457 [sender.py:transition_state():613] send defer: 12
+2023-11-12 08:12:57,154 DEBUG   HandlerThread:13457 [handler.py:handle_request():146] handle_request: defer
+2023-11-12 08:12:57,154 INFO    HandlerThread:13457 [handler.py:handle_request_defer():172] handle defer: 12
+2023-11-12 08:12:57,154 DEBUG   SenderThread:13457 [sender.py:send_request():407] send_request: defer
+2023-11-12 08:12:57,154 INFO    SenderThread:13457 [sender.py:send_request_defer():609] handle sender defer: 12
+2023-11-12 08:12:57,154 INFO    SenderThread:13457 [file_stream.py:finish():595] file stream finish called
+2023-11-12 08:12:58,017 INFO    SenderThread:13457 [file_stream.py:finish():599] file stream finish is done
+2023-11-12 08:12:58,017 INFO    SenderThread:13457 [sender.py:transition_state():613] send defer: 13
+2023-11-12 08:12:58,017 DEBUG   HandlerThread:13457 [handler.py:handle_request():146] handle_request: defer
+2023-11-12 08:12:58,018 INFO    HandlerThread:13457 [handler.py:handle_request_defer():172] handle defer: 13
+2023-11-12 08:12:58,018 DEBUG   SenderThread:13457 [sender.py:send_request():407] send_request: defer
+2023-11-12 08:12:58,018 INFO    SenderThread:13457 [sender.py:send_request_defer():609] handle sender defer: 13
+2023-11-12 08:12:58,018 INFO    SenderThread:13457 [sender.py:transition_state():613] send defer: 14
+2023-11-12 08:12:58,018 DEBUG   HandlerThread:13457 [handler.py:handle_request():146] handle_request: defer
+2023-11-12 08:12:58,018 INFO    HandlerThread:13457 [handler.py:handle_request_defer():172] handle defer: 14
+2023-11-12 08:12:58,018 DEBUG   SenderThread:13457 [sender.py:send():380] send: final
+2023-11-12 08:12:58,019 DEBUG   SenderThread:13457 [sender.py:send():380] send: footer
+2023-11-12 08:12:58,019 DEBUG   SenderThread:13457 [sender.py:send_request():407] send_request: defer
+2023-11-12 08:12:58,019 INFO    SenderThread:13457 [sender.py:send_request_defer():609] handle sender defer: 14
+2023-11-12 08:12:58,019 DEBUG   HandlerThread:13457 [handler.py:handle_request():146] handle_request: poll_exit
+2023-11-12 08:12:58,020 DEBUG   SenderThread:13457 [sender.py:send_request():407] send_request: poll_exit
+2023-11-12 08:12:58,020 DEBUG   HandlerThread:13457 [handler.py:handle_request():146] handle_request: internal_messages
+2023-11-12 08:12:58,020 DEBUG   HandlerThread:13457 [handler.py:handle_request():146] handle_request: server_info
+2023-11-12 08:12:58,021 DEBUG   SenderThread:13457 [sender.py:send_request():407] send_request: server_info
+2023-11-12 08:12:58,065 DEBUG   HandlerThread:13457 [handler.py:handle_request():146] handle_request: get_summary
+2023-11-12 08:12:58,065 DEBUG   HandlerThread:13457 [handler.py:handle_request():146] handle_request: sampled_history
+2023-11-12 08:12:58,065 DEBUG   HandlerThread:13457 [handler.py:handle_request():146] handle_request: job_info
+2023-11-12 08:12:58,296 DEBUG   SenderThread:13457 [sender.py:send_request():407] send_request: job_info
+2023-11-12 08:12:58,297 DEBUG   HandlerThread:13457 [handler.py:handle_request():146] handle_request: shutdown
+2023-11-12 08:12:58,297 INFO    HandlerThread:13457 [handler.py:finish():866] shutting down handler
+2023-11-12 08:12:59,066 INFO    WriterThread:13457 [datastore.py:close():294] close: /home/tejas/Documents/SMAI/assignment-4-MrTejas/q2/wandb/run-20231112_081241-caq3uwk8/run-caq3uwk8.wandb
+2023-11-12 08:12:59,297 INFO    SenderThread:13457 [sender.py:finish():1536] shutting down sender
+2023-11-12 08:12:59,297 INFO    SenderThread:13457 [file_pusher.py:finish():175] shutting down file pusher
+2023-11-12 08:12:59,297 INFO    SenderThread:13457 [file_pusher.py:join():181] waiting for file pusher

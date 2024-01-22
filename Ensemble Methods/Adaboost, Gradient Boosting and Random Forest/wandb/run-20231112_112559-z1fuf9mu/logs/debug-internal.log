@@ -1,0 +1,177 @@
+2023-11-12 11:26:04,280 INFO    StreamThr :20904 [internal.py:wandb_internal():86] W&B internal server running at pid: 20904, started at: 2023-11-12 11:26:04.279343
+2023-11-12 11:26:04,284 DEBUG   HandlerThread:20904 [handler.py:handle_request():146] handle_request: status
+2023-11-12 11:26:04,286 INFO    WriterThread:20904 [datastore.py:open_for_write():85] open: /home/tejas/Documents/SMAI/assignment-4-MrTejas/q3/wandb/run-20231112_112559-z1fuf9mu/run-z1fuf9mu.wandb
+2023-11-12 11:26:04,287 DEBUG   SenderThread:20904 [sender.py:send():380] send: header
+2023-11-12 11:26:04,287 DEBUG   SenderThread:20904 [sender.py:send():380] send: run
+2023-11-12 11:26:04,935 INFO    SenderThread:20904 [dir_watcher.py:__init__():211] watching files in: /home/tejas/Documents/SMAI/assignment-4-MrTejas/q3/wandb/run-20231112_112559-z1fuf9mu/files
+2023-11-12 11:26:04,936 INFO    SenderThread:20904 [sender.py:_start_run_threads():1124] run started: z1fuf9mu with start time 1699768563.415183
+2023-11-12 11:26:04,944 DEBUG   HandlerThread:20904 [handler.py:handle_request():146] handle_request: check_version
+2023-11-12 11:26:04,945 DEBUG   SenderThread:20904 [sender.py:send_request():407] send_request: check_version
+2023-11-12 11:26:05,078 DEBUG   HandlerThread:20904 [handler.py:handle_request():146] handle_request: run_start
+2023-11-12 11:26:05,078 DEBUG   HandlerThread:20904 [system_info.py:__init__():32] System info init
+2023-11-12 11:26:05,078 DEBUG   HandlerThread:20904 [system_info.py:__init__():47] System info init done
+2023-11-12 11:26:05,078 INFO    HandlerThread:20904 [system_monitor.py:start():194] Starting system monitor
+2023-11-12 11:26:05,078 INFO    SystemMonitor:20904 [system_monitor.py:_start():158] Starting system asset monitoring threads
+2023-11-12 11:26:05,079 INFO    HandlerThread:20904 [system_monitor.py:probe():214] Collecting system info
+2023-11-12 11:26:05,079 INFO    SystemMonitor:20904 [interfaces.py:start():190] Started cpu monitoring
+2023-11-12 11:26:05,079 INFO    SystemMonitor:20904 [interfaces.py:start():190] Started disk monitoring
+2023-11-12 11:26:05,080 INFO    SystemMonitor:20904 [interfaces.py:start():190] Started memory monitoring
+2023-11-12 11:26:05,080 INFO    SystemMonitor:20904 [interfaces.py:start():190] Started network monitoring
+2023-11-12 11:26:05,080 ERROR   disk      :20904 [interfaces.py:monitor():144] Failed to sample metric: not sure how to interpret line '   7       0 loop0 14 0 34 0 0 0 0 0 0 12 0 0 0 0 0 0 0\n'
+2023-11-12 11:26:05,081 ERROR   disk      :20904 [interfaces.py:monitor():144] Failed to sample metric: not sure how to interpret line '   7       0 loop0 14 0 34 0 0 0 0 0 0 12 0 0 0 0 0 0 0\n'
+2023-11-12 11:26:05,117 DEBUG   HandlerThread:20904 [system_info.py:probe():196] Probing system
+2023-11-12 11:26:05,118 DEBUG   HandlerThread:20904 [system_info.py:_probe_git():181] Probing git
+2023-11-12 11:26:05,139 DEBUG   HandlerThread:20904 [system_info.py:_probe_git():189] Probing git done
+2023-11-12 11:26:05,139 DEBUG   HandlerThread:20904 [system_info.py:probe():244] Probing system done
+2023-11-12 11:26:05,140 DEBUG   HandlerThread:20904 [system_monitor.py:probe():223] {'os': 'Linux-5.15.0-88-generic-x86_64-with-glibc2.29', 'python': '3.8.10', 'heartbeatAt': '2023-11-12T05:56:05.118045', 'startedAt': '2023-11-12T05:55:59.557193', 'docker': None, 'cuda': None, 'args': (), 'state': 'running', 'program': '<python with no main file>', 'codePathLocal': None, 'git': {'remote': 'https://github.com/Statistical-Methods-in-AI-Monsoon-2023/assignment-4-MrTejas.git', 'commit': '2c8971a3ae6393f21c25356cfaf3fe6d44ff21ea'}, 'email': 'tejas591995@gmail.com', 'root': '/home/tejas/Documents/SMAI/assignment-4-MrTejas', 'host': 'nimbostratus', 'username': 'tejas', 'executable': '/bin/python3', 'cpu_count': 4, 'cpu_count_logical': 8, 'cpu_freq': {'current': 3642.3258749999995, 'min': 400.0, 'max': 4800.0}, 'cpu_freq_per_core': [{'current': 1869.769, 'min': 400.0, 'max': 4800.0}, {'current': 1399.144, 'min': 400.0, 'max': 4800.0}, {'current': 2249.323, 'min': 400.0, 'max': 4800.0}, {'current': 2827.179, 'min': 400.0, 'max': 4800.0}, {'current': 2787.983, 'min': 400.0, 'max': 4800.0}, {'current': 3766.154, 'min': 400.0, 'max': 4800.0}, {'current': 3828.086, 'min': 400.0, 'max': 4800.0}, {'current': 3781.907, 'min': 400.0, 'max': 4800.0}], 'disk': {'/': {'total': 72.78396224975586, 'used': 28.305191040039062}}, 'memory': {'total': 15.366092681884766}}
+2023-11-12 11:26:05,140 INFO    HandlerThread:20904 [system_monitor.py:probe():224] Finished collecting system info
+2023-11-12 11:26:05,140 INFO    HandlerThread:20904 [system_monitor.py:probe():227] Publishing system info
+2023-11-12 11:26:05,140 DEBUG   HandlerThread:20904 [system_info.py:_save_pip():52] Saving list of pip packages installed into the current environment
+2023-11-12 11:26:05,140 DEBUG   HandlerThread:20904 [system_info.py:_save_pip():68] Saving pip packages done
+2023-11-12 11:26:05,141 INFO    HandlerThread:20904 [system_monitor.py:probe():229] Finished publishing system info
+2023-11-12 11:26:05,142 DEBUG   SenderThread:20904 [sender.py:send():380] send: files
+2023-11-12 11:26:05,143 INFO    SenderThread:20904 [sender.py:_save_file():1380] saving file wandb-metadata.json with policy now
+2023-11-12 11:26:05,155 DEBUG   HandlerThread:20904 [handler.py:handle_request():146] handle_request: internal_messages
+2023-11-12 11:26:05,197 DEBUG   HandlerThread:20904 [handler.py:handle_request():146] handle_request: stop_status
+2023-11-12 11:26:05,197 DEBUG   HandlerThread:20904 [handler.py:handle_request():146] handle_request: partial_history
+2023-11-12 11:26:05,197 DEBUG   SenderThread:20904 [sender.py:send():380] send: telemetry
+2023-11-12 11:26:05,198 DEBUG   SenderThread:20904 [sender.py:send_request():407] send_request: stop_status
+2023-11-12 11:26:05,586 DEBUG   SenderThread:20904 [sender.py:send():380] send: history
+2023-11-12 11:26:05,587 DEBUG   SenderThread:20904 [sender.py:send_request():407] send_request: summary_record
+2023-11-12 11:26:05,588 INFO    SenderThread:20904 [sender.py:_save_file():1380] saving file wandb-summary.json with policy end
+2023-11-12 11:26:05,588 DEBUG   SenderThread:20904 [sender.py:send():380] send: telemetry
+2023-11-12 11:26:05,589 DEBUG   SenderThread:20904 [sender.py:send():380] send: exit
+2023-11-12 11:26:05,589 INFO    SenderThread:20904 [sender.py:send_exit():585] handling exit code: 0
+2023-11-12 11:26:05,589 INFO    SenderThread:20904 [sender.py:send_exit():587] handling runtime: 0
+2023-11-12 11:26:05,589 INFO    SenderThread:20904 [sender.py:_save_file():1380] saving file wandb-summary.json with policy end
+2023-11-12 11:26:05,590 INFO    SenderThread:20904 [sender.py:send_exit():593] send defer
+2023-11-12 11:26:05,591 DEBUG   HandlerThread:20904 [handler.py:handle_request():146] handle_request: defer
+2023-11-12 11:26:05,591 INFO    HandlerThread:20904 [handler.py:handle_request_defer():172] handle defer: 0
+2023-11-12 11:26:05,591 DEBUG   SenderThread:20904 [sender.py:send_request():407] send_request: defer
+2023-11-12 11:26:05,592 INFO    SenderThread:20904 [sender.py:send_request_defer():609] handle sender defer: 0
+2023-11-12 11:26:05,592 INFO    SenderThread:20904 [sender.py:transition_state():613] send defer: 1
+2023-11-12 11:26:05,592 DEBUG   HandlerThread:20904 [handler.py:handle_request():146] handle_request: defer
+2023-11-12 11:26:05,592 INFO    HandlerThread:20904 [handler.py:handle_request_defer():172] handle defer: 1
+2023-11-12 11:26:05,593 DEBUG   SenderThread:20904 [sender.py:send_request():407] send_request: defer
+2023-11-12 11:26:05,593 INFO    SenderThread:20904 [sender.py:send_request_defer():609] handle sender defer: 1
+2023-11-12 11:26:05,593 INFO    SenderThread:20904 [sender.py:transition_state():613] send defer: 2
+2023-11-12 11:26:05,593 DEBUG   HandlerThread:20904 [handler.py:handle_request():146] handle_request: defer
+2023-11-12 11:26:05,593 INFO    HandlerThread:20904 [handler.py:handle_request_defer():172] handle defer: 2
+2023-11-12 11:26:05,593 INFO    HandlerThread:20904 [system_monitor.py:finish():203] Stopping system monitor
+2023-11-12 11:26:05,594 INFO    HandlerThread:20904 [interfaces.py:finish():202] Joined cpu monitor
+2023-11-12 11:26:05,595 INFO    HandlerThread:20904 [interfaces.py:finish():202] Joined disk monitor
+2023-11-12 11:26:05,595 INFO    HandlerThread:20904 [interfaces.py:finish():202] Joined memory monitor
+2023-11-12 11:26:05,595 INFO    HandlerThread:20904 [interfaces.py:finish():202] Joined network monitor
+2023-11-12 11:26:05,594 DEBUG   SystemMonitor:20904 [system_monitor.py:_start():172] Starting system metrics aggregation loop
+2023-11-12 11:26:05,595 DEBUG   SystemMonitor:20904 [system_monitor.py:_start():179] Finished system metrics aggregation loop
+2023-11-12 11:26:05,596 DEBUG   SystemMonitor:20904 [system_monitor.py:_start():183] Publishing last batch of metrics
+2023-11-12 11:26:05,597 DEBUG   SenderThread:20904 [sender.py:send_request():407] send_request: defer
+2023-11-12 11:26:05,597 INFO    SenderThread:20904 [sender.py:send_request_defer():609] handle sender defer: 2
+2023-11-12 11:26:05,597 INFO    SenderThread:20904 [sender.py:transition_state():613] send defer: 3
+2023-11-12 11:26:05,597 DEBUG   SenderThread:20904 [sender.py:send():380] send: stats
+2023-11-12 11:26:05,597 DEBUG   HandlerThread:20904 [handler.py:handle_request():146] handle_request: defer
+2023-11-12 11:26:05,598 INFO    HandlerThread:20904 [handler.py:handle_request_defer():172] handle defer: 3
+2023-11-12 11:26:05,598 DEBUG   SenderThread:20904 [sender.py:send_request():407] send_request: defer
+2023-11-12 11:26:05,598 INFO    SenderThread:20904 [sender.py:send_request_defer():609] handle sender defer: 3
+2023-11-12 11:26:05,598 INFO    SenderThread:20904 [sender.py:transition_state():613] send defer: 4
+2023-11-12 11:26:05,598 DEBUG   HandlerThread:20904 [handler.py:handle_request():146] handle_request: defer
+2023-11-12 11:26:05,598 INFO    HandlerThread:20904 [handler.py:handle_request_defer():172] handle defer: 4
+2023-11-12 11:26:05,599 DEBUG   SenderThread:20904 [sender.py:send_request():407] send_request: defer
+2023-11-12 11:26:05,599 INFO    SenderThread:20904 [sender.py:send_request_defer():609] handle sender defer: 4
+2023-11-12 11:26:05,599 INFO    SenderThread:20904 [sender.py:transition_state():613] send defer: 5
+2023-11-12 11:26:05,599 DEBUG   HandlerThread:20904 [handler.py:handle_request():146] handle_request: defer
+2023-11-12 11:26:05,599 INFO    HandlerThread:20904 [handler.py:handle_request_defer():172] handle defer: 5
+2023-11-12 11:26:05,599 DEBUG   SenderThread:20904 [sender.py:send():380] send: summary
+2023-11-12 11:26:05,600 INFO    SenderThread:20904 [sender.py:_save_file():1380] saving file wandb-summary.json with policy end
+2023-11-12 11:26:05,600 DEBUG   SenderThread:20904 [sender.py:send_request():407] send_request: defer
+2023-11-12 11:26:05,600 INFO    SenderThread:20904 [sender.py:send_request_defer():609] handle sender defer: 5
+2023-11-12 11:26:05,600 INFO    SenderThread:20904 [sender.py:transition_state():613] send defer: 6
+2023-11-12 11:26:05,600 DEBUG   HandlerThread:20904 [handler.py:handle_request():146] handle_request: defer
+2023-11-12 11:26:05,600 INFO    HandlerThread:20904 [handler.py:handle_request_defer():172] handle defer: 6
+2023-11-12 11:26:05,600 DEBUG   SenderThread:20904 [sender.py:send_request():407] send_request: defer
+2023-11-12 11:26:05,600 INFO    SenderThread:20904 [sender.py:send_request_defer():609] handle sender defer: 6
+2023-11-12 11:26:05,605 DEBUG   HandlerThread:20904 [handler.py:handle_request():146] handle_request: status_report
+2023-11-12 11:26:05,933 INFO    SenderThread:20904 [sender.py:transition_state():613] send defer: 7
+2023-11-12 11:26:05,933 DEBUG   HandlerThread:20904 [handler.py:handle_request():146] handle_request: defer
+2023-11-12 11:26:05,933 INFO    HandlerThread:20904 [handler.py:handle_request_defer():172] handle defer: 7
+2023-11-12 11:26:05,934 DEBUG   SenderThread:20904 [sender.py:send_request():407] send_request: defer
+2023-11-12 11:26:05,934 INFO    SenderThread:20904 [sender.py:send_request_defer():609] handle sender defer: 7
+2023-11-12 11:26:05,934 INFO    SenderThread:20904 [sender.py:transition_state():613] send defer: 8
+2023-11-12 11:26:05,935 DEBUG   HandlerThread:20904 [handler.py:handle_request():146] handle_request: defer
+2023-11-12 11:26:05,935 INFO    HandlerThread:20904 [handler.py:handle_request_defer():172] handle defer: 8
+2023-11-12 11:26:05,935 DEBUG   SenderThread:20904 [sender.py:send_request():407] send_request: defer
+2023-11-12 11:26:05,936 INFO    SenderThread:20904 [sender.py:send_request_defer():609] handle sender defer: 8
+2023-11-12 11:26:05,936 INFO    SenderThread:20904 [job_builder.py:build():298] Attempting to build job artifact
+2023-11-12 11:26:05,939 INFO    Thread-1909:20904 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/tejas/Documents/SMAI/assignment-4-MrTejas/q3/wandb/run-20231112_112559-z1fuf9mu/files/config.yaml
+2023-11-12 11:26:05,940 INFO    Thread-1909:20904 [dir_watcher.py:_on_file_created():271] file/dir created: /home/tejas/Documents/SMAI/assignment-4-MrTejas/q3/wandb/run-20231112_112559-z1fuf9mu/files/requirements.txt
+2023-11-12 11:26:05,940 INFO    SenderThread:20904 [job_builder.py:_get_source_type():428] is repo sourced job
+2023-11-12 11:26:05,941 INFO    Thread-1909:20904 [dir_watcher.py:_on_file_created():271] file/dir created: /home/tejas/Documents/SMAI/assignment-4-MrTejas/q3/wandb/run-20231112_112559-z1fuf9mu/files/wandb-metadata.json
+2023-11-12 11:26:05,941 INFO    SenderThread:20904 [job_builder.py:_get_program_relpath():446] run is notebook based run
+2023-11-12 11:26:05,941 INFO    Thread-1909:20904 [dir_watcher.py:_on_file_created():271] file/dir created: /home/tejas/Documents/SMAI/assignment-4-MrTejas/q3/wandb/run-20231112_112559-z1fuf9mu/files/wandb-summary.json
+2023-11-12 11:26:05,941 INFO    SenderThread:20904 [sender.py:transition_state():613] send defer: 9
+2023-11-12 11:26:05,941 DEBUG   HandlerThread:20904 [handler.py:handle_request():146] handle_request: defer
+2023-11-12 11:26:05,941 INFO    HandlerThread:20904 [handler.py:handle_request_defer():172] handle defer: 9
+2023-11-12 11:26:05,941 DEBUG   SenderThread:20904 [sender.py:send_request():407] send_request: defer
+2023-11-12 11:26:05,941 INFO    SenderThread:20904 [sender.py:send_request_defer():609] handle sender defer: 9
+2023-11-12 11:26:05,941 INFO    SenderThread:20904 [dir_watcher.py:finish():358] shutting down directory watcher
+2023-11-12 11:26:06,126 INFO    wandb-upload_0:20904 [upload_job.py:push():131] Uploaded file /tmp/tmpldk5lzvmwandb/qrw43ewh-wandb-metadata.json
+2023-11-12 11:26:06,182 DEBUG   HandlerThread:20904 [handler.py:handle_request():146] handle_request: poll_exit
+2023-11-12 11:26:06,942 INFO    SenderThread:20904 [dir_watcher.py:finish():388] scan: /home/tejas/Documents/SMAI/assignment-4-MrTejas/q3/wandb/run-20231112_112559-z1fuf9mu/files
+2023-11-12 11:26:06,942 INFO    SenderThread:20904 [dir_watcher.py:finish():402] scan save: /home/tejas/Documents/SMAI/assignment-4-MrTejas/q3/wandb/run-20231112_112559-z1fuf9mu/files/wandb-summary.json wandb-summary.json
+2023-11-12 11:26:06,943 INFO    SenderThread:20904 [dir_watcher.py:finish():402] scan save: /home/tejas/Documents/SMAI/assignment-4-MrTejas/q3/wandb/run-20231112_112559-z1fuf9mu/files/requirements.txt requirements.txt
+2023-11-12 11:26:06,949 INFO    SenderThread:20904 [dir_watcher.py:finish():402] scan save: /home/tejas/Documents/SMAI/assignment-4-MrTejas/q3/wandb/run-20231112_112559-z1fuf9mu/files/wandb-metadata.json wandb-metadata.json
+2023-11-12 11:26:06,950 INFO    SenderThread:20904 [dir_watcher.py:finish():402] scan save: /home/tejas/Documents/SMAI/assignment-4-MrTejas/q3/wandb/run-20231112_112559-z1fuf9mu/files/config.yaml config.yaml
+2023-11-12 11:26:06,955 INFO    SenderThread:20904 [sender.py:transition_state():613] send defer: 10
+2023-11-12 11:26:06,955 DEBUG   SenderThread:20904 [sender.py:send_request():407] send_request: poll_exit
+2023-11-12 11:26:06,956 DEBUG   HandlerThread:20904 [handler.py:handle_request():146] handle_request: defer
+2023-11-12 11:26:06,957 INFO    HandlerThread:20904 [handler.py:handle_request_defer():172] handle defer: 10
+2023-11-12 11:26:06,958 DEBUG   SenderThread:20904 [sender.py:send_request():407] send_request: defer
+2023-11-12 11:26:06,958 INFO    SenderThread:20904 [sender.py:send_request_defer():609] handle sender defer: 10
+2023-11-12 11:26:06,958 INFO    SenderThread:20904 [file_pusher.py:finish():175] shutting down file pusher
+2023-11-12 11:26:07,182 DEBUG   HandlerThread:20904 [handler.py:handle_request():146] handle_request: poll_exit
+2023-11-12 11:26:07,183 DEBUG   SenderThread:20904 [sender.py:send_request():407] send_request: poll_exit
+2023-11-12 11:26:07,647 INFO    wandb-upload_1:20904 [upload_job.py:push():131] Uploaded file /home/tejas/Documents/SMAI/assignment-4-MrTejas/q3/wandb/run-20231112_112559-z1fuf9mu/files/requirements.txt
+2023-11-12 11:26:07,726 INFO    wandb-upload_0:20904 [upload_job.py:push():131] Uploaded file /home/tejas/Documents/SMAI/assignment-4-MrTejas/q3/wandb/run-20231112_112559-z1fuf9mu/files/wandb-summary.json
+2023-11-12 11:26:07,769 INFO    wandb-upload_2:20904 [upload_job.py:push():131] Uploaded file /home/tejas/Documents/SMAI/assignment-4-MrTejas/q3/wandb/run-20231112_112559-z1fuf9mu/files/config.yaml
+2023-11-12 11:26:07,970 INFO    Thread-1908:20904 [sender.py:transition_state():613] send defer: 11
+2023-11-12 11:26:07,970 DEBUG   HandlerThread:20904 [handler.py:handle_request():146] handle_request: defer
+2023-11-12 11:26:07,970 INFO    HandlerThread:20904 [handler.py:handle_request_defer():172] handle defer: 11
+2023-11-12 11:26:07,971 DEBUG   SenderThread:20904 [sender.py:send_request():407] send_request: defer
+2023-11-12 11:26:07,971 INFO    SenderThread:20904 [sender.py:send_request_defer():609] handle sender defer: 11
+2023-11-12 11:26:07,971 INFO    SenderThread:20904 [file_pusher.py:join():181] waiting for file pusher
+2023-11-12 11:26:07,972 INFO    SenderThread:20904 [sender.py:transition_state():613] send defer: 12
+2023-11-12 11:26:07,972 DEBUG   HandlerThread:20904 [handler.py:handle_request():146] handle_request: defer
+2023-11-12 11:26:07,972 INFO    HandlerThread:20904 [handler.py:handle_request_defer():172] handle defer: 12
+2023-11-12 11:26:07,972 DEBUG   SenderThread:20904 [sender.py:send_request():407] send_request: defer
+2023-11-12 11:26:07,973 INFO    SenderThread:20904 [sender.py:send_request_defer():609] handle sender defer: 12
+2023-11-12 11:26:07,973 INFO    SenderThread:20904 [file_stream.py:finish():595] file stream finish called
+2023-11-12 11:26:08,183 DEBUG   HandlerThread:20904 [handler.py:handle_request():146] handle_request: poll_exit
+2023-11-12 11:26:08,582 INFO    SenderThread:20904 [file_stream.py:finish():599] file stream finish is done
+2023-11-12 11:26:08,582 INFO    SenderThread:20904 [sender.py:transition_state():613] send defer: 13
+2023-11-12 11:26:08,582 DEBUG   SenderThread:20904 [sender.py:send_request():407] send_request: poll_exit
+2023-11-12 11:26:08,582 DEBUG   HandlerThread:20904 [handler.py:handle_request():146] handle_request: defer
+2023-11-12 11:26:08,582 INFO    HandlerThread:20904 [handler.py:handle_request_defer():172] handle defer: 13
+2023-11-12 11:26:08,583 DEBUG   SenderThread:20904 [sender.py:send_request():407] send_request: defer
+2023-11-12 11:26:08,583 INFO    SenderThread:20904 [sender.py:send_request_defer():609] handle sender defer: 13
+2023-11-12 11:26:08,583 INFO    SenderThread:20904 [sender.py:transition_state():613] send defer: 14
+2023-11-12 11:26:08,583 DEBUG   SenderThread:20904 [sender.py:send():380] send: final
+2023-11-12 11:26:08,583 DEBUG   HandlerThread:20904 [handler.py:handle_request():146] handle_request: defer
+2023-11-12 11:26:08,583 INFO    HandlerThread:20904 [handler.py:handle_request_defer():172] handle defer: 14
+2023-11-12 11:26:08,583 DEBUG   SenderThread:20904 [sender.py:send():380] send: footer
+2023-11-12 11:26:08,584 DEBUG   SenderThread:20904 [sender.py:send_request():407] send_request: defer
+2023-11-12 11:26:08,584 INFO    SenderThread:20904 [sender.py:send_request_defer():609] handle sender defer: 14
+2023-11-12 11:26:08,584 DEBUG   HandlerThread:20904 [handler.py:handle_request():146] handle_request: poll_exit
+2023-11-12 11:26:08,585 DEBUG   SenderThread:20904 [sender.py:send_request():407] send_request: poll_exit
+2023-11-12 11:26:08,585 DEBUG   HandlerThread:20904 [handler.py:handle_request():146] handle_request: internal_messages
+2023-11-12 11:26:08,585 DEBUG   HandlerThread:20904 [handler.py:handle_request():146] handle_request: server_info
+2023-11-12 11:26:08,586 DEBUG   SenderThread:20904 [sender.py:send_request():407] send_request: server_info
+2023-11-12 11:26:08,629 DEBUG   HandlerThread:20904 [handler.py:handle_request():146] handle_request: get_summary
+2023-11-12 11:26:08,629 DEBUG   HandlerThread:20904 [handler.py:handle_request():146] handle_request: sampled_history
+2023-11-12 11:26:08,629 DEBUG   HandlerThread:20904 [handler.py:handle_request():146] handle_request: job_info
+2023-11-12 11:26:08,854 DEBUG   SenderThread:20904 [sender.py:send_request():407] send_request: job_info
+2023-11-12 11:26:08,856 DEBUG   HandlerThread:20904 [handler.py:handle_request():146] handle_request: shutdown
+2023-11-12 11:26:08,857 INFO    HandlerThread:20904 [handler.py:finish():866] shutting down handler
+2023-11-12 11:26:09,629 INFO    WriterThread:20904 [datastore.py:close():294] close: /home/tejas/Documents/SMAI/assignment-4-MrTejas/q3/wandb/run-20231112_112559-z1fuf9mu/run-z1fuf9mu.wandb
+2023-11-12 11:26:09,855 INFO    SenderThread:20904 [sender.py:finish():1536] shutting down sender
+2023-11-12 11:26:09,855 INFO    SenderThread:20904 [file_pusher.py:finish():175] shutting down file pusher
+2023-11-12 11:26:09,856 INFO    SenderThread:20904 [file_pusher.py:join():181] waiting for file pusher

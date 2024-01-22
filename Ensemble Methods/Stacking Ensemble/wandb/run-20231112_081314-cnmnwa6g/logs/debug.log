@@ -1,0 +1,60 @@
+2023-11-12 08:13:14,588 INFO    MainThread:8260 [wandb_setup.py:_flush():76] Current SDK version is 0.16.0
+2023-11-12 08:13:14,588 INFO    MainThread:8260 [wandb_setup.py:_flush():76] Configure stats pid to 8260
+2023-11-12 08:13:14,588 INFO    MainThread:8260 [wandb_setup.py:_flush():76] Loading settings from /home/tejas/.config/wandb/settings
+2023-11-12 08:13:14,588 INFO    MainThread:8260 [wandb_setup.py:_flush():76] Loading settings from /home/tejas/Documents/SMAI/assignment-4-MrTejas/q2/wandb/settings
+2023-11-12 08:13:14,588 INFO    MainThread:8260 [wandb_setup.py:_flush():76] Loading settings from environment variables: {}
+2023-11-12 08:13:14,588 INFO    MainThread:8260 [wandb_setup.py:_flush():76] Applying setup settings: {'_disable_service': False}
+2023-11-12 08:13:14,588 INFO    MainThread:8260 [wandb_setup.py:_flush():76] Inferring run settings from compute environment: {'program': '<python with no main file>'}
+2023-11-12 08:13:14,588 INFO    MainThread:8260 [wandb_init.py:_log_setup():524] Logging user logs to /home/tejas/Documents/SMAI/assignment-4-MrTejas/q2/wandb/run-20231112_081314-cnmnwa6g/logs/debug.log
+2023-11-12 08:13:14,589 INFO    MainThread:8260 [wandb_init.py:_log_setup():525] Logging internal logs to /home/tejas/Documents/SMAI/assignment-4-MrTejas/q2/wandb/run-20231112_081314-cnmnwa6g/logs/debug-internal.log
+2023-11-12 08:13:14,589 INFO    MainThread:8260 [wandb_init.py:_jupyter_setup():470] configuring jupyter hooks <wandb.sdk.wandb_init._WandbInit object at 0x7fe567de05b0>
+2023-11-12 08:13:14,589 INFO    MainThread:8260 [wandb_init.py:init():564] calling init triggers
+2023-11-12 08:13:14,589 INFO    MainThread:8260 [wandb_init.py:init():571] wandb.init called with sweep_config: {}
+config: {'level1_model': 'DecisionTreeClassifier', 'method': 'blending', 'number of folds': None, 'holdout fraction': 0.2}
+2023-11-12 08:13:14,589 INFO    MainThread:8260 [wandb_init.py:init():589] re-initializing run, found existing run on stack: nays4b9f
+2023-11-12 08:13:14,591 INFO    MainThread:8260 [wandb_run.py:_finish():1962] finishing run tejas591995/Stacking Classifier/nays4b9f
+2023-11-12 08:13:14,591 INFO    MainThread:8260 [wandb_run.py:_atexit_cleanup():2202] got exitcode: 0
+2023-11-12 08:13:14,591 INFO    MainThread:8260 [wandb_run.py:_restore():2185] restore
+2023-11-12 08:13:14,591 INFO    MainThread:8260 [wandb_run.py:_restore():2191] restore done
+2023-11-12 08:13:18,693 INFO    MainThread:8260 [wandb_run.py:_footer_history_summary_info():3760] rendering history
+2023-11-12 08:13:18,693 INFO    MainThread:8260 [wandb_run.py:_footer_history_summary_info():3792] rendering summary
+2023-11-12 08:13:18,702 INFO    MainThread:8260 [wandb_run.py:_footer_sync_info():3719] logging synced files
+2023-11-12 08:13:18,830 INFO    MainThread:8260 [wandb_init.py:init():614] starting backend
+2023-11-12 08:13:18,830 INFO    MainThread:8260 [wandb_init.py:init():618] setting up manager
+2023-11-12 08:13:18,831 INFO    MainThread:8260 [backend.py:_multiprocessing_setup():105] multiprocessing start_methods=fork,spawn,forkserver, using: spawn
+2023-11-12 08:13:18,831 INFO    MainThread:8260 [wandb_init.py:init():624] backend started and connected
+2023-11-12 08:13:18,833 INFO    MainThread:8260 [wandb_run.py:_label_probe_notebook():1294] probe notebook
+2023-11-12 08:13:18,833 INFO    MainThread:8260 [wandb_run.py:_label_probe_notebook():1304] Unable to probe notebook: 'NoneType' object has no attribute 'get'
+2023-11-12 08:13:18,834 INFO    MainThread:8260 [wandb_init.py:init():716] updated telemetry
+2023-11-12 08:13:18,845 INFO    MainThread:8260 [wandb_init.py:init():749] communicating run to backend with 90.0 second timeout
+2023-11-12 08:13:20,357 INFO    MainThread:8260 [wandb_run.py:_on_init():2254] communicating current version
+2023-11-12 08:13:20,454 INFO    MainThread:8260 [wandb_run.py:_on_init():2263] got version response 
+2023-11-12 08:13:20,454 INFO    MainThread:8260 [wandb_init.py:init():800] starting run threads in backend
+2023-11-12 08:13:20,521 INFO    MainThread:8260 [wandb_run.py:_console_start():2233] atexit reg
+2023-11-12 08:13:20,521 INFO    MainThread:8260 [wandb_run.py:_redirect():2088] redirect: wrap_raw
+2023-11-12 08:13:20,522 INFO    MainThread:8260 [wandb_run.py:_redirect():2153] Wrapping output streams.
+2023-11-12 08:13:20,522 INFO    MainThread:8260 [wandb_run.py:_redirect():2178] Redirects installed.
+2023-11-12 08:13:20,522 INFO    MainThread:8260 [wandb_init.py:init():841] run started, returning control to user process
+2023-11-12 08:13:23,080 INFO    MainThread:8260 [wandb_setup.py:_flush():76] Current SDK version is 0.16.0
+2023-11-12 08:13:23,080 INFO    MainThread:8260 [wandb_setup.py:_flush():76] Configure stats pid to 8260
+2023-11-12 08:13:23,080 INFO    MainThread:8260 [wandb_setup.py:_flush():76] Loading settings from /home/tejas/.config/wandb/settings
+2023-11-12 08:13:23,080 INFO    MainThread:8260 [wandb_setup.py:_flush():76] Loading settings from /home/tejas/Documents/SMAI/assignment-4-MrTejas/q2/wandb/settings
+2023-11-12 08:13:23,080 INFO    MainThread:8260 [wandb_setup.py:_flush():76] Loading settings from environment variables: {}
+2023-11-12 08:13:23,080 INFO    MainThread:8260 [wandb_setup.py:_flush():76] Applying setup settings: {'_disable_service': False}
+2023-11-12 08:13:23,080 INFO    MainThread:8260 [wandb_setup.py:_flush():76] Inferring run settings from compute environment: {'program': '<python with no main file>'}
+2023-11-12 08:13:23,080 INFO    MainThread:8260 [wandb_init.py:_log_setup():524] Logging user logs to /home/tejas/Documents/SMAI/assignment-4-MrTejas/q2/wandb/run-20231112_081323-7jqkktfv/logs/debug.log
+2023-11-12 08:13:23,081 INFO    MainThread:8260 [wandb_init.py:_log_setup():525] Logging internal logs to /home/tejas/Documents/SMAI/assignment-4-MrTejas/q2/wandb/run-20231112_081323-7jqkktfv/logs/debug-internal.log
+2023-11-12 08:13:23,081 INFO    MainThread:8260 [wandb_init.py:init():564] calling init triggers
+2023-11-12 08:13:23,081 INFO    MainThread:8260 [wandb_init.py:init():571] wandb.init called with sweep_config: {}
+config: {'level1_model': 'DecisionTreeClassifier', 'method': 'blending', 'number of folds': None, 'holdout fraction': 0.3}
+2023-11-12 08:13:23,081 INFO    MainThread:8260 [wandb_init.py:init():589] re-initializing run, found existing run on stack: cnmnwa6g
+2023-11-12 08:13:23,082 INFO    MainThread:8260 [wandb_run.py:_finish():1962] finishing run tejas591995/Stacking Classifier/cnmnwa6g
+2023-11-12 08:13:23,082 ERROR   MainThread:8260 [jupyter.py:save_history():437] Run pip install nbformat to save notebook history
+2023-11-12 08:13:23,082 INFO    MainThread:8260 [jupyter.py:save_ipynb():373] not saving jupyter notebook
+2023-11-12 08:13:23,082 INFO    MainThread:8260 [wandb_init.py:_jupyter_teardown():452] cleaning up jupyter logic
+2023-11-12 08:13:23,082 INFO    MainThread:8260 [wandb_run.py:_atexit_cleanup():2202] got exitcode: 0
+2023-11-12 08:13:23,082 INFO    MainThread:8260 [wandb_run.py:_restore():2185] restore
+2023-11-12 08:13:23,082 INFO    MainThread:8260 [wandb_run.py:_restore():2191] restore done
+2023-11-12 08:13:27,267 INFO    MainThread:8260 [wandb_run.py:_footer_history_summary_info():3760] rendering history
+2023-11-12 08:13:27,267 INFO    MainThread:8260 [wandb_run.py:_footer_history_summary_info():3792] rendering summary
+2023-11-12 08:13:27,271 INFO    MainThread:8260 [wandb_run.py:_footer_sync_info():3719] logging synced files

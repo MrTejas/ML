@@ -1,0 +1,12 @@
+Initialized values successfully!
+Loaded Dataframe!
+Splitted data into train, test and val sets!
+-----------------------------------------------
+Number of Layers       :  4
+Layer sizes            :  [11, 5, 5, 6]
+Batch size             :  250
+Activation Function    :  tanh
+Optimization Method    :  mini-batch
+Learning Rate          :  0.001
+Num Epoches            :  100
+-----------------------------------------------
